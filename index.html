@@ -1596,7 +1596,7 @@ function mcardHtml(c,click,icon){return `<button class="mcard" style="--ph:${c.p
 function vMedium(){return `<div class="fade mv">${MED_LOGOS}<div class="mlist">${MED.map(m=>mcardHtml(m,`openMed('${m.id}')`,MED_ICON)).join('')}</div></div>`}
 function vSem(){return `<div class="fade mv">${MED_LOGOS}<div class="mlist sem">${SEMS.map(x=>mcardHtml(x,`openSem(${x.n})`,CAP_ICON)).join('')}</div></div>`}
 function openMed(id){ST.med=id;nav('sem',{med:id})}
-function openSem(n){if(ST.med==='kn'&&n===2){nav('home')}else{toast('ಈ ವಿಷಯ ಶೀಘ್ರದಲ್ಲೇ ಸೇರಿಸಲಾಗುವುದು')}}
+function openSem(n){nav('home');if(!(ST.med==='kn'&&n===2)){setTimeout(()=>toast('ಈ ವಿಷಯ ಶೀಘ್ರದಲ್ಲೇ ಸೇರಿಸಲಾಗುವುದು'),250)}}
 function render(){
  const hero=$('hero');hero.classList.toggle('sm',ST.view!=='medium'&&ST.view!=='sem'&&ST.view!=='home'&&ST.view!=='class'&&ST.view!=='subject');document.body.classList.toggle('vmed',ST.view==='medium'||ST.view==='sem');document.body.classList.toggle('vcls',ST.view==='class');document.body.classList.toggle('vsub',ST.view==='subject');{const qz=ST.view==='subject'&&ST.tab==='quiz';document.body.classList.toggle('vquiz',qz);document.documentElement.classList.toggle('vquiz',qz)}
  $('herop').textContent=(ST.view!=='subject')?'Shikshana Parva · ಕಲಿಕೆಯ ಹಬ್ಬ':'ಶಿಕ್ಷಕರಿಗಾಗಿ ಕಲಿಕಾ ಸಂಪನ್ಮೂಲ ವೇದಿಕೆ';
