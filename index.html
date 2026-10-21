@@ -971,7 +971,7 @@ en:{tabs:[['ab','Practice Answers'],['qb','LBA Question Bank'],['paper','Questio
  chapter:'Chapter',allCh:'All chapters',qtype:'Question type',allTypes:'All types',allLv:'All levels',
  types:{mcq:'MCQ',one:'One word / sentence',lang:'Language activity',short:'Two–three sentences',long:'Descriptive'},
  lv:{e:'Easy',m:'Medium',h:'Hard'},mark:'mark',marks:'marks',qs:'questions',ans:'Answer:',showAns:'Show answer',next:'Next →',
- words:'Word meanings (ಪದಗಳ ಅರ್ಥ)',notes:'Notes (ಟಿಪ್ಪಣಿ)',noWords:'No word list for this lesson',noNotes:'No notes for this lesson',author:'Author / Poet',page:'Page',
+ words:'Word meanings',notes:'Notes',noWords:'No word list for this lesson',noNotes:'No notes for this lesson',author:'Author / Poet',page:'Page',
  abNote:'⚠ Answers marked "model / suggested" are examples of independent answers.',lessonWord:'Lesson',edit:'✏ Edit',editDone:'✔ Finish editing',print:'🖨 Print',printP:'🖨 Print paper',printBp:'🖨 Print blueprint',
  exam:{unit:'Unit Test',fa3:'Formative Assessment-3',fa4:'Formative Assessment-4',sa2:'Summative Assessment-2'},
  examTab:{unit:'Unit test',fa3:'FA 3',fa4:'FA 4',sa2:'SA 2'},
@@ -998,7 +998,33 @@ Object.assign(L10N.kn.types,{one1:'ಒಂದು ಅಂಕ',long4:'ವಿವರ�
 Object.assign(L10N.en.types,{one1:'One mark',long4:'Descriptive (4 marks)'});
 Object.assign(L10N.kn.ins,{one1:'ಒಂದು ಅಂಕ – ಒಂದು ಪದ ಅಥವಾ ವಾಕ್ಯದಲ್ಲಿ ಉತ್ತರಿಸಿ.',long4:'ವಿವರಣಾತ್ಮಕವಾಗಿ ಉತ್ತರಿಸಿ (ಐದು–ಆರು ವಾಕ್ಯ).'});
 Object.assign(L10N.en.ins,{one1:'One mark – answer in a word or sentence.',long4:'Answer descriptively (five to six sentences).'});
-function Lx(){return L10N[ST.sub==='en'?'en':'kn']}
+
+/* ===== ಹಿಂದಿ ಲೇಬಲ್‌ಗಳು: ಪ್ರಶ್ನೆ ವಿಧಗಳು ಮತ್ತು ಶೀರ್ಷಿಕೆಗಳು ಹಿಂದಿಯಲ್ಲಿ ===== */
+L10N.hi=Object.assign({},L10N.kn,{
+ tabs:[['ab','अभ्यास उत्तर'],['qb','LBA प्रश्न बैंक'],['paper','प्रश्न पत्र'],['quiz','प्रश्नोत्तरी']],
+ chapter:'पाठ',allCh:'सभी पाठ',qtype:'प्रश्न प्रकार',allTypes:'सभी प्रकार',allLv:'सभी स्तर',
+ types:{mcq:'बहुविकल्पीय',one:'एक वाक्य / शब्द',lang:'भाषा कार्य',short:'दो-तीन वाक्य',long:'विस्तृत उत्तर'},
+ lv:{e:'सरल',m:'मध्यम',h:'कठिन'},mark:'अंक',marks:'अंक',qs:'प्रश्न',ans:'उत्तर:',showAns:'उत्तर देखें',next:'अगला →',
+ words:'शब्दार्थ',notes:'टिप्पणी',noWords:'इस पाठ के लिए शब्दार्थ सूची नहीं है',noNotes:'इस पाठ के लिए टिप्पणी नहीं है',author:'लेखक/कवि',page:'पृष्ठ',
+ edit:'✏ संपादित करें',editDone:'✔ संपादन पूर्ण',print:'🖨 छापें',printP:'🖨 प्रश्न पत्र छापें',printBp:'🖨 ब्लूप्रिंट छापें',
+ exam:{unit:'इकाई परीक्षा',fa3:'रचनात्मक मूल्यांकन-3',fa4:'रचनात्मक मूल्यांकन-4',sa2:'संकलनात्मक मूल्यांकन-2'},
+ examTab:{unit:'इकाई परीक्षा',fa3:'FA 3',fa4:'FA 4',sa2:'SA 2'},
+ school:c=>c<=8?'सरकारी उच्च प्राथमिक विद्यालय':'सरकारी प्रौढ़शाला',
+ cls:'कक्षा',subj:'विषय',time:'समय',maxm:'अधिकतम अंक',stu:'विद्यार्थी का नाम',roll:'क्रमांक',totalM:'कुल अंक',
+ times:{unit:'45 मिनट',fa3:'35 मिनट',fa4:'35 मिनट',sa2:'1 घंटा 30 मिनट'},
+ letters:['क','ख','ग','घ','ङ'],optL:['क','ख','ग','घ'],
+ lessonSel:'पाठ चयन',groups:'पाठों के समूह',single:'एक पाठ',lessons:(a,b)=>`पाठ ${a}–${b}`,lessonOne:l=>`पाठ ${l.n}: ${l.t}`,allL:(a,b)=>`सभी पाठ (${a}–${b})`,
+ newP:'🔀 नया प्रश्न पत्र',hideA:'उत्तर छिपाएँ',showA:'उत्तर दिखाएँ',bp:'📊 ब्लूप्रिंट',bpTitle:'ब्लूप्रिंट – इस प्रश्न पत्र के अंकों का वितरण',
+ noPaper:'इस विषय का प्रश्न पत्र अभी तैयार नहीं है।',noQ:'कोई प्रश्न नहीं',done:'समाप्त!',doneTxt:(n,s)=>`कुल ${n} प्रश्न; बहुविकल्पीय सही उत्तर: ${s}`,again:'फिर प्रयास करें',
+ obj:['ज्ञान','बोध','अभिव्यक्ति','सराहना'],calc:'',
+ bt:{t1:'01. उद्दिष्टवार अंक वितरण',t2:'02. इकाईवार अंक वितरण',t3:'03. प्रश्नों के स्वरूप पर आधारित अंक वितरण',t4:'04. कठिनता के स्तर पर आधारित अंक वितरण',t5:'ब्लूप्रिंट',t6:'प्रश्नवार विश्लेषण',
+  objs:'उद्दिष्ट',nq:'प्रश्नों की संख्या',marks:'अंक',pct:'प्रतिशत',sl:'क्र.सं',unitName:'इकाई का नाम',unitsName:'इकाइयों के नाम',qform:'प्रश्न का स्वरूप',diff:'कठिनता का स्तर',total:'कुल',totQ:'कुल प्रश्न',totM:'कुल अंक',
+  qtypes:['वस्तुनिष्ठ','लघु उत्तर','विवरणात्मक'],short3:['व.उ','ल.उ','वि.उ'],diffs:['सरल','साधारण','कठिन'],
+  note:'सूचना: प्रश्न (अंक) · व.उ = वस्तुनिष्ठ उत्तर, ल.उ = लघु उत्तर, वि.उ = विवरणात्मक उत्तर',
+  qn:'प्र.सं',unit:'इकाई',obj:'उद्दिष्ट',spec:'विशिष्ट',mk:'अंक',form:'प्रश्न का रूप',diffc:'कठिनता',tm:'समय',
+  forms:{mcq:'वस्तुनिष्ठ',one:'वस्तुनिष्ठ',lang:'भाषा कौशल',short:'लघु उत्तर',long:'विवरणात्मक',ana:'वस्तुनिष्ठ',essay:'विवरणात्मक'},specs:{mcq:'चुनता है',one:'स्मरण करता है',lang:'भाषा कौशल प्रयोग करता है',short:'लिखता है',long:'विस्तार से लिखता है',ana:'संबंध पहचानता है',essay:'विवेचना करता है'}}
+});
+function Lx(){return L10N[ST.sub==='en'?'en':ST.sub==='hi'?'hi':'kn']}
 function T(k){if(k==='obj'&&ST.sub==='evs'&&typeof EVS_OBJ!=='undefined')return EVS_OBJ;if(k==='obj'&&ST.sub==='ma'&&typeof MA_OBJ!=='undefined')return MA_OBJ;return Lx()[k]}
 /* ===== ಸ್ಥಿತಿ ===== */
 let ST={view:'medium',med:null,cls:null,sub:null,tab:'ab',hist:[],ch:'all',type:'all',lv:'all',qi:0,qo:[],qs:0,qa:null,ptype:'unit',showAns:true,abl:9,bpOpen:false,qzc:'all',qzt:'all',
@@ -1161,6 +1187,59 @@ function buildPaper(){const P=ST.ptype,EN=ST.sub==='en',max=PT[P].max,quota=(EN?
  ST.lastPicked=all;ST.lastLs=ls;
  return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)} ${EN?'':'………………………………………………'}</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${EN?ENG[ST.cls-1]:ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}<br>${T('stu')}: ______________________ ${T('roll')}: ____</div>${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tm)}</div></div>`}
 
+
+/* ===== ಹಿಂದಿ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ: ಪ್ರಶ್ನೆ ವಿಧಗಳು ಮತ್ತು ಸೂಚನೆಗಳು ಹಿಂದಿಯಲ್ಲಿ ===== */
+const HI_KINDS=['mcq','ana','one','two','three','four','essay'];
+/* [ವಿಧ, ಸಂಖ್ಯೆ, ಪ್ರತಿ ಪ್ರಶ್ನೆಗೆ ಅಂಕ] – ಒಟ್ಟು = ಪರೀಕ್ಷೆಯ ಗರಿಷ್ಠ ಅಂಕ */
+const HI_TPL={
+ unit:[['mcq',5,1],['ana',3,1],['one',5,1],['two',2,2],['three',1,3]],
+ fa3:[['mcq',3,1],['ana',2,1],['one',3,1],['two',2,2],['three',1,3]],
+ fa4:[['mcq',3,1],['ana',2,1],['one',3,1],['two',2,2],['three',1,3]],
+ sa2:[['mcq',8,1],['ana',4,1],['one',6,1],['two',4,2],['three',3,3],['essay',1,5]]};
+const HI_INS={
+ mcq:'सही विकल्प चुनकर लिखिए:',
+ ana:'पहले दो शब्दों के संबंध के अनुसार तीसरे शब्द के अनुरूप शब्द लिखिए:',
+ one:'एक वाक्य में उत्तर लिखिए:',
+ two:'दो-तीन वाक्यों में उत्तर लिखिए:',
+ three:'निम्नलिखित प्रश्नों के उत्तर लिखिए (3 अंक):',
+ four:'निम्नलिखित प्रश्नों के उत्तर लिखिए (4 अंक):',
+ essay:'निबंध / विस्तृत उत्तर लिखिए (5 अंक):'};
+const HI_ROMAN=['I','II','III','IV','V','VI','VII','VIII','IX','X'];
+function hiKind(q){
+ if(q.t==='mcq')return 'mcq';
+ if(q.t==='one'&&/^अनुरूप शब्द/.test(q.q))return 'ana';
+ if(q.t==='one')return 'one';
+ if(q.mk===2)return 'two';
+ if(q.mk===3)return 'three';
+ if(q.mk===4)return 'four';
+ return 'essay';}
+function hiStrip(q){return String(q).replace(/^(अनुरूप शब्द लिखिए|एक वाक्य में उत्तर लिखिए|दो-तीन वाक्यों में उत्तर लिखिए|पाँच-छः वाक्यों में उत्तर लिखिए|चार-पाँच वाक्यों में उत्तर लिखिए|निबंध लिखिए|भावार्थ लिखिए):\s*/,'')}
+function buildPaperHI(){
+ const P=ST.ptype,max=PT[P].max,tpl=HI_TPL[P],ls=parseSel(ST.sel[P]);
+ const r=rng(ST.seed[P]*7919+ls.length*31+P.length+(ls[0]||0));
+ const by={};HI_KINDS.forEach(k=>by[k]=[]);
+ allQ().filter(q=>ls.includes(q.ch)).forEach(q=>by[hiKind(q)].push(q));
+ HI_KINDS.forEach(k=>by[k]=shuffle(by[k],r));
+ const pick={},used=new Set();HI_KINDS.forEach(k=>pick[k]=[]);
+ tpl.forEach(([k,n])=>{for(const q of by[k]){if(pick[k].length>=n)break;if(used.has(q.id))continue;pick[k].push(q);used.add(q.id)}});
+ /* ಕೊರತೆ ತುಂಬಲು: ಅದೇ ಅಂಕದ ಬೇರೆ ವಿಧದಿಂದ ಬಳಕೆಯಾಗದ ಪ್ರಶ್ನೆ */
+ tpl.forEach(([k,n,m])=>{while(pick[k].length<n){let alt=null;for(const [k2,,m2] of tpl){if(m2!==m||k2===k)continue;alt=by[k2].find(q=>!used.has(q.id)&&!pick[k2].includes(q));if(alt){pick[k2].length;break}}
+   if(!alt){const same=by[k].find(q=>!pick[k].includes(q));if(!same)break;pick[k].push(same);continue}
+   pick[k].push(alt);used.add(alt.id)}});
+ const secs=tpl.filter(([k])=>pick[k].length);
+ const all=[];let n=1,body='';
+ secs.forEach(([k,,m],si)=>{const qs=pick[k];all.push(...qs);
+  body+=`<div class="sec"><b>${HI_ROMAN[si]}. ${HI_INS[k]}</b> <span class="mk">(${qs.length} × ${fmt(m)} = ${fmt(qs.length*m)})</span>`;
+  qs.forEach(q=>{body+=`<div class="pq"><div>${n++}. ${esc(hiStrip(q.q))}</div>`;
+   if(q.t==='mcq')body+='<div class="po">'+q.o.map((o,i)=>`(${T('optL')[i]}) ${esc(o)}`).join(' &nbsp; ')+'</div>';
+   if(ST.showAns)body+=`<div class="ans"><b>${T('ans')}</b> ${q.t==='mcq'?'('+T('optL')[q.a]+') '+esc(q.o[q.a]):esc(q.a)}</div>`;
+   body+='</div>'});
+  body+='</div>'});
+ const tm=all.reduce((s,q)=>s+q.mk,0);
+ ST.lastPicked=all;ST.lastLs=ls;
+ const warn=tm!==max?`<div class="chn nopr">ಎಚ್ಚರಿಕೆ: ಈ ಪಾಠ ಆಯ್ಕೆಗೆ ಸಾಕಷ್ಟು ಪ್ರಶ್ನೆಗಳಿಲ್ಲ (${fmt(tm)} / ${fmt(max)})</div>`:'';
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)} ………………………………………………</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ST.cls}वीं | ${T('subj')}: हिंदी भाग–2 · 2026–27<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}<br>${T('stu')}: ______________________ ${T('roll')}: ____</div>${warn}${body}<div class="ftot">${T('totalM')}: ${fmt(tm)}</div></div>`;
+}
 /* ===== ಕನ್ನಡ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ: ನೀಡಿದ ಮಾದರಿ ಪತ್ರಿಕೆಗಳ ರೂಪದಲ್ಲಿ (LBA ಪ್ರಶ್ನೆಗಳಿಂದ) ===== */
 const ROMAN=['I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII'];
 /* [ಪ್ರಶ್ನೆ ಬಗೆ, ಪ್ರಶ್ನೆಗಳ ಸಂಖ್ಯೆ, ಪ್ರತಿ ಪ್ರಶ್ನೆಗೆ ಅಂಕ] */
@@ -1396,7 +1475,7 @@ function bpPaperHtml(qs,ls){const B=T('bt'),max=PT[ST.ptype].max;const tq=qs.len
  const drow=B.diffs.map((n,i)=>{const c='emh'[i];const f=qs.filter(q=>q.lv===c);return {n,q:f.length,m:f.reduce((s,q)=>s+q.mk,0)}});
  /* 5. ನೀಲನಕ್ಷೆ ಗ್ರಿಡ್ */
  const cell=(f)=>f.length?`${f.length}(${fmt(f.reduce((s,q)=>s+q.mk,0))})`:'';
- let g=`<div class="tw"><table class="bpt bpg"><thead><tr><th rowspan="2">${B.sl}</th><th rowspan="2">${B.unitsName}</th>${T('obj').map(n=>`<th colspan="3">${n}</th>`).join('')}<th colspan="2">${B.total}</th></tr><tr>${[0,1,2,3].map(()=>B.short3.map(s=>`<th>${s}</th>`).join('')).join('')}<th>${ST.sub==='en'?'Qns':'ಪ್ರಶ್ನೆ'}</th><th>${ST.sub==='en'?'Marks':'ಅಂಕ'}</th></tr></thead><tbody>`;
+ let g=`<div class="tw"><table class="bpt bpg"><thead><tr><th rowspan="2">${B.sl}</th><th rowspan="2">${B.unitsName}</th>${T('obj').map(n=>`<th colspan="3">${n}</th>`).join('')}<th colspan="2">${B.total}</th></tr><tr>${[0,1,2,3].map(()=>B.short3.map(s=>`<th>${s}</th>`).join('')).join('')}<th>${ST.sub==='en'?'Qns':ST.sub==='hi'?'प्रश्न':'ಪ್ರಶ್ನೆ'}</th><th>${ST.sub==='en'?'Marks':ST.sub==='hi'?'अंक':'ಅಂಕ'}</th></tr></thead><tbody>`;
  const colQ=Array(12).fill(0),colM=Array(12).fill(0);
  LS.forEach((l,i)=>{const f=qs.filter(q=>q.ch===l.n);g+=`<tr><td>${i+1}</td><td class="l">${esc(lessonShort(l))}</td>`;
   for(let ob=0;ob<4;ob++)for(let fm=0;fm<3;fm++){const c=f.filter(q=>objOf(q)===ob&&formIdx(q)===fm);g+=`<td>${cell(c)}</td>`;colQ[ob*3+fm]+=c.length;colM[ob*3+fm]+=c.reduce((s,q)=>s+q.mk,0)}
@@ -1566,7 +1645,7 @@ function buildPaperMA(){
 
 function vPaper(){if(!allQ().length)return `<div class="card glass neu">${T('noPaper')}</div>`;
  const P=ST.ptype;ensureSel(P);const o=selOpts(P),v=ST.sel[P];
- const paperHtml=ST.sub==='kn'?buildPaperKN():ST.sub==='en'?buildPaperEN():ST.sub==='evs'?buildPaperEVS():ST.sub==='ma'?buildPaperMA():buildPaper();
+ const paperHtml=ST.sub==='kn'?buildPaperKN():ST.sub==='en'?buildPaperEN():ST.sub==='evs'?buildPaperEVS():ST.sub==='ma'?buildPaperMA():ST.sub==='hi'?buildPaperHI():buildPaper();
  const bpSec=ST.bpOpen?`<div class="card glass neu bpwrap"><div class="bpbar"><h3>${T('bpTitle')}</h3></div>${bpPaperHtml(ST.lastPicked,ST.lastLs)}</div>`:'';
  const tabs=['unit','fa3','fa4','sa2'].map(k=>`<button class="tb sm ${P===k?'on':''}" data-p="${k}" onclick="ST.ptype='${k}';render()">${T('examTab')[k]} (${PT[k].max})</button>`).join('');
  const po=[];if(o.g.length){po.push([null,T('groups')]);o.g.forEach(x=>po.push(x))}if(o.s.length){po.push([null,T('single')]);o.s.forEach(x=>po.push(x))}
