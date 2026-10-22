@@ -1011,6 +1011,53 @@ body.vcls .sj .sjt .badge{white-space:nowrap!important;max-width:none!important;
 @media (min-width:1100px){
  .hgrid .tile.pc{aspect-ratio:auto!important;height:clamp(150px,15vw,200px)!important}
 }
+/* ===== v18: LAPTOP/DESKTOP – ಮಾಧ್ಯಮ, ಸೆಮಿಸ್ಟರ್, ತರಗತಿ ಪರದೆಗಳು ಒಂದೇ ಪರದೆಯಲ್ಲಿ ಪೂರ್ತಿ ಕಾಣುವಂತೆ (ಸ್ಕ್ರೋಲ್ ಇಲ್ಲ) · ಮೊಬೈಲ್ ಬದಲಾಗಿಲ್ಲ ===== */
+@media screen and (min-width:900px) and (min-aspect-ratio:1/1) and (min-height:480px){
+ html:has(body.vmed),html:has(.hgrid){height:100dvh;overflow:hidden}
+ body.vmed,body:has(.hgrid){height:100dvh!important;min-height:0!important;overflow:hidden!important;display:flex!important;flex-direction:column!important}
+ /* banner */
+ body.vmed .hero,body:has(.hgrid) .hero{flex:none!important;height:clamp(150px,27dvh,250px)!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important}
+ body.vmed .hero h1,body:has(.hgrid) .hero h1{font-size:min(8.4cqw,6dvh)!important}
+ body.vmed .hero .hsub,body:has(.hgrid) .hero .hsub{font-size:min(2.8cqw,2.2dvh)!important}
+ body.vmed .hero p,body:has(.hgrid) .hero p{font-size:min(1.9cqw,1.6dvh)!important;margin-top:.8cqw!important;padding:.6cqw 0!important}
+ body.vmed .hero .ht,body:has(.hgrid) .hero .ht{top:15%!important}
+ /* main fills the rest */
+ body.vmed main,body:has(.hgrid) main{flex:1 1 0!important;min-height:0!important;display:flex!important;flex-direction:column!important;overflow:hidden!important;padding:clamp(6px,1.2dvh,12px) 13px clamp(4px,.8dvh,8px)!important}
+ body.vmed footer,body:has(.hgrid) footer{flex:none!important;margin:clamp(4px,.8dvh,8px) auto clamp(6px,1dvh,12px)!important;padding:clamp(5px,.9dvh,9px) 52px!important;font-size:12px!important}
+ /* ---- medium + semester ---- */
+ body.vmed .mv{flex:1 1 0!important;min-height:0!important;height:auto!important;padding:0!important;gap:clamp(6px,1.4dvh,14px)!important;max-width:min(1200px,calc(100vw - 48px))!important;display:flex!important;flex-direction:column!important}
+ body.vmed .mlogos{flex:none!important}
+ body.vmed .mlg img{height:clamp(38px,8dvh,64px)!important}
+ body.vmed .mlg p{display:block!important;margin-top:2px!important;font-size:clamp(10px,1.8dvh,14px)!important;line-height:1.25!important}
+ body.vmed .mlg .dsert,body.vmed .mlg .diet{font-size:clamp(10px,1.7dvh,13px)!important}
+ body.vmed .mlist{flex:1 1 0!important;min-height:0!important;display:grid!important;grid-template-rows:minmax(0,1fr)!important;gap:clamp(10px,1.4vw,18px)!important}
+ body.vmed .mcard,body.vmed .mlist.sem .mcard{height:100%!important;min-height:0!important;padding:clamp(6px,1.4dvh,14px) 14px!important;gap:clamp(3px,.8dvh,8px)!important;overflow:hidden}
+ body.vmed .mci{width:clamp(30px,7.5dvh,56px)!important}
+ body.vmed .mct{gap:.1em!important}
+ body.vmed .mct .k{font-size:clamp(16px,3.6dvh,26px)!important;line-height:1.2!important}
+ body.vmed .mct .e{font-size:clamp(11px,2.2dvh,16px)!important;line-height:1.2!important}
+ body.vmed .mct .mq{font-size:clamp(10px,2dvh,14px)!important;margin-top:.1em!important}
+ body.vmed .marr{width:clamp(26px,5dvh,38px)!important}
+ /* ---- ತರಗತಿ ಆರಿಸಿ ---- */
+ body:has(.hgrid) main>.fade.fill{flex:1 1 0!important;min-height:0!important;display:flex!important;flex-direction:column!important}
+ body:has(.hgrid) .feat{flex:none!important;min-height:0!important;padding:clamp(5px,1dvh,9px) 14px!important;margin-bottom:clamp(6px,1.2dvh,11px)!important}
+ body:has(.hgrid) .hgrid{flex:1 1 0!important;min-height:0!important;grid-template-rows:repeat(2,minmax(0,1fr))!important;grid-auto-rows:minmax(0,1fr)!important;gap:clamp(6px,1.3dvh,14px) clamp(8px,1.1vw,16px)!important}
+ body:has(.hgrid) .hgrid .tile.pc,body:has(.hgrid) .hgrid .tile.pc:nth-child(n){height:100%!important;min-height:0!important;aspect-ratio:auto!important}
+ body:has(.hgrid) .hgrid .tile.pc .n{font-size:min(16.5cqw,9dvh)!important}
+ body:has(.hgrid) .hgrid .tile.pc .l{font-size:min(5.7cqw,2.6dvh)!important;margin-top:.5dvh!important}
+ body:has(.hgrid) .hgrid .tile.pc .act{margin-top:min(2.8cqw,1.2dvh)!important}
+}
+/* ===== v19: ಲ್ಯಾಪ್‌ಟಾಪ್ – ಆಯತಾಕಾರದ ಕಾರ್ಡ್, ಫುಟರ್ ಮೇಲೆ ಅಂತರ, ಮುಖಪುಟ ಲೇಬಲ್ ಬಲಕ್ಕೆ ===== */
+@media screen and (min-width:900px) and (min-aspect-ratio:1/1) and (min-height:480px){
+ body.vmed .crumb,body:has(.hgrid) .crumb{flex:none!important;margin:0 4px 0 auto!important;max-width:34%!important;width:max-content!important;position:relative;z-index:3}
+ body.vmed main,body:has(.hgrid) main{justify-content:center!important;padding-bottom:clamp(14px,4dvh,40px)!important}
+ body.vmed .mv,body:has(.hgrid) main>.fade.fill{flex:none!important}
+ body.vmed .mlist,body.vmed .mlist.sem{flex:none!important;grid-template-rows:auto!important}
+ body.vmed .mcard,body.vmed .mlist.sem .mcard{height:clamp(115px,30dvh,250px)!important}
+ body:has(.hgrid) .hgrid{flex:none!important;grid-template-rows:none!important;grid-auto-rows:auto!important}
+ body:has(.hgrid) .hgrid .tile.pc,body:has(.hgrid) .hgrid .tile.pc:nth-child(n){height:clamp(100px,22.5dvh,200px)!important}
+ body.vmed footer,body:has(.hgrid) footer{margin-top:clamp(8px,2dvh,20px)!important}
+}
 </style></head><body>
 <div class="top"><button class="ib" id="bk" onclick="goBack()" aria-label="ಹಿಂದೆ"><svg class="ic-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><svg class="ic-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="crumb" id="crumb"></div>
 <span class="ib deco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></span><span class="ib deco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 17V11a6 6 0 0112 0v6l1.5 2h-15z"/><path d="M10 21h4"/></svg><i class="rd"></i></span><button class="ib" onclick="goHome()" aria-label="ಹೋಮ್"><svg class="ic-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><svg class="ic-user" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4.2"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z"/></svg></button></div>
@@ -1795,7 +1842,7 @@ function mcardHtml(c,click,icon){return `<button class="mcard" style="--ph:${c.p
 function vMedium(){return `<div class="fade mv">${MED_LOGOS}<div class="mlist">${MED.map(m=>mcardHtml(m,`openMed('${m.id}')`,MED_ICON)).join('')}</div></div>`}
 function vSem(){return `<div class="fade mv">${MED_LOGOS}<div class="mlist sem">${SEMS.map(x=>mcardHtml(Object.assign({},x,{q:qaLabel(semCount(x.n))}),`openSem(${x.n})`,CAP_ICON)).join('')}</div></div>`}
 function openMed(id){ST.med=id;nav('sem',{med:id})}
-function openSem(n){nav('home',{sem:n});if(!(ST.med==='kn'&&n===2)){setTimeout(()=>toast('ಈ ವಿಷಯ ಶೀಘ್ರದಲ್ಲೇ ಸೇರಿಸಲಾಗುವುದು'),250)}}
+function openSem(n){nav('home',{sem:n});if(!(ST.med==='kn'&&(n===1||n===2))){setTimeout(()=>toast('ಈ ವಿಷಯ ಶೀಘ್ರದಲ್ಲೇ ಸೇರಿಸಲಾಗುವುದು'),250)}}
 function render(){
  const hero=$('hero');hero.classList.toggle('sm',ST.view!=='medium'&&ST.view!=='sem'&&ST.view!=='home'&&ST.view!=='class'&&ST.view!=='subject');document.body.classList.toggle('vmed',ST.view==='medium'||ST.view==='sem');document.body.classList.toggle('vcls',ST.view==='class');document.body.classList.toggle('vsub',ST.view==='subject');{const qz=ST.view==='subject'&&ST.tab==='quiz';document.body.classList.toggle('vquiz',qz);document.documentElement.classList.toggle('vquiz',qz)}
  $('herop').textContent=(ST.view!=='subject')?'Shikshana Parva · ಕಲಿಕೆಯ ಹಬ್ಬ':'ಶಿಕ್ಷಕರಿಗಾಗಿ ಕಲಿಕಾ ಸಂಪನ್ಮೂಲ ವೇದಿಕೆ';
