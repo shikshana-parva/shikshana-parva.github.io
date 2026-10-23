@@ -1077,7 +1077,7 @@ const $=id=>document.getElementById(id);
 const fmt=n=>(Math.round(n*100)/100).toString();
 const SUBJ_META=[{id:'kn',name:'ಕನ್ನಡ',en:'Kannada',ic:'ಕ'},{id:'ma',name:'ಗಣಿತ',en:'Mathematics',ic:'∑'},{id:'en',name:'English',en:'English',ic:'Aa'},{id:'evs',name:'ಪರಿಸರ ಅಧ್ಯಯನ',en:'Environmental Studies',ic:'ಪ'},{id:'hi',name:'ಹಿಂದಿ',en:'Hindi',ic:'ह'},{id:'sc',name:'ವಿಜ್ಞಾನ',en:'Science',ic:'ವಿ'},{id:'ss',name:'ಸಮಾಜ',en:'Social Studies',ic:'<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="7.6" r="3"/><circle cx="4.9" cy="9.4" r="2.3"/><circle cx="19.1" cy="9.4" r="2.3"/><path d="M12 12.2c-3.2 0-5.7 1.8-5.7 4.1V19h11.4v-2.7c0-2.3-2.5-4.1-5.7-4.1zM4.9 12.1C2.8 12.3 1.4 13.6 1.4 15.2V18H5.6v-1.7c0-1.4.5-2.6 1.4-3.6-.6-.4-1.3-.6-2.1-.6zM19.1 12.1c-.8 0-1.5.2-2.1.6.9 1 1.4 2.2 1.4 3.6V18h4.2v-2.8c0-1.6-1.4-2.9-3.5-3.1z"/></svg>'}];
 const DATA={};
-const AVAIL={'4-kn':1,'10-kn':1,'s1-10-kn':1,'s1-10-en':1,'s1-10-hi':1,'s1-10-ma':1,'s1-10-ss':1,'s1-10-sc':1,'4-en':1,'4-ma':1,'4-evs':1,'10-en':1,'10-hi':1,'10-ss':1,'10-ma':1,'10-sc':1};
+const AVAIL={'s1-4-kn':1,'4-kn':1,'10-kn':1,'s1-10-kn':1,'s1-10-en':1,'s1-10-hi':1,'s1-10-ma':1,'s1-10-ss':1,'s1-10-sc':1,'4-en':1,'4-ma':1,'4-evs':1,'10-en':1,'10-hi':1,'10-ss':1,'10-ma':1,'10-sc':1};
 const SK=(c,id)=>(ST.sem===1?'s1-':'')+c+'-'+id;
 const SP=()=>(ST.sem===1?'s1-':'');
 const FILE={kn:['kannada'],en:['english'],ma:['maths','math','mathematics','ganita'],evs:['evs','environment','environmental-studies','parisara'],hi:['hindi'],ss:['social'],sc:['science']};
