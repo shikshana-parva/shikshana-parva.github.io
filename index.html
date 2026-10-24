@@ -1219,13 +1219,21 @@ function classCount(c){let n=0,ready=true;
  subjFor(c).forEach(s=>{if(!AVAIL[SK(c,s.id)])return;const v=subjCount(SK(c,s.id));if(v===null)ready=false;else n+=v});
  return ready?n:null}
 function qaLabel(n){return 'ಪ್ರಶ್ನೋತ್ತರಗಳು: '+(n===null?'…':n)}
-let countsWarm=false;
+let countsWarm=false,countsDone=false;
 function semKey(sem,c,id){return (sem===1?'s1-':'')+c+'-'+id}
-function semCount(sem){let n=0,any=false;CLASSES.forEach(c=>subjFor(c).forEach(s=>{const v=subjCount(semKey(sem,c,s.id));if(v!==null){n+=v;any=true}}));return any?n:null}
+function semCount(sem){let n=0,any=false;CLASSES.forEach(c=>subjFor(c).forEach(s=>{const v=subjCount(semKey(sem,c,s.id));if(v!==null){n+=v;any=true}}));return(any&&countsDone)?n:null}
 async function warmCounts(){if(countsWarm)return;countsWarm=true;
- const jobs=Object.keys(AVAIL).map(k=>{const m=k.match(/^(s1-)?(\d+)-(.+)$/);return m?loadSub(m[1]?1:2,+m[2],m[3]):null}).filter(Boolean);
- await Promise.all(jobs);
+ const all=Object.keys(AVAIL).map(k=>{const m=k.match(/^(s1-)?(\d+)-(.+)$/);return m?[m[1]?1:2,+m[2],m[3]]:null}).filter(Boolean);
+ let pending=all;
+ for(let t=0;t<3&&pending.length;t++){
+  const r=await Promise.all(pending.map(a=>loadSub(a[0],a[1],a[2]).then(ok=>ok?null:a)));
+  pending=r.filter(Boolean);
+  if(pending.length)await new Promise(res=>setTimeout(res,700*(t+1)));
+ }
+ countsDone=true;
+ if(pending.length)countsWarm=false;
  if(ST.view==='home'||ST.view==='class'||ST.view==='sem'||ST.view==='medium')render()}
+window.addEventListener('online',()=>{if(!countsWarm){countsDone=false;warmCounts()}});
 async function warmS1(){
  const ks=Object.keys(AVAIL).filter(k=>k.startsWith('s1-'));
  await Promise.all(ks.map(k=>{const p=k.slice(3),i=p.indexOf('-');return ensureSubject(+p.slice(0,i),p.slice(i+1))}));
@@ -1852,5 +1860,5 @@ function render(){
  let c=ST.view==='sem'?'':'<b>ಮುಖಪುಟ</b>';if(ST.cls)c+=` › ${ORD[ST.cls-1]} ತರಗತಿ`;if(ST.sub&&ST.view==='subject'&&cur())c+=` › <b>${cur().title}</b>`;$('crumb').innerHTML=c;
  $('main').innerHTML=ST.view==='medium'?vMedium():ST.view==='sem'?vSem():ST.view==='home'?vHome():ST.view==='class'?vClass():vSubject();}
 if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
-render();warmCounts();
+warmCounts();render();
 </script></body></html>
