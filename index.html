@@ -1221,7 +1221,10 @@ function classCount(c){let n=0,ready=true;
 function qaLabel(n){return 'ಪ್ರಶ್ನೋತ್ತರಗಳು: '+(n===null?'…':n)}
 let countsWarm=false,countsDone=false;
 function semKey(sem,c,id){return (sem===1?'s1-':'')+c+'-'+id}
-function semCount(sem){let n=0,any=false;CLASSES.forEach(c=>subjFor(c).forEach(s=>{const v=subjCount(semKey(sem,c,s.id));if(v!==null){n+=v;any=true}}));return(any&&countsDone)?n:null}
+let QC={};try{QC=JSON.parse(localStorage.getItem('sp_qc')||'{}')||{}}catch(e){}
+function semCount(sem){let n=0,any=false;CLASSES.forEach(c=>subjFor(c).forEach(s=>{const v=subjCount(semKey(sem,c,s.id));if(v!==null){n+=v;any=true}}));
+ if(any&&countsDone){if(QC[sem]!==n){QC[sem]=n;try{localStorage.setItem('sp_qc',JSON.stringify(QC))}catch(e){}}return n}
+ return QC[sem]!=null?QC[sem]:null}
 async function warmCounts(){if(countsWarm)return;countsWarm=true;
  const all=Object.keys(AVAIL).map(k=>{const m=k.match(/^(s1-)?(\d+)-(.+)$/);return m?[m[1]?1:2,+m[2],m[3]]:null}).filter(Boolean);
  let pending=all;
