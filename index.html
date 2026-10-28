@@ -1072,6 +1072,21 @@ body.vcls .sj .sjt .badge{white-space:nowrap!important;max-width:none!important;
 .paper .shr{display:flex;justify-content:space-between;gap:.6rem;font-weight:600;font-size:.86em;margin:.25rem 0;text-align:left}
 .paper .shr span{flex:1 1 0;min-width:0}
 .paper .shr span:last-child{text-align:right}
+
+.paper .ph,.paper .ph[style]{font-family:"Noto Serif Kannada","Noto Serif","Times New Roman",Times,serif;font-weight:400}
+.paper .shp{font-size:.9em;margin-bottom:.3rem}
+.paper .sht{font-size:1.02em;font-weight:800;letter-spacing:.02em;margin:.1rem 0}
+.paper .shs{font-size:1.2em;font-weight:800;margin-top:.7rem}
+.paper .shs2{font-size:1.2em;font-weight:800;letter-spacing:.02em;margin-bottom:.1rem}
+.paper .shs3{font-size:.95em;font-weight:700;margin-bottom:.2rem}
+.paper .shb{margin-top:.7rem;padding-bottom:.55rem;border-bottom:3px double #2b2418}
+.paper .shr{font-size:.98em;font-weight:700;margin:.35rem 0;display:flex;justify-content:space-between;gap:.6rem;text-align:left}
+.paper .shr span{flex:1 1 0;min-width:0}
+.paper .shr span:last-child{text-align:right}
+.paper .shi{text-align:left;margin-top:.9rem}
+.paper .shg{font-weight:800;margin-bottom:.4rem}
+.paper .shl{margin:0 0 .4rem 1.4rem;padding:0;line-height:1.6;font-weight:500}
+.paper .shl li{margin:.3rem 0}
 </style></head><body>
 <div class="top"><button class="ib" id="bk" onclick="goBack()" aria-label="ಹಿಂದೆ"><svg class="ic-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><svg class="ic-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="crumb" id="crumb"></div>
 <span class="ib deco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></span><span class="ib deco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 17V11a6 6 0 0112 0v6l1.5 2h-15z"/><path d="M10 21h4"/></svg><i class="rd"></i></span><button class="ib" onclick="goHome()" aria-label="ಹೋಮ್"><svg class="ic-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><svg class="ic-user" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4.2"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z"/></svg></button></div>
@@ -1377,10 +1392,21 @@ const SUPP_HEAD={
  kn:{top:['S.S.L.C. MODEL QUESTION PAPER - 1 : 2026-27'],subj:['ವಿಷಯ : ಪ್ರಥಮ ಭಾಷೆ – ಕನ್ನಡ','Subject : First Language — KANNADA'],code:['ವಿಷಯ ಸಂಕೇತ : 01-K','Subject Code : 01-K'],time:['ಸಮಯ : 3 ಗಂಟೆ 15 ನಿಮಿಷಗಳು ]','[ Time : 3 Hours 15 Minutes'],max:['ಗರಿಷ್ಠ ಅಂಕಗಳು : 100 ]','[ Max. Marks : 100']},
  ma:{top:['S.S.L.C. MODEL QUESTION PAPER - 1 : 2026-27'],subj:['ವಿಷಯ : ಗಣಿತ','SUBJECT: MATHEMATICS'],sub2:'(ಇಂಗ್ಲಿಷ್ ಮಾಧ್ಯಮ/ ENGLISH MEDIUM)',code:['ವಿಷಯ ಸಂಕೇತ : 81-E','Subject Code : 81-E'],time:['ಸಮಯ: 3 ಗಂಟೆ 15 ನಿಮಿಷಗಳು','(Time: 3 Hours 15 Minutes)'],max:['ಗರಿಷ್ಠ ಅಂಕಗಳು : 80','(Max. Marks: 80)']},
  sc:{top:['S.S.L.C. MODEL QUESTION PAPER - 1 : 2026-27'],subj:['ವಿಷಯ : ವಿಜ್ಞಾನ','Subject: SCIENCE'],sub2:'(ಭೌತ ವಿಜ್ಞಾನ, ರಸಾಯನ ವಿಜ್ಞಾನ ಮತ್ತು ಜೀವ ವಿಜ್ಞಾನ / Physics, Chemistry and Biology) (ಆಂಗ್ಲ ಮಾಧ್ಯಮ / English Medium)',code:['ವಿಷಯ ಸಂಕೇತ: 83-E','Subject Code : 83-E'],time:['ಸಮಯ : 3 ಗಂಟೆ 15 ನಿಮಿಷಗಳು ]','[Time: 3 Hours 15 Minutes]'],max:['ಗರಿಷ್ಠ ಅಂಕಗಳು : 80 ]','[Max. Marks: 80]']},
- ss:{top:['6th Cross, Malleshwaram, Bengaluru – 560 003','2026-27 ರ ಎಸ್.ಎಸ್.ಎಲ್.ಸಿ. ಮಾದರಿ ಪ್ರಶ್ನೆಪತ್ರಿಕೆ – 1','S.S.L.C. MODEL QUESTION PAPER - 1 : 2026 - 27'],subj:['ವಿಷಯ : ಸಮಾಜವಿಜ್ಞಾನ','Subject : SOCIAL SCIENCE'],code:['ವಿಷಯ ಸಂಕೇತ : 85-E','Subject Code : 85-E'],time:['ಸಮಯ : 3 ಗಂಟೆ 15 ನಿಮಿಷಗಳು ]','[ Time : 3 Hours 15 Minutes'],max:['ಗರಿಷ್ಠ ಅಂಕಗಳು : 80 ]','[ Max. Marks : 80']}
+ ss:{top:['S.S.L.C. MODEL QUESTION PAPER - 1 : 2026 - 27'],subj:['ವಿಷಯ : ಸಮಾಜವಿಜ್ಞಾನ','Subject : SOCIAL SCIENCE'],code:['ವಿಷಯ ಸಂಕೇತ : 85-E','Subject Code : 85-E'],time:['ಸಮಯ : 3 ಗಂಟೆ 15 ನಿಮಿಷಗಳು ]','[ Time : 3 Hours 15 Minutes'],max:['ಗರಿಷ್ಠ ಅಂಕಗಳು : 80 ]','[ Max. Marks : 80']}
 };
-function suppHead(){const H=SUPP_HEAD[ST.sub]||SUPP_HEAD.kn;const row=p=>'<div class="shr"><span>'+esc(p[0])+'</span><span>'+esc(p[1])+'</span></div>';
- return '<div class="shp">ಪೂರ್ವ ಸಿದ್ಧತಾ ಪರೀಕ್ಷೆ</div>'+H.top.map(t=>'<div class="sht">'+esc(t)+'</div>').join('')+'<div class="shs">'+esc(H.subj[0])+'</div><div class="shs2">'+esc(H.subj[1])+'</div>'+(H.sub2?'<div class="shs3">'+esc(H.sub2)+'</div>':'')+row(H.code)+row(H.time)+row(H.max)}
+const SUPP_INS={
+ kn:{h:'ಪರೀಕ್ಷಾರ್ಥಿಗಳಿಗಾಗಿ ಸಾಮಾನ್ಯ ಸೂಚನೆಗಳು :',l:n=>['ಈ ಪ್ರಶ್ನೆಪತ್ರಿಕೆಯು ಒಟ್ಟು '+n+' ಪ್ರಶ್ನೆಗಳನ್ನು ಹೊಂದಿದೆ.','ಪ್ರಶ್ನೆಗಳಿಗೆ ಕೊಟ್ಟಿರುವ ಸೂಚನೆಗಳನ್ನು ಪಾಲಿಸಿ.','ಬಲಭಾಗದಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಅಂಕಗಳು ಪ್ರಶ್ನೆಗಳಿಗಿರುವ ಪೂರ್ಣ ಅಂಕಗಳನ್ನು ತೋರಿಸುತ್ತವೆ.','ಪ್ರಶ್ನೆಪತ್ರಿಕೆಯನ್ನು ಓದಿಕೊಳ್ಳಲು 15 ನಿಮಿಷಗಳ ಕಾಲಾವಕಾಶವೂ ಸೇರಿದಂತೆ, ಉತ್ತರಿಸಲು ನಿಗದಿಪಡಿಸಲಾದ ಸಮಯವನ್ನು ಪ್ರಶ್ನೆಪತ್ರಿಕೆಯ ಮೇಲ್ಭಾಗದಲ್ಲಿ ನೀಡಲಾಗಿದೆ.']},
+ ma:{h:'General instructions for candidates :',l:n=>['This question paper consists of '+n+' questions.','Follow the instructions given against the questions.','Figures in the right-hand margin indicate maximum marks for the Questions.','The maximum time to answer the paper is given at the top of the question Paper. It includes 15 minutes for reading the question paper.']},
+ sc:{h:'General Instructions to the Candidate :',l:n=>['This question paper consists of '+n+' questions.','Follow the instructions given against the questions.','Figures in the right hand margin indicate maximum marks for the questions.','The maximum time to answer the paper is given at the top of the question paper. It includes 15 minutes for reading the question paper.']},
+ ss:{h:'General instructions for candidates :',l:n=>['This Question Paper consists of '+n+' questions.','Follow the instructions given for questions.','Figures in the right hand margin of the question paper indicate maximum marks assigned for the questions.','The maximum time to answer the questions, including 15 minutes for reading the question paper, is given at the top of the question paper.']}
+};
+function suppHead(){const H=SUPP_HEAD[ST.sub]||SUPP_HEAD.kn,I=SUPP_INS[ST.sub]||SUPP_INS.kn,n=SUPP_LAST?SUPP_LAST.qs.length:0;
+ const row=p=>'<div class="shr"><span>'+esc(p[0])+'</span><span>'+esc(p[1])+'</span></div>';
+ return '<div class="shp">ಪೂರ್ವ ಸಿದ್ಧತಾ ಪರೀಕ್ಷೆ</div>'
+  +H.top.map(t=>'<div class="sht">'+esc(t)+'</div>').join('')
+  +'<div class="shs">'+esc(H.subj[0])+'</div><div class="shs2">'+esc(H.subj[1])+'</div>'+(H.sub2?'<div class="shs3">'+esc(H.sub2)+'</div>':'')
+  +'<div class="shb">'+row(H.code)+row(H.time)+row(H.max)+'</div>'
+  +'<div class="shi"><div class="shg">'+esc(I.h)+'</div><ol class="shl">'+I.l(n).map(x=>'<li>'+esc(x)+'</li>').join('')+'</ol></div>'}
 function prefPick(pool,n,r){if(ST.sub==='kn')return shuffle(pool,r).slice(0,n);return shuffle(pool.filter(q=>q.t!=='mcq'),r).concat(shuffle(pool.filter(q=>q.t==='mcq'),r)).slice(0,n)}
 function buildPaperSupp(){
  if(ST.seed.supp===undefined)ST.seed.supp=1;
