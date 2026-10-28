@@ -630,6 +630,7 @@ body.vsub .tabs.nopr:not(.t4) .tb[data-p=unit]{--tbi:var(--q2)}
 body.vsub .tabs.nopr:not(.t4) .tb[data-p=fa3]{--tbi:var(--q1)}
 body.vsub .tabs.nopr:not(.t4) .tb[data-p=fa4]{--tbi:var(--q3)}
 body.vsub .tabs.nopr:not(.t4) .tb[data-p=sa2]{--tbi:var(--q6)}
+body.vsub .tabs.nopr:not(.t4) .tb[data-p=supp]{--tbi:var(--q4)}
 body.vsub .tabs.nopr:not(.t4) .tb[data-p].on,body.vsub .tabs.nopr:not(.t4) .tb[data-p].on:hover{color:#3a2a0c;text-shadow:none;font-weight:800;
  background:linear-gradient(180deg,rgba(250,232,178,.90),rgba(226,182,92,.92)),var(--tbi) center/cover no-repeat,#e0b45a;
  border:1px solid rgba(255,238,184,.95);
@@ -1058,12 +1059,19 @@ body.vcls .sj .sjt .badge{white-space:nowrap!important;max-width:none!important;
  body:has(.hgrid) .hgrid .tile.pc,body:has(.hgrid) .hgrid .tile.pc:nth-child(n){height:clamp(100px,22.5dvh,200px)!important}
  body.vmed footer,body:has(.hgrid) footer{margin-top:clamp(8px,2dvh,20px)!important}
 }
-.tabs.tp{display:grid!important;grid-template-columns:repeat(var(--tn,4),minmax(0,1fr))!important;gap:8px;align-items:stretch;width:100%}
-.tabs.tp .tb.sm,.tabs.tp .tb.sm.on{height:auto!important;min-height:52px;width:100%!important;max-width:100%!important;min-width:0!important;margin:0;padding:.45rem .3rem!important;font-size:clamp(11.5px,3.4vw,14px);line-height:1.25;white-space:normal;text-align:center;display:flex;align-items:center;justify-content:center;box-sizing:border-box;flex:none!important}
+.tabs.tp{display:grid;grid-template-columns:repeat(var(--tn,4),minmax(0,1fr))!important;gap:8px;align-items:stretch;width:100%}
+.tabs.tp .tb.sm,.tabs.tp .tb.sm.on{height:66px!important;min-height:66px!important;max-height:66px!important;overflow:hidden;width:100%!important;max-width:100%!important;min-width:0!important;margin:0;padding:.45rem .3rem!important;font-size:clamp(11px,3.1vw,13.5px);line-height:1.2;white-space:normal;text-align:center;display:flex;align-items:center;justify-content:center;box-sizing:border-box;flex:none!important}
 .paper .mkx{text-align:right;font-weight:700;font-size:.92em;margin:.2rem .2rem 0 0;color:#2b2418}
 .paper .qblk,.paper .qblk *{color:#2b2418!important;text-shadow:none!important}
 .paper .qblk .alt b,.paper .qblk .mkx{color:#2b2418!important}
-.tabs.tp .tb.sm.on{color:#fff6de!important;background:linear-gradient(165deg,rgba(70,134,80,.96),rgba(22,62,36,.97))!important;border-color:rgba(255,226,160,.9)!important}
+.paper .shp{text-align:center;font-weight:700;color:#4d5a78;margin-bottom:.4rem}
+.paper .sht{text-align:center;font-weight:700;margin:.15rem 0}
+.paper .shs{text-align:center;font-weight:800;font-size:1.12em;margin-top:.6rem}
+.paper .shs2{text-align:center;font-weight:800;font-size:1.12em;margin-bottom:.2rem}
+.paper .shs3{text-align:center;font-size:.92em;margin-bottom:.5rem}
+.paper .shr{display:flex;justify-content:space-between;gap:.6rem;font-weight:600;font-size:.86em;margin:.25rem 0;text-align:left}
+.paper .shr span{flex:1 1 0;min-width:0}
+.paper .shr span:last-child{text-align:right}
 </style></head><body>
 <div class="top"><button class="ib" id="bk" onclick="goBack()" aria-label="ಹಿಂದೆ"><svg class="ic-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><svg class="ic-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="crumb" id="crumb"></div>
 <span class="ib deco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></span><span class="ib deco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 17V11a6 6 0 0112 0v6l1.5 2h-15z"/><path d="M10 21h4"/></svg><i class="rd"></i></span><button class="ib" onclick="goHome()" aria-label="ಹೋಮ್"><svg class="ic-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><svg class="ic-user" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4.2"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z"/></svg></button></div>
@@ -1113,7 +1121,7 @@ kn:{tabs:[['ab','ಅಭ್ಯಾಸ ಉತ್ತರಗಳು'],['qb','LBA ಪ್
  words:'ಪದಗಳ ಅರ್ಥ',notes:'ಟಿಪ್ಪಣಿ',noWords:'ಈ ಪಾಠಕ್ಕೆ ಪದಗಳ ಅರ್ಥ ಪಟ್ಟಿ ಇಲ್ಲ',noNotes:'ಈ ಪಾಠಕ್ಕೆ ಟಿಪ್ಪಣಿ ಇಲ್ಲ',author:'ಲೇಖಕರು/ಕವಿ',page:'ಪುಟ',
  abNote:'⚠ "ಮಾದರಿ/ಸೂಚಿತ" ಎಂದಿರುವ ಉತ್ತರಗಳು ಸ್ವತಂತ್ರ ಉತ್ತರಗಳ ಉದಾಹರಣೆಗಳು.',lessonWord:'ಪಾಠ',edit:'✏ ಎಡಿಟ್ ಮಾಡಿ',editDone:'✔ ಎಡಿಟ್ ಮುಗಿಸಿ',print:'🖨 ಮುದ್ರಿಸಿ',printP:'🖨 ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ ಮುದ್ರಿಸಿ',printBp:'🖨 ಬ್ಲೂಪ್ರಿಂಟ್ ಮುದ್ರಿಸಿ',
  exam:{unit:'ಘಟಕ ಪರೀಕ್ಷೆ',fa3:'ರೂಪನಾತ್ಮಕ ಮೌಲ್ಯಮಾಪನ-3',fa4:'ರೂಪನಾತ್ಮಕ ಮೌಲ್ಯಮಾಪನ-4',sa2:'ಸಂಕಲನಾತ್ಮಕ ಮೌಲ್ಯಮಾಪನ-2'},
- examTab:{unit:'ಘಟಕ ಪರೀಕ್ಷೆ',fa3:'FA 3',fa4:'FA 4',sa2:'SA 2',supp:'ಪೂರಕ ಪರೀಕ್ಷೆ'},
+ examTab:{unit:'ಘಟಕ ಪರೀಕ್ಷೆ',fa3:'FA 3',fa4:'FA 4',sa2:'SA 2',supp:'ಪೂರ್ವ ಸಿದ್ಧತಾ ಪರೀಕ್ಷೆ'},
  school:c=>c<=8?'ಸರ್ಕಾರಿ ಹಿರಿಯ ಪ್ರಾಥಮಿಕ ಶಾಲೆ':'ಸರ್ಕಾರಿ ಪ್ರೌಢಶಾಲೆ',
  cls:'ತರಗತಿ',subj:'ವಿಷಯ',time:'ಸಮಯ',maxm:'ಗರಿಷ್ಠ ಅಂಕ',stu:'ವಿದ್ಯಾರ್ಥಿಯ ಹೆಸರು',roll:'ಕ್ರಮ ಸಂಖ್ಯೆ',totalM:'ಒಟ್ಟು ಅಂಕ',
  times:{unit:'45 ನಿಮಿಷ',fa3:'35 ನಿಮಿಷ',fa4:'35 ನಿಮಿಷ',sa2:'1 ಗಂಟೆ 30 ನಿಮಿಷ'},
@@ -1309,7 +1317,7 @@ function vQb(){const list=fq();
  <div class="cnt">${list.length} ${T('qs')}</div><div class="qwrap">`+list.map(q=>`<div class="card glass neu"><div class="meta"><span class="tag">${T('types')[q.t]}</span><span>${markTxt(q.mk)}</span><span><i class="dot ${q.lv}"></i>${T('lv')[q.lv]}</span></div>${qHtml(q,true)}</div>`).join('')+'</div>'}
 /* ===== ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಗಳು ===== */
 const PT={unit:{max:20},fa3:{max:15},fa4:{max:15},sa2:{max:40},supp:{max:100}};
-/* ===== ಪೂರಕ ಪರೀಕ್ಷೆ (ಕನ್ನಡ, ಬ್ಲೂಪ್ರಿಂಟ್ 100 ಅಂಕ) – ಸ್ವಯಂ ಉತ್ಪತ್ತಿ ===== */
+/* ===== ಪೂರ್ವ ಸಿದ್ಧತಾ ಪರೀಕ್ಷೆ (ಕನ್ನಡ, ಬ್ಲೂಪ್ರಿಂಟ್ 100 ಅಂಕ) – ಸ್ವಯಂ ಉತ್ಪತ್ತಿ ===== */
 const KN_SUPP_ROWS=[{"sl": 1, "name": "ಗದ್ಯ – ನಮ್ಮ ಭಾಷೆ", "src": [[1, 1]], "c": [[1, 1], [2, 1]]}, {"sl": 2, "name": "ಗದ್ಯ – ವ್ಯಾಘ್ರಗೀತೆ", "src": [[1, 2]], "c": [[1, 1], [3, 1]]}, {"sl": 3, "name": "ಗದ್ಯ – ಭಾಗ್ಯಶಿಲ್ಪಿಗಳು", "src": [[1, 3]], "c": [[2, 1], [3, 1]]}, {"sl": 4, "name": "ಗದ್ಯ – ಎದೆಗೆ ಬಿದ್ದ ಅಕ್ಷರ", "src": [[1, 4]], "c": [[3, 1]]}, {"sl": 5, "name": "ಗದ್ಯ – ಯುದ್ಧ", "src": [[2, 1]], "c": [[3, 1]]}, {"sl": 6, "name": "ಗದ್ಯ – ಶಬರಿ", "src": {"ovr": "LBA41"}, "c": [[4, 1]]}, {"sl": 7, "name": "ಗದ್ಯ – ಲಂಡನ್ ನಗರ", "src": [[2, 3]], "c": [[1, 1], [2, 1]]}, {"sl": 8, "name": "ಗದ್ಯ – ಅಗ್ನಿಭೂತಿ ವಾಯುಭೂತಿಯರ ಕತೆ", "src": [[2, 4]], "c": [[1, 1], [2, 1]]}, {"sl": 9, "name": "ಪದ್ಯ – ಸಂಕಲ್ಪಗೀತೆ", "src": [[1, 5]], "c": [[4, 1]]}, {"sl": 10, "name": "ಪದ್ಯ – ಹಕ್ಕಿ ಹಾರುತಿದೆ ನೋಡಿದಿರಾ", "src": [[1, 6]], "c": [[2, 1], [3, 1]]}, {"sl": 11, "name": "ಪದ್ಯ – ಕೌರವೇಂದ್ರನ ಕೊಂದೆ ನೀನು", "src": [[1, 7]], "c": [[4, 1]]}, {"sl": 12, "name": "ಪದ್ಯ – ಭಲಮನೆ ಮೆರೆವೆಂ", "src": [[1, 8]], "c": [[3, 1]]}, {"sl": 13, "name": "ಪದ್ಯ – ಹಸುರು", "src": [[2, 5]], "c": [[3, 1]]}, {"sl": 14, "name": "ಪದ್ಯ – ಹಲಗಲಿ ಬೇಡರು", "src": [[2, 6]], "c": [[1, 1], [2, 1]]}, {"sl": 15, "name": "ಪದ್ಯ – ವೀರಲವ", "src": [[2, 7]], "c": [[4, 1]]}, {"sl": 16, "name": "ಪದ್ಯ – ಕೆಮ್ಮನೆ ಮೀಸೆವೊತ್ತನೇ", "src": [[2, 8]], "c": [[1, 1], [3, 1]]}, {"sl": 17, "name": "ಪೂ.ಅ. – ವಸಂತ ಮುಖ ತೋರಲಿಲ್ಲ", "src": [[1, 9]], "c": [[1, 1]]}, {"sl": 18, "name": "ಪೂ.ಅ. – ಭಗತ್‌ಸಿಂಗ್", "src": [[1, 10]], "c": [[2, 1]]}, {"sl": 19, "name": "ಪೂ.ಅ. – ಉದಾತ್ತ ಚಿಂತನೆಗಳು", "src": [[1, 11]], "c": [[2, 1]]}, {"sl": 20, "name": "ಪೂ.ಅ. – ವಚನಗಳು", "src": [[2, 9]], "c": [[2, 1]]}, {"sl": 21, "name": "ಪೂ.ಅ. – ನಾನು ಪ್ರಾಸ ಬಿಟ್ಟ ಕತೆ / ಶುಕನಾಸನ ಉಪದೇಶ", "src": [[2, 10], [2, 11]], "c": [[2, 1]]}, {"sl": 22, "name": "ಅಪಠಿತ ಗದ್ಯ", "src": {"id": "1-1-36"}, "c": [[4, 1]]}, {"sl": 23, "name": "ವ್ಯಾಕರಣ", "src": "gram", "c": [[1, 10]]}, {"sl": 24, "name": "ಛಂದಸ್ಸು", "src": {"ovr": "CHH"}, "c": [[3, 1]]}, {"sl": 25, "name": "ಅಲಂಕಾರ", "src": {"kw": "ಅಲಂಕಾರ"}, "c": [[3, 1]]}, {"sl": 26, "name": "ಗಾದೆ", "src": {"kw": "ಗಾದೆ"}, "c": [[3, 1]]}, {"sl": 27, "name": "ಪತ್ರಲೇಖನ", "src": {"ovr": "LETTERS"}, "c": [[5, 1]]}, {"sl": 28, "name": "ಪ್ರಬಂಧ", "src": [{"kw": "ಪ್ರಬಂಧ"}, {"ovr": "ESSAY"}], "c": [[5, 1]]}];
 const KN_SUPP_OVR={"LBA41": [{"qid": "LBA-41", "q": "ಶ್ರೀರಾಮನ ಆಗಮನದಿಂದ ಶಬರಿಯ ಚಿಂತೆ ಹಿಂಗಿಹೋದ ಸಂದರ್ಭದ ಸ್ವಾರಸ್ಯವನ್ನು ವಿವರಿಸಿ. ಅಥವಾ: ಮತಂಗಾಶ್ರಮದ ಬಳಿ ರಾಮಲಕ್ಷ್ಮಣರು ಸೀತೆಗಾಗಿ ದುಃಖಿಸಿದ ಪರಿ ಹಾಗೂ ಪರಸ್ಪರರು ಸಮಾಧಾನ ಮಾಡಿಕೊಂಡ ಬಗೆಯನ್ನು ಸಂಗ್ರಹಿಸಿ ಬರೆಯಿರಿ. (ಎಂಟು-ಹತ್ತು ವಾಕ್ಯ)", "a": "", "mk": 4}], "CHH": [{"qid": "NEW-CHH", "q": "ಕೆಳಗಿನ ವೃತ್ತದ ಲಕ್ಷಣವನ್ನು ಬರೆದು ಗಣ ವಿಭಾಗ ಮಾಡಿ: ಮತ್ತೇಭವಿಕ್ರೀಡಿತ ವೃತ್ತ", "a": "ಪ್ರತಿ ಪಾದದಲ್ಲಿ 20 ಅಕ್ಷರಗಳು; ಸ, ಭ, ರ, ನ, ಮ, ಯ, ಯ ಗಣಗಳಿಂದ ಕೂಡಿರುತ್ತದೆ; ಕೊನೆಯಲ್ಲಿ ಒಂದು ಲಘು ಮತ್ತು ಒಂದು ಗುರು.", "mk": 3}], "LETTERS": [{"qid": "P1-55-VINANTHI", "q": "ನಿಮ್ಮ ಬೀದಿಗೆ ದಾರಿದೀಪ ಹಾಕಿಸುವಂತೆ ನೀವು ದಕ್ಷಿಣ ಕನ್ನಡ ಜಿಲ್ಲೆ ಬಂಟ್ವಾಳ ತಾಲೂಕಿನ ಚೆನ್ನೆತ್ತೋಡಿ ಗ್ರಾಮದ ರಾಮಚಂದ್ರನೆಂದು ಭಾವಿಸಿಕೊಂಡು ವಾಮದಪದವು ಗ್ರಾಮ ಪಂಚಾಯಿತಿ ಅಧ್ಯಕ್ಷರಿಗೊಂದು ಪತ್ರ ಬರೆಯಿರಿ.", "a": "ದಿನಾಂಕ: ೨.೧೦.೨೦೨೪ (ಇವರಿಂದ) ರಾಮಚಂದ್ರ, ಚೆನ್ನೆತ್ತೋಡಿ ಗ್ರಾಮ, ವಾಮದಪದವು ಅಂಚೆ, ಬಂಟ್ವಾಳ ತಾಲೂಕು, ದಕ್ಷಿಣ ಕನ್ನಡ ಜಿಲ್ಲೆ. (ಇವರಿಗೆ) ಮಾನ್ಯ ಅಧ್ಯಕ್ಷರು, ಗ್ರಾಮ ಪಂಚಾಯಿತಿ ಕಚೇರಿ, ವಾಮದಪದವು, ಬಂಟ್ವಾಳ ತಾಲೂಕು, ದಕ್ಷಿಣ ಕನ್ನಡ ಜಿಲ್ಲೆ. ಮಾನ್ಯರೇ, ವಿಷಯ: ಬೀದಿ ದೀಪ ಅಳವಡಿಸುವಂತೆ ಕೋರಿ ಮನವಿ. ಈ ಮೇಲ್ಕಂಡ ವಿಷಯಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ವಾಮದಪದವಿನಿಂದ ಚೆನ್ನೆತ್ತೋಡಿ ಗ್ರಾಮಕ್ಕೆ ಹೋಗುವ ರಸ್ತೆಯಲ್ಲಿ ಪ್ರತಿನಿತ್ಯ ನೂರಾರು ಮಂದಿ ಸಂಚರಿಸುತ್ತಾರೆ. ಈ ರಸ್ತೆ ನಿರ್ಮಾಣಗೊಂಡು ಈಗಾಗಲೇ ಹದಿನೈದು ವರ್ಷಗಳಾಗಿವೆ. ಚೆನ್ನೆತ್ತೋಡಿ ಗ್ರಾಮದಲ್ಲಿ ಸುಮಾರು ಎಪ್ಪತ್ತು ಮನೆಗಳಿಗೆ ಹೋಗಲು ಈ ರಸ್ತೆ ಪ್ರಮುಖವಾಗಿದೆ. ಆದರೆ ರಸ್ತೆ ಹೊಂಡಮಯವಾಗಿರುವುದರಿಂದ ಹಾಗೂ ಕಾಡಿನ ಮಧ್ಯೆ ಹಾದು ಹೋಗುವುದರಿಂದ ರಾತ್ರಿ ಹೊತ್ತಿನಲ್ಲಿ ಸಂಚಾರಕ್ಕೆ ತುಂಬಾ ತೊಂದರೆಯಾಗುತ್ತಿದೆ. ಆದುದರಿಂದ ಗ್ರಾಮ ಪಂಚಾಯಿತಿಯ ಮೂಲಕ ದಾರಿದೀಪ ಹಾಕಿಸಬೇಕಾಗಿ ಈ ಮೂಲಕ ಪ್ರಾರ್ಥಿಸಿಕೊಳ್ಳುತ್ತೇನೆ. ವಂದನೆಗಳೊಂದಿಗೆ, ಇಂತಿ ತಮ್ಮ ವಿಶ್ವಾಸಿ, ಸಹಿ (ರಾಮಚಂದ್ರ). (ಊರಿನ ನಾಗರಿಕರಲ್ಲಿ ಐವತ್ತು ಜನರು ಈ ವಿನಂತಿ ಪತ್ರಕ್ಕೆ ಸಹಿ ಹಾಕಿರುತ್ತಾರೆ.)", "mk": 5}, {"qid": "P1-56-VYAVAHARIKA", "q": "ಶಿವಮೊಗ್ಗದ ಅಶೋಕನಗರ ಸರ್ಕಾರಿ ಪ್ರೌಢಶಾಲೆಯ ಪ್ರಮೀಳ ಎಂದು ಭಾವಿಸಿಕೊಂಡು, ಪರಿಷತ್ತು ಪ್ರಕಟಿಸಿದ 'ಕನ್ನಡ ನಿಘಂಟು' ಯ ಹತ್ತು ಪ್ರತಿಗಳನ್ನು ಕಳುಹಿಸಿಕೊಡುವಂತೆ ಬೆಂಗಳೂರಿನ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಿಷತ್ತಿನ ಕಾರ್ಯದರ್ಶಿಗಳಿಗೆ ವ್ಯಾವಹಾರಿಕ ಪತ್ರ ಬರೆಯಿರಿ.", "a": "ಇವರಿಂದ: ಪ್ರಮೀಳ, ಹತ್ತನೆಯ ತರಗತಿ, ಸರಕಾರಿ ಪ್ರೌಢಶಾಲೆ, ಅಶೋಕನಗರ, ಶಿವಮೊಗ್ಗ. ಇವರಿಗೆ: ಮಾನ್ಯ ಕಾರ್ಯದರ್ಶಿಗಳು, ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಿಷತ್ತು, ಚಾಮರಾಜಪೇಟೆ, ಬೆಂಗಳೂರು. ವಿಷಯ: ಪರಿಷತ್ತಿನ ಪ್ರಕಟಣೆಯಾದ ಕನ್ನಡ ನಿಘಂಟಿನ ಹತ್ತು ಪ್ರತಿಗಳನ್ನು ಕಳುಹಿಸಿ ಕೊಡುವ ಬಗ್ಗೆ. ಈ ಮೇಲ್ಕಂಡ ವಿಷಯಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ಪರಿಷತ್ತು ಪ್ರಕಟಿಸಿರುವ ಕನ್ನಡ ನಿಘಂಟಿನ ಹತ್ತು ಪ್ರತಿಗಳು ನನಗೆ ಮತ್ತು ನನ್ನ ಗೆಳತಿಯರಿಗೆ ಬೇಕಾಗಿದೆ. ದಯವಿಟ್ಟು ಹತ್ತು ಪ್ರತಿಗಳನ್ನು ನನ್ನ ವಿಳಾಸಕ್ಕೆ ಕಳುಹಿಸಿಕೊಡಬೇಕಾಗಿ ಈ ಮೂಲಕ ಕೇಳಿಕೊಳ್ಳುತ್ತೇನೆ. ಆ ಬಗ್ಗೆ ಐನೂರು ರೂಪಾಯಿಗಳ ಬ್ಯಾಂಕ್ ಹುಂಡಿಯನ್ನು ಮುಂಗಡರೂಪವಾಗಿ ಈ ಪತ್ರದ ಜೊತೆ ಇರಿಸಿದ್ದೇನೆ. ವಂದನೆಗಳೊಂದಿಗೆ, ಇಂತಿ ತಮ್ಮ ನಂಬುಗೆಯ, ಸಹಿ (ಪ್ರಮೀಳ).", "mk": 5}], "ESSAY": [{"qid": "P1-ESSAY-ALT", "q": "ಕೊಟ್ಟಿರುವ ವಿಷಯಗಳಲ್ಲಿ ಒಂದನ್ನು ಕುರಿತು ಪ್ರಬಂಧ ರಚಿಸಿರಿ: ಅ) ರಾಷ್ಟ್ರೀಯ ಹಬ್ಬಗಳ ಮಹತ್ತ್ವ  ಆ) ಗ್ರಂಥಾಲಯಗಳ ಮಹತ್ತ್ವ", "a": "ಪೀಠಿಕೆ, ವಿಷಯ ನಿರೂಪಣೆ, ಉಪಸಂಹಾರ ಎಂಬ ಮೂರು ವಿಭಾಗಗಳಲ್ಲಿ ಬರೆಯಿರಿ. (ಶಿಕ್ಷಕರ ಮಾದರಿ ಉತ್ತರ ಅಗತ್ಯ.)", "mk": 5}]};
 const KN_SUPP_ALT={"3": 1, "4": 3, "5": 2};
@@ -1365,6 +1373,14 @@ function lbaOrder(items){
  return {out,short};
 }
 let SUPP_LAST=null;
+const SUPP_HEAD={
+ kn:{top:['S.S.L.C. MODEL QUESTION PAPER - 1 : 2026-27'],subj:['ವಿಷಯ : ಪ್ರಥಮ ಭಾಷೆ – ಕನ್ನಡ','Subject : First Language — KANNADA'],code:['ವಿಷಯ ಸಂಕೇತ : 01-K','Subject Code : 01-K'],time:['ಸಮಯ : 3 ಗಂಟೆ 15 ನಿಮಿಷಗಳು ]','[ Time : 3 Hours 15 Minutes'],max:['ಗರಿಷ್ಠ ಅಂಕಗಳು : 100 ]','[ Max. Marks : 100']},
+ ma:{top:['S.S.L.C. MODEL QUESTION PAPER - 1 : 2026-27'],subj:['ವಿಷಯ : ಗಣಿತ','SUBJECT: MATHEMATICS'],sub2:'(ಇಂಗ್ಲಿಷ್ ಮಾಧ್ಯಮ/ ENGLISH MEDIUM)',code:['ವಿಷಯ ಸಂಕೇತ : 81-E','Subject Code : 81-E'],time:['ಸಮಯ: 3 ಗಂಟೆ 15 ನಿಮಿಷಗಳು','(Time: 3 Hours 15 Minutes)'],max:['ಗರಿಷ್ಠ ಅಂಕಗಳು : 80','(Max. Marks: 80)']},
+ sc:{top:['S.S.L.C. MODEL QUESTION PAPER - 1 : 2026-27'],subj:['ವಿಷಯ : ವಿಜ್ಞಾನ','Subject: SCIENCE'],sub2:'(ಭೌತ ವಿಜ್ಞಾನ, ರಸಾಯನ ವಿಜ್ಞಾನ ಮತ್ತು ಜೀವ ವಿಜ್ಞಾನ / Physics, Chemistry and Biology) (ಆಂಗ್ಲ ಮಾಧ್ಯಮ / English Medium)',code:['ವಿಷಯ ಸಂಕೇತ: 83-E','Subject Code : 83-E'],time:['ಸಮಯ : 3 ಗಂಟೆ 15 ನಿಮಿಷಗಳು ]','[Time: 3 Hours 15 Minutes]'],max:['ಗರಿಷ್ಠ ಅಂಕಗಳು : 80 ]','[Max. Marks: 80]']},
+ ss:{top:['6th Cross, Malleshwaram, Bengaluru – 560 003','2026-27 ರ ಎಸ್.ಎಸ್.ಎಲ್.ಸಿ. ಮಾದರಿ ಪ್ರಶ್ನೆಪತ್ರಿಕೆ – 1','S.S.L.C. MODEL QUESTION PAPER - 1 : 2026 - 27'],subj:['ವಿಷಯ : ಸಮಾಜವಿಜ್ಞಾನ','Subject : SOCIAL SCIENCE'],code:['ವಿಷಯ ಸಂಕೇತ : 85-E','Subject Code : 85-E'],time:['ಸಮಯ : 3 ಗಂಟೆ 15 ನಿಮಿಷಗಳು ]','[ Time : 3 Hours 15 Minutes'],max:['ಗರಿಷ್ಠ ಅಂಕಗಳು : 80 ]','[ Max. Marks : 80']}
+};
+function suppHead(){const H=SUPP_HEAD[ST.sub]||SUPP_HEAD.kn;const row=p=>'<div class="shr"><span>'+esc(p[0])+'</span><span>'+esc(p[1])+'</span></div>';
+ return '<div class="shp">ಪೂರ್ವ ಸಿದ್ಧತಾ ಪರೀಕ್ಷೆ</div>'+H.top.map(t=>'<div class="sht">'+esc(t)+'</div>').join('')+'<div class="shs">'+esc(H.subj[0])+'</div><div class="shs2">'+esc(H.subj[1])+'</div>'+(H.sub2?'<div class="shs3">'+esc(H.sub2)+'</div>':'')+row(H.code)+row(H.time)+row(H.max)}
 function prefPick(pool,n,r){if(ST.sub==='kn')return shuffle(pool,r).slice(0,n);return shuffle(pool.filter(q=>q.t!=='mcq'),r).concat(shuffle(pool.filter(q=>q.t==='mcq'),r)).slice(0,n)}
 function buildPaperSupp(){
  if(ST.seed.supp===undefined)ST.seed.supp=1;
@@ -1397,14 +1413,14 @@ function buildPaperSupp(){
   body+='</div>';n++});
  if(prevSec)body+='</div>'; const warn=(tot!==SB().max||short.length||altShort.length||lbaShort.length)?'<div class="chn nopr">ಎಚ್ಚರಿಕೆ: '+[tot!==SB().max?'ಒಟ್ಟು '+fmt(tot)+' ಅಂಕ':'',...short,...altShort,...lbaShort].filter(Boolean).join(' | ')+'</div>':'';
  {const uq=new Map();SB().rows.forEach(r=>{if(!uq.has(r.sl))uq.set(r.sl,{n:r.sl,t:r.name})});SUPP_LAST={qs:items.map(it=>Object.assign({},it.q,{mk:it.mk,ch:it.sl})),ls:[...uq.keys()],lessons:[...uq.values()]}}
- return '<div class="paper fade" id="pp"><div class="ph"><div class="sch">'+T('school')(ST.cls)+', ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">ಪೂರಕ ಪರೀಕ್ಷೆ</b><br>'+T('cls')+': '+ORD[ST.cls-1]+' | '+T('subj')+': '+cur().title+' '+cur().part+'<br>'+T('time')+': ____________ | '+T('maxm')+': '+SB().max+'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'+body+warn+'<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">'+T('totalM')+': '+fmt(tot)+'</div></div>';
+ return '<div class="paper fade" id="pp"><div class="ph">'+suppHead()+'</div>'+body+warn+'<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">'+T('totalM')+': '+fmt(tot)+'</div></div>';
 }
 function tabsHtml(){const ks=['unit','fa3','fa4','sa2'];const sup=!!SUPP_BP[ST.sub]&&Number(ST.cls)===10;if(sup)ks.push('supp');
- return '<div class="tabs nopr tp" style="--tn:'+ks.length+'">'+ks.map(k=>{const P=ST.ptype;if(k==='supp')return '<button class="tb sm '+(P===k?'on':'')+'" data-p="supp" onclick="ST.ptype=\'supp\';render();ensureSupp()">ಪೂರಕ ಪರೀಕ್ಷೆ ('+SB().max+')</button>';
+ return '<div class="tabs nopr tp" style="--tn:'+ks.length+'">'+ks.map(k=>{const P=ST.ptype;if(k==='supp')return '<button class="tb sm '+(P===k?'on':'')+'" data-p="supp" onclick="ST.ptype=\'supp\';render();ensureSupp()">ಪೂರ್ವ ಸಿದ್ಧತಾ ಪರೀಕ್ಷೆ ('+SB().max+')</button>';
   return '<button class="tb sm '+(P===k?'on':'')+'" data-p="'+k+'" onclick="ST.ptype=\''+k+'\';render()">'+T('examTab')[k]+' ('+PT[k].max+')</button>'}).join('')+'</div>'}
 async function ensureSupp(){ST.suppReady=ST.suppReady||{};const sub=ST.sub;if(ST.suppReady[sub])return;const a=await loadSub(1,10,sub),b=await loadSub(2,10,sub);ST.suppReady[sub]=!!(a&&b);ST.suppErr=!ST.suppReady[sub];render()}
 function vSupp(){const tabs=tabsHtml();
- if(!(ST.suppReady&&ST.suppReady[ST.sub]))return tabs+'<div class="card glass neu">'+(ST.suppErr?'ದತ್ತಾಂಶ ಲೋಡ್ ಆಗಲಿಲ್ಲ.':'ಪೂರಕ ಪರೀಕ್ಷೆ ದತ್ತಾಂಶ ಲೋಡ್ ಆಗುತ್ತಿದೆ…')+'</div>';
+ if(!(ST.suppReady&&ST.suppReady[ST.sub]))return tabs+'<div class="card glass neu">'+(ST.suppErr?'ದತ್ತಾಂಶ ಲೋಡ್ ಆಗಲಿಲ್ಲ.':'ಪೂರ್ವ ಸಿದ್ಧತಾ ಪರೀಕ್ಷೆ ದತ್ತಾಂಶ ಲೋಡ್ ಆಗುತ್ತಿದೆ…')+'</div>';
  const paper=buildPaperSupp();
  const bpSec=(ST.bpOpen&&SUPP_LAST)?'<div class="card glass neu bpwrap"><div class="bpbar"><h3>'+T('bpTitle')+'</h3></div>'+bpPaperHtml(SUPP_LAST.qs,SUPP_LAST.ls,{max:SB().max,lessons:SUPP_LAST.lessons})+'</div>':'';
  return tabs+'<div class="card glass neu nopr acard"><div class="pills acts"><button class="btn" data-ic="new" onclick="ST.seed.supp=(ST.seed.supp||1)+1;render()">'+pl(T('newP'))+'</button><button class="btn'+(ST.showAns?'':' on')+'" data-ic="hide" onclick="ST.showAns=!ST.showAns;render()">'+(ST.showAns?T('hideA'):T('showA'))+'</button><button class="btn '+(ST.bpOpen?'on':'')+'" data-ic="bp" onclick="ST.bpOpen=!ST.bpOpen;render()">'+pl(T('bp'))+' '+(ST.bpOpen?'▴':'▾')+'</button><button class="btn" data-ic="edit" onclick="togEdit(this)">'+pl(T('edit'))+'</button><button class="btn" type="button" data-ic="print" onclick="printMode(\'paper\',event)">'+pl(T('printP'))+'</button><button class="btn" type="button" data-ic="print" onclick="printBpMode(event)">'+pl(T('printBp'))+'</button></div></div>'+bpSec+paper}
@@ -1462,7 +1478,7 @@ function buildPaper(){const P=ST.ptype,EN=ST.sub==='en',max=PT[P].max,quota=(EN?
    if(ST.showAns)body+=`<div class="ans"><b>${T('ans')}</b> ${q.t==='mcq'?'('+T('optL')[q.a]+') '+esc(q.o[q.a]):esc(q.a)}</div>`;body+='</div>'});body+='</div>'});
  const tm=all.reduce((s,q)=>s+q.mk,0);
  ST.lastPicked=all;ST.lastLs=ls;
- return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)} ${EN?'':'………………………………………………'}</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${EN?ENG[ST.cls-1]:ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}<br>${T('stu')}: ______________________ ${T('roll')}: ____</div>${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tm)}</div></div>`}
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)} ${EN?'':'………………………………………………'}</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${EN?ENG[ST.cls-1]:ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tm)}</div></div>`}
 
 
 /* ===== ಹಿಂದಿ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ: ಪ್ರಶ್ನೆ ವಿಧಗಳು ಮತ್ತು ಸೂಚನೆಗಳು ಹಿಂದಿಯಲ್ಲಿ ===== */
@@ -1515,7 +1531,7 @@ function buildPaperHI(){
  const tm=all.reduce((s,q)=>s+q.mk,0);
  ST.lastPicked=all;ST.lastLs=ls;
  const warn=tm!==max?`<div class="chn nopr">ಎಚ್ಚರಿಕೆ: ಈ ಪಾಠ ಆಯ್ಕೆಗೆ ಸಾಕಷ್ಟು ಪ್ರಶ್ನೆಗಳಿಲ್ಲ (${fmt(tm)} / ${fmt(max)})</div>`:'';
- return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)} ………………………………………………</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ST.cls}वीं | ${T('subj')}: हिंदी भाग–2 · 2026–27<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}<br>${T('stu')}: ______________________ ${T('roll')}: ____</div>${warn}${body}<div class="ftot">${T('totalM')}: ${fmt(tm)}</div></div>`;
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)} ………………………………………………</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ST.cls}वीं | ${T('subj')}: हिंदी भाग–2 · 2026–27<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${warn}${body}<div class="ftot">${T('totalM')}: ${fmt(tm)}</div></div>`;
 }
 /* ===== ಕನ್ನಡ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ: ನೀಡಿದ ಮಾದರಿ ಪತ್ರಿಕೆಗಳ ರೂಪದಲ್ಲಿ (LBA ಪ್ರಶ್ನೆಗಳಿಂದ) ===== */
 const ROMAN=['I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII'];
@@ -1602,7 +1618,7 @@ function buildPaperKN(){
   body+='</div>'});
  ST.lastPicked=bp;ST.lastLs=ls;
  const EN=false;
- return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}<br>${T('stu')}: ______________________ ${T('roll')}: ____</div>${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
 
 /* ===== English ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ: ನೀಡಿದ SA-2 / FA-3 English ಮಾದರಿ ಪತ್ರಿಕೆಗಳ ರೂಪದಲ್ಲಿ (LBA ಪ್ರಶ್ನೆಗಳಿಂದ) ===== */
 /* [kind, count, marks, group(1 = "Do as directed" ನ ಉಪಭಾಗ)] – ಒಟ್ಟು = ಪರೀಕ್ಷೆಯ ಗರಿಷ್ಠ ಅಂಕ */
@@ -1704,7 +1720,7 @@ function buildPaperEN(){
  /* ಕನ್ನಡ ಪತ್ರಿಕೆಯಂತೆ: ಪ್ರತಿ ವಿಭಾಗಕ್ಕೂ ರೋಮನ್ ಸಂಖ್ಯೆ + ಶೀರ್ಷಿಕೆ + ಅಂಕ (n×m=total), ಪ್ರಶ್ನೆ ಸಂಖ್ಯೆ ನಿರಂತರ */
  sec.forEach(s=>{body+=`<div class="sec"><div class="sh"><span>${ROMAN[ri++]}. ${esc(EN_INS[s.k])}</span><span>${s.items.length}×${fmt(s.m)}=${fmt(s.items.length*s.m)}</span></div>${secBody(s)}</div>`});
  ST.lastPicked=bp;ST.lastLs=ls;
- return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ Taluk</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ENG[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}<br>${T('stu')}: ______________________ ${T('roll')}: ____</div>${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ Taluk</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ENG[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
 
 /* v25: print helpers — no persistent selected state; everything resets after the print dialog closes */
 const PRN={on:false,t:0,blur:false,timer:0};
@@ -1863,7 +1879,7 @@ function buildPaperEVS(){
   body+='</div>'});
  ST.lastPicked=bp;ST.lastLs=ls;
  const warn=tot!==max?`<div class="chn nopr">ಎಚ್ಚರಿಕೆ: ಈ ಪಾಠ ಆಯ್ಕೆಗೆ ಸಾಕಷ್ಟು ಪ್ರಶ್ನೆಗಳಿಲ್ಲ – ${fmt(tot)} / ${max} ಅಂಕ ಮಾತ್ರ ತುಂಬಿದೆ.</div>`:'';
- return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}<br>${T('stu')}: ______________________ ${T('roll')}: ____</div>${body}${warn}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${warn}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
 /* ===== ಗಣಿತ ಪ್ರಶ್ನೆಪತ್ರಿಕೆ (ಮಾಸ್ಟರ್ ಪ್ರಾಂಪ್ಟ್ v2 §12) – ಚಿತ್ರ ಕ್ಯಾಪ್ ಮತ್ತು ವಿಭಾಗಗಳು ಸ್ಥಿರ ===== */
 const MA_OBJ=['ಜ್ಞಾನ','ಗ್ರಹಿಕೆ','ಅನ್ವಯ','ಕೌಶಲ'];
 const MA_TPL={
@@ -1918,7 +1934,7 @@ function buildPaperMA(){
   body+='</div>'});
  ST.lastPicked=bp;ST.lastLs=ls;
  const warn=tot!==max?`<div class="chn nopr">ಎಚ್ಚರಿಕೆ: ಈ ಪಾಠ ಆಯ್ಕೆಗೆ ಸಾಕಷ್ಟು ಪ್ರಶ್ನೆಗಳಿಲ್ಲ – ${fmt(tot)} / ${max} ಅಂಕ ಮಾತ್ರ ತುಂಬಿದೆ.</div>`:'';
- return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}<br>${T('stu')}: ______________________ ${T('roll')}: ____</div>${body}${warn}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${warn}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
 
 function vPaper(){if(ST.ptype==='supp'&&SUPP_BP[ST.sub])return vSupp();if(!allQ().length)return `<div class="card glass neu">${T('noPaper')}</div>`;
  const P=ST.ptype;ensureSel(P);const o=selOpts(P),v=ST.sel[P];
