@@ -1058,6 +1058,12 @@ body.vcls .sj .sjt .badge{white-space:nowrap!important;max-width:none!important;
  body:has(.hgrid) .hgrid .tile.pc,body:has(.hgrid) .hgrid .tile.pc:nth-child(n){height:clamp(100px,22.5dvh,200px)!important}
  body.vmed footer,body:has(.hgrid) footer{margin-top:clamp(8px,2dvh,20px)!important}
 }
+.tabs.tp{display:grid!important;grid-template-columns:repeat(var(--tn,4),minmax(0,1fr))!important;gap:8px;align-items:stretch;width:100%}
+.tabs.tp .tb.sm,.tabs.tp .tb.sm.on{height:auto!important;min-height:52px;width:100%!important;max-width:100%!important;min-width:0!important;margin:0;padding:.45rem .3rem!important;font-size:clamp(11.5px,3.4vw,14px);line-height:1.25;white-space:normal;text-align:center;display:flex;align-items:center;justify-content:center;box-sizing:border-box;flex:none!important}
+.paper .mkx{text-align:right;font-weight:700;font-size:.92em;margin:.2rem .2rem 0 0;color:#2b2418}
+.paper .qblk,.paper .qblk *{color:#2b2418!important;text-shadow:none!important}
+.paper .qblk .alt b,.paper .qblk .mkx{color:#2b2418!important}
+.tabs.tp .tb.sm.on{color:#fff6de!important;background:linear-gradient(165deg,rgba(70,134,80,.96),rgba(22,62,36,.97))!important;border-color:rgba(255,226,160,.9)!important}
 </style></head><body>
 <div class="top"><button class="ib" id="bk" onclick="goBack()" aria-label="ಹಿಂದೆ"><svg class="ic-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><svg class="ic-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="crumb" id="crumb"></div>
 <span class="ib deco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></span><span class="ib deco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 17V11a6 6 0 0112 0v6l1.5 2h-15z"/><path d="M10 21h4"/></svg><i class="rd"></i></span><button class="ib" onclick="goHome()" aria-label="ಹೋಮ್"><svg class="ic-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><svg class="ic-user" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4.2"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z"/></svg></button></div>
@@ -1358,6 +1364,8 @@ function lbaOrder(items){
  if(left.length)short.push('ವಿಭಾಗಕ್ಕೆ ಹೊಂದದ '+left.length+' ಪ್ರಶ್ನೆ');
  return {out,short};
 }
+let SUPP_LAST=null;
+function prefPick(pool,n,r){if(ST.sub==='kn')return shuffle(pool,r).slice(0,n);return shuffle(pool.filter(q=>q.t!=='mcq'),r).concat(shuffle(pool.filter(q=>q.t==='mcq'),r)).slice(0,n)}
 function buildPaperSupp(){
  if(ST.seed.supp===undefined)ST.seed.supp=1;
  const B=suppBank(),r=rng(ST.seed.supp*104729+20262027),used=new Set();let items=[];const short=[];
@@ -1367,31 +1375,39 @@ function buildPaperSupp(){
   if(row.src==='gram'){const isA=q=>/ಸಂಬಂಧ|::/.test(String(q.q));
    const mc=shuffle(pool.filter(q=>q.t==='mcq'&&!isA(q)),r).slice(0,6),an=shuffle(pool.filter(q=>isA(q)),r).slice(0,4);
    pick=[...mc,...an];if(pick.length<cnt)pick=pick.concat(shuffle(pool.filter(q=>!pick.includes(q)),r).slice(0,cnt-pick.length));pick=pick.slice(0,cnt)}
-  else pick=shuffle(pool,r).slice(0,cnt);
+  else pick=prefPick(pool,cnt,r);
   pick.forEach(q=>{used.add(q.qid);items.push({sl:row.sl,name:row.name,mk:mk,src:row.src,q:q,alt:null})});
   if(pick.length<cnt)short.push(row.name+' '+mk+'ಅಂಕ: '+(cnt-pick.length)+' ಕೊರತೆ');
  }));
  const need=Object.assign({},SB().alt);
- items.forEach(it=>{if(need[it.mk]>0){const pool=suppPool(it.src,it.mk,B).concat(suppExtra(it.sl,it.mk)).filter(q=>!used.has(q.qid));if(pool.length){const a=shuffle(pool,r)[0];used.add(a.qid);it.alt=a;need[it.mk]--}}});
+ items.forEach(it=>{if(need[it.mk]>0){const pool=suppPool(it.src,it.mk,B).concat(suppExtra(it.sl,it.mk)).filter(q=>!used.has(q.qid));if(pool.length){const a=prefPick(pool,1,r)[0];used.add(a.qid);it.alt=a;need[it.mk]--}}});
  const altShort=Object.keys(need).filter(k=>need[k]>0).map(k=>k+'ಅಂಕ ಪರ್ಯಾಯ: '+need[k]+' ಕೊರತೆ');
  let body='',tot=0,n=1,prevSec=null,lbaShort=[];
  if(ST.sub==='kn'){const L=lbaOrder(items);items=L.out;lbaShort=L.short}
+ else{items.sort((x,y)=>x.mk-y.mk);items.forEach(it=>{it.sec='M'+it.mk})}
+ const cntSec={};items.forEach(it=>{cntSec[it.sec]=(cntSec[it.sec]||0)+1});
+ let si=0;
  items.forEach(it=>{tot+=it.mk;
-  if(it.sec&&it.sec!==prevSec){if(prevSec)body+='</div>';const sp=LBA_SECS.find(x=>x.id===it.sec);body+='<div class="sec"><div class="sh"><span>'+it.sec+'. ವಿಭಾಗ</span><span>'+sp.n+'×'+fmt(sp.mk)+'='+fmt(sp.n*sp.mk)+'</span></div>';prevSec=it.sec}
+  if(it.sec!==prevSec){if(prevSec)body+='</div>';si++;
+   if(ST.sub==='kn'){const sp=LBA_SECS.find(x=>x.id===it.sec);body+='<div class="sec"><div class="sh"><span>'+it.sec+'. ವಿಭಾಗ</span><span>'+sp.n+'×'+fmt(sp.mk)+'='+fmt(sp.n*sp.mk)+'</span></div>'}
+   else{const c=cntSec[it.sec];body+='<div class="sec"><div class="sh"><span>'+ROMAN[si-1]+'. '+fmt(it.mk)+' ಅಂಕದ ಪ್ರಶ್ನೆಗಳು</span><span>'+c+'×'+fmt(it.mk)+'='+fmt(c*it.mk)+'</span></div>'}
+   prevSec=it.sec}
   body+='<div class="qblk">'+qHtml(it.q,ST.showAns).replace('<div class="qt">','<div class="qt"><b>'+n+'.</b> ')+'<div class="mkx">('+fmt(it.mk)+' ಅಂಕ)</div>';
   if(it.alt){body+='<div class="alt"><b>ಅಥವಾ</b></div>'+qHtml(it.alt,ST.showAns).replace('<div class="qt">','<div class="qt"><b>'+n+'.</b> ')+'<div class="mkx">('+fmt(it.mk)+' ಅಂಕ)</div>'}
   body+='</div>';n++});
  if(prevSec)body+='</div>'; const warn=(tot!==SB().max||short.length||altShort.length||lbaShort.length)?'<div class="chn nopr">ಎಚ್ಚರಿಕೆ: '+[tot!==SB().max?'ಒಟ್ಟು '+fmt(tot)+' ಅಂಕ':'',...short,...altShort,...lbaShort].filter(Boolean).join(' | ')+'</div>':'';
+ {const uq=new Map();SB().rows.forEach(r=>{if(!uq.has(r.sl))uq.set(r.sl,{n:r.sl,t:r.name})});SUPP_LAST={qs:items.map(it=>Object.assign({},it.q,{mk:it.mk,ch:it.sl})),ls:[...uq.keys()],lessons:[...uq.values()]}}
  return '<div class="paper fade" id="pp"><div class="ph"><div class="sch">'+T('school')(ST.cls)+', ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">ಪೂರಕ ಪರೀಕ್ಷೆ</b><br>'+T('cls')+': '+ORD[ST.cls-1]+' | '+T('subj')+': '+cur().title+' '+cur().part+'<br>'+T('time')+': ____________ | '+T('maxm')+': '+SB().max+'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'+body+warn+'<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">'+T('totalM')+': '+fmt(tot)+'</div></div>';
 }
 function tabsHtml(){const ks=['unit','fa3','fa4','sa2'];const sup=!!SUPP_BP[ST.sub]&&Number(ST.cls)===10;if(sup)ks.push('supp');
- return ks.map(k=>{const P=ST.ptype;if(k==='supp')return '<button class="tb sm '+(P===k?'on':'')+'" data-p="supp" onclick="ST.ptype=\'supp\';render();ensureSupp()">ಪೂರಕ ಪರೀಕ್ಷೆ ('+SB().max+')</button>';
-  return '<button class="tb sm '+(P===k?'on':'')+'" data-p="'+k+'" onclick="ST.ptype=\''+k+'\';render()">'+T('examTab')[k]+' ('+PT[k].max+')</button>'}).join('')}
+ return '<div class="tabs nopr tp" style="--tn:'+ks.length+'">'+ks.map(k=>{const P=ST.ptype;if(k==='supp')return '<button class="tb sm '+(P===k?'on':'')+'" data-p="supp" onclick="ST.ptype=\'supp\';render();ensureSupp()">ಪೂರಕ ಪರೀಕ್ಷೆ ('+SB().max+')</button>';
+  return '<button class="tb sm '+(P===k?'on':'')+'" data-p="'+k+'" onclick="ST.ptype=\''+k+'\';render()">'+T('examTab')[k]+' ('+PT[k].max+')</button>'}).join('')+'</div>'}
 async function ensureSupp(){ST.suppReady=ST.suppReady||{};const sub=ST.sub;if(ST.suppReady[sub])return;const a=await loadSub(1,10,sub),b=await loadSub(2,10,sub);ST.suppReady[sub]=!!(a&&b);ST.suppErr=!ST.suppReady[sub];render()}
 function vSupp(){const tabs=tabsHtml();
- if(!(ST.suppReady&&ST.suppReady[ST.sub]))return '<div class="tabs nopr">'+tabs+'</div><div class="card glass neu">'+(ST.suppErr?'ದತ್ತಾಂಶ ಲೋಡ್ ಆಗಲಿಲ್ಲ.':'ಪೂರಕ ಪರೀಕ್ಷೆ ದತ್ತಾಂಶ ಲೋಡ್ ಆಗುತ್ತಿದೆ…')+'</div>';
- return '<div class="tabs nopr">'+tabs+'</div><div class="card glass neu nopr acard"><div class="pills acts"><button class="btn" data-ic="new" onclick="ST.seed.supp=(ST.seed.supp||1)+1;render()">'+pl(T('newP'))+'</button><button class="btn'+(ST.showAns?'':' on')+'" data-ic="hide" onclick="ST.showAns=!ST.showAns;render()">'+(ST.showAns?T('hideA'):T('showA'))+'</button><button class="btn" data-ic="edit" onclick="togEdit(this)">'+pl(T('edit'))+'</button><button class="btn" type="button" data-ic="print" onclick="printMode(\'paper\',event)">'+pl(T('printP'))+'</button></div></div>'+buildPaperSupp()}
-
+ if(!(ST.suppReady&&ST.suppReady[ST.sub]))return tabs+'<div class="card glass neu">'+(ST.suppErr?'ದತ್ತಾಂಶ ಲೋಡ್ ಆಗಲಿಲ್ಲ.':'ಪೂರಕ ಪರೀಕ್ಷೆ ದತ್ತಾಂಶ ಲೋಡ್ ಆಗುತ್ತಿದೆ…')+'</div>';
+ const paper=buildPaperSupp();
+ const bpSec=(ST.bpOpen&&SUPP_LAST)?'<div class="card glass neu bpwrap"><div class="bpbar"><h3>'+T('bpTitle')+'</h3></div>'+bpPaperHtml(SUPP_LAST.qs,SUPP_LAST.ls,{max:SB().max,lessons:SUPP_LAST.lessons})+'</div>':'';
+ return tabs+'<div class="card glass neu nopr acard"><div class="pills acts"><button class="btn" data-ic="new" onclick="ST.seed.supp=(ST.seed.supp||1)+1;render()">'+pl(T('newP'))+'</button><button class="btn'+(ST.showAns?'':' on')+'" data-ic="hide" onclick="ST.showAns=!ST.showAns;render()">'+(ST.showAns?T('hideA'):T('showA'))+'</button><button class="btn '+(ST.bpOpen?'on':'')+'" data-ic="bp" onclick="ST.bpOpen=!ST.bpOpen;render()">'+pl(T('bp'))+' '+(ST.bpOpen?'▴':'▾')+'</button><button class="btn" data-ic="edit" onclick="togEdit(this)">'+pl(T('edit'))+'</button><button class="btn" type="button" data-ic="print" onclick="printMode(\'paper\',event)">'+pl(T('printP'))+'</button><button class="btn" type="button" data-ic="print" onclick="printBpMode(event)">'+pl(T('printBp'))+'</button></div></div>'+bpSec+paper}
 const QUOTA_KN={unit:{mcq:6,half:10,lang:2,short:2,long:1},fa3:{mcq:4,half:8,lang:2,short:1,long:1},fa4:{mcq:4,half:8,lang:2,short:1,long:1},sa2:{mcq:10,half:16,lang:4,short:6,long:2}};
 const QUOTA_EN={unit:{mcq:8,half:14,short:1,long:1},fa3:{mcq:5,half:10,short:1,long:1},fa4:{mcq:5,half:10,short:1,long:1},sa2:{mcq:12,half:20,short:6,long:2}};
 function rng(s){return function(){s|=0;s=s+0x6D2B79F5|0;let t=Math.imul(s^s>>>15,1|s);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
@@ -1722,13 +1738,13 @@ function printBpMode(ev){if(!ST.bpOpen){ST.bpOpen=true;render()}printMode('bp',e
 /* ===== ಬ್ಲೂಪ್ರಿಂಟ್ (ಮಾದರಿ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆಯಂತೆ) ===== */
 function formIdx(q){return q.fi!==undefined?q.fi:(q.t==='short'?1:q.t==='long'?2:0)}
 function lessonShort(l){return ST.sub==='en'?l.t.replace(/\s*\(.*$/,''):l.t}
-function bpPaperHtml(qs,ls){const B=T('bt'),max=PT[ST.ptype].max;const tq=qs.length,tm=qs.reduce((s,q)=>s+q.mk,0);const pc=m=>fmt(Math.round(m*1000/max)/10)+'%';
+function bpPaperHtml(qs,ls,opt){const B=T('bt'),max=(opt&&opt.max)||PT[ST.ptype].max;const tq=qs.length,tm=qs.reduce((s,q)=>s+q.mk,0);const pc=m=>fmt(Math.round(m*1000/max)/10)+'%';
  /* 1. ಉದ್ದಿಷ್ಟವಾರು */
  const o=T('obj').map((n,i)=>{const f=qs.filter(q=>objOf(q)===i);return {n,q:f.length,m:f.reduce((s,q)=>s+q.mk,0),calc:false}});
  if(ST.sub!=='en'&&ST.sub!=='evs')o.filter(x=>x.q===0).forEach(x=>{const big=o.reduce((a,b)=>b.m>a.m?b:a);big.m-=1;x.m=1;x.calc=true});
  const t1=`<div class="tw"><table class="bpt"><thead><tr><th>${B.objs}</th>${o.map(x=>`<th>${x.n}</th>`).join('')}<th>${B.total}</th></tr></thead><tbody><tr><td>${B.nq}</td>${o.map(x=>`<td>${x.q}</td>`).join('')}<td>${tq}</td></tr><tr class="tot"><td>${B.marks}</td>${o.map(x=>`<td>${fmt(x.m)}</td>`).join('')}<td>${fmt(max)}</td></tr><tr><td>${B.pct}</td>${o.map(x=>`<td>${pc(x.m)}</td>`).join('')}<td>100%</td></tr></tbody></table></div>`;
  /* 2. ಘಟಕವಾರು */
- const LS=lessons().filter(l=>ls.includes(l.n));
+ const LS=(opt&&opt.lessons)?opt.lessons:lessons().filter(l=>ls.includes(l.n));
  const lrow=LS.map(l=>{const f=qs.filter(q=>q.ch===l.n);return {n:lessonShort(l),q:f.length,m:f.reduce((s,q)=>s+q.mk,0)}});
  const tbl=(rows,head)=>`<div class="tw"><table class="bpt"><thead><tr><th>${B.sl}</th><th>${head}</th><th>${B.nq}</th><th>${B.marks}</th><th>${B.pct}</th></tr></thead><tbody>${rows.map((r,i)=>`<tr><td>${i+1}</td><td class="l">${esc(r.n)}</td><td>${r.q}</td><td>${fmt(r.m)}</td><td>${pc(r.m)}</td></tr>`).join('')}<tr class="tot"><td colspan="2">${B.total}</td><td>${tq}</td><td>${fmt(tm)}</td><td>100%</td></tr></tbody></table></div>`;
  /* 3. ಸ್ವರೂಪ  4. ಕಠಿಣತೆ */
@@ -1910,7 +1926,7 @@ function vPaper(){if(ST.ptype==='supp'&&SUPP_BP[ST.sub])return vSupp();if(!allQ(
  const bpSec=ST.bpOpen?`<div class="card glass neu bpwrap"><div class="bpbar"><h3>${T('bpTitle')}</h3></div>${bpPaperHtml(ST.lastPicked,ST.lastLs)}</div>`:'';
  const tabs=tabsHtml();
  const po=[];if(o.g.length){po.push([null,T('groups')]);o.g.forEach(x=>po.push(x))}if(o.s.length){po.push([null,T('single')]);o.s.forEach(x=>po.push(x))}
- return `<div class="card glass neu nopr ddz hsel"><label class="fl" style="margin-top:0">${T('lessonSel')}</label>${sel('psel',po,v,'ST.sel[ST.ptype]=value;render()')}</div><div class="tabs nopr">${tabs}</div>
+ return `<div class="card glass neu nopr ddz hsel"><label class="fl" style="margin-top:0">${T('lessonSel')}</label>${sel('psel',po,v,'ST.sel[ST.ptype]=value;render()')}</div>${tabs}
  <div class="card glass neu nopr acard">
  <div class="pills acts"><button class="btn${actOn('new')}" data-ic="new" data-act="new" onclick="setAct('new');ST.seed[ST.ptype]++;render()">${pl(T('newP'))}</button><button class="btn${ST.showAns?'':' on'}" data-ic="hide" onclick="ST.showAns=!ST.showAns;render()">${ST.showAns?T('hideA'):T('showA')}</button><button class="btn ${ST.bpOpen?'on':''}" data-ic="bp" onclick="ST.bpOpen=!ST.bpOpen;render()">${pl(T('bp'))} ${ST.bpOpen?'▴':'▾'}</button><button class="btn" data-ic="edit" onclick="togEdit(this)">${pl(T('edit'))}</button><button class="btn" type="button" data-ic="print" onclick="printMode('paper',event)">${pl(T('printP'))}</button><button class="btn" type="button" data-ic="print" onclick="printBpMode(event)">${pl(T('printBp'))}</button></div></div>${bpSec}${paperHtml}`}
 /* ===== ರಸಪ್ರಶ್ನೆ ===== */
