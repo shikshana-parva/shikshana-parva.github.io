@@ -1088,6 +1088,24 @@ body.vcls .sj .sjt .badge{white-space:nowrap!important;max-width:none!important;
 .paper .shl{margin:0 0 .4rem 1.4rem;padding:0;line-height:1.6;font-weight:500}
 .paper .shl li{margin:.3rem 0}
 .devline{width:100%;text-align:center;margin:-8px auto 22px;padding:0 12px;font-size:12px;font-weight:600;letter-spacing:.3px;color:#cdbf9f;opacity:.9}.devline b{color:#e8c37a;font-weight:800}@media print{.devline{display:none!important}}
+/* ===== ಮೊಬೈಲ್ ಮುಖಪುಟ: ಸ್ಕ್ರಾಲ್ ಇಲ್ಲ, ಎಲ್ಲವೂ ಒಂದೇ ಪರದೆಯಲ್ಲಿ ===== */
+@media screen and (max-width:899px){
+ html:has(body.vmed){height:100dvh!important;overflow:hidden!important}
+ body.vmed{height:100dvh!important;min-height:0!important;overflow:hidden!important;display:flex!important;flex-direction:column!important}
+ body.vmed .hero{flex:none!important;height:clamp(135px,25dvh,220px)!important;min-height:0!important}
+ body.vmed .hero h1{font-size:min(11cqw,5.6dvh)!important}
+ body.vmed .hero .hsub{font-size:min(4cqw,2.2dvh)!important}
+ body.vmed .hero p{font-size:min(2.8cqw,1.5dvh)!important;margin-top:.5cqw!important;padding:.3em 0!important}
+ body.vmed .hero .ht{top:19%!important}
+ body.vmed main{flex:1 1 0!important;min-height:0!important;display:flex!important;flex-direction:column!important;justify-content:flex-start!important;overflow:hidden!important;padding:clamp(4px,.8dvh,8px) 13px 0!important}
+ body.vmed .mv{flex:1 1 0!important;min-height:0!important;display:flex!important;flex-direction:column!important;gap:clamp(4px,1dvh,10px)!important;padding:0!important}
+ body.vmed .mlogos{flex:none!important}
+ body.vmed .mlg img{height:clamp(34px,7dvh,56px)!important}
+ body.vmed .mlist,body.vmed .mlist.sem{flex:1 1 0!important;min-height:0!important;display:grid!important;grid-template-rows:none!important;grid-auto-rows:minmax(0,1fr)!important;gap:clamp(6px,1.3dvh,12px)!important}
+ body.vmed .mcard,body.vmed .mlist.sem .mcard{height:100%!important;min-height:0!important}
+ body.vmed footer{flex:none!important;margin:clamp(4px,.8dvh,8px) auto 0!important}
+ body.vmed .devline{flex:none!important;margin:3px auto clamp(4px,1dvh,10px)!important;font-size:11px!important}
+}
 </style></head><body>
 <div class="top"><button class="ib" id="bk" onclick="goBack()" aria-label="ಹಿಂದೆ"><svg class="ic-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><svg class="ic-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="crumb" id="crumb"></div>
 <span class="ib deco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></span><span class="ib deco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 17V11a6 6 0 0112 0v6l1.5 2h-15z"/><path d="M10 21h4"/></svg><i class="rd"></i></span><button class="ib" onclick="goHome()" aria-label="ಹೋಮ್"><svg class="ic-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><svg class="ic-user" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4.2"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z"/></svg></button></div>
