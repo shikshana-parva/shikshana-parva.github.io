@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shikshana-parva.github.io/sitemap.xml
