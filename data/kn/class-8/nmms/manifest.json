@@ -1,22 +1,21 @@
-
 {
   "class": 8,
   "module": "NMMS",
   "language": "kn",
   "version": "1.0.0",
-  "description": "Class 8 NMMS learning resources",
+  "description": "Class 8 NMMS learning resources - temporary JSON test data",
   "datasets": {
     "gmat": {
       "title": "General Mental Ability Test",
       "path": "gmat/gmat-questions.json",
       "available": true,
-      "totalQuestions": 0
+      "totalQuestions": 2
     },
     "sat": {
       "title": "Scholastic Aptitude Test",
       "path": "sat/sat-questions.json",
       "available": true,
-      "totalQuestions": 0
+      "totalQuestions": 2
     }
   }
 }
