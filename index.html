@@ -2242,7 +2242,7 @@ const NM_IC={
 };
 const NM_LANG=()=>(['kn','en','bi'].includes(ST.med)?ST.med:'kn');
 const nmBL=v=>(v&&typeof v==='object')?{kn:String(v.kn??''),en:String(v.en??'')}:{kn:typeof v==='string'?v:'',en:''};
-const nmText=(b,m)=>{const kn=b.kn.trim(),en=b.en.trim();if(m==='kn')return kn||en;if(m==='en')return en||kn;return [kn,en].filter(Boolean).join('\n')};
+const nmText=(b,m)=>{const kn=b.kn.trim(),en=b.en.trim();if(m==='kn')return kn||en;if(m==='en')return en||kn;if(kn===en)return kn;return [kn,en].filter(Boolean).join('\n')};
 const nmHtml=t=>esc(t).split('\n').map(l=>`<span class="nm-line">${l}</span>`).join('');
 function nmMapQ(raw,i,m){
  const r=(raw&&typeof raw==='object')?raw:{},qb=nmBL(r.question),eb=nmBL(r.explanation),ci=r.correctIndex,ob=Array.isArray(r.options)?r.options.map(nmBL):[];
