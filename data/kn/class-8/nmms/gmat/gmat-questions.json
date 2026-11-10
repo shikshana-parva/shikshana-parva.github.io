@@ -3,39 +3,36 @@
     "class": 8,
     "module": "NMMS",
     "section": "GMAT",
-    "topic": "Analogy of Figures",
-    "source": "NMMS Inn.pdf, printed GMAT page 1; answer explanations, printed page 101",
+    "fullName": "General Mental Ability Test",
     "languages": [
       "kn",
       "en"
     ],
-    "totalQuestions": 4,
-    "version": "1.0.0",
-    "testData": false,
-    "note": "Original question diagrams cropped from the source PDF and converted to WebP. Correct answers cross-checked against the source answer section."
+    "totalQuestions": 15,
+    "version": "1.0.0"
   },
   "questionSchema": {
-    "id": "Unique question ID, string",
+    "id": "Unique question ID, string (required)",
     "difficulty": "easy, medium, or hard",
     "question": {
-      "kn": "Kannada question text",
-      "en": "English question text"
+      "kn": "Kannada question",
+      "en": "English question"
     },
-    "options": "Array of exactly 4 bilingual objects in A, B, C, D order",
+    "options": "Exactly four bilingual objects in A, B, C, D order",
     "correctIndex": "Integer 0-3",
     "explanation": {
       "kn": "Kannada explanation",
       "en": "English explanation"
     },
-    "image": "Relative path to the WebP question diagram or null"
+    "image": "Repository-root-relative path to the question diagram"
   },
   "questions": [
     {
       "id": "GMAT-AF-0001",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "question": {
-        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧದ ಆಧಾರದ ಮೇಲೆ ಪ್ರಶ್ನಾರ್ಥಕ ಚಿಹ್ನೆಯ ಬದಲಿಗೆ ಬರುವ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
-        "en": "Observe the relationship between the first two figures. Choose the figure that replaces the question mark using the same relationship."
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
       },
       "options": [
         {
@@ -57,17 +54,17 @@
       ],
       "correctIndex": 3,
       "explanation": {
-        "kn": "ಮೂಲ PDF ಯ ಉತ್ತರದ ಪ್ರಕಾರ D ಸರಿಯಾದ ಉತ್ತರ. ಹೊರಗಿನ ಆಕೃತಿಯು ತಿರುಗುತ್ತದೆ; ಒಳಗಿನ ಆಕೃತಿಯು ಒಂದು ಬದಿಯನ್ನು ಹೆಚ್ಚಿಸಿಕೊಳ್ಳುತ್ತದೆ.",
-        "en": "According to the source PDF, D is correct. The outer figure is rotated, and the inner figure increases by one side."
+        "kn": "ಹೊರಗಿನ ಆಕೃತಿ ತಿರುಗಿದೆ; ಒಳಗಿನ ಆಕೃತಿಯ ಒಂದು ಬಾಹು ಹೆಚ್ಚಾಗಿದೆ.",
+        "en": "The outer figure is rotated, and one side is added to the inner figure."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0001.webp"
     },
     {
       "id": "GMAT-AF-0002",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "question": {
-        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧದ ಆಧಾರದ ಮೇಲೆ ಪ್ರಶ್ನಾರ್ಥಕ ಚಿಹ್ನೆಯ ಬದಲಿಗೆ ಬರುವ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
-        "en": "Observe the relationship between the first two figures. Choose the figure that replaces the question mark using the same relationship."
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
       },
       "options": [
         {
@@ -89,17 +86,17 @@
       ],
       "correctIndex": 1,
       "explanation": {
-        "kn": "ಮೂಲ PDF ಯ ವಿವರಣೆಯ ಪ್ರಕಾರ, ವೃತ್ತದ ನಾಲ್ಕು ಭಾಗಗಳಲ್ಲಿ ಚುಕ್ಕೆಗಳು ಬಂದಿವೆ. ಅದೇ ರೀತಿಯಲ್ಲಿ ಚೌಕದ ನಾಲ್ಕು ಭಾಗಗಳಲ್ಲಿಯೂ ಚುಕ್ಕೆಗಳು ಬರಬೇಕು. ಆದ್ದರಿಂದ B ಸರಿಯಾದ ಉತ್ತರ.",
-        "en": "According to the source PDF, dots appear in all four parts of the circle. In the same way, dots must appear in all four parts of the square. Therefore, B is correct."
+        "kn": "ವೃತ್ತದ ನಾಲ್ಕು ಭಾಗಗಳಲ್ಲಿ ಕಾಣುವ ಚುಕ್ಕೆಗಳ ಮಾದರಿಯೇ ಚೌಕದ ನಾಲ್ಕು ಭಾಗಗಳಲ್ಲಿಯೂ ಅನ್ವಯಿಸುತ್ತದೆ.",
+        "en": "The dot pattern in the four sections of the circle is transferred to the four sections of the square."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0002.webp"
     },
     {
       "id": "GMAT-AF-0003",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "question": {
-        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧದ ಆಧಾರದ ಮೇಲೆ ಪ್ರಶ್ನಾರ್ಥಕ ಚಿಹ್ನೆಯ ಬದಲಿಗೆ ಬರುವ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
-        "en": "Observe the relationship between the first two figures. Choose the figure that replaces the question mark using the same relationship."
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
       },
       "options": [
         {
@@ -121,17 +118,17 @@
       ],
       "correctIndex": 2,
       "explanation": {
-        "kn": "ಮೂಲ PDF ಯ ವಿವರಣೆಯ ಪ್ರಕಾರ, ಮೊದಲ ಮತ್ತು ಎರಡನೇ ರೇಖೆಗಳು ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ತಿರುಗುತ್ತವೆ. '+' ಚಿಹ್ನೆಯು '−' ಆಗಿ ಮತ್ತು '×' ಚಿಹ್ನೆಯು '÷' ಆಗಿ ಬದಲಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ C ಸರಿಯಾದ ಉತ್ತರ.",
-        "en": "According to the source PDF, the first and second lines rotate in the opposite direction. The '+' sign changes to '−', and '×' changes to '÷'. Therefore, C is correct."
+        "kn": "ಎರಡೂ ರೇಖೆಗಳು ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ತಿರುಗಿವೆ. '+' ಚಿಹ್ನೆ '−' ಆಗಿ ಮತ್ತು '×' ಚಿಹ್ನೆ '÷' ಆಗಿ ಬದಲಾಗಿದೆ.",
+        "en": "Both lines turn in the opposite direction. '+' changes to '−' and '×' changes to '÷'."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0003.webp"
     },
     {
       "id": "GMAT-AF-0004",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "question": {
-        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧದ ಆಧಾರದ ಮೇಲೆ ಪ್ರಶ್ನಾರ್ಥಕ ಚಿಹ್ನೆಯ ಬದಲಿಗೆ ಬರುವ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
-        "en": "Observe the relationship between the first two figures. Choose the figure that replaces the question mark using the same relationship."
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
       },
       "options": [
         {
@@ -153,10 +150,362 @@
       ],
       "correctIndex": 3,
       "explanation": {
-        "kn": "ಮೂಲ PDF ಯ ಉತ್ತರ D ಎಂದು ಸೂಚಿಸುತ್ತದೆ. ಆಕೃತಿಗಳ ಆಕಾರ ಮತ್ತು ಚುಕ್ಕೆಗಳ ಸಂಖ್ಯೆಯಲ್ಲಿನ ಬದಲಾವಣೆಯನ್ನು ಅದೇ ಕ್ರಮದಲ್ಲಿ ಅನ್ವಯಿಸಿದಾಗ D ಆಯ್ಕೆ ಹೊಂದುತ್ತದೆ.",
-        "en": "The source PDF marks D as the answer. Applying the same changes in the shapes and the number of dots leads to option D."
+        "kn": "ವೃತ್ತವು ಚೌಕವಾಗಿ ಮತ್ತು ತ್ರಿಭುಜವು ಪಂಚಭುಜವಾಗಿ ಬದಲಾಗಿದೆ; ಚುಕ್ಕೆಗಳ ಸಂಖ್ಯೆಯೂ ಹೆಚ್ಚಾಗಿದೆ.",
+        "en": "The circle changes into a square and the triangle into a pentagon; the number of dots also increases."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0004.webp"
+    },
+    {
+      "id": "GMAT-AF-0005",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಚಿಕ್ಕ ಕಿರಣವು ಅರ್ಧ ಬಾಹುವಿನಷ್ಟು ಬಲಕ್ಕೆ ಸರಿಯುತ್ತದೆ; ಚುಕ್ಕೆ ಗಡಿಯಾರದ ದಿಕ್ಕಿನಲ್ಲಿ ಮತ್ತು ದೊಡ್ಡ ಕಿರಣ ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ಚಲಿಸುತ್ತದೆ.",
+        "en": "The short ray shifts right by half a side; the dot moves clockwise and the long ray moves anticlockwise."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0005.webp"
+    },
+    {
+      "id": "GMAT-AF-0006",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಆಕೃತಿ 180° ತಿರುಗಿದೆ; ವೃತ್ತದ ಒಳಗಿನ ಬಾಹುಗಳ ಸಂಖ್ಯೆ ಒಂದರಿಂದ ಹೆಚ್ಚಾಗಿದೆ.",
+        "en": "The figure is rotated by 180°, and the number of sides inside the circle increases by one."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0006.webp"
+    },
+    {
+      "id": "GMAT-AF-0007",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೊದಲ ಆಕೃತಿಯನ್ನು ತಿರುಗಿಸಿ ಅದೇ ರೀತಿಯ ಮತ್ತೊಂದು ಆಕೃತಿಯೊಂದಿಗೆ ಜೋಡಿಸಲಾಗಿದೆ.",
+        "en": "The first figure is rotated and joined with another figure of the same type."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0007.webp"
+    },
+    {
+      "id": "GMAT-AF-0008",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಚೌಕವು ಗಡಿಯಾರದ ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ಒಂದು ಭಾಗ ಚಲಿಸಿದೆ; ತ್ರಿಭುಜವು ಗಡಿಯಾರದ ದಿಕ್ಕಿನಲ್ಲಿ ಎರಡು ಭಾಗ ಚಲಿಸಿದೆ. ತಿರುಗಿದ ತ್ರಿಭುಜ ಒಂದು ಭಾಗ ಚಲಿಸಿದೆ; ಚುಕ್ಕೆ ವಿರುದ್ಧ ಭಾಗದಲ್ಲಿದೆ.",
+        "en": "The square moves one section anticlockwise; the triangle moves two sections clockwise. The inverted triangle moves one section, and the dot is on the opposite side."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0008.webp"
+    },
+    {
+      "id": "GMAT-AF-0009",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಒಂದೇ ಆಕಾರದ ಎರಡು ಆಕೃತಿಗಳು ತಮ್ಮ ಶೃಂಗಗಳಲ್ಲಿ ತಾಗಿಕೊಂಡಿವೆ; ಚುಕ್ಕೆಗಳ ಸಂಖ್ಯೆಯಲ್ಲಿ ಒಂದರಷ್ಟು ಹೆಚ್ಚಳವಾಗಿದೆ.",
+        "en": "Two similar figures touch at their vertices; the number of dots increases by one."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0009.webp"
+    },
+    {
+      "id": "GMAT-AF-0010",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ವೃತ್ತವು ಚೌಕವಾಗಿ ಬದಲಾಗಿದೆ. '+', '−', '×' ಮತ್ತು ಚುಕ್ಕೆ ತಲಾ ಮೂರು ಭಾಗಗಳಷ್ಟು ಗಡಿಯಾರದ ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ಚಲಿಸಿವೆ.",
+        "en": "The circle changes into a square. '+', '−', '×', and the dot each move three sections anticlockwise."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0010.webp"
+    },
+    {
+      "id": "GMAT-AF-0011",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ರೇಖೆಗಳು ಮತ್ತು ಚುಕ್ಕೆಗಳು ಸ್ಥಾನ ಬದಲಿಸಿವೆ; ಮೂಲೆಯಲ್ಲಿದ್ದ ಚೌಕದ ಭಾಗವು ಚೌಕದ ಆಕಾರಕ್ಕೆ ಬದಲಾಗಿದೆ.",
+        "en": "The lines and dots exchange positions; the corner square element changes into a square shape."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0011.webp"
+    },
+    {
+      "id": "GMAT-AF-0012",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಚೌಕವು ವೃತ್ತವಾಗಿ ಮತ್ತು ವೃತ್ತವು ಚೌಕವಾಗಿ ಬದಲಾಗಿದೆ. ಬಾಣದ ಗುರುತು ತಿರುಗಿದೆ; ತುಂಬಿದ ಮತ್ತು ಖಾಲಿ ಆಕೃತಿಗಳೂ ಪರಸ್ಪರ ಬದಲಾಗಿವೆ.",
+        "en": "The square changes into a circle and the circle into a square. The arrow is rotated, and filled and unfilled shapes are interchanged."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0012.webp"
+    },
+    {
+      "id": "GMAT-AF-0013",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ನೆರಳಿರುವ ಎರಡು ಭಾಗಗಳು ಗಡಿಯಾರದ ದಿಕ್ಕಿನಲ್ಲಿ ಎರಡು ವಿಭಾಗಗಳಷ್ಟು ಚಲಿಸಿವೆ.",
+        "en": "The two shaded sectors move two positions clockwise."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0013.webp"
+    },
+    {
+      "id": "GMAT-AF-0014",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಶೃಂಗ ಬಿಂದುವಿನಿಂದ ಪಕ್ಕದ ಶೃಂಗ ಬಿಂದುಗಳಿಗೆ ಕರ್ಣಗಳನ್ನು ಎಳೆಯಲಾಗಿದೆ.",
+        "en": "Diagonals are drawn from each vertex to the adjacent vertex points."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0014.webp"
+    },
+    {
+      "id": "GMAT-AF-0015",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಎರಡು ವಕ್ರರೇಖೆಗಳು ಸೇರಿ ವೃತ್ತವಾಗುತ್ತವೆ; ವೃತ್ತದ ಮಧ್ಯದಲ್ಲಿ ಹೊಸ ಚುಕ್ಕೆ ಸೇರಿದೆ. ಮೂಲೆಯಲ್ಲಿದ್ದ ಆಕೃತಿ ಮುಂದಿನ ಶೃಂಗದ ಕಡೆ ಗಡಿಯಾರದ ದಿಕ್ಕಿನಲ್ಲಿ ಚಲಿಸಿದೆ.",
+        "en": "The two curved lines join to form a circle, and a new dot appears at its centre. The corner figure moves clockwise toward the next vertex."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0015.webp"
     }
   ]
 }
