@@ -2311,6 +2311,12 @@ async function nmLoadDs(k,man,mUrl,arr){
   NM.ds[k]={status:'ready',err:'',total:qs.length};
  }catch(e){NM.ds[k]={status:'error',err:String(e&&e.message||e),total:0}}
 }
+function nmResetOnMedium(){
+ if(NM.medSeen===ST.med)return;
+ NM.medSeen=ST.med;
+ Object.keys(NM.sel).forEach(key=>{if(/^(gmat|sat):/.test(key)){delete NM.sel[key];delete NM.sub[key]}});
+ Object.keys(NM.sub).forEach(key=>{if(/^(gmat|sat):/.test(key)){delete NM.sel[key];delete NM.sub[key]}});
+}
 function vNMBank(k){
  const L=k.toUpperCase(),cur=NM.dif[k]||'all',st=NM.load.status,ds=NM.ds[k]||{status:'loading'};
  const head=`<div class="nm-card nm-head"><span class="nm-hic">${NM_IC[k==='gmat'?'brain':'layers']}</span><h2>${L} ಪ್ರಶ್ನೋತ್ತರಗಳು</h2>`;
@@ -2338,6 +2344,7 @@ function vNMMS(){
  const T=[['gmat','GMAT','ಪ್ರಶ್ನೋತ್ತರಗಳು',NM_IC.brain],['sat','SAT','ಪ್ರಶ್ನೋತ್ತರಗಳು',NM_IC.layers],['exam','NMMS','ಮಾದರಿ ಪರೀಕ್ಷೆ',NM_IC.doc],['quiz','QUIZ','',NM_IC.trophy]];
  const tabs=T.map(t=>`<button type="button" class="nm-btn ${NM.tab===t[0]?'nm-on':''}" onclick="nmSetTab('${t[0]}')"><span class="nm-bi">${t[3]}</span><b>${t[1]}</b>${t[2]?`<small>${t[2]}</small>`:''}</button>`).join('');
  nmLoad();
+ nmResetOnMedium();
  const body=NM.tab==='exam'?vNMExam():NM.tab==='quiz'?vNMQuiz():vNMBank(NM.tab);
  return `<div class="fade nm-wrap">${vNMBanner()}<div class="nm-tabs">${tabs}</div>${body}</div>`;
 }
