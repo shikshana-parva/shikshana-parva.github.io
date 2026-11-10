@@ -3,496 +3,496 @@
     "class": 8,
     "module": "NMMS",
     "section": "GMAT",
-    "fullName": "General Mental Ability Test – Similar Figures in Different Positions",
+    "fullName": "General Mental Ability Test – Intersecting Figures",
     "languages": [
       "kn",
       "en"
     ],
     "totalQuestions": 15,
-    "questionNumberStart": 38,
-    "questionNumberEnd": 52,
+    "questionNumberStart": 53,
+    "questionNumberEnd": 67,
     "version": "1.0.0"
   },
   "questions": [
     {
-      "id": "GMAT-SF-0038",
+      "id": "GMAT-IF-0053",
       "difficulty": "medium",
       "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+        "kn": "ಬ್ಯಾಡ್ಮಿಂಟನ್ ಆಟಗಾರರೂ ಆಗಿರುವ ಕ್ರಿಕೆಟ್ ಆಟಗಾರರ ಒಟ್ಟು ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "The total number of cricket players who are badminton players."
       },
       "options": [
         {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
+          "kn": "22",
+          "en": "22"
         },
         {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
+          "kn": "26",
+          "en": "26"
         },
         {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
+          "kn": "42",
+          "en": "42"
         },
         {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0038.webp"
-    },
-    {
-      "id": "GMAT-SF-0039",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0039.webp"
-    },
-    {
-      "id": "GMAT-SF-0040",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0040.webp"
-    },
-    {
-      "id": "GMAT-SF-0041",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0041.webp"
-    },
-    {
-      "id": "GMAT-SF-0042",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0042.webp"
-    },
-    {
-      "id": "GMAT-SF-0043",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
+          "kn": "32",
+          "en": "32"
         }
       ],
       "correctIndex": 0,
       "explanation": {
-        "kn": "",
-        "en": ""
+        "kn": "ಕ್ರಿಕೆಟ್ ಮತ್ತು ಬ್ಯಾಡ್ಮಿಂಟನ್ ಎರಡಕ್ಕೂ ಸೇರಿದ ಪ್ರದೇಶಗಳ ಸಂಖ್ಯೆಗಳು 12 ಮತ್ತು 10. ಆದ್ದರಿಂದ 12 + 10 = 22.",
+        "en": "The regions shared by cricket and badminton are 12 and 10. Therefore, 12 + 10 = 22."
       },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0043.webp"
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0053.webp"
     },
     {
-      "id": "GMAT-SF-0044",
+      "id": "GMAT-IF-0054",
       "difficulty": "medium",
       "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+        "kn": "ಬ್ಯಾಡ್ಮಿಂಟನ್ ಮತ್ತು ಕ್ರಿಕೆಟ್ ಎರಡರಲ್ಲಿಯೂ ಇರುವ ವಾಲಿಬಾಲ್ ಆಟಗಾರರ ಒಟ್ಟು ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "The total number of volleyball players who are both badminton players and cricket players."
       },
       "options": [
         {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
+          "kn": "18",
+          "en": "18"
         },
         {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
+          "kn": "20",
+          "en": "20"
         },
         {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
+          "kn": "07",
+          "en": "07"
         },
         {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
+          "kn": "10",
+          "en": "10"
         }
       ],
       "correctIndex": 3,
       "explanation": {
-        "kn": "",
-        "en": ""
+        "kn": "ಮೂರು ಗುಂಪುಗಳ ಸಾಮಾನ್ಯ ಭಾಗದಲ್ಲಿರುವ ಸಂಖ್ಯೆ 10.",
+        "en": "The number in the common region of all three groups is 10."
       },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0044.webp"
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0054.webp"
     },
     {
-      "id": "GMAT-SF-0045",
+      "id": "GMAT-IF-0055",
       "difficulty": "medium",
       "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+        "kn": "‘9’ ಎಂಬ ಸಂಖ್ಯೆ ಯಾವುದನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ?",
+        "en": "What does the number '9' represent?"
       },
       "options": [
         {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
+          "kn": "Volleyball players",
+          "en": "Volleyball players"
         },
         {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
+          "kn": "Only volleyball players",
+          "en": "Only volleyball players"
         },
         {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
+          "kn": "Volleyball players who are not cricket players",
+          "en": "Volleyball players who are not cricket players"
         },
         {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0045.webp"
-    },
-    {
-      "id": "GMAT-SF-0046",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
+          "kn": "Volleyball players who are not badminton players",
+          "en": "Volleyball players who are not badminton players"
         }
       ],
       "correctIndex": 1,
       "explanation": {
-        "kn": "",
-        "en": ""
+        "kn": "9 ವಾಲಿಬಾಲ್ ವೃತ್ತದೊಳಗಿದ್ದು, ಉಳಿದ ಎರಡು ಗುಂಪುಗಳ ಹೊರಗಿದೆ. ಆದ್ದರಿಂದ ಅದು ವಾಲಿಬಾಲ್ ಆಟಗಾರರು ಮಾತ್ರ.",
+        "en": "9 lies inside the volleyball circle but outside the other two groups. It represents only volleyball players."
       },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0046.webp"
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0055.webp"
     },
     {
-      "id": "GMAT-SF-0047",
+      "id": "GMAT-IF-0056",
       "difficulty": "medium",
       "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+        "kn": "ಇಂಗ್ಲಿಷ್ ಅಧ್ಯಯನ ಮಾಡುವ ವಿದ್ಯಾರ್ಥಿಗಳ ಒಟ್ಟು ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "The total number of students who study English."
       },
       "options": [
         {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
+          "kn": "16",
+          "en": "16"
         },
         {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
+          "kn": "14",
+          "en": "14"
         },
         {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
+          "kn": "29",
+          "en": "29"
         },
         {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
+          "kn": "23",
+          "en": "23"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಇಂಗ್ಲಿಷ್ ಗುಂಪಿನಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳು 9, 8, 5 ಮತ್ತು 7. ಒಟ್ಟು 29.",
+        "en": "The numbers in the English group are 9, 8, 5 and 7. Their total is 29."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0056.webp"
+    },
+    {
+      "id": "GMAT-IF-0057",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಇಂಗ್ಲಿಷ್ ಮಾತ್ರ ಅಧ್ಯಯನ ಮಾಡುವ ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಯಾವ ಸಂಖ್ಯೆ ಸೂಚಿಸುತ್ತದೆ?",
+        "en": "Which number represents the students who study only English?"
+      },
+      "options": [
+        {
+          "kn": "5",
+          "en": "5"
+        },
+        {
+          "kn": "7",
+          "en": "7"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        },
+        {
+          "kn": "9",
+          "en": "9"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಇಂಗ್ಲಿಷ್ ಮಾತ್ರ ಇರುವ ಭಾಗದ ಸಂಖ್ಯೆ 7.",
+        "en": "The number in the English-only region is 7."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0057.webp"
+    },
+    {
+      "id": "GMAT-IF-0058",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೂರು ವಿಷಯಗಳನ್ನೂ ಅಧ್ಯಯನ ಮಾಡುವ ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಯಾವ ಸಂಖ್ಯೆ ಸೂಚಿಸುತ್ತದೆ?",
+        "en": "Which number represents the students who study all three subjects?"
+      },
+      "options": [
+        {
+          "kn": "9",
+          "en": "9"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        },
+        {
+          "kn": "7",
+          "en": "7"
+        },
+        {
+          "kn": "5",
+          "en": "5"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೂರು ವಿಷಯಗಳ ಸಾಮಾನ್ಯ ಭಾಗದ ಸಂಖ್ಯೆ 8.",
+        "en": "The common region of all three subjects is 8."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0058.webp"
+    },
+    {
+      "id": "GMAT-IF-0059",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ವೈದ್ಯರ ಒಟ್ಟು ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "The total number of doctors."
+      },
+      "options": [
+        {
+          "kn": "14",
+          "en": "14"
+        },
+        {
+          "kn": "21",
+          "en": "21"
+        },
+        {
+          "kn": "17",
+          "en": "17"
+        },
+        {
+          "kn": "27",
+          "en": "27"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ವೈದ್ಯರ ಗುಂಪಿನಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳು 3, 8 ಮತ್ತು 6. ಒಟ್ಟು 17.",
+        "en": "The numbers in the doctors' group are 3, 8 and 6. Their total is 17."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0059.webp"
+    },
+    {
+      "id": "GMAT-IF-0060",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನೃತ್ಯಗಾರರು ಮಾತ್ರ ಇರುವವರ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "The number of dancers only."
+      },
+      "options": [
+        {
+          "kn": "24",
+          "en": "24"
+        },
+        {
+          "kn": "9",
+          "en": "9"
+        },
+        {
+          "kn": "30",
+          "en": "30"
+        },
+        {
+          "kn": "17",
+          "en": "17"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ನೃತ್ಯಗಾರರು ಮಾತ್ರ ಇರುವ ಭಾಗದ ಸಂಖ್ಯೆ 9.",
+        "en": "The dancers-only region is 9."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0060.webp"
+    },
+    {
+      "id": "GMAT-IF-0061",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ವೈದ್ಯರಲ್ಲದ ನೃತ್ಯಗಾರರ ಒಟ್ಟು ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "The total number of dancers who are not doctors."
+      },
+      "options": [
+        {
+          "kn": "13",
+          "en": "13"
+        },
+        {
+          "kn": "30",
+          "en": "30"
+        },
+        {
+          "kn": "16",
+          "en": "16"
+        },
+        {
+          "kn": "9",
+          "en": "9"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ವೈದ್ಯರಲ್ಲದ ನೃತ್ಯಗಾರರ ಭಾಗಗಳಲ್ಲಿ 9 ಮತ್ತು 7 ಇವೆ. 9 + 7 = 16.",
+        "en": "The dancers who are not doctors are in regions 9 and 7. Therefore, 9 + 7 = 16."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0061.webp"
+    },
+    {
+      "id": "GMAT-IF-0062",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಚಹಾ, ಕಾಫಿ ಮತ್ತು ಹಾಲು ಮೂರನ್ನೂ ಕುಡಿಯುವವರ ಒಟ್ಟು ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "The total number of people who drink tea, coffee and milk."
+      },
+      "options": [
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "19",
+          "en": "19"
+        },
+        {
+          "kn": "5",
+          "en": "5"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೂರು ಪಾನೀಯಗಳ ಸಾಮಾನ್ಯ ಭಾಗದ ಸಂಖ್ಯೆ 5.",
+        "en": "The common region of tea, coffee and milk is 5."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0062.webp"
+    },
+    {
+      "id": "GMAT-IF-0063",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಚಹಾ ಮತ್ತು ಕಾಫಿ ಎರಡನ್ನೂ ಕುಡಿಯುವವರ ಒಟ್ಟು ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "The total number of people who drink both tea and coffee."
+      },
+      "options": [
+        {
+          "kn": "5",
+          "en": "5"
+        },
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "22",
+          "en": "22"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಚಹಾ ಮತ್ತು ಕಾಫಿ ಎರಡರ ಸಾಮಾನ್ಯ ಭಾಗಗಳಲ್ಲಿ 5 ಮತ್ತು 7 ಇವೆ. 5 + 7 = 12.",
+        "en": "The regions shared by tea and coffee are 5 and 7. Therefore, 5 + 7 = 12."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0063.webp"
+    },
+    {
+      "id": "GMAT-IF-0064",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕಾಫಿಯನ್ನು ಮಾತ್ರ ಕುಡಿಯುವವರ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "The number of people who drink only coffee."
+      },
+      "options": [
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "17",
+          "en": "17"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        },
+        {
+          "kn": "32",
+          "en": "32"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕಾಫಿ ಮಾತ್ರ ಕುಡಿಯುವವರ ಭಾಗಗಳಲ್ಲಿ 15 ಮತ್ತು 2 ಇವೆ. 15 + 2 = 17.",
+        "en": "The coffee-only regions are 15 and 2. Therefore, 15 + 2 = 17."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0064.webp"
+    },
+    {
+      "id": "GMAT-IF-0065",
+      "difficulty": "medium",
+      "question": {
+        "kn": "Sunrisers, CSK ಮತ್ತು MI ತಂಡಗಳನ್ನೂ ಬೆಂಬಲಿಸುವವರ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "The total number of people who support Sunrisers, CSK and MI teams."
+      },
+      "options": [
+        {
+          "kn": "25",
+          "en": "25"
+        },
+        {
+          "kn": "35",
+          "en": "35"
+        },
+        {
+          "kn": "36",
+          "en": "36"
+        },
+        {
+          "kn": "38",
+          "en": "38"
         }
       ],
       "correctIndex": 0,
       "explanation": {
-        "kn": "",
-        "en": ""
+        "kn": "ಮೂರು ತಂಡಗಳ ಸಾಮಾನ್ಯ ಭಾಗದ ಸಂಖ್ಯೆ 25.",
+        "en": "The common region of all three teams is 25."
       },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0047.webp"
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0065.webp"
     },
     {
-      "id": "GMAT-SF-0048",
+      "id": "GMAT-IF-0066",
       "difficulty": "medium",
       "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+        "kn": "CSK ತಂಡವನ್ನು ಮಾತ್ರ ಬೆಂಬಲಿಸುವವರ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "The total number of people who support only the CSK team."
       },
       "options": [
         {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
+          "kn": "23",
+          "en": "23"
         },
         {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
+          "kn": "32",
+          "en": "32"
         },
         {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
+          "kn": "42",
+          "en": "42"
         },
         {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
+          "kn": "29",
+          "en": "29"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "CSK ಮಾತ್ರ ಬೆಂಬಲಿಸುವ ಭಾಗದ ಸಂಖ್ಯೆ 32.",
+        "en": "The CSK-only region is 32."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0066.webp"
+    },
+    {
+      "id": "GMAT-IF-0067",
+      "difficulty": "medium",
+      "question": {
+        "kn": "Sunrisers ಮತ್ತು MI ಎರಡೂ ತಂಡಗಳನ್ನು ಬೆಂಬಲಿಸುವವರ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "The total number of people who support both Sunrisers and MI teams."
+      },
+      "options": [
+        {
+          "kn": "31",
+          "en": "31"
+        },
+        {
+          "kn": "39",
+          "en": "39"
+        },
+        {
+          "kn": "25",
+          "en": "25"
+        },
+        {
+          "kn": "64",
+          "en": "64"
         }
       ],
       "correctIndex": 3,
       "explanation": {
-        "kn": "",
-        "en": ""
+        "kn": "Sunrisers ಮತ್ತು MI ಎರಡರ ಸಾಮಾನ್ಯ ಭಾಗಗಳಲ್ಲಿ 25, 31 ಮತ್ತು 8 ಇವೆ. 25 + 31 + 8 = 64.",
+        "en": "The regions shared by Sunrisers and MI are 25, 31 and 8. Therefore, 25 + 31 + 8 = 64."
       },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0048.webp"
-    },
-    {
-      "id": "GMAT-SF-0049",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0049.webp"
-    },
-    {
-      "id": "GMAT-SF-0050",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0050.webp"
-    },
-    {
-      "id": "GMAT-SF-0051",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0051.webp"
-    },
-    {
-      "id": "GMAT-SF-0052",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0052.webp"
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0067.webp"
     }
   ]
 }
