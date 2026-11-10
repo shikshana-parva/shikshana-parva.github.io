@@ -1292,6 +1292,7 @@ body.vcls .sgrid .tile.sj.s-nmms .ic{color:#ffe08a}
 .nm-sep{margin:0}
 @media (min-width:600px){.nm-ehead h2{font-size:18px}.nm-score{gap:10px;padding:6px 14px}.nm-sci{width:22px;height:22px}.nm-scl small{font-size:11px}.nm-scl b{font-size:15px}}
 .nm-line{display:block}.nm-line+.nm-line{margin-top:.3em;opacity:.85;font-size:.92em}
+@media (max-width:560px){.nm-segs.nm-difs{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}.nm-difs .nm-seg{padding:10px 2px;min-width:0;font-size:clamp(12px,3.6vw,15px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:999px}}
 </style></head><body>
 <div class="top"><button class="ib" id="bk" onclick="goBack()" aria-label="ಹಿಂದೆ"><svg class="ic-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><svg class="ic-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button><div class="crumb" id="crumb"></div>
 <span class="ib deco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></span><span class="ib deco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 17V11a6 6 0 0112 0v6l1.5 2h-15z"/><path d="M10 21h4"/></svg><i class="rd"></i></span><button class="ib" onclick="goHome()" aria-label="ಹೋಮ್"><svg class="ic-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><svg class="ic-user" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4.2"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z"/></svg></button></div>
@@ -2313,13 +2314,13 @@ async function nmLoadDs(k,man,mUrl,arr){
 function vNMBank(k){
  const L=k.toUpperCase(),cur=NM.dif[k]||'all',st=NM.load.status,ds=NM.ds[k]||{status:'loading'};
  const head=`<div class="nm-card nm-head"><span class="nm-hic">${NM_IC[k==='gmat'?'brain':'layers']}</span><h2>${L} ಪ್ರಶ್ನೋತ್ತರಗಳು</h2>`;
- const msg=html=>head+'</div><div class="nm-empty">'+html+'</div>';
+ const filters=`<div class="nm-segs nm-difs">${NM_DIF.map(([d,t])=>`<button type="button" class="nm-seg ${cur===d?'nm-on':''}" onclick="nmSetDif('${k}','${d}')">${t}</button>`).join('')}</div>`;
+ const msg=html=>head+'</div>'+filters+'<div class="nm-empty">'+html+'</div>';
  if(st==='error')return msg('ಪ್ರಶ್ನೆಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.<br><small>'+esc(NM.load.err)+'</small><br><button type="button" class="nm-submit" onclick="nmRetry()">ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</button>');
  if(st==='loading'||st==='idle'||ds.status==='loading'||ds.status==='idle')return msg('ಪ್ರಶ್ನೆಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ…');
  if(ds.status==='unavailable')return msg('ಈ ಪ್ರಶ್ನೆ ಬ್ಯಾಂಕ್ ಇನ್ನೂ ಲಭ್ಯವಿಲ್ಲ.');
  if(ds.status==='error')return msg('ಈ ಪ್ರಶ್ನೆ ಬ್ಯಾಂಕ್ ಲೋಡ್ ಆಗಲಿಲ್ಲ.<br><small>'+esc(ds.err)+'</small><br><button type="button" class="nm-submit" onclick="nmRetry()">ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</button>');
  const all=nmData(k).filter(q=>!q.bad),shown=cur==='all'?all:all.filter(q=>q.difficulty===cur);
- const filters=`<div class="nm-segs">${NM_DIF.map(([d,t])=>`<button type="button" class="nm-seg ${cur===d?'nm-on':''}" onclick="nmSetDif('${k}','${d}')">${t}</button>`).join('')}</div>`;
  return head+`<span class="nm-count">ಒಟ್ಟು ಪ್ರಶ್ನೆಗಳು: ${shown.length}</span></div>`+filters+(shown.length?shown.map((q,p)=>nmCard(k,q,q._i,p+1)).join(''):`<div class="nm-empty">${all.length?'ಈ ಮಟ್ಟದಲ್ಲಿ ಪ್ರಶ್ನೆಗಳಿಲ್ಲ.':NM_EMPTY[k]}</div>`);
 }
 function vNMExam(){
