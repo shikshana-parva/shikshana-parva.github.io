@@ -1,13 +1,30 @@
-
 {
   "metadata": {
     "class": 8,
     "module": "NMMS",
     "section": "SAT",
     "fullName": "Scholastic Aptitude Test",
-    "language": "kn",
+    "languages": [
+      "kn",
+      "en"
+    ],
     "totalQuestions": 0,
     "version": "1.0.0"
+  },
+  "questionSchema": {
+    "id": "Unique question ID, string, e.g. SAT-0001 (required)",
+    "difficulty": "Required difficulty level: \"easy\", \"medium\", or \"hard\"",
+    "question": {
+      "kn": "Kannada question text (required)",
+      "en": "English question text (required)"
+    },
+    "options": "Array of exactly 4 bilingual objects, in order A, B, C, D: {\"kn\": string, \"en\": string} (required)",
+    "correctIndex": "Integer 0-3 giving the index of the correct option in options (required)",
+    "explanation": {
+      "kn": "Kannada explanation (required)",
+      "en": "English explanation (required)"
+    },
+    "image": "Optional relative path to an image or diagram, or null"
   },
   "questions": []
 }
