@@ -8,23 +8,90 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 0,
-    "version": "1.0.0"
+    "totalQuestions": 2,
+    "version": "1.0.0",
+    "testData": true,
+    "note": "Temporary sample questions for JSON loading and UI testing; replace with verified source questions before production."
   },
   "questionSchema": {
-    "id": "Unique question ID, string, e.g. SAT-0001 (required)",
-    "difficulty": "Required difficulty level: \"easy\", \"medium\", or \"hard\"",
+    "id": "Unique question ID, string",
+    "difficulty": "easy, medium, or hard",
     "question": {
-      "kn": "Kannada question text (required)",
-      "en": "English question text (required)"
+      "kn": "Kannada question text",
+      "en": "English question text"
     },
-    "options": "Array of exactly 4 bilingual objects, in order A, B, C, D: {\"kn\": string, \"en\": string} (required)",
-    "correctIndex": "Integer 0-3 giving the index of the correct option in options (required)",
+    "options": "Array of exactly 4 bilingual objects in A, B, C, D order",
+    "correctIndex": "Integer 0-3",
     "explanation": {
-      "kn": "Kannada explanation (required)",
-      "en": "English explanation (required)"
+      "kn": "Kannada explanation",
+      "en": "English explanation"
     },
-    "image": "Optional relative path to an image or diagram, or null"
+    "image": "Optional relative path to an image or null"
   },
-  "questions": []
+  "questions": [
+    {
+      "id": "SAT-TEST-0001",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸಸ್ಯಗಳು ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯ ಸಮಯದಲ್ಲಿ ವಾತಾವರಣದಿಂದ ಯಾವ ಅನಿಲವನ್ನು ಹೀರಿಕೊಳ್ಳುತ್ತವೆ?",
+        "en": "Which gas do plants absorb from the atmosphere during photosynthesis?"
+      },
+      "options": [
+        {
+          "kn": "ಆಮ್ಲಜನಕ",
+          "en": "Oxygen"
+        },
+        {
+          "kn": "ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್",
+          "en": "Carbon dioxide"
+        },
+        {
+          "kn": "ನೈಟ್ರೋಜನ್",
+          "en": "Nitrogen"
+        },
+        {
+          "kn": "ಹೈಡ್ರೋಜನ್",
+          "en": "Hydrogen"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯ ವೇಳೆ ಸಸ್ಯಗಳು ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್ ಮತ್ತು ನೀರನ್ನು ಬಳಸಿ ಆಹಾರ ತಯಾರಿಸುತ್ತವೆ.",
+        "en": "During photosynthesis, plants use carbon dioxide and water to make food."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-TEST-0002",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ಆಯತದ ಉದ್ದ 8 ಸೆಂ.ಮೀ ಮತ್ತು ಅಗಲ 3 ಸೆಂ.ಮೀ ಇದ್ದರೆ, ಅದರ ವಿಸ್ತೀರ್ಣ ಎಷ್ಟು?",
+        "en": "A rectangle is 8 cm long and 3 cm wide. What is its area?"
+      },
+      "options": [
+        {
+          "kn": "11 ಚ.ಸೆಂ.ಮೀ",
+          "en": "11 cm²"
+        },
+        {
+          "kn": "16 ಚ.ಸೆಂ.ಮೀ",
+          "en": "16 cm²"
+        },
+        {
+          "kn": "24 ಚ.ಸೆಂ.ಮೀ",
+          "en": "24 cm²"
+        },
+        {
+          "kn": "32 ಚ.ಸೆಂ.ಮೀ",
+          "en": "32 cm²"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಆಯತದ ವಿಸ್ತೀರ್ಣ = ಉದ್ದ × ಅಗಲ = 8 × 3 = 24 ಚ.ಸೆಂ.ಮೀ.",
+        "en": "Area of a rectangle = length × width = 8 × 3 = 24 cm²."
+      },
+      "image": null
+    }
+  ]
 }
