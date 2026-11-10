@@ -3,15 +3,16 @@
     "class": 8,
     "module": "NMMS",
     "section": "GMAT",
-    "fullName": "General Mental Ability Test",
+    "topic": "Analogy of Figures",
+    "source": "NMMS Inn.pdf, printed GMAT page 1; answer explanations, printed page 101",
     "languages": [
       "kn",
       "en"
     ],
-    "totalQuestions": 2,
+    "totalQuestions": 4,
     "version": "1.0.0",
-    "testData": true,
-    "note": "Temporary sample questions for JSON loading and UI testing; replace with verified source questions before production."
+    "testData": false,
+    "note": "Original question diagrams cropped from the source PDF and converted to WebP. Correct answers cross-checked against the source answer section."
   },
   "questionSchema": {
     "id": "Unique question ID, string",
@@ -26,72 +27,136 @@
       "kn": "Kannada explanation",
       "en": "English explanation"
     },
-    "image": "Optional relative path to an image or null"
+    "image": "Relative path to the WebP question diagram or null"
   },
   "questions": [
     {
-      "id": "GMAT-TEST-0001",
-      "difficulty": "easy",
+      "id": "GMAT-AF-0001",
+      "difficulty": "medium",
       "question": {
-        "kn": "2 : 4 :: 5 : ?",
-        "en": "2 : 4 :: 5 : ?"
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧದ ಆಧಾರದ ಮೇಲೆ ಪ್ರಶ್ನಾರ್ಥಕ ಚಿಹ್ನೆಯ ಬದಲಿಗೆ ಬರುವ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the relationship between the first two figures. Choose the figure that replaces the question mark using the same relationship."
       },
       "options": [
         {
-          "kn": "10",
-          "en": "10"
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
         },
         {
-          "kn": "15",
-          "en": "15"
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
         },
         {
-          "kn": "20",
-          "en": "20"
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
         },
         {
-          "kn": "25",
-          "en": "25"
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
         }
       ],
       "correctIndex": 3,
       "explanation": {
-        "kn": "ಮೊದಲ ಸಂಖ್ಯೆಯನ್ನು ವರ್ಗ ಮಾಡಲಾಗಿದೆ: 2² = 4. ಅದೇ ನಿಯಮದಂತೆ 5² = 25.",
-        "en": "The first number is squared: 2² = 4. Apply the same rule: 5² = 25."
+        "kn": "ಮೂಲ PDF ಯ ಉತ್ತರದ ಪ್ರಕಾರ D ಸರಿಯಾದ ಉತ್ತರ. ಹೊರಗಿನ ಆಕೃತಿಯು ತಿರುಗುತ್ತದೆ; ಒಳಗಿನ ಆಕೃತಿಯು ಒಂದು ಬದಿಯನ್ನು ಹೆಚ್ಚಿಸಿಕೊಳ್ಳುತ್ತದೆ.",
+        "en": "According to the source PDF, D is correct. The outer figure is rotated, and the inner figure increases by one side."
       },
-      "image": null
+      "image": "images/GMAT-AF-0001.webp"
     },
     {
-      "id": "GMAT-TEST-0002",
-      "difficulty": "easy",
+      "id": "GMAT-AF-0002",
+      "difficulty": "medium",
       "question": {
-        "kn": "3, 6, 9, 12, ? ಸರಣಿಯಲ್ಲಿ ಮುಂದಿನ ಸಂಖ್ಯೆ ಯಾವುದು?",
-        "en": "What is the next number in the series 3, 6, 9, 12, ?"
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧದ ಆಧಾರದ ಮೇಲೆ ಪ್ರಶ್ನಾರ್ಥಕ ಚಿಹ್ನೆಯ ಬದಲಿಗೆ ಬರುವ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the relationship between the first two figures. Choose the figure that replaces the question mark using the same relationship."
       },
       "options": [
         {
-          "kn": "13",
-          "en": "13"
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
         },
         {
-          "kn": "14",
-          "en": "14"
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
         },
         {
-          "kn": "15",
-          "en": "15"
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
         },
         {
-          "kn": "16",
-          "en": "16"
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೂಲ PDF ಯ ವಿವರಣೆಯ ಪ್ರಕಾರ, ವೃತ್ತದ ನಾಲ್ಕು ಭಾಗಗಳಲ್ಲಿ ಚುಕ್ಕೆಗಳು ಬಂದಿವೆ. ಅದೇ ರೀತಿಯಲ್ಲಿ ಚೌಕದ ನಾಲ್ಕು ಭಾಗಗಳಲ್ಲಿಯೂ ಚುಕ್ಕೆಗಳು ಬರಬೇಕು. ಆದ್ದರಿಂದ B ಸರಿಯಾದ ಉತ್ತರ.",
+        "en": "According to the source PDF, dots appear in all four parts of the circle. In the same way, dots must appear in all four parts of the square. Therefore, B is correct."
+      },
+      "image": "images/GMAT-AF-0002.webp"
+    },
+    {
+      "id": "GMAT-AF-0003",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧದ ಆಧಾರದ ಮೇಲೆ ಪ್ರಶ್ನಾರ್ಥಕ ಚಿಹ್ನೆಯ ಬದಲಿಗೆ ಬರುವ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the relationship between the first two figures. Choose the figure that replaces the question mark using the same relationship."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
         }
       ],
       "correctIndex": 2,
       "explanation": {
-        "kn": "ಪ್ರತಿ ಹಂತದಲ್ಲೂ 3 ಅನ್ನು ಸೇರಿಸಲಾಗಿದೆ. ಆದ್ದರಿಂದ 12 + 3 = 15.",
-        "en": "The sequence increases by 3 each time. Therefore, 12 + 3 = 15."
+        "kn": "ಮೂಲ PDF ಯ ವಿವರಣೆಯ ಪ್ರಕಾರ, ಮೊದಲ ಮತ್ತು ಎರಡನೇ ರೇಖೆಗಳು ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ತಿರುಗುತ್ತವೆ. '+' ಚಿಹ್ನೆಯು '−' ಆಗಿ ಮತ್ತು '×' ಚಿಹ್ನೆಯು '÷' ಆಗಿ ಬದಲಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ C ಸರಿಯಾದ ಉತ್ತರ.",
+        "en": "According to the source PDF, the first and second lines rotate in the opposite direction. The '+' sign changes to '−', and '×' changes to '÷'. Therefore, C is correct."
       },
-      "image": null
+      "image": "images/GMAT-AF-0003.webp"
+    },
+    {
+      "id": "GMAT-AF-0004",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧದ ಆಧಾರದ ಮೇಲೆ ಪ್ರಶ್ನಾರ್ಥಕ ಚಿಹ್ನೆಯ ಬದಲಿಗೆ ಬರುವ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the relationship between the first two figures. Choose the figure that replaces the question mark using the same relationship."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಮೂಲ PDF ಯ ಉತ್ತರ D ಎಂದು ಸೂಚಿಸುತ್ತದೆ. ಆಕೃತಿಗಳ ಆಕಾರ ಮತ್ತು ಚುಕ್ಕೆಗಳ ಸಂಖ್ಯೆಯಲ್ಲಿನ ಬದಲಾವಣೆಯನ್ನು ಅದೇ ಕ್ರಮದಲ್ಲಿ ಅನ್ವಯಿಸಿದಾಗ D ಆಯ್ಕೆ ಹೊಂದುತ್ತದೆ.",
+        "en": "The source PDF marks D as the answer. Applying the same changes in the shapes and the number of dots leads to option D."
+      },
+      "image": "images/GMAT-AF-0004.webp"
     }
   ]
 }
