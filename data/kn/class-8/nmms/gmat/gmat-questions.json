@@ -60,7 +60,7 @@
         "kn": "ಮೂಲ PDF ಯ ಉತ್ತರದ ಪ್ರಕಾರ D ಸರಿಯಾದ ಉತ್ತರ. ಹೊರಗಿನ ಆಕೃತಿಯು ತಿರುಗುತ್ತದೆ; ಒಳಗಿನ ಆಕೃತಿಯು ಒಂದು ಬದಿಯನ್ನು ಹೆಚ್ಚಿಸಿಕೊಳ್ಳುತ್ತದೆ.",
         "en": "According to the source PDF, D is correct. The outer figure is rotated, and the inner figure increases by one side."
       },
-      "image": "images/GMAT-AF-0001.webp"
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0001.webp"
     },
     {
       "id": "GMAT-AF-0002",
@@ -92,7 +92,7 @@
         "kn": "ಮೂಲ PDF ಯ ವಿವರಣೆಯ ಪ್ರಕಾರ, ವೃತ್ತದ ನಾಲ್ಕು ಭಾಗಗಳಲ್ಲಿ ಚುಕ್ಕೆಗಳು ಬಂದಿವೆ. ಅದೇ ರೀತಿಯಲ್ಲಿ ಚೌಕದ ನಾಲ್ಕು ಭಾಗಗಳಲ್ಲಿಯೂ ಚುಕ್ಕೆಗಳು ಬರಬೇಕು. ಆದ್ದರಿಂದ B ಸರಿಯಾದ ಉತ್ತರ.",
         "en": "According to the source PDF, dots appear in all four parts of the circle. In the same way, dots must appear in all four parts of the square. Therefore, B is correct."
       },
-      "image": "images/GMAT-AF-0002.webp"
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0002.webp"
     },
     {
       "id": "GMAT-AF-0003",
@@ -124,7 +124,7 @@
         "kn": "ಮೂಲ PDF ಯ ವಿವರಣೆಯ ಪ್ರಕಾರ, ಮೊದಲ ಮತ್ತು ಎರಡನೇ ರೇಖೆಗಳು ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ತಿರುಗುತ್ತವೆ. '+' ಚಿಹ್ನೆಯು '−' ಆಗಿ ಮತ್ತು '×' ಚಿಹ್ನೆಯು '÷' ಆಗಿ ಬದಲಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ C ಸರಿಯಾದ ಉತ್ತರ.",
         "en": "According to the source PDF, the first and second lines rotate in the opposite direction. The '+' sign changes to '−', and '×' changes to '÷'. Therefore, C is correct."
       },
-      "image": "images/GMAT-AF-0003.webp"
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0003.webp"
     },
     {
       "id": "GMAT-AF-0004",
@@ -156,7 +156,7 @@
         "kn": "ಮೂಲ PDF ಯ ಉತ್ತರ D ಎಂದು ಸೂಚಿಸುತ್ತದೆ. ಆಕೃತಿಗಳ ಆಕಾರ ಮತ್ತು ಚುಕ್ಕೆಗಳ ಸಂಖ್ಯೆಯಲ್ಲಿನ ಬದಲಾವಣೆಯನ್ನು ಅದೇ ಕ್ರಮದಲ್ಲಿ ಅನ್ವಯಿಸಿದಾಗ D ಆಯ್ಕೆ ಹೊಂದುತ್ತದೆ.",
         "en": "The source PDF marks D as the answer. Applying the same changes in the shapes and the number of dots leads to option D."
       },
-      "image": "images/GMAT-AF-0004.webp"
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0004.webp"
     }
   ]
 }
