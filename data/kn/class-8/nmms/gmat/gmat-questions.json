@@ -8,23 +8,90 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 0,
-    "version": "1.0.0"
+    "totalQuestions": 2,
+    "version": "1.0.0",
+    "testData": true,
+    "note": "Temporary sample questions for JSON loading and UI testing; replace with verified source questions before production."
   },
   "questionSchema": {
-    "id": "Unique question ID, string, e.g. GMAT-0001 (required)",
-    "difficulty": "Required difficulty level: \"easy\", \"medium\", or \"hard\"",
+    "id": "Unique question ID, string",
+    "difficulty": "easy, medium, or hard",
     "question": {
-      "kn": "Kannada question text (required)",
-      "en": "English question text (required)"
+      "kn": "Kannada question text",
+      "en": "English question text"
     },
-    "options": "Array of exactly 4 bilingual objects, in order A, B, C, D: {\"kn\": string, \"en\": string} (required)",
-    "correctIndex": "Integer 0-3 giving the index of the correct option in options (required)",
+    "options": "Array of exactly 4 bilingual objects in A, B, C, D order",
+    "correctIndex": "Integer 0-3",
     "explanation": {
-      "kn": "Kannada explanation (required)",
-      "en": "English explanation (required)"
+      "kn": "Kannada explanation",
+      "en": "English explanation"
     },
-    "image": "Optional relative path to an image or diagram, or null"
+    "image": "Optional relative path to an image or null"
   },
-  "questions": []
+  "questions": [
+    {
+      "id": "GMAT-TEST-0001",
+      "difficulty": "easy",
+      "question": {
+        "kn": "2 : 4 :: 5 : ?",
+        "en": "2 : 4 :: 5 : ?"
+      },
+      "options": [
+        {
+          "kn": "10",
+          "en": "10"
+        },
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        },
+        {
+          "kn": "25",
+          "en": "25"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಮೊದಲ ಸಂಖ್ಯೆಯನ್ನು ವರ್ಗ ಮಾಡಲಾಗಿದೆ: 2² = 4. ಅದೇ ನಿಯಮದಂತೆ 5² = 25.",
+        "en": "The first number is squared: 2² = 4. Apply the same rule: 5² = 25."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-TEST-0002",
+      "difficulty": "easy",
+      "question": {
+        "kn": "3, 6, 9, 12, ? ಸರಣಿಯಲ್ಲಿ ಮುಂದಿನ ಸಂಖ್ಯೆ ಯಾವುದು?",
+        "en": "What is the next number in the series 3, 6, 9, 12, ?"
+      },
+      "options": [
+        {
+          "kn": "13",
+          "en": "13"
+        },
+        {
+          "kn": "14",
+          "en": "14"
+        },
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "16",
+          "en": "16"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಹಂತದಲ್ಲೂ 3 ಅನ್ನು ಸೇರಿಸಲಾಗಿದೆ. ಆದ್ದರಿಂದ 12 + 3 = 15.",
+        "en": "The sequence increases by 3 each time. Therefore, 12 + 3 = 15."
+      },
+      "image": null
+    }
+  ]
 }
