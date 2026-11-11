@@ -8,7 +8,7 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 146,
+    "totalQuestions": 157,
     "questionNumberStart": 1,
     "questionNumberEnd": 146,
     "version": "1.0.0"
@@ -4685,6 +4685,358 @@
         "en": "The correct opposite pairs are (4,3), (1,2), (6,5) (option A)."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0146.webp"
+    },
+    {
+      "id": "GMAT-CF-0147",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ತ್ರಿಭುಜಗಳೆಷ್ಟು?",
+        "en": "How many triangles are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "10",
+          "en": "10"
+        },
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "16",
+          "en": "16"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ತ್ರಿಭುಜದ ಶೃಂಗದಿಂದ ಬರುವ ರೇಖೆಗಳು ತಳವನ್ನು ಭಾಗಿಸುತ್ತವೆ. ಮೇಲ್ಭಾಗದ ಸಣ್ಣ ತ್ರಿಭುಜಗಳ ಗುಂಪಿನಲ್ಲಿ 1 + 2 + 3 = 6 ತ್ರಿಭುಜಗಳಿವೆ. ಕೆಳಭಾಗದ ಗುಂಪಿನಲ್ಲಿ ಒಟ್ಟು 10 ತ್ರಿಭುಜಗಳಿವೆ. ಒಟ್ಟು 10 + 6 = 16. ಉತ್ತರ C (16).",
+        "en": "The lines from the top vertex divide the base into parts. The small triangles in the upper group give 1 + 2 + 3 = 6 triangles. The lower group gives 10 triangles. Total 10 + 6 = 16. Answer C (16)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0147.webp"
+    },
+    {
+      "id": "GMAT-CF-0148",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ತ್ರಿಭುಜಗಳೆಷ್ಟು?",
+        "en": "How many triangles are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "14",
+          "en": "14"
+        },
+        {
+          "kn": "16",
+          "en": "16"
+        },
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಚೌಕದ ಎರಡು ಕರ್ಣಗಳು ಮತ್ತು ಎರಡು ಮಧ್ಯರೇಖೆಗಳು ಚೌಕವನ್ನು 8 ಭಾಗಗಳಾಗಿ ಭಾಗಿಸುತ್ತವೆ. ಪ್ರತಿ ಭಾಗದಿಂದ ಎರಡು ತ್ರಿಭುಜಗಳು ರೂಪುಗೊಳ್ಳುತ್ತವೆ ಎಂದು ಲೆಕ್ಕ ಮಾಡಿದರೆ 8 × 2 = 16. ಉತ್ತರ B (16).",
+        "en": "The two diagonals and two midlines divide the square into 8 parts. Counting 2 triangles for each part gives 8 × 2 = 16. Answer B (16)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0148.webp"
+    },
+    {
+      "id": "GMAT-CF-0150",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ತ್ರಿಭುಜಗಳೆಷ್ಟು?",
+        "en": "How many triangles are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "48",
+          "en": "48"
+        },
+        {
+          "kn": "25",
+          "en": "25"
+        },
+        {
+          "kn": "27",
+          "en": "27"
+        },
+        {
+          "kn": "23",
+          "en": "23"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ದೊಡ್ಡ ತ್ರಿಭುಜವನ್ನು ಸಾಲುಗಳ ಪ್ರಕಾರ ಎಣಿಸಬೇಕು. ಸಾಲು 1 ರಲ್ಲಿ 1, ಸಾಲು 2 ರಲ್ಲಿ 5, ಸಾಲು 3 ರಲ್ಲಿ 13, ಸಾಲು 4 ರಲ್ಲಿ 27 ತ್ರಿಭುಜಗಳು. ನಾಲ್ಕು ಸಾಲುಗಳ ಒಟ್ಟು ಸಂಖ್ಯೆ 27. ಉತ್ತರ C (27).",
+        "en": "Count the triangles level by level: level 1 has 1, level 2 has 5, level 3 has 13 and level 4 has 27 triangles. Total for four levels is 27. Answer C (27)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0150.webp"
+    },
+    {
+      "id": "GMAT-CF-0151",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ವರ್ಗಗಳೆಷ್ಟು?",
+        "en": "How many squares are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "25",
+          "en": "25"
+        },
+        {
+          "kn": "28",
+          "en": "28"
+        },
+        {
+          "kn": "32",
+          "en": "32"
+        },
+        {
+          "kn": "30",
+          "en": "30"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಇದು 4 × 4 ಚೌಕಜಾಲ. ಬದಿ 1 ರ ಚೌಕಗಳು 1², ಬದಿ 2 ರ ಚೌಕಗಳು 2², ಬದಿ 3 ರ ಚೌಕಗಳು 3², ಬದಿ 4 ರ ಚೌಕಗಳು 4². ಒಟ್ಟು 1 + 4 + 9 + 16 = 30. ಉತ್ತರ D (30).",
+        "en": "This is a 4 × 4 grid. Squares of side 1, 2, 3 and 4 are counted as 1², 2², 3² and 4². Total 1 + 4 + 9 + 16 = 30. Answer D (30)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0151.webp"
+    },
+    {
+      "id": "GMAT-CF-0152",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ವರ್ಗಗಳೆಷ್ಟು?",
+        "en": "How many squares are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "16",
+          "en": "16"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಆಕೃತಿಯ ವರ್ಗಗಳನ್ನು ನಾಲ್ಕು ಗುಂಪುಗಳಾಗಿ ವಿಂಗಡಿಸಿ ಎಣಿಸಬೇಕು: A ಗುಂಪು 4, B ಗುಂಪು 4, C ಗುಂಪು 5, D ಗುಂಪು 5. ಒಟ್ಟು 4 + 4 + 5 + 5 = 18. ಉತ್ತರ C (18).",
+        "en": "Split the squares into four groups: A has 4, B has 4, C has 5 and D has 5. Total 4 + 4 + 5 + 5 = 18. Answer C (18)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0152.webp"
+    },
+    {
+      "id": "GMAT-CF-0153",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ವರ್ಗಗಳೆಷ್ಟು?",
+        "en": "How many squares are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "14",
+          "en": "14"
+        },
+        {
+          "kn": "22",
+          "en": "22"
+        },
+        {
+          "kn": "10",
+          "en": "10"
+        },
+        {
+          "kn": "16",
+          "en": "16"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಆಕೃತಿಯಲ್ಲಿ ಎರಡು ಭಾಗಗಳ ವರ್ಗಗಳನ್ನು ಎಣಿಸಬೇಕು. ಒಂದು ಭಾಗದಲ್ಲಿ 5 ವರ್ಗಗಳು ಮತ್ತು ಇನ್ನೊಂದು ಭಾಗದಲ್ಲಿ 5 ವರ್ಗಗಳು. ಒಟ್ಟು 5 + 5 = 10. ಉತ್ತರ C (10).",
+        "en": "The squares are counted in two groups. One group has 5 squares and the other has 5 squares. Total 5 + 5 = 10. Answer C (10)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0153.webp"
+    },
+    {
+      "id": "GMAT-CF-0154",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ಆಯತಗಳೆಷ್ಟು?",
+        "en": "How many rectangles are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "6",
+          "en": "6"
+        },
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "7",
+          "en": "7"
+        },
+        {
+          "kn": "5",
+          "en": "5"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಆಯತಗಳನ್ನು ಗುಂಪುಗಳಾಗಿ ವಿಂಗಡಿಸಿ ಎಣಿಸಬೇಕು: 4 ಆಯತಗಳು, ನಂತರ 1 ಆಯತ, ಮತ್ತು ಇನ್ನೊಂದು 1 ಆಯತ. ಒಟ್ಟು 4 + 1 + 1 = 6. ಉತ್ತರ A (6).",
+        "en": "Count the rectangles in groups: 4 rectangles, then 1 more, then 1 more. Total 4 + 1 + 1 = 6. Answer A (6)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0154.webp"
+    },
+    {
+      "id": "GMAT-CF-0155",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ಆಯತಗಳೆಷ್ಟು?",
+        "en": "How many rectangles are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "95",
+          "en": "95"
+        },
+        {
+          "kn": "68",
+          "en": "68"
+        },
+        {
+          "kn": "100",
+          "en": "100"
+        },
+        {
+          "kn": "84",
+          "en": "84"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಇದು 4 × 4 ಜಾಲ. ಈ ಜಾಲದಲ್ಲಿರುವ ಆಯತಗಳ ಸಂಖ್ಯೆ 1³ + 2³ + 3³ + 4³ = 1 + 8 + 27 + 64 = 100. ಉತ್ತರ C (100).",
+        "en": "This is a 4 × 4 grid. The number of rectangles is 1³ + 2³ + 3³ + 4³ = 1 + 8 + 27 + 64 = 100. Answer C (100)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0155.webp"
+    },
+    {
+      "id": "GMAT-CF-0157",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ಸಮಾಂತರ ಚತುರ್ಭುಜಗಳೆಷ್ಟು?",
+        "en": "How many parallelograms are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "14",
+          "en": "14"
+        },
+        {
+          "kn": "16",
+          "en": "16"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸಮಾಂತರ ಚತುರ್ಭುಜಗಳನ್ನು ಸಾಲುಗಳ ಪ್ರಕಾರ ಎಣಿಸಬೇಕು: 1 + 2 + 3 = 6, ಮತ್ತು 6 × 3 = 18. ಉತ್ತರ B (18).",
+        "en": "Count the parallelograms by rows: 1 + 2 + 3 = 6, and 6 × 3 = 18. Answer B (18)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0157.webp"
+    },
+    {
+      "id": "GMAT-CF-0158",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ಸಮಾಂತರ ಚತುರ್ಭುಜಗಳೆಷ್ಟು?",
+        "en": "How many parallelograms are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "30",
+          "en": "30"
+        },
+        {
+          "kn": "32",
+          "en": "32"
+        },
+        {
+          "kn": "34",
+          "en": "34"
+        },
+        {
+          "kn": "36",
+          "en": "36"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಸಮಾಂತರ ಚತುರ್ಭುಜಗಳನ್ನು ಗುಂಪುಗಳಾಗಿ ವಿಂಗಡಿಸಿ ಎಣಿಸಬೇಕು: 1 + 2 + 3 = 6, ಮತ್ತು 6 × 6 = 36. ಉತ್ತರ D (36).",
+        "en": "Count the parallelograms in groups: 1 + 2 + 3 = 6, and 6 × 6 = 36. Answer D (36)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0158.webp"
+    },
+    {
+      "id": "GMAT-CF-0161",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ತ್ರಿಭುಜಗಳೆಷ್ಟು?",
+        "en": "How many triangles are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "22",
+          "en": "22"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಆಕೃತಿಯ ತ್ರಿಭುಜಗಳನ್ನು ಎರಡು ಭಾಗಗಳಾಗಿ ಎಣಿಸಬೇಕು: 6 × 2 = 12, ಮತ್ತು ಹೆಚ್ಚುವರಿ 3 ಸೇರಿಸಿ ಒಟ್ಟು 12 + 3 = 15. ಉತ್ತರ B (15).",
+        "en": "Count the triangles in two parts: 6 × 2 = 12, plus 3 more gives 12 + 3 = 15. Answer B (15)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0161.webp"
     }
   ]
 }
