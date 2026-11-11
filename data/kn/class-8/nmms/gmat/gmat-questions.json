@@ -8,9 +8,9 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 119,
+    "totalQuestions": 131,
     "questionNumberStart": 1,
-    "questionNumberEnd": 119,
+    "questionNumberEnd": 131,
     "version": "1.0.0"
   },
   "questions": [
@@ -3821,6 +3821,390 @@
         "en": "In the water image the black oval at the top and the dots at the bottom swap positions. Option D is correct according to the PDF key; the exact number and position of dots were not separately verified."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-WI-0119.webp"
+    },
+    {
+      "id": "GMAT-CC-0120",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೇಲಿನ ಚಿತ್ರದಲ್ಲಿ ಒಂದು ದೊಡ್ಡ ಪೂರ್ಣ ಘನವನ್ನು ಚಿಕ್ಕ ಘನಗಳಾಗಿ ಕತ್ತರಿಸಲಾಗಿದೆ. ಚಿತ್ರದಲ್ಲಿ ಎಷ್ಟು ಚಿಕ್ಕ ಘನಗಳಿವೆ?",
+        "en": "In the given figure, a complete big cube is cut into small cube pieces. How many small cubes are there in the above figure?"
+      },
+      "options": [
+        {
+          "kn": "3",
+          "en": "3"
+        },
+        {
+          "kn": "6",
+          "en": "6"
+        },
+        {
+          "kn": "27",
+          "en": "27"
+        },
+        {
+          "kn": "54",
+          "en": "54"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಂಚನ್ನು 3 ಸಮಾನ ಭಾಗಗಳಾಗಿ ವಿಂಗಡಿಸಲಾಗಿದೆ, ಆದ್ದರಿಂದ n = 3. ಒಟ್ಟು ಚಿಕ್ಕ ಘನಗಳು = n³ = 3 × 3 × 3 = 27.",
+        "en": "Each edge is divided into 3 equal parts, so n = 3. Total small cubes = n³ = 3 × 3 × 3 = 27."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0120.webp"
+    },
+    {
+      "id": "GMAT-CC-0121",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಯು ಒಂದು ಪೂರ್ಣ ಘನವಾಗಿದ್ದು, ಅದನ್ನು ಚಿಕ್ಕ ಘನಗಳಾಗುವಂತೆ ಕತ್ತರಿಸಲಾಗಿದೆ. ಚಿತ್ರದಲ್ಲಿ ತೋರಿಸಿರುವಂತೆ ಕೆಲವು ಘನಗಳನ್ನು ತೆಗೆಯಲಾಗಿದೆ. ಉಳಿದ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "In the given figure, a complete big cube is cut into small cube pieces and some of the small cubes are removed. How many small cubes are remaining after the removal, as shown in the figure?"
+      },
+      "options": [
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "27",
+          "en": "27"
+        },
+        {
+          "kn": "21",
+          "en": "21"
+        },
+        {
+          "kn": "18",
+          "en": "18"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಒಟ್ಟು ಘನಗಳು = 27. ತೆಗೆದ ಘನಗಳು = 6. ಉಳಿದ ಘನಗಳು = 27 − 6 = 21.",
+        "en": "Total cubes = 27. Cubes removed = 6. Cubes remaining = 27 − 6 = 21."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0121.webp"
+    },
+    {
+      "id": "GMAT-CC-0122",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಯು ಒಂದು ಪೂರ್ಣ ಘನವಾಗಿದ್ದು, ಅದನ್ನು ಚಿಕ್ಕ ಘನಗಳಾಗುವಂತೆ ಕತ್ತರಿಸಲಾಗಿದೆ. ಚಿತ್ರದಲ್ಲಿ ತೋರಿಸಿರುವಂತೆ ಕೆಲವು ಘನಗಳನ್ನು ತೆಗೆಯಲಾಗಿದೆ. ಉಳಿದ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "In the given figure, a complete big cube is cut into small cube pieces and some of the small cubes are removed. How many small cubes are remaining after the removal, as shown in the figure?"
+      },
+      "options": [
+        {
+          "kn": "24",
+          "en": "24"
+        },
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "27",
+          "en": "27"
+        },
+        {
+          "kn": "9",
+          "en": "9"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಒಟ್ಟು ಘನಗಳು = 27. ತೆಗೆದ ಘನಗಳು = 9. ಉಳಿದ ಘನಗಳು = 27 − 9 = 18.",
+        "en": "Total cubes = 27. Cubes removed = 9. Cubes remaining = 27 − 9 = 18."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0122.webp"
+    },
+    {
+      "id": "GMAT-CC-0123",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪ್ರಶ್ನೆ ಸಂಖ್ಯೆ 3 ರಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಕತ್ತರಿಸಿ ತೆಗೆಯಲಾಗಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are cut and removed from the figure given in question no.3"
+      },
+      "options": [
+        {
+          "kn": "6",
+          "en": "6"
+        },
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "9",
+          "en": "9"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ತೆಗೆದ ಘನಗಳು = 0 (ಕೆಳ ಪದರ) + 3 (ಮಧ್ಯ ಪದರ) + 6 (ಮೇಲ್ಪದರ) = 9.",
+        "en": "Cubes removed = 0 (bottom layer) + 3 (middle layer) + 6 (top layer) = 9."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0122.webp"
+    },
+    {
+      "id": "GMAT-CC-0124",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪ್ರಶ್ನೆ ಸಂಖ್ಯೆ 3 ರಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಚಿತ್ರವನ್ನು ಪೂರ್ಣ ಘನವನ್ನಾಗಿಸಲು ಅದಕ್ಕೆ ಸೇರಿಸಬೇಕಾದ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes should be added to make the figure (given in question number.3) a complete cube?"
+      },
+      "options": [
+        {
+          "kn": "9",
+          "en": "9"
+        },
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "6",
+          "en": "6"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಸೇರಿಸಬೇಕಾದ ಘನಗಳು = 0 (ಕೆಳ) + 3 (ಮಧ್ಯ) + 6 (ಮೇಲ್) = 9.",
+        "en": "Cubes to add = 0 (bottom) + 3 (middle) + 6 (top) = 9."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0122.webp"
+    },
+    {
+      "id": "GMAT-CC-0125",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪ್ರಶ್ನೆ ಸಂಖ್ಯೆ 3 ರಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಒಂದು ದೊಡ್ಡ ಘನವನ್ನು ಚಿಕ್ಕ ಘನಗಳಾಗಿ ಕತ್ತರಿಸಲಾಗಿದೆ. ಪ್ರತಿಯೊಂದು ಚಿಕ್ಕ ಘನದ ಘನಫಲ 1 ಘನ ಮಾನ. ಆಕೃತಿಯನ್ನು ಪೂರ್ಣವಾಗಿ ಮುಚ್ಚಲು ಬೇಕಾಗುವ ಲ್ಯಾಮಿನೇಟ್ ಹಾಳೆಯ ವಿಸ್ತೀರ್ಣ ಎಷ್ಟು?",
+        "en": "In the figure given in question no: 3, a complete big cube is cut into small cube pieces each one measuring 1 cubic unit. Find the area of laminate sheet required to cover the given figure?"
+      },
+      "options": [
+        {
+          "kn": "54 sq units",
+          "en": "54 sq units"
+        },
+        {
+          "kn": "57 sq units",
+          "en": "57 sq units"
+        },
+        {
+          "kn": "50 sq units",
+          "en": "50 sq units"
+        },
+        {
+          "kn": "48 sq units",
+          "en": "48 sq units"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಗೋಚರ ಮುಖ 1 ಚದರ ಮಾನ. ಆಕೃತಿಯ ಎಲ್ಲಾ ಗೋಚರ ಮುಖಗಳನ್ನು ಎಣಿಸಿದಾಗ ಒಟ್ಟು 48 ಚದರ ಮಾನ.",
+        "en": "Each small cube has 1 sq unit per visible face. Counting all visible faces of the figure gives 48 sq units."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0122.webp"
+    },
+    {
+      "id": "GMAT-CC-0126",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಯು ಒಂದು ಪೂರ್ಣ ಘನವಾಗಿದ್ದು, ಅದನ್ನು ಚಿಕ್ಕ ಘನಗಳಾಗುವಂತೆ ಕತ್ತರಿಸಲಾಗಿದೆ. ಚಿತ್ರದಲ್ಲಿ ತೋರಿಸಿರುವಂತೆ ಕೆಲವು ಘನಗಳನ್ನು ತೆಗೆಯಲಾಗಿದೆ. ಉಳಿದ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "In the given figure, a complete cube is cut into small cube pieces and some of the small cubes are removed. How many small cubes are remaining after the removal, as shown in the figure?"
+      },
+      "options": [
+        {
+          "kn": "22",
+          "en": "22"
+        },
+        {
+          "kn": "40",
+          "en": "40"
+        },
+        {
+          "kn": "64",
+          "en": "64"
+        },
+        {
+          "kn": "48",
+          "en": "48"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಉಳಿದ ಪದರಗಳು: 4 + 8 + 12 + 16 = 40.",
+        "en": "Layers remaining: 4 + 8 + 12 + 16 = 40."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0123.webp"
+    },
+    {
+      "id": "GMAT-CC-0127",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪ್ರಶ್ನೆ ಸಂಖ್ಯೆ 7 ರಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಕತ್ತರಿಸಿ ತೆಗೆಯಲಾಗಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are cut and removed from the figure given in question no.7"
+      },
+      "options": [
+        {
+          "kn": "64",
+          "en": "64"
+        },
+        {
+          "kn": "40",
+          "en": "40"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        },
+        {
+          "kn": "48",
+          "en": "48"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ತೆಗೆದ ಘನಗಳು = 64 (ಪೂರ್ಣ ಘನ) − 40 (ಉಳಿದ) = 24.",
+        "en": "Cubes removed = 64 (full cube) − 40 (remaining) = 24."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0123.webp"
+    },
+    {
+      "id": "GMAT-CC-0128",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪ್ರಶ್ನೆ ಸಂಖ್ಯೆ 7 ರಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಚಿತ್ರವನ್ನು ಪೂರ್ಣ ಘನವನ್ನಾಗಿಸಲು ಅದಕ್ಕೆ ಸೇರಿಸಬೇಕಾದ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes should be added to make the figure (given in question no.7) a complete cube?"
+      },
+      "options": [
+        {
+          "kn": "48",
+          "en": "48"
+        },
+        {
+          "kn": "40",
+          "en": "40"
+        },
+        {
+          "kn": "64",
+          "en": "64"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಸೇರಿಸಬೇಕಾದ ಘನಗಳು = 64 − 40 = 24.",
+        "en": "Cubes to add = 64 − 40 = 24."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0123.webp"
+    },
+    {
+      "id": "GMAT-CC-0129",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಯು ಒಂದು ಪೂರ್ಣ ಘನವಾಗಿದ್ದು, ಅದನ್ನು ಚಿಕ್ಕ ಘನಗಳಾಗುವಂತೆ ಕತ್ತರಿಸಲಾಗಿದೆ. ಚಿತ್ರದಲ್ಲಿ ತೋರಿಸಿರುವಂತೆ ಕೆಲವು ಘನಗಳನ್ನು ತೆಗೆಯಲಾಗಿದೆ. ಉಳಿದ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "In the given figure a complete cube is cut into small cube pieces and some of the small cubes are removed how many small cubes are remaining after. The removal, as shown in the figure."
+      },
+      "options": [
+        {
+          "kn": "125",
+          "en": "125"
+        },
+        {
+          "kn": "105",
+          "en": "105"
+        },
+        {
+          "kn": "95",
+          "en": "95"
+        },
+        {
+          "kn": "115",
+          "en": "115"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಉಳಿದ ಪದರಗಳು: 10 (ಮೇಲ್) + 20 + 25 + 25 + 25 (ಕೆಳ) = 105.",
+        "en": "Layers remaining: 10 (top) + 20 + 25 + 25 + 25 (bottom) = 105."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0124.webp"
+    },
+    {
+      "id": "GMAT-CC-0130",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪ್ರಶ್ನೆ ಸಂಖ್ಯೆ 10 ರಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಕತ್ತರಿಸಿ ತೆಗೆಯಲಾಗಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are cut and removed from the figure given in question no:10?"
+      },
+      "options": [
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "25",
+          "en": "25"
+        },
+        {
+          "kn": "30",
+          "en": "30"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ತೆಗೆದ ಘನಗಳು = 125 − 105 = 20.",
+        "en": "Cubes removed = 125 − 105 = 20."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0124.webp"
+    },
+    {
+      "id": "GMAT-CC-0131",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಎಷ್ಟು ಘನಗಳಿವೆ?",
+        "en": "How many cubes are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "14",
+          "en": "14"
+        },
+        {
+          "kn": "10",
+          "en": "10"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಕೆಳ ಪದರ 10 + ಎರಡನೇ ಪದರ 6 + ಮೂರನೇ ಪದರ 3 + ಮೇಲ್ ಪದರ 1 = 20.",
+        "en": "Bottom layer 10 + second layer 6 + third layer 3 + top layer 1 = 20."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0125.webp"
     }
   ]
 }
