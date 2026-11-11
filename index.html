@@ -2258,7 +2258,7 @@ function nmRefresh(){
  $('main').innerHTML=vNMMS();
  nmScheduleRemaining(NM.renderToken);
 }
-// ಮೊದಲ 10 ಪ್ರಶ್ನೆಗಳನ್ನು ತಕ್ಷಣ ತೋರಿಸಿ, ಉಳಿದವುಗಳನ್ನು ಮುಖ್ಯ thread ಬಿಡುವಿನ ವೇಳೆಯಲ್ಲಿ ಸೇರಿಸು.
+// ಮೊದಲ 10 ಪ್ರಶ್ನೆಗಳನ್ನು ತಕ್ಷಣ ತೋರಿಸಿ; ಉಳಿದ ಪ್ರಶ್ನೆಗಳನ್ನು ಮೊಬೈಲ್‌ನಲ್ಲಿಯೂ ಖಚಿತವಾಗಿ ಸಣ್ಣ ಬ್ಯಾಚ್‌ಗಳಲ್ಲಿ ಸೇರಿಸು.
 function nmScheduleRemaining(token){
  const k=NM.tab;
  if(!['gmat','sat'].includes(k))return;
@@ -2266,22 +2266,19 @@ function nmScheduleRemaining(token){
  if(!host)return;
  const all=nmData(k).filter(q=>!q.bad),cur=NM.dif[k]||'all';
  const shown=cur==='all'?all:all.filter(q=>q.difficulty===cur);
- let index=Math.min(10,shown.length);
+ let index=Math.min(10,shown.length),timer=0;
  if(index>=shown.length){host.remove();return;}
  const run=()=>{
-  if(token!==NM.renderToken||!host.isConnected)return;
+  if(token!==NM.renderToken||!host.isConnected){if(timer)clearTimeout(timer);return;}
   const end=Math.min(index+5,shown.length),html=[];
   for(;index<end;index++){const q=shown[index];html.push(nmCard(k,q,q._i,index+1));}
   host.insertAdjacentHTML('beforebegin',html.join(''));
   if(index>=shown.length){host.remove();return;}
-  schedule();
+  // Yield briefly between batches so scrolling and answer interaction stay responsive.
+  timer=window.setTimeout(run,35);
  };
- const schedule=()=>{
-  if(token!==NM.renderToken||!host.isConnected)return;
-  if('requestIdleCallback' in window)window.requestIdleCallback(run,{timeout:250});
-  else window.setTimeout(run,40);
- };
- schedule();
+ // Let the first screen paint before building the remaining question cards.
+ timer=window.setTimeout(run,80);
 }
 function nmSetTab(t){NM.tab=t;nmRefresh()}
 function nmSetExam(k){NM.exam=k;nmRefresh()}
