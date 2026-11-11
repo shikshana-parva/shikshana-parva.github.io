@@ -8,9 +8,9 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 67,
+    "totalQuestions": 82,
     "questionNumberStart": 1,
-    "questionNumberEnd": 67,
+    "questionNumberEnd": 82,
     "version": "1.0.0"
   },
   "questions": [
@@ -2157,6 +2157,486 @@
         "en": "The regions shared by Sunrisers and MI are 25, 31 and 8. Therefore, 25 + 31 + 8 = 64."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-IF-0067.webp"
+    },
+    {
+      "id": "GMAT-FF-0068",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮಡಿಕೆ ರೇಖೆಯ ಬಲಭಾಗದ ಬಾಣಗಳು ಎಡಭಾಗಕ್ಕೆ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ ಮತ್ತು ಅವುಗಳ ತುದಿಗಳ ದಿಕ್ಕು ಹಿಮ್ಮುಖವಾಗುತ್ತದೆ. ಎಡ ಅಂಚಿನಲ್ಲಿ ವೃತ್ತ ಮತ್ತು ಎಡಕ್ಕೆ ತೋರುವ ಬಾಣಗಳು ಮಡಿಕೆ ರೇಖೆಯನ್ನು ಮುಟ್ಟುವ ಗೆರೆಗಳೊಂದಿಗೆ ಉಳಿಯುತ್ತವೆ. ಆಯ್ಕೆ (C) ಈ ಫಲಿತಾಂಶವನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+        "en": "The arrows on the right of the fold line are reflected to the left, and their directions reverse. A circle at the left edge with left-pointing arrows that meet the fold line matches this result. Option C is correct."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0068.webp"
+    },
+    {
+      "id": "GMAT-FF-0069",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕರ್ಣರೇಖೆಯ ಮೇಲಿನ ಬಲಭಾಗದ ಚುಕ್ಕೆಗಳನ್ನು ಕೆಳ ಎಡ ಭಾಗಕ್ಕೆ ಪ್ರತಿಬಿಂಬಿಸಿದಾಗ ಅವು ಕರ್ಣರೇಖೆಯ ಸಮೀಪದಲ್ಲಿ ಸಾಲಾಗಿ ಬರುತ್ತವೆ. ಕೆಳ ಎಡ ಭಾಗದ ಮೂಲ ಚುಕ್ಕೆಗಳು ಬದಲಾಗದೆ ಉಳಿಯುತ್ತವೆ. ಆಯ್ಕೆ (B) ಈ ಸಂಯೋಜಿತ ವಿನ್ಯಾಸಕ್ಕೆ ಹೊಂದುತ್ತದೆ.",
+        "en": "Dots on the upper-right of the diagonal are reflected onto the lower-left side, lining up along the fold. The original lower-left dots stay as they are. Option B matches this combined pattern."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0069.webp"
+    },
+    {
+      "id": "GMAT-FF-0070",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮಡಿಕೆ ರೇಖೆಯ ಬಲಭಾಗದ ಬಲ-ದಿಕ್ಕಿನ ಬಾಣಗಳು ಎಡಕ್ಕೆ ಪ್ರತಿಬಿಂಬಿಸಿ ಎಡ-ದಿಕ್ಕಿನ ಬಾಣಗಳಾಗುತ್ತವೆ. ಕೆಳ ಸಾಲಿನ ↑↑ ಗುರುತುಗಳು ಎಡಭಾಗದಲ್ಲಿ ಹಾಗೆಯೇ ಉಳಿಯುತ್ತವೆ. ಆಯ್ಕೆ (C) ಮೇಲಿನ ಸಾಲಿನ ಎಡ-ದಿಕ್ಕಿನ ಬಾಣಗಳು ಮತ್ತು ಕೆಳ ಸಾಲಿನ ಎಡ-ದಿಕ್ಕಿನ ಬಾಣವನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+        "en": "Right-pointing arrows on the right of the fold reflect into left-pointing arrows on the left side. The ↑↑ marks on the bottom row stay unchanged on the left. Option C shows the left-pointing arrows in both rows correctly."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0070.webp"
+    },
+    {
+      "id": "GMAT-FF-0071",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಮಡಿಕೆ ರೇಖೆಯ ಬಲಭಾಗದ ಆಕಾರಗಳು (ಚೌಕ, ತ್ರಿಕೋನ) ಎಡಕ್ಕೆ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ ಮತ್ತು ಕಪ್ಪು-ಬಿಳಿ ಬಣ್ಣಗಳು ಉಳಿಯುತ್ತವೆ. ಆಯ್ಕೆ (D) ಈ ಪ್ರತಿಬಿಂಬಿತ ವಿನ್ಯಾಸವನ್ನು ಸರಿಯಾದ ಸ್ಥಾನ ಮತ್ತು ಬಣ್ಣದೊಂದಿಗೆ ತೋರಿಸುತ್ತದೆ.",
+        "en": "Shapes on the right of the fold line (squares and triangles) reflect to the left, keeping their black or white fill. Option D shows this reflected arrangement with the correct positions and colours."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0071.webp"
+    },
+    {
+      "id": "GMAT-FF-0072",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಎರಡೂ ಬದಿಯ X ರೇಖೆಗಳು ಮತ್ತು ವೃತ್ತಗಳು ಮಡಿಕೆ ರೇಖೆಯ ಮೇಲೆ ಒಂದಕ್ಕೊಂದು ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ವೃತ್ತಗಳ ಬಣ್ಣ ಉಳಿಯುತ್ತದೆ. ಆಯ್ಕೆ (D) ಈ ಪ್ರತಿಬಿಂಬದ ನಂತರ ಎಡ ಭಾಗದಲ್ಲಿ ಉಳಿಯುವ ವಿನ್ಯಾಸವನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+        "en": "The X lines and circles on both sides reflect across the fold line, and each circle keeps its colour. Option D shows the pattern that remains on the left after this reflection."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0072.webp"
+    },
+    {
+      "id": "GMAT-FF-0073",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಮಡಿಕೆಯ ಬಲಭಾಗದ ಬಾಣಗಳು ಎಡಕ್ಕೆ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ ಮತ್ತು ಅವುಗಳ ದಿಕ್ಕು ಬದಲಾಗುತ್ತದೆ. ಎಡ ಭಾಗದ ಮೂಲ ಗುರುತುಗಳು ಉಳಿಯುತ್ತವೆ. ಆಯ್ಕೆ (A) ಈ ಬದಲಾದ ದಿಕ್ಕುಗಳು ಮತ್ತು ಸ್ಥಾನಗಳನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "Arrows on the right of the fold reflect to the left and their directions change. The original marks on the left remain. Option A shows these changed directions and positions."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0073.webp"
+    },
+    {
+      "id": "GMAT-FF-0074",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಸಮತಲ ರೇಖೆಯ ಮೇಲಿನ ಕರ್ಣರೇಖೆಗಳು ಮಡಿಕೆಯ ಮೂಲಕ ಕೆಳ ಭಾಗಕ್ಕೆ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ಕೆಳ ಭಾಗದ ಗೆರೆಗಳು ಸೇರಿದಾಗ ಆಯ್ಕೆ (A) ಈ ಸಂಯೋಜಿತ ಗೆರೆ ವಿನ್ಯಾಸವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "Diagonal lines above the horizontal fold reflect across it into the lower half. Combined with the lines already below, Option A shows this resulting line pattern."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0074.webp"
+    },
+    {
+      "id": "GMAT-FF-0075",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಮನೆಯ ಚಿತ್ರದ ಬಲಭಾಗದ ವೃತ್ತ ಮತ್ತು ಛಾವಣಿಯ ಕಪ್ಪು ಭಾಗ ಮಡಿಕೆ ರೇಖೆಯ ಮೂಲಕ ಎಡಕ್ಕೆ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ಕೆಳಗಿನ ಚೌಕ ಮತ್ತು ವೃತ್ತದ ಸ್ಥಾನ ಬದಲಾಗುತ್ತದೆ. ಆಯ್ಕೆ (A) ಈ ಪ್ರತಿಬಿಂಬಿತ ಸ್ಥಾನ ಮತ್ತು ಬಣ್ಣಗಳನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+        "en": "The circle and dark roof part on the right of the fold reflect to the left, while the square and circle at the bottom change position. Option A shows these reflected positions and colours correctly."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0075.webp"
+    },
+    {
+      "id": "GMAT-FF-0076",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "'P' ಅಕ್ಷರದ ಚೌಕ ಮತ್ತು 'b' ಅಕ್ಷರ ಮಡಿಕೆಯ ಮೂಲಕ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ ಮತ್ತು 'M' ಅಕ್ಷರ ಕನ್ನಡಿ ಬಿಂಬದಂತೆ ತಿರುಗುತ್ತದೆ. ಎಡ ಭಾಗದ ಅಕ್ಷರಗಳು ಬದಲಾಗದೆ ಉಳಿಯುತ್ತವೆ. ಆಯ್ಕೆ (D) ಈ ಬದಲಾವಣೆಗಳನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+        "en": "The 'P' box and 'b' reflect across the fold, and 'M' flips like a mirror image. The letters on the left stay unchanged. Option D shows these changes correctly."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0076.webp"
+    },
+    {
+      "id": "GMAT-FF-0077",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಕರ್ಣರೇಖೆಯ ಒಂದು ಬದಿಯ ಚಿತ್ರ ಇನ್ನೊಂದು ಬದಿಗೆ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತದೆ. ಗೆರೆ ಮತ್ತು ಚುಕ್ಕೆಗಳ ಸ್ಥಾನ ಕರ್ಣರೇಖೆಯ ಆಧಾರದ ಮೇಲೆ ಬದಲಾಗುತ್ತದೆ. ಆಯ್ಕೆ (D) ಈ ಪ್ರತಿಬಿಂಬಿತ ಫಲಿತಾಂಶವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The figure on one side of the diagonal reflects across it, and the positions of the line and dots change with respect to the diagonal. Option D shows this reflected result."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0077.webp"
+    },
+    {
+      "id": "GMAT-FF-0078",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಅಂಡಾಕಾರಗಳು ಮತ್ತು ಕರ್ಣ ಗೆರೆಯು ಮಡಿಕೆ ರೇಖೆಯ ಆಚೆ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ, ಮತ್ತು ಅಂಡಾಕಾರಗಳು ಒಂದರ ಮೇಲೊಂದು ಬರುತ್ತವೆ. ಆಯ್ಕೆ (C) ಈ ಅತಿಕ್ರಮಿತ ಅಂಡಾಕಾರಗಳು ಮತ್ತು ಗೆರೆ ವಿನ್ಯಾಸವನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+        "en": "The ellipses and diagonal line reflect across the fold line, and the ellipses overlap one another. Option C shows this overlapping ellipse and line pattern correctly."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0078.webp"
+    },
+    {
+      "id": "GMAT-FF-0079",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ತ್ರಿಕೋನ ಗೆರೆಗಳು ಸಮತಲ ರೇಖೆ ಮತ್ತು ಮಡಿಕೆಯ ಮೂಲಕ ಪ್ರತಿಬಿಂಬಿತವಾಗಿ ಸಮ್ಮಿತೀಯ ವಜ್ರ ಆಕಾರ ರೂಪುಗೊಳ್ಳುತ್ತದೆ. ಆಯ್ಕೆ (C) ಈ ಸಮ್ಮಿತೀಯ ಗೆರೆ ವಿನ್ಯಾಸವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "Triangular lines reflect across the horizontal line and the fold, forming a symmetric diamond shape. Option C shows this symmetric line pattern."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0079.webp"
+    },
+    {
+      "id": "GMAT-FF-0080",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಕರ್ಣರೇಖೆಯ ಒಂದು ಬದಿಯ ಚೌಕ ಮತ್ತು ಗೆರೆಗಳು ಇನ್ನೊಂದು ಬದಿಗೆ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ಆಯ್ಕೆ (A) ಚೌಕ ಮತ್ತು ಕರ್ಣ ಗೆರೆಯ ಪ್ರತಿಬಿಂಬಿತ ಸ್ಥಾನವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The square and lines on one side of the diagonal reflect to the other side. Option A shows the reflected square with its diagonal line in the correct position."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0080.webp"
+    },
+    {
+      "id": "GMAT-FF-0081",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಚೌಕದ ಒಳಗಿನ ಕಪ್ಪು ವೃತ್ತ ಮತ್ತು ಗೆರೆ ಮಡಿಕೆ ರೇಖೆಯ ಮೂಲಕ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ, ಬಣ್ಣ ಉಳಿಯುತ್ತದೆ. ಆಯ್ಕೆ (D) ಕಪ್ಪು ವೃತ್ತ ಮತ್ತು ಗೆರೆಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಣ್ಣವನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+        "en": "The black circle and lines inside the square reflect across the fold, keeping their colour. Option D shows the correct position and colour of the circle and lines."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0081.webp"
+    },
+    {
+      "id": "GMAT-FF-0082",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾರದರ್ಶಕ ಹಾಳೆಯ ಮೇಲಿನ ಆಕೃತಿ ಮತ್ತು ಚುಕ್ಕೆ ಗೆರೆಯನ್ನು ಗಮನಿಸಿ. ಆ ಗೆರೆಯ ಉದ್ದಕ್ಕೂ ಹಾಳೆಯನ್ನು ಮಡಿಸಿದಾಗ ಆಕೃತಿ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the figure drawn on the transparent sheet and the dotted fold line. Identify how the figure will look after the sheet is folded along the line, and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಲಂಬ ಗೆರೆಗಳ ಉದ್ದ ಮತ್ತು ಸ್ಥಾನ ಮಡಿಕೆ ರೇಖೆಯ ಮೂಲಕ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತದೆ. ಆಯ್ಕೆ (D) ಈ ಪ್ರತಿಬಿಂಬಿತ ಗೆರೆಗಳ ಉದ್ದ ಮತ್ತು ಸ್ಥಾನ ವ್ಯತ್ಯಾಸವನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+        "en": "The lengths and positions of the vertical lines reflect across the fold line. Option D shows the correct reflected lengths and positions."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0082.webp"
     }
   ]
 }
