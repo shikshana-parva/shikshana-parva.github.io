@@ -521,8 +521,8 @@
       ],
       "correctIndex": 0,
       "explanation": {
-        "kn": "",
-        "en": ""
+        "kn": "ಮೊದಲ ಆಕೃತಿ: ಲಂಬ ರೇಖೆಗಳು ಮಾತ್ರ (ಮೇಲೆ ಮತ್ತು ಕೆಳಗೆ ತಲಾ ಒಂದು). ಎರಡನೆಯದರಲ್ಲಿ ಅಡ್ಡ ರೇಖೆಗಳೂ ಒಂದೊಂದು ಸೇರಿವೆ. ಮೂರನೆಯದರಲ್ಲಿ ಲಂಬ ರೇಖೆಗಳು ಎರಡಾಗಿವೆ (ಡಬಲ್) ಮತ್ತು ಅಡ್ಡ ರೇಖೆ ಒಂದೇ. ಪ್ರತಿ ಹಂತದಲ್ಲಿ ಒಂದು ರೇಖೆ ಸೇರುತ್ತದೆ: ಮೊದಲು ಅಡ್ಡ, ನಂತರ ಲಂಬ ಆದ್ದರಿಂದ ಮುಂದಿನ ಆಕೃತಿಯಲ್ಲಿ ಲಂಬ ಎರಡು ಮತ್ತು ಅಡ್ಡ ಎರಡು ಇರಬೇಕು. ಆಯ್ಕೆ A ಇದನ್ನೇ ತೋರಿಸುತ್ತದೆ. ಉತ್ತರ A.",
+        "en": "Figure 1 has only vertical strokes (one above and one below the centre). Figure 2 adds one horizontal stroke on each side. Figure 3 doubles the vertical strokes while the horizontal stays single. Each step adds one stroke alternately to the horizontal and vertical arms, so the next figure has two vertical and two horizontal strokes. Option A shows this. Answer A."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0016.webp"
     },
@@ -649,8 +649,8 @@
       ],
       "correctIndex": 3,
       "explanation": {
-        "kn": "",
-        "en": ""
+        "kn": "ಆಯತದ ಮೂಲೆಗಳ ಮೇಲಿನ ವೃತ್ತಗಳು ಕರ್ಣ ರೇಖೆಗಳ ತುದಿಗಳ ಮೇಲೆ ಇವೆ. ಮೇಲಿನ ಎಡ ಮೂಲೆಯ ವೃತ್ತ ಮೇಲಿನ ಎಡದಿಂದ ಕೆಳಗಿನ ಬಲಕ್ಕೆ ಹೋಗುವ ಕರ್ಣದ ತುದಿಯಲ್ಲಿದೆ. ಕೆಳಗಿನ ಬಲ ಮೂಲೆ (?) ಖಾಲಿ ಆಗಿದೆ. ಆ ಕರ್ಣವನ್ನು ಕೆಳಗಿನ ಬಲ ಮೂಲೆಯವರೆಗೆ ಮುಂದುವರಿಸಿದರೆ ಅಲ್ಲಿ ವೃತ್ತ ಬರಬೇಕು. ಆಯ್ಕೆ D ಯಲ್ಲಿ ಮೇಲಿನ ಎಡದಿಂದ ಕೆಳಗಿನ ಬಲಕ್ಕೆ ಕರ್ಣ ಮತ್ತು ಕೆಳಗಿನ ಬಲ ಮೂಲೆಯಲ್ಲಿ ವೃತ್ತ ಇದೆ. ಉತ್ತರ D.",
+        "en": "The circles sit at the ends of the diagonals. The top-left circle is at the end of the diagonal running from top-left to bottom-right, and the bottom-right corner is the missing place. Option D has that diagonal with a circle at the bottom-right corner, which completes the pattern. Answer D."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0020.webp"
     },
@@ -777,8 +777,8 @@
       ],
       "correctIndex": 2,
       "explanation": {
-        "kn": "",
-        "en": ""
+        "kn": "ಲಂಬ ರೇಖೆಯ ಮೇಲಿನ ಅಂಡಾಕೃತಿಗಳ ಸಂಖ್ಯೆ: ಮೊದಲ ಆಕೃತಿಯಲ್ಲಿ 1, ಎರಡನೆಯಲ್ಲಿ 2, ಮೂರನೆಯಲ್ಲಿ 2, ನಾಲ್ಕನೆಯಲ್ಲಿ 3, ಐದನೆಯಲ್ಲಿ 3. ಪ್ರತಿ ಎರಡು ಆಕೃತಿಗಳಿಗೆ ಒಂದರಷ್ಟು ಹೆಚ್ಚಾಗುತ್ತದೆ, ಆದ್ದರಿಂದ ಮುಂದಿನ ಆಕೃತಿಯಲ್ಲಿ 4 ಅಂಡಾಕೃತಿಗಳು ಇರಬೇಕು. ಆಯ್ಕೆ C ಯಲ್ಲಿ ಲಂಬ ರೇಖೆಯ ಮೇಲೆ 4 ಅಂಡಾಕೃತಿಗಳಿವೆ. ಉತ್ತರ C.",
+        "en": "The number of ellipses on the vertical line goes 1, 2, 2, 3, 3 across the figures, increasing by one every two figures. So the next figure has 4 ellipses on the line. Option C shows a vertical line with 4 ellipses. Answer C."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0024.webp"
     },
@@ -905,8 +905,8 @@
       ],
       "correctIndex": 1,
       "explanation": {
-        "kn": "",
-        "en": ""
+        "kn": "ಪ್ರತಿ ತ್ರಿಕೋನದಲ್ಲಿ ಮೂರು ಅಕ್ಷರಗಳು ಸತತವಾಗಿ ಇವೆ: (A,B,C), (D,E,F), (G,H,I), (J,K,L). ಮೇಲ್ಭಾಗದ ಅಕ್ಷರ ಮೊದಲ ಮತ್ತು ಮೂರನೇ ತ್ರಿಕೋನಗಳಲ್ಲಿ ಮೊದಲನೆಯದು, ಎರಡನೇ ಮತ್ತು ನಾಲ್ಕನೇಯಲ್ಲಿ ಕೊನೆಯದು. ಆದ್ದರಿಂದ ಮುಂದಿನ ಸೆಟ್ (M,N,O) ಗೆ ಮೇಲ್ಭಾಗ M, ಎಡ N, ಬಲ O ಇರಬೇಕು. ಆಯ್ಕೆ B ಇದೇ ಆಗಿದೆ. ಉತ್ತರ B.",
+        "en": "Each triangle has three consecutive letters: (A,B,C), (D,E,F), (G,H,I), (J,K,L). In the first and third triangles the top letter is the first of the set; in the second and fourth it is the last. The next set is (M,N,O), so the triangle should have M at the top (first letter), with N and O at the base corners. Option B shows M at top, N on the left and O on the right. Answer B."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0028.webp"
     },
@@ -937,8 +937,8 @@
       ],
       "correctIndex": 3,
       "explanation": {
-        "kn": "",
-        "en": ""
+        "kn": "ಸರಣಿಯಲ್ಲಿ ವೃತ್ತಗಳ ಸಂಖ್ಯೆ 3, 3, 4, 4 ಆಗಿದ್ದು ಪ್ರತಿ ಎರಡು ಆಕೃತಿಗಳಿಗೆ ಒಂದರಷ್ಟು ಹೆಚ್ಚುತ್ತದೆ. ಸಮತಲ ಮತ್ತು ಲಂಬ ಸ್ಥಾನಗಳು ಪರ್ಯಾಯವಾಗಿ ಬದಲಾಗುತ್ತವೆ. ಆದ್ದರಿಂದ ಮುಂದಿನ ಆಕೃತಿ ಸಮತಲ ಸ್ಥಾನದಲ್ಲಿ 5 ವೃತ್ತಗಳನ್ನು ಹೊಂದಿರಬೇಕು. ಆಯ್ಕೆ D ಯಲ್ಲಿ 5 ವೃತ್ತಗಳು ಸಮತಲವಾಗಿವೆ. ಉತ್ತರ D.",
+        "en": "The number of circles goes 3, 3, 4, 4 across the figures, increasing by one every two figures, and the orientation alternates between horizontal and vertical. So the next figure is horizontal with 5 circles. Option D shows five circles in a horizontal row. Answer D."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0029.webp"
     },
@@ -969,8 +969,8 @@
       ],
       "correctIndex": 1,
       "explanation": {
-        "kn": "",
-        "en": ""
+        "kn": "ಪ್ರತಿ ಆಕೃತಿಯಲ್ಲಿ ಅಂಡಾಕೃತಿ ಮತ್ತು ಒಂದು ಕಮಾನು ಇದೆ. ಕಮಾನಿನ ಸ್ಥಾನ ಪ್ರತಿ ಬಾರಿ 90° ಬದಲಾಗುತ್ತದೆ: ಬಲ → ಕೆಳ → ಎಡ → ಮೇಲ. ಮುಂದಿನ ಸ್ಥಾನ ಬಲ, ಆದ್ದರಿಂದ ಕಮಾನು ಬಲ ಭಾಗದಲ್ಲಿರಬೇಕು. ಆಯ್ಕೆ B ಯಲ್ಲಿ ಅಂಡಾಕೃತಿಯ ಬಲಕ್ಕೆ ಕಮಾನು ಇದೆ. ಉತ್ತರ B.",
+        "en": "Each figure has an oval and one bracket-shaped arc. The arc moves 90° at each step: right, bottom, left, top. The next position is right, so the arc must be on the right side of the oval. Option B shows the arc on the right. Answer B."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0030.webp"
     },
