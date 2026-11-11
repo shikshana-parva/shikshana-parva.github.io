@@ -8,7 +8,7 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 189,
+    "totalQuestions": 203,
     "questionNumberStart": 1,
     "questionNumberEnd": 146,
     "version": "1.0.0"
@@ -6061,6 +6061,454 @@
         "en": "(4 + 9)² + (9 − 4)² = 169 + 25 = 194; (11 + 8)² + (11 − 8)² = 361 + 9 = 370; the missing figure: (7 + 3)² + (7 − 3)² = 100 + 16 = 116. Answer B (116)."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0191.webp"
+    },
+    {
+      "id": "GMAT-VN-0193",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಯಾವ ವೆನ್ ನಕ್ಷೆಯು ಕೊಟ್ಟಿರುವ ಸಂಬಂಧವನ್ನು ತೋರಿಸುತ್ತದೆ? (ಅಂಡಜ ಪ್ರಾಣಿಗಳು, ಬಾವಲಿ, ಹಲ್ಲಿ)",
+        "en": "Which Venn diagram shows the relationship? (Oviparous animals, Bat, Lizard)"
+      },
+      "options": [
+        {
+          "kn": "ಚಿತ್ರ A",
+          "en": "Diagram A"
+        },
+        {
+          "kn": "ಚಿತ್ರ B",
+          "en": "Diagram B"
+        },
+        {
+          "kn": "ಚಿತ್ರ C",
+          "en": "Diagram C"
+        },
+        {
+          "kn": "ಚಿತ್ರ D",
+          "en": "Diagram D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೊಟ್ಟೆ ಇಡುವ ಪ್ರಾಣಿಗಳ (ಅಂಡಜ) ಗುಂಪಿನಲ್ಲಿ ಹಲ್ಲಿ ಇದೆ; ಬಾವಲಿ ಸಸ್ತನಿ ಆದ್ದರಿಂದ ಆ ಗುಂಪಿನ ಹೊರಗಿದೆ. ಚಿತ್ರ B ಇದನ್ನೇ ತೋರಿಸುತ್ತದೆ. ಉತ್ತರ B.",
+        "en": "Lizards are oviparous, so they lie inside that group. Bats are mammals, so they lie outside it. Diagram B shows this. Answer B."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0193.webp"
+    },
+    {
+      "id": "GMAT-VN-0194",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಯಾವ ವೆನ್ ನಕ್ಷೆಯು ಕೊಟ್ಟಿರುವ ಸಂಬಂಧವನ್ನು ತೋರಿಸುತ್ತದೆ? (ಪದವೀಧರ, ಪ್ರಾಧ್ಯಾಪಕ, ಗಾಯಕ)",
+        "en": "Which Venn diagram shows the relationship? (Graduate, Professor, Singer)"
+      },
+      "options": [
+        {
+          "kn": "ಚಿತ್ರ A",
+          "en": "Diagram A"
+        },
+        {
+          "kn": "ಚಿತ್ರ B",
+          "en": "Diagram B"
+        },
+        {
+          "kn": "ಚಿತ್ರ C",
+          "en": "Diagram C"
+        },
+        {
+          "kn": "ಚಿತ್ರ D",
+          "en": "Diagram D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರಾಧ್ಯಾಪಕರು ಪದವೀಧರರ ಗುಂಪಿನಲ್ಲಿ ಇದ್ದಾರೆ (ಒಳಗಿನ ವೃತ್ತ). ಕೆಲವು ಪದವೀಧರರು ಗಾಯಕರೂ ಆಗಿರಬಹುದು (ಛೇದಿಸುವ ವೃತ್ತ). ಚಿತ್ರ C. ಉತ್ತರ C.",
+        "en": "Professors are inside the graduates group (inner circle). Some graduates can also be singers (overlapping circle). Diagram C. Answer C."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0194.webp"
+    },
+    {
+      "id": "GMAT-VN-0195",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಯಾವ ವೆನ್ ನಕ್ಷೆಯು ಕೊಟ್ಟಿರುವ ಸಂಬಂಧವನ್ನು ತೋರಿಸುತ್ತದೆ? (ಸೌರಮಂಡಲ, ಧೂಮಕೇತು, ಗೆಲಾಕ್ಸಿ)",
+        "en": "Which Venn diagram shows the relationship? (Solar System, Comet, Galaxy)"
+      },
+      "options": [
+        {
+          "kn": "ಚಿತ್ರ A",
+          "en": "Diagram A"
+        },
+        {
+          "kn": "ಚಿತ್ರ B",
+          "en": "Diagram B"
+        },
+        {
+          "kn": "ಚಿತ್ರ C",
+          "en": "Diagram C"
+        },
+        {
+          "kn": "ಚಿತ್ರ D",
+          "en": "Diagram D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಧೂಮಕೇತು ಸೌರಮಂಡಲದ ಒಳಗಿದೆ; ಸೌರಮಂಡಲ ಗೆಲಾಕ್ಸಿಯ ಒಳಗಿದೆ. ಆದ್ದರಿಂದ ಮೂರೂ ಒಂದರೊಳಗೊಂದು ಇರುವ ಚಿತ್ರ A. ಉತ್ತರ A.",
+        "en": "A comet lies inside the solar system, and the solar system lies inside the galaxy. So all three are nested: Diagram A. Answer A."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0195.webp"
+    },
+    {
+      "id": "GMAT-VN-0196",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಯಾವ ವೆನ್ ನಕ್ಷೆಯು ಕೊಟ್ಟಿರುವ ಸಂಬಂಧವನ್ನು ತೋರಿಸುತ್ತದೆ? (ಜೀವಿಗಳು, ಸಸ್ತನಿಗಳು, ನಾಯಿ, ಪಾರಿವಾಳ)",
+        "en": "Which Venn diagram shows the relationship? (Living Organisms, Mammals, Dog, Pigeon)"
+      },
+      "options": [
+        {
+          "kn": "ಚಿತ್ರ A",
+          "en": "Diagram A"
+        },
+        {
+          "kn": "ಚಿತ್ರ B",
+          "en": "Diagram B"
+        },
+        {
+          "kn": "ಚಿತ್ರ C",
+          "en": "Diagram C"
+        },
+        {
+          "kn": "ಚಿತ್ರ D",
+          "en": "Diagram D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಜೀವಿಗಳು ದೊಡ್ಡ ವೃತ್ತ; ಸಸ್ತನಿಗಳು ಅದರೊಳಗೆ; ನಾಯಿ ಸಸ್ತನಿಯೊಳಗೆ. ಪಾರಿವಾಳ ಜೀವಿ ಆದರೆ ಸಸ್ತನಿ ಅಲ್ಲ, ಆದ್ದರಿಂದ ಜೀವಿಗಳ ಒಳಗೆ ಆದರೆ ಸಸ್ತನಿಗಳ ಹೊರಗೆ. ಚಿತ್ರ A. ಉತ್ತರ A.",
+        "en": "Living organisms form the big circle; mammals lie inside it; the dog lies inside mammals. The pigeon is a living organism but not a mammal, so it is inside the big circle but outside mammals. Diagram A. Answer A."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0196.webp"
+    },
+    {
+      "id": "GMAT-VN-0197",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಯಾವ ವೆನ್ ನಕ್ಷೆಯು ಕೊಟ್ಟಿರುವ ಸಂಬಂಧವನ್ನು ತೋರಿಸುತ್ತದೆ? (ಸೊನ್ನೆ, ಪೂರ್ಣಾಂಕಗಳು, ಸ್ವಾಭಾವಿಕ ಸಂಖ್ಯೆಗಳು, ಅಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳು)",
+        "en": "Which Venn diagram shows the relationship? (Zero, Integers, Natural Numbers, Irrational Numbers)"
+      },
+      "options": [
+        {
+          "kn": "ಚಿತ್ರ A",
+          "en": "Diagram A"
+        },
+        {
+          "kn": "ಚಿತ್ರ B",
+          "en": "Diagram B"
+        },
+        {
+          "kn": "ಚಿತ್ರ C",
+          "en": "Diagram C"
+        },
+        {
+          "kn": "ಚಿತ್ರ D",
+          "en": "Diagram D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಸೊನ್ನೆ ಮತ್ತು ಸ್ವಾಭಾವಿಕ ಸಂಖ್ಯೆಗಳು ಎರಡೂ ಪೂರ್ಣಾಂಕಗಳ ಒಳಗಿವೆ, ಆದರೆ ಒಂದೇ ಒಳಗಿಲ್ಲ. ಅಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳು ಪ್ರತ್ಯೇಕ. ಚಿತ್ರ C. ಉತ್ತರ C.",
+        "en": "Zero and natural numbers both lie inside integers, but not inside each other. Irrational numbers are separate. Diagram C. Answer C."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0197.webp"
+    },
+    {
+      "id": "GMAT-VN-0198",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಯಾವ ವೆನ್ ನಕ್ಷೆಯು ಕೊಟ್ಟಿರುವ ಸಂಬಂಧವನ್ನು ತೋರಿಸುತ್ತದೆ? (ವಜ್ರಾಕೃತಿ, ಆಯತ, ಚೌಕ, ಸಮಾಂತರ ಚತುರ್ಭುಜ)",
+        "en": "Which Venn diagram shows the relationship? (Rhombus, Rectangle, Square, Parallelogram)"
+      },
+      "options": [
+        {
+          "kn": "ಚಿತ್ರ A",
+          "en": "Diagram A"
+        },
+        {
+          "kn": "ಚಿತ್ರ B",
+          "en": "Diagram B"
+        },
+        {
+          "kn": "ಚಿತ್ರ C",
+          "en": "Diagram C"
+        },
+        {
+          "kn": "ಚಿತ್ರ D",
+          "en": "Diagram D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಚೌಕ ವಜ್ರಾಕೃತಿ ಮತ್ತು ಆಯತ ಎರಡರಲ್ಲೂ ಸೇರಿದೆ, ಆದ್ದರಿಂದ ಎರಡು ವೃತ್ತಗಳ ಛೇದನದಲ್ಲಿ. ಎಲ್ಲವೂ ಸಮಾಂತರ ಚತುರ್ಭುಜದೊಳಗೆ. ಚಿತ್ರ D. ಉತ್ತರ D.",
+        "en": "A square is both a rhombus and a rectangle, so it lies in the overlap of those two. All of them lie inside parallelograms. Diagram D. Answer D."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0198.webp"
+    },
+    {
+      "id": "GMAT-VN-0199",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಯಾವ ವೆನ್ ನಕ್ಷೆಯು ಕೊಟ್ಟಿರುವ ಸಂಬಂಧವನ್ನು ತೋರಿಸುತ್ತದೆ? (ನೋಬೆಲ್ ಪುರಸ್ಕೃತರು, ವಿಜ್ಞಾನಿಗಳು, ಸಿ.ವಿ. ರಾಮನ್)",
+        "en": "Which Venn diagram shows the relationship? (Nobel prize winners, Scientists, C.V. Raman)"
+      },
+      "options": [
+        {
+          "kn": "ಚಿತ್ರ A",
+          "en": "Diagram A"
+        },
+        {
+          "kn": "ಚಿತ್ರ B",
+          "en": "Diagram B"
+        },
+        {
+          "kn": "ಚಿತ್ರ C",
+          "en": "Diagram C"
+        },
+        {
+          "kn": "ಚಿತ್ರ D",
+          "en": "Diagram D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಸಿ.ವಿ. ರಾಮನ್ ನೋಬೆಲ್ ಪುರಸ್ಕೃತರೂ ವಿಜ್ಞಾನಿಯೂ ಆಗಿದ್ದಾರೆ. ಆದ್ದರಿಂದ ಅವರು ಇಬ್ಬರ ಛೇದನದಲ್ಲಿ ಇದ್ದಾರೆ. ಚಿತ್ರ D. ಉತ್ತರ D.",
+        "en": "C.V. Raman was both a Nobel prize winner and a scientist, so he lies in the overlap of both. Diagram D. Answer D."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0199.webp"
+    },
+    {
+      "id": "GMAT-VN-0200",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಯಾವ ವೆನ್ ನಕ್ಷೆಯು ಕೊಟ್ಟಿರುವ ಸಂಬಂಧವನ್ನು ತೋರಿಸುತ್ತದೆ? (ಸಮಸಂಖ್ಯೆಗಳು, ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆಗಳು, ಸ್ವಾಭಾವಿಕ ಸಂಖ್ಯೆಗಳು)",
+        "en": "Which Venn diagram shows the relationship? (Even Numbers, Prime Numbers, Natural Numbers)"
+      },
+      "options": [
+        {
+          "kn": "ಚಿತ್ರ A",
+          "en": "Diagram A"
+        },
+        {
+          "kn": "ಚಿತ್ರ B",
+          "en": "Diagram B"
+        },
+        {
+          "kn": "ಚಿತ್ರ C",
+          "en": "Diagram C"
+        },
+        {
+          "kn": "ಚಿತ್ರ D",
+          "en": "Diagram D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸಮಸಂಖ್ಯೆ ಮತ್ತು ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆಗಳು ಎರಡೂ ಸ್ವಾಭಾವಿಕ ಸಂಖ್ಯೆಗಳ ಒಳಗಿವೆ. 2 ಸಮ ಮತ್ತು ಅವಿಭಾಜ್ಯ ಎರಡೂ ಆಗಿರುವುದರಿಂದ ಅವೆರಡೂ ಸ್ವಲ್ಪ ಛೇದಿಸುತ್ತವೆ. ಚಿತ್ರ B. ಉತ್ತರ B.",
+        "en": "Even and prime numbers both lie inside natural numbers. Since 2 is both even and prime, the two groups overlap a little. Diagram B. Answer B."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0200.webp"
+    },
+    {
+      "id": "GMAT-VN-0201",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದು ತರಗತಿಯಲ್ಲಿರುವ 100 ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಸಮೀಕ್ಷೆಗೊಳಪಡಿಸಿದಾಗ, ಅವರಲ್ಲಿ ಕಾಫಿ ಮತ್ತು ಟೀ ಕುಡಿಯುವ ವಿದ್ಯಾರ್ಥಿಗಳ ಸಂಖ್ಯೆಯನ್ನು ಕೆಳಗಿನ ವೆನ್ ಚಿತ್ರವು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ. ಕಾಫಿ ಕುಡಿಯುವ ವಿದ್ಯಾರ್ಥಿಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "In a survey of 100 students in a class, the number of coffee and tea drinking students is shown in the Venn diagram below. How many students drink coffee?"
+      },
+      "options": [
+        {
+          "kn": "20",
+          "en": "20"
+        },
+        {
+          "kn": "30",
+          "en": "30"
+        },
+        {
+          "kn": "50",
+          "en": "50"
+        },
+        {
+          "kn": "60",
+          "en": "60"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಕಾಫಿ ಮಾತ್ರ ಕುಡಿಯುವವರು 30 ಮತ್ತು ಎರಡನ್ನೂ ಕುಡಿಯುವವರು 20. ಒಟ್ಟು ಕಾಫಿ ಕುಡಿಯುವವರು 30 + 20 = 50. ಉತ್ತರ C (50).",
+        "en": "Coffee only is 30 and both is 20. Total coffee drinkers = 30 + 20 = 50. Answer C (50)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0201.webp"
+    },
+    {
+      "id": "GMAT-VN-0202",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದು ತರಗತಿಯಲ್ಲಿರುವ 100 ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಸಮೀಕ್ಷೆಗೊಳಪಡಿಸಿದಾಗ, ಅವರಲ್ಲಿ ಕಾಫಿ ಮತ್ತು ಟೀ ಕುಡಿಯುವ ವಿದ್ಯಾರ್ಥಿಗಳ ಸಂಖ್ಯೆಯನ್ನು ಕೆಳಗಿನ ವೆನ್ ಚಿತ್ರವು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ. ಟೀ ಮಾತ್ರ ಕುಡಿಯುವ ವಿದ್ಯಾರ್ಥಿಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "In a survey of 100 students in a class, the number of coffee and tea drinking students is shown in the Venn diagram below. How many students drink only tea?"
+      },
+      "options": [
+        {
+          "kn": "20",
+          "en": "20"
+        },
+        {
+          "kn": "30",
+          "en": "30"
+        },
+        {
+          "kn": "40",
+          "en": "40"
+        },
+        {
+          "kn": "50",
+          "en": "50"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಟೀ ಮಾತ್ರ ಕುಡಿಯುವವರು ಟೀ ವೃತ್ತದ ಛೇದನದ ಹೊರಗಿನ ಭಾಗ: 40. ಉತ್ತರ C (40).",
+        "en": "Tea only is the part of the tea circle outside the overlap: 40. Answer C (40)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0202.webp"
+    },
+    {
+      "id": "GMAT-VN-0203",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದು ತರಗತಿಯಲ್ಲಿರುವ 100 ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಸಮೀಕ್ಷೆಗೊಳಪಡಿಸಿದಾಗ, ಅವರಲ್ಲಿ ಕಾಫಿ ಮತ್ತು ಟೀ ಕುಡಿಯುವ ವಿದ್ಯಾರ್ಥಿಗಳ ಸಂಖ್ಯೆಯನ್ನು ಕೆಳಗಿನ ವೆನ್ ಚಿತ್ರವು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ. ಕಾಫಿ ಮತ್ತು ಟೀ ಎರಡನ್ನೂ ಕುಡಿಯುವ ವಿದ್ಯಾರ್ಥಿಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "In a survey of 100 students in a class, the number of coffee and tea drinking students is shown in the Venn diagram below. How many students drink both coffee and tea?"
+      },
+      "options": [
+        {
+          "kn": "50",
+          "en": "50"
+        },
+        {
+          "kn": "40",
+          "en": "40"
+        },
+        {
+          "kn": "30",
+          "en": "30"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಎರಡನ್ನೂ ಕುಡಿಯುವವರು ಛೇದನದ ಭಾಗದಲ್ಲಿರುವ ಸಂಖ್ಯೆ: 20. ಉತ್ತರ D (20).",
+        "en": "The number who drink both is the number in the overlap: 20. Answer D (20)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0203.webp"
+    },
+    {
+      "id": "GMAT-VN-0204",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ವೆನ್ ನಕ್ಷೆಯು ಕೆಳಗಿನ ಯಾವುದನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ?",
+        "en": "Which of the following represents the given Venn diagram?"
+      },
+      "options": [
+        {
+          "kn": "ಕಾಡು ಪ್ರಾಣಿಗಳು, ಸಸ್ಯಾಹಾರಿಗಳು, ಹುಲಿ",
+          "en": "Wild Animals, Herbivorous, Tiger"
+        },
+        {
+          "kn": "ಕಾಡು ಪ್ರಾಣಿಗಳು, ಸಸ್ಯಾಹಾರಿಗಳು, ಆನೆ",
+          "en": "Wild Animals, Herbivorous, Elephant"
+        },
+        {
+          "kn": "ಸಸ್ಯಾಹಾರಿಗಳು, ಆನೆ, ಮಾಂಸಾಹಾರಿಗಳು",
+          "en": "Herbivorous, Elephant, Carnivorous"
+        },
+        {
+          "kn": "ಕಾಡು ಪ್ರಾಣಿಗಳು, ಸಸ್ಯಾಹಾರಿಗಳು, ಮಾಂಸಾಹಾರಿಗಳು",
+          "en": "Wild Animals, Herbivorous, Carnivorous"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಚಿತ್ರದಲ್ಲಿ ಎರಡು ವೃತ್ತಗಳ ಛೇದನದಲ್ಲಿ ಒಂದು ಚಿಕ್ಕ ವೃತ್ತವಿದೆ. ಆನೆ ಕಾಡು ಪ್ರಾಣಿಯೂ ಸಸ್ಯಾಹಾರಿಯೂ ಆಗಿದೆ. ಉತ್ತರ B.",
+        "en": "The small circle lies in the overlap of two circles. An elephant is both a wild animal and herbivorous. Answer B."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0204.webp"
+    },
+    {
+      "id": "GMAT-VN-0205",
+      "difficulty": "medium",
+      "question": {
+        "kn": null,
+        "en": null
+      },
+      "options": [
+        {
+          "kn": "ಆಟಗಾರರು, ಹಾಕಿ, ಕಬಡ್ಡಿ",
+          "en": "Players, Hockey, Kabaddi"
+        },
+        {
+          "kn": "ಆಟಗಾರರು, ಹಾಕಿ, ಗಾಯಕರು",
+          "en": "Players, Hockey, Singers"
+        },
+        {
+          "kn": "ಹಾಕಿ, ದಾಂಡು, ಚೆಂಡು",
+          "en": "Hockey, Stick, Ball"
+        },
+        {
+          "kn": "ಆಟಗಾರರು, ಗಾಯಕರು, ನೃತ್ಯಗಾರರು",
+          "en": "Players, Singers, Dancers"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ದೊಡ್ಡ ವೃತ್ತ (ಹಾಕಿ) ಒಳಗೆ ಎರಡು ಪ್ರತ್ಯೇಕ ವೃತ್ತಗಳು (ದಾಂಡು, ಚೆಂಡು) ಇವೆ. ಉತ್ತರ C.",
+        "en": "A big circle (hockey) contains two separate circles (stick and ball). Answer C."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0205.webp"
+    },
+    {
+      "id": "GMAT-VN-0206",
+      "difficulty": "medium",
+      "question": {
+        "kn": null,
+        "en": null
+      },
+      "options": [
+        {
+          "kn": "ಶಿಕ್ಷಕರು, ರೈತರು, ಮಾನವರು",
+          "en": "Teachers, Formers, Human beings"
+        },
+        {
+          "kn": "ಶಿಕ್ಷಕರು, ಕಪ್ಪುಹಲಗೆ, ನಟರು",
+          "en": "Teachers, Blackboard, Actors"
+        },
+        {
+          "kn": "ಶಿಕ್ಷಕರು, ರೈತರು, ನಟರು",
+          "en": "Teachers, Formers, Actors"
+        },
+        {
+          "kn": "ಮಾನವರು, ರೈತರು, ಪ್ರಾಣಿಗಳು",
+          "en": "Human beings, Formers, Animals"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಚಿತ್ರದಲ್ಲಿ ಮೂರು ವೃತ್ತಗಳು ಪರಸ್ಪರ ಛೇದಿಸುತ್ತವೆ: ಶಿಕ್ಷಕರು, ರೈತರು ಮತ್ತು ನಟರು. ಉತ್ತರ C.",
+        "en": "Three overlapping circles represent teachers, farmers and actors. Answer C."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0206.webp"
     }
   ]
 }
