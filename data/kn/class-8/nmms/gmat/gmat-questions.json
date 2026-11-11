@@ -8,9 +8,9 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 82,
+    "totalQuestions": 97,
     "questionNumberStart": 1,
-    "questionNumberEnd": 82,
+    "questionNumberEnd": 97,
     "version": "1.0.0"
   },
   "questions": [
@@ -2637,6 +2637,486 @@
         "en": "The lengths and positions of the vertical lines reflect across the fold line. Option D shows the correct reflected lengths and positions."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-FF-0082.webp"
+    },
+    {
+      "id": "GMAT-PF-0083",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕಾಗದವನ್ನು ಎಡಕ್ಕೆ ಮಡಿಸಿ ನಂತರ ಕೆಳಕ್ಕೆ ಮಡಿಸಲಾಗಿದೆ, ಮತ್ತು ತ್ರಿಕೋನ ಆಕಾರಗಳನ್ನು ಕತ್ತರಿಸಲಾಗಿದೆ. ಬಿಡಿಸಿದಾಗ ಪ್ರತಿ ತ್ರಿಕೋನ ಮಡಿಕೆ ರೇಖೆಗಳ ಮೂಲಕ ಪ್ರತಿಬಿಂಬಿತವಾಗಿ ನಾಲ್ಕು ಮೂಲೆಗಳಲ್ಲಿ ಮತ್ತು ಮಧ್ಯದಲ್ಲಿ ಗುಂಪಾಗಿ ಕಾಣುತ್ತದೆ. ಆಯ್ಕೆ (B) ಈ ಸಮ್ಮಿತೀಯ ವಿನ್ಯಾಸವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The paper is folded left, then down, and triangles are cut. When unfolded, each triangle is reflected across the fold lines, giving a symmetric arrangement at the corners and centre. Option B shows this symmetric pattern."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0083.webp"
+    },
+    {
+      "id": "GMAT-PF-0084",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಕಾಗದವನ್ನು ಕರ್ಣದ ಉದ್ದಕ್ಕೂ ಮಡಿಸಿ ನಂತರ ಚುಕ್ಕೆಗಳನ್ನು ಗುದ್ದಲಾಗಿದೆ. ಬಿಡಿಸಿದಾಗ ಚುಕ್ಕೆಗಳು ಮಡಿಕೆ ರೇಖೆಯ ಇನ್ನೊಂದು ಬದಿಗೆ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ಆಯ್ಕೆ (C) ಕರ್ಣದ ಎರಡೂ ಬದಿಯಲ್ಲಿ ಸಮ್ಮಿತೀಯ ಚುಕ್ಕೆ ಜೋಡಣೆಯನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The paper is folded along a diagonal, then dots are punched. When unfolded, the dots reflect to the other side of the fold line. Option C shows the symmetric dot arrangement on both sides of the diagonal."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0084.webp"
+    },
+    {
+      "id": "GMAT-PF-0085",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಕಾಗದವನ್ನು ಮೇಲಕ್ಕೆ ಮತ್ತು ಎಡಕ್ಕೆ ಮಡಿಸಲಾಗಿದೆ, ಮತ್ತು ಚುಕ್ಕೆಗಳನ್ನು ಗುದ್ದಲಾಗಿದೆ. ಬಿಡಿಸಿದಾಗ ಪ್ರತಿ ಚುಕ್ಕೆ ಮಡಿಕೆ ರೇಖೆಗಳ ಮೂಲಕ ನಾಲ್ಕೂ ಭಾಗಗಳಲ್ಲಿ ಪುನರಾವರ್ತನೆಯಾಗುತ್ತದೆ. ಆಯ್ಕೆ (A) ಈ ಪುನರಾವರ್ತಿತ ಚುಕ್ಕೆ ವಿನ್ಯಾಸವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The paper is folded up and left, then dots are punched. When unfolded, each dot repeats across the four parts created by the folds. Option A shows this repeated dot pattern."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0085.webp"
+    },
+    {
+      "id": "GMAT-PF-0086",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಷಡ್ಭುಜಾಕೃತಿಯ ಸುತ್ತ ಮಡಿಕೆಗಳು ಮತ್ತು ಒಳಗಿನ ಚುಕ್ಕೆಗಳನ್ನು ಬಿಡಿಸಿದಾಗ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ಚುಕ್ಕೆಗಳ ಸಂಖ್ಯೆ ಮತ್ತು ಸ್ಥಾನ ಮಡಿಕೆಯ ಪ್ರತಿ ಭಾಗದಲ್ಲಿ ಹಂಚಿಕೆಯಾಗುತ್ತದೆ. ಆಯ್ಕೆ (C) ಈ ಪ್ರತಿಬಿಂಬಿತ ಚುಕ್ಕೆ ಸ್ಥಾನ ಮತ್ತು ಸಂಖ್ಯೆಯನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "Around the hexagon, the folds and inner dots reflect when unfolded. The number and position of dots are shared across each part of the fold. Option C shows this reflected dot count and position."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0086.webp"
+    },
+    {
+      "id": "GMAT-PF-0087",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕಾಗದವನ್ನು ಮೇಲ್ಭಾಗದಿಂದ ಮತ್ತು ಬಲಕ್ಕೆ ಮಡಿಸಿ ಮೂಲೆಯ ಕಪ್ಪು ತ್ರಿಕೋನಗಳನ್ನು ಗುದ್ದಲಾಗಿದೆ. ಬಿಡಿಸಿದಾಗ ಈ ತ್ರಿಕೋನಗಳು ನಾಲ್ಕು ಬದಿಗಳಲ್ಲಿ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ಆಯ್ಕೆ (B) ನಾಲ್ಕು ಬದಿಗಳಲ್ಲಿ ಕಪ್ಪು ತ್ರಿಕೋನಗಳ ಸಮ್ಮಿತೀಯ ವಿನ್ಯಾಸವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The paper is folded from the top and right, and black triangles are cut at the corner. When unfolded, these triangles reflect onto all four sides. Option B shows the symmetric black triangles on four sides."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0087.webp"
+    },
+    {
+      "id": "GMAT-PF-0088",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕಾಗದವನ್ನು ಎಡಕ್ಕೆ ಮತ್ತು ಮೇಲಕ್ಕೆ ಮಡಿಸಲಾಗಿದೆ, ಮತ್ತು ಕಪ್ಪು ಭಾಗದಲ್ಲಿ ಜಿಗ್‌ಜಾಗ್ ಕತ್ತರಿಸಲಾಗಿದೆ. ಬಿಡಿಸಿದಾಗ ಜಿಗ್‌ಜಾಗ್ ಮಡಿಕೆ ರೇಖೆಗಳ ಮೂಲಕ ಪ್ರತಿಬಿಂಬಿತವಾಗಿ ಎರಡೂ ಬದಿಗಳಲ್ಲಿ ಕಾಣುತ್ತದೆ. ಆಯ್ಕೆ (B) ಈ ಪ್ರತಿಬಿಂಬಿತ ಜಿಗ್‌ಜಾಗ್ ಮತ್ತು ವಜ್ರ ವಿನ್ಯಾಸವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The paper is folded left and up, and zigzag cuts are made in the black part. When unfolded, the zigzags reflect across the fold lines and appear on both sides. Option B shows this reflected zigzag and diamond pattern."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0088.webp"
+    },
+    {
+      "id": "GMAT-PF-0089",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕಾಗದವನ್ನು ಎಡಕ್ಕೆ ಮತ್ತು ನಂತರ ಮಡಿಸಿ ತ್ರಿಕೋನ ಗುದ್ದುವಿಕೆ ಮಾಡಲಾಗಿದೆ. ಬಿಡಿಸಿದಾಗ ತ್ರಿಕೋನಗಳು ಲಂಬ ಮಡಿಕೆ ರೇಖೆಗಳ ಮೂಲಕ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ಆಯ್ಕೆ (B) ಮೇಲ್ಭಾಗ ಮತ್ತು ಕೆಳಭಾಗದಲ್ಲಿ ಪುನರಾವರ್ತಿತ ತ್ರಿಕೋನ ಅಂಚುಗಳನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The paper is folded left and then punched with triangles. When unfolded, the triangles reflect across the vertical fold lines. Option B shows repeated triangle edges at the top and bottom."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0089.webp"
+    },
+    {
+      "id": "GMAT-PF-0090",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಕಾಗದದ ಮಡಿಕೆಗಳನ್ನು ಬಿಡಿಸಿದಾಗ ಮೇಲ್ಭಾಗ ಮತ್ತು ಕೆಳಭಾಗದ ಕಪ್ಪು ತ್ರಿಕೋನಗಳು ಮಡಿಕೆ ರೇಖೆಯ ಮೂಲಕ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ಆಯ್ಕೆ (C) ಎರಡೂ ಅಂಚಿನಲ್ಲಿ ಪುನರಾವರ್ತಿತ ಕಪ್ಪು ತ್ರಿಕೋನ ಸಾಲುಗಳನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "When the folds are unfolded, the black triangles at the top and bottom reflect across the fold line. Option C shows repeated rows of black triangles on both edges."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0090.webp"
+    },
+    {
+      "id": "GMAT-PF-0091",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಕಾಗದವನ್ನು ಮಡಿಸಿ ಚೌಕ ಮತ್ತು ವೃತ್ತ ಆಕಾರದ ರಂಧ್ರಗಳನ್ನು ಗುದ್ದಲಾಗಿದೆ. ಬಿಡಿಸಿದಾಗ ರಂಧ್ರಗಳು ಮಡಿಕೆ ರೇಖೆಯ ಮೂಲಕ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ಆಯ್ಕೆ (D) ಚೌಕ ಮತ್ತು ವೃತ್ತದ ಪ್ರತಿಬಿಂಬಿತ ಜೋಡಣೆಯನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The paper is folded and square and circle holes are punched. When unfolded, the holes reflect across the fold line. Option D shows the reflected arrangement of squares and circles."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0091.webp"
+    },
+    {
+      "id": "GMAT-PF-0092",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಕಾಗದವನ್ನು ಮೇಲಕ್ಕೆ ಮತ್ತು ಎಡಕ್ಕೆ ಮಡಿಸಿ ಎಂಟುಭುಜ ಆಕಾರ ಮತ್ತು ಒಳಗಿನ ಚುಕ್ಕೆಗಳನ್ನು ಗುದ್ದಲಾಗಿದೆ. ಬಿಡಿಸಿದಾಗ ಚುಕ್ಕೆಗಳು ನಾಲ್ಕು ಬದಿಗಳಲ್ಲಿ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ಆಯ್ಕೆ (A) ಈ ಪುನರಾವರ್ತಿತ ಚುಕ್ಕೆ ಮತ್ತು ಚೌಕ ವಿನ್ಯಾಸವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The paper is folded up and left, and an octagon-shaped cut and inner dots are made. When unfolded, the dots reflect onto four sides. Option A shows this repeated dot and square design."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0092.webp"
+    },
+    {
+      "id": "GMAT-PF-0093",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಅರ್ಧವೃತ್ತ ಮಡಿಕೆ ಮತ್ತು ಚೌಕ ಭಾಗದ ಮೇಲೆ ಚುಕ್ಕೆಗಳನ್ನು ಗುದ್ದಲಾಗಿದೆ. ಬಿಡಿಸಿದಾಗ ಚುಕ್ಕೆಗಳು ವೃತ್ತದ ಸುತ್ತ ಪ್ರತಿಬಿಂಬಿತವಾಗಿ ಹಲವು ಚುಕ್ಕೆಗಳಾಗುತ್ತವೆ. ಆಯ್ಕೆ (B) ಈ ಹೆಚ್ಚಿದ ಚುಕ್ಕೆ ಸಂಖ್ಯೆ ಮತ್ತು ಸ್ಥಾನವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The semicircle fold and dots on the square section are punched. When unfolded, the dots reflect around the circle, increasing their number. Option B shows this increased dot count and positions."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0093.webp"
+    },
+    {
+      "id": "GMAT-PF-0094",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ವೃತ್ತದ ಮಡಿಕೆಗಳು ಮತ್ತು ವಜ್ರ ಆಕಾರದ ಗುದ್ದುವಿಕೆ ಬಿಡಿಸಿದಾಗ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ಚೌಕ ಆಕಾರಗಳು ವೃತ್ತದ ಒಳಗೆ ನಾಲ್ಕು ಭಾಗಗಳಲ್ಲಿ ಸಮಾನವಾಗಿ ಕಾಣುತ್ತವೆ. ಆಯ್ಕೆ (C) ಈ ಸಮ್ಮಿತೀಯ ಚೌಕ ವಿನ್ಯಾಸವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The circular folds and the diamond-shaped punch reflect when unfolded. Square shapes appear equally in four parts inside the circle. Option C shows this symmetric square design."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0094.webp"
+    },
+    {
+      "id": "GMAT-PF-0095",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ವೃತ್ತದ ಮಡಿಕೆ ಮತ್ತು ಚೌಕ ಗುದ್ದುವಿಕೆ ಬಿಡಿಸಿದಾಗ ಪ್ರತಿಬಿಂಬಿತವಾಗಿ ವೃತ್ತದ ಸುತ್ತ ಸಮ್ಮಿತೀಯ ಚೌಕ ಮತ್ತು ಕಪ್ಪು ಭಾಗಗಳನ್ನು ರೂಪಿಸುತ್ತವೆ. ಆಯ್ಕೆ (D) ವೃತ್ತದ ಪಕ್ಕದಲ್ಲಿ ಕಪ್ಪು ಚೌಕ ಮತ್ತು ಸಮ್ಮಿತೀಯ ಚೌಕ ಗುರುತುಗಳನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The circular fold and square punches reflect when unfolded, forming symmetric squares and black areas around the circle. Option D shows the black square and symmetric square marks beside the circle."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0095.webp"
+    },
+    {
+      "id": "GMAT-PF-0096",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ವೃತ್ತದ ಮಡಿಕೆ ಮತ್ತು ಕಪ್ಪು ಭಾಗದ ಕತ್ತರಿಸುವಿಕೆ ಬಿಡಿಸಿದಾಗ ಪ್ರತಿಬಿಂಬಿತವಾಗಿ ಎಲೆ ಆಕಾರದ ಸಮ್ಮಿತೀಯ ವಿನ್ಯಾಸ ರೂಪುಗೊಳ್ಳುತ್ತದೆ. ಆಯ್ಕೆ (D) ಈ ಎಲೆಗಳ ಸಮ್ಮಿತೀಯ ಜೋಡಣೆಯನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The circular fold and black cut reflect when unfolded, forming a symmetric leaf-shaped design. Option D shows this symmetric arrangement of leaves."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0096.webp"
+    },
+    {
+      "id": "GMAT-PF-0097",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಡಭಾಗದ ಮೂರು ಆಕೃತಿಗಳಲ್ಲಿ ಕಾಗದವನ್ನು ಹೇಗೆ ಮಡಿಸಲಾಗಿದೆ, ಬಾಣದ ದಿಕ್ಕು ಮತ್ತು ಕತ್ತರಿಸಿದ ಭಾಗ ಹೇಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ. ಕಾಗದವನ್ನು ಬಿಡಿಸಿದಾಗ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the three figures on the left, which show how a paper is folded, the arrow direction, and the cut/punched shape. Identify which option shows the figure after the paper is unfolded."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ವೃತ್ತದ ಮಡಿಕೆ ಮತ್ತು ಚೌಕ ರಂಧ್ರಗಳು ಬಿಡಿಸಿದಾಗ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ಎಲೆ ಆಕಾರದ ಗೆರೆಗಳು ವೃತ್ತದ ಕೇಂದ್ರದ ಸುತ್ತ ಸಮವಾಗಿ ಹರಡುತ್ತವೆ ಮತ್ತು ಚೌಕ ರಂಧ್ರಗಳು ಸಮ್ಮಿತೀಯವಾಗಿ ಇರುತ್ತವೆ. ಆಯ್ಕೆ (A) ಈ ಸಮ್ಮಿತೀಯ ವಿನ್ಯಾಸವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The circular fold and square holes reflect when unfolded. The leaf-shaped lines spread evenly around the centre and the square holes are symmetric. Option A shows this symmetric design."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0097.webp"
     }
   ]
 }
