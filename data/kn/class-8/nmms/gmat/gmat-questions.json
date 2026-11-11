@@ -8,7 +8,7 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 157,
+    "totalQuestions": 168,
     "questionNumberStart": 1,
     "questionNumberEnd": 146,
     "version": "1.0.0"
@@ -5037,6 +5037,358 @@
         "en": "Count the triangles in two parts: 6 × 2 = 12, plus 3 more gives 12 + 3 = 15. Answer B (15)."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0161.webp"
+    },
+    {
+      "id": "GMAT-CL-0162",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಮೂರು ಮುಖಗಳಿಗೆ ಬಣ್ಣ ಲೇಪಿತವಾಗಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are three faces painted in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "1",
+          "en": "1"
+        },
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಘನದ ಮೂರು ಮುಖಗಳು ಸೇರುವ ಮೂಲೆಗಳ ಚಿಕ್ಕ ಘನಗಳಿಗೆ ಮೂರು ಮುಖಗಳಿಗೆ ಬಣ್ಣ ಇರುತ್ತದೆ. ಘನಕ್ಕೆ 8 ಶೃಂಗಗಳಿರುವುದರಿಂದ ಅಂತಹ ಚಿಕ್ಕ ಘನಗಳು 8. ಉತ್ತರ D (8).",
+        "en": "The small cubes at the corners of the big cube have three painted faces. A cube has 8 vertices, so there are 8 such small cubes. Answer D (8)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0162.webp"
+    },
+    {
+      "id": "GMAT-CL-0163",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಎರಡು ಮುಖಕ್ಕೆ ಮಾತ್ರ ಬಣ್ಣ ಲೇಪಿತವಾಗಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are two faces painted in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        },
+        {
+          "kn": "12",
+          "en": "12"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಘನದ ಪ್ರತಿ ಅಂಚಿನ ಮಧ್ಯದ ಚಿಕ್ಕ ಘನಕ್ಕೆ ಎರಡು ಮುಖಗಳಿಗೆ ಬಣ್ಣವಿರುತ್ತದೆ. ಘನಕ್ಕೆ 12 ಅಂಚುಗಳಿರುವುದರಿಂದ ಅಂತಹ ಘನಗಳು 12. ಸೂತ್ರ 12(n − 2) = 12(3 − 2) = 12. ಉತ್ತರ D (12).",
+        "en": "Each edge has one middle small cube with two painted faces. There are 12 edges, so the count is 12(n − 2) = 12(3 − 2) = 12. Answer D (12)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0163.webp"
+    },
+    {
+      "id": "GMAT-CL-0164",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಒಂದು ಮುಖಕ್ಕೆ ಮಾತ್ರ ಬಣ್ಣ ಲೇಪಿತವಾಗಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are single face painted in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "1",
+          "en": "1"
+        },
+        {
+          "kn": "9",
+          "en": "9"
+        },
+        {
+          "kn": "6",
+          "en": "6"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಮುಖದ ಮಧ್ಯಭಾಗದ ಒಂದೇ ಚಿಕ್ಕ ಘನಕ್ಕೆ ಒಂದು ಮುಖ ಮಾತ್ರ ಬಣ್ಣ ಇರುತ್ತದೆ. ಘನಕ್ಕೆ 6 ಮುಖಗಳಿರುವುದರಿಂದ 6(n − 2)² = 6(3 − 2)² = 6. ಉತ್ತರ D (6).",
+        "en": "The centre small cube of each face has only one painted face. With 6 faces, the count is 6(n − 2)² = 6(3 − 2)² = 6. Answer D (6)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0164.webp"
+    },
+    {
+      "id": "GMAT-CL-0165",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಯಾವುದೇ ಮುಖಕ್ಕೂ ಬಣ್ಣ ಲೇಪಿಸದ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are Zero face painted in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "1",
+          "en": "1"
+        },
+        {
+          "kn": "0",
+          "en": "0"
+        },
+        {
+          "kn": "3",
+          "en": "3"
+        },
+        {
+          "kn": "2",
+          "en": "2"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಯಾವ ಮುಖದಲ್ಲೂ ಬಣ್ಣವಿಲ್ಲದ ಘನ ಮಧ್ಯದಲ್ಲಿರುತ್ತದೆ. ಸೂತ್ರ (n − 2)³ = (3 − 2)³ = 1. ಉತ್ತರ A (1).",
+        "en": "The only small cube with no painted face is the one at the centre. Formula (n − 2)³ = (3 − 2)³ = 1. Answer A (1)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0165.webp"
+    },
+    {
+      "id": "GMAT-CL-0166",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಹಸಿರು ಮತ್ತು ಹಳದಿ ಬಣ್ಣಗಳನ್ನು ಮಾತ್ರ ಲೇಪಿಸಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are painted with green and yellow colours in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "1",
+          "en": "1"
+        },
+        {
+          "kn": "3",
+          "en": "3"
+        },
+        {
+          "kn": "6",
+          "en": "6"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಹಸಿರು ಮತ್ತು ಹಳದಿ ಮುಖಗಳು ಒಂದೇ ಅಂಚಿನಲ್ಲಿ ಸೇರುತ್ತವೆ. ಆ ಅಂಚಿನ ತುದಿಯ ಘನಗಳಿಗೆ ಮೂರನೇ ಬಣ್ಣವೂ ಇರುವುದರಿಂದ ಅವನ್ನು ಬಿಟ್ಟರೆ ಉಳಿಯುವುದು ಮಧ್ಯದ ಒಂದೇ ಘನ. ಉತ್ತರ B (1).",
+        "en": "Green and yellow faces meet at one edge. The corner cubes at the ends of that edge also have a third colour, so only the middle cube has just these two colours. Answer B (1)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0166.webp"
+    },
+    {
+      "id": "GMAT-CL-0167",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಕೆಂಪು ಮತ್ತು ನೀಲಿ ಬಣ್ಣಗಳನ್ನು ಲೇಪಿಸಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are painted with Red and Blue colours in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "0",
+          "en": "0"
+        },
+        {
+          "kn": "1",
+          "en": "1"
+        },
+        {
+          "kn": "6",
+          "en": "6"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕೆಂಪು ಮತ್ತು ನೀಲಿ ಮುಖಗಳು ಘನದ ಎದುರು ಮುಖಗಳು. ಎದುರು ಮುಖಗಳು ಯಾವುದೇ ಅಂಚು ಅಥವಾ ಶೃಂಗ ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ. ಆದ್ದರಿಂದ ಎರಡೂ ಬಣ್ಣಗಳಿರುವ ಚಿಕ್ಕ ಘನ ಇಲ್ಲ. ಉತ್ತರ B (0).",
+        "en": "The red and blue faces are opposite faces of the big cube. Opposite faces share no edge or vertex, so no small cube has both colours. Answer B (0)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0167.webp"
+    },
+    {
+      "id": "GMAT-CL-0168",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ನೇರಳೆ, ಕಂದು ಮತ್ತು ನೀಲಿ ಬಣ್ಣಗಳನ್ನು ಲೇಪಿಸಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are painted with Violet, Brown and Blue colours in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "6",
+          "en": "6"
+        },
+        {
+          "kn": "3",
+          "en": "3"
+        },
+        {
+          "kn": "1",
+          "en": "1"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ನೇರಳೆ, ಕಂದು ಮತ್ತು ನೀಲಿ ಮುಖಗಳು ಒಂದೇ ಶೃಂಗದಲ್ಲಿ ಸೇರುತ್ತವೆ. ಆ ಶೃಂಗದಲ್ಲಿರುವ ಒಂದೇ ಚಿಕ್ಕ ಘನಕ್ಕೆ ಈ ಮೂರೂ ಬಣ್ಣಗಳಿವೆ. ಉತ್ತರ D (1).",
+        "en": "The violet, brown and blue faces meet at one vertex. Only the one small cube at that vertex has all three colours. Answer D (1)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0168.webp"
+    },
+    {
+      "id": "GMAT-CL-0170",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಚಿತ್ರದಲ್ಲಿ ಎರಡು ಮುಖಗಳಿಗೆ ಮಾತ್ರ ಬಣ್ಣ ಲೇಪಿತವಾಗಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are two faces painted in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "16",
+          "en": "16"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಂಚನ್ನು 4 ಸಮಭಾಗ ಮಾಡಿದರೆ n = 4. ಎರಡು ಮುಖಗಳಿಗೆ ಬಣ್ಣವಿರುವ ಘನಗಳು 12(n − 2) = 12(4 − 2) = 24. ಉತ್ತರ D (24).",
+        "en": "Each edge is divided into 4 equal parts, so n = 4. Small cubes with exactly two painted faces number 12(n − 2) = 12(4 − 2) = 24. Answer D (24)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0170.webp"
+    },
+    {
+      "id": "GMAT-CL-0171",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಚಿತ್ರದಲ್ಲಿ ಯಾವುದೇ ಮುಖಕ್ಕೂ ಬಣ್ಣ ಲೇಪಿಸದ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are zero face painted in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "1",
+          "en": "1"
+        },
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        },
+        {
+          "kn": "16",
+          "en": "16"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಂಚನ್ನು 4 ಸಮಭಾಗ ಮಾಡಿದರೆ n = 4. ಯಾವುದೇ ಮುಖಕ್ಕೂ ಬಣ್ಣವಿಲ್ಲದ ಒಳಗಿನ ಘನಗಳು (n − 2)³ = (4 − 2)³ = 8. ಉತ್ತರ C (8).",
+        "en": "With n = 4, the cubes with no painted face are inside the big cube and number (n − 2)³ = (4 − 2)³ = 8. Answer C (8)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0171.webp"
+    },
+    {
+      "id": "GMAT-CL-0172",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಚಿತ್ರದಲ್ಲಿ ಕಂದು ಬಣ್ಣ ಮಾತ್ರ ಲೇಪಿಸಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are painted only with brown colour in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "1",
+          "en": "1"
+        },
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕಂದು ಮುಖದ ಮೇಲೆ ಹೊರ ಅಂಚಿನ ಘನಗಳನ್ನು ಬಿಟ್ಟರೆ ಉಳಿಯುವುದು ಒಳಗಿನ 2 × 2 ಭಾಗ. ಆದ್ದರಿಂದ 4. ಉತ್ತರ B (4).",
+        "en": "On the brown face, leaving out the outer edge cubes leaves the inner 2 × 2 block. So there are 4 cubes. Answer B (4)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0172.webp"
+    },
+    {
+      "id": "GMAT-CL-0173",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಚಿತ್ರದಲ್ಲಿ ಕಂದು, ನೀಲಿ ಮತ್ತು ಹಳದಿ ಮೂರೂ ಬಣ್ಣಗಳನ್ನು ಲೇಪಿಸಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are painted with all three brown, blue and yellow colours in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "48",
+          "en": "48"
+        },
+        {
+          "kn": "1",
+          "en": "1"
+        },
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕಂದು, ನೀಲಿ ಮತ್ತು ಹಳದಿ ಮುಖಗಳು ಒಂದೇ ಶೃಂಗದಲ್ಲಿ ಸೇರುತ್ತವೆ. ಆ ಶೃಂಗದಲ್ಲಿರುವ ಒಂದೇ ಚಿಕ್ಕ ಘನಕ್ಕೆ ಮೂರೂ ಬಣ್ಣಗಳಿವೆ. ಉತ್ತರ B (1).",
+        "en": "The brown, blue and yellow faces meet at one vertex. Only the small cube at that vertex has all three colours. Answer B (1)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0173.webp"
     }
   ]
 }
