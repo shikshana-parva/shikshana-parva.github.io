@@ -8,7 +8,7 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 218,
+    "totalQuestions": 248,
     "questionNumberStart": 1,
     "questionNumberEnd": 146,
     "version": "1.0.0"
@@ -6989,6 +6989,966 @@
         "en": "According to the answer key, the correct option is B (D6G10). Applying the letter positions and arrow pattern of the pyramid gives D6G10."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0221.webp"
+    },
+    {
+      "id": "GMAT-AN-0222",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 28 : 4 :: 504 : ?",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 28 : 4 :: 504 : ?"
+      },
+      "options": [
+        {
+          "kn": "69",
+          "en": "69"
+        },
+        {
+          "kn": "72",
+          "en": "72"
+        },
+        {
+          "kn": "83",
+          "en": "83"
+        },
+        {
+          "kn": "95",
+          "en": "95"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "28 ÷ 7 = 4; ಅದೇ ರೀತಿ 504 ÷ 7 = 72. ಉತ್ತರ B (72).",
+        "en": "28 ÷ 7 = 4; the same relation gives 504 ÷ 7 = 72. Answer B (72)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0223",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 56 : 121 :: 75 : ?",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 56 : 121 :: 75 : ?"
+      },
+      "options": [
+        {
+          "kn": "140",
+          "en": "140"
+        },
+        {
+          "kn": "144",
+          "en": "144"
+        },
+        {
+          "kn": "152",
+          "en": "152"
+        },
+        {
+          "kn": "189",
+          "en": "189"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "5 + 6 = 11, 11² = 121; 7 + 5 = 12, 12² = 144. ಉತ್ತರ B (144).",
+        "en": "5 + 6 = 11 and 11² = 121; 7 + 5 = 12 and 12² = 144. Answer B (144)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0224",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 32 : 2 :: ? : 3",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 32 : 2 :: ? : 3"
+      },
+      "options": [
+        {
+          "kn": "173",
+          "en": "173"
+        },
+        {
+          "kn": "213",
+          "en": "213"
+        },
+        {
+          "kn": "243",
+          "en": "243"
+        },
+        {
+          "kn": "148",
+          "en": "148"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "2⁵ = 32; ಅದೇ ರೀತಿ 3⁵ = 243. ಉತ್ತರ C (243).",
+        "en": "2⁵ = 32, so 3⁵ = 243. Answer C (243)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0225",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 23 : 51 :: 37 : ?",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 23 : 51 :: 37 : ?"
+      },
+      "options": [
+        {
+          "kn": "74",
+          "en": "74"
+        },
+        {
+          "kn": "84",
+          "en": "84"
+        },
+        {
+          "kn": "93",
+          "en": "93"
+        },
+        {
+          "kn": "104",
+          "en": "104"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "23 × 2 + (2 + 3) = 51; 37 × 2 + (3 + 7) = 74 + 10 = 84. ಉತ್ತರ B (84).",
+        "en": "23 × 2 + (2 + 3) = 51; 37 × 2 + (3 + 7) = 74 + 10 = 84. Answer B (84)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0226",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 12 : 156 :: ? : 210",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 12 : 156 :: ? : 210"
+      },
+      "options": [
+        {
+          "kn": "13",
+          "en": "13"
+        },
+        {
+          "kn": "11",
+          "en": "11"
+        },
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "14",
+          "en": "14"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "12² + 12 = 156; ಅದೇ ರೀತಿ 14² + 14 = 196 + 14 = 210. ಉತ್ತರ D (14).",
+        "en": "12² + 12 = 156; so 14² + 14 = 196 + 14 = 210. Answer D (14)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0227",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 8 : 256 :: 12 : ?",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 8 : 256 :: 12 : ?"
+      },
+      "options": [
+        {
+          "kn": "680",
+          "en": "680"
+        },
+        {
+          "kn": "854",
+          "en": "854"
+        },
+        {
+          "kn": "832",
+          "en": "832"
+        },
+        {
+          "kn": "864",
+          "en": "864"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "8³ ÷ 2 = 256; ಅದೇ ರೀತಿ 12³ ÷ 2 = 1728 ÷ 2 = 864. ಉತ್ತರ D (864).",
+        "en": "8³ ÷ 2 = 256; so 12³ ÷ 2 = 1728 ÷ 2 = 864. Answer D (864)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0228",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 5 : 150 :: 7 : ?",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 5 : 150 :: 7 : ?"
+      },
+      "options": [
+        {
+          "kn": "340",
+          "en": "340"
+        },
+        {
+          "kn": "353",
+          "en": "353"
+        },
+        {
+          "kn": "392",
+          "en": "392"
+        },
+        {
+          "kn": "370",
+          "en": "370"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "5³ + 5² = 125 + 25 = 150; ಅದೇ ರೀತಿ 7³ + 7² = 343 + 49 = 392. ಉತ್ತರ C (392).",
+        "en": "5³ + 5² = 125 + 25 = 150; so 7³ + 7² = 343 + 49 = 392. Answer C (392)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0229",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 2783 : 3142 :: 4565 : ?",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 2783 : 3142 :: 4565 : ?"
+      },
+      "options": [
+        {
+          "kn": "9012",
+          "en": "9012"
+        },
+        {
+          "kn": "4321",
+          "en": "4321"
+        },
+        {
+          "kn": "4362",
+          "en": "4362"
+        },
+        {
+          "kn": "8624",
+          "en": "8624"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "2783 → 2 + 7 + 8 + 3 = 20 ಮತ್ತು 3142 → 3 + 1 + 4 + 2 = 10. ಅದೇ ರೀತಿ 4565 (ಅಂಕಗಳ ಮೊತ್ತ 20) ಗೆ ಉತ್ತರದ ಅಂಕಗಳ ಮೊತ್ತ 10 ಇರುವ 4321 (4 + 3 + 2 + 1 = 10). ಉತ್ತರ B (4321).",
+        "en": "2783 has digit sum 20 and 3142 has digit sum 10. 4565 has digit sum 20, so the answer must have digit sum 10: 4321 (4 + 3 + 2 + 1 = 10). Answer B (4321)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0230",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 625 : 7 :: 576 : ?",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 625 : 7 :: 576 : ?"
+      },
+      "options": [
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "6",
+          "en": "6"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "√625 = 25 ⇒ 2 + 5 = 7; √576 = 24 ⇒ 2 + 4 = 6. ಉತ್ತರ B (6).",
+        "en": "√625 = 25, and 2 + 5 = 7; √576 = 24, and 2 + 4 = 6. Answer B (6)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0231",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 18 : 50 :: 98 : ?",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 18 : 50 :: 98 : ?"
+      },
+      "options": [
+        {
+          "kn": "164",
+          "en": "164"
+        },
+        {
+          "kn": "163",
+          "en": "163"
+        },
+        {
+          "kn": "160",
+          "en": "160"
+        },
+        {
+          "kn": "162",
+          "en": "162"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "18 = 3² × 2, 50 = 5² × 2, 98 = 7² × 2; ಅದೇ ರೀತಿ 9² × 2 = 81 × 2 = 162. ಉತ್ತರ D (162).",
+        "en": "18 = 3² × 2, 50 = 5² × 2, 98 = 7² × 2; so 9² × 2 = 162. Answer D (162)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0232",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 41 : 9 :: 85 : ?",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 41 : 9 :: 85 : ?"
+      },
+      "options": [
+        {
+          "kn": "3",
+          "en": "3"
+        },
+        {
+          "kn": "9",
+          "en": "9"
+        },
+        {
+          "kn": "13",
+          "en": "13"
+        },
+        {
+          "kn": "40",
+          "en": "40"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "(4 − 1)² = 9; ಅದೇ ರೀತಿ (8 − 5)² = 9. ಉತ್ತರ B (9).",
+        "en": "(4 − 1)² = 9; so (8 − 5)² = 9. Answer B (9)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0233",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 169 : 39 :: ? : 48",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 169 : 39 :: ? : 48"
+      },
+      "options": [
+        {
+          "kn": "236",
+          "en": "236"
+        },
+        {
+          "kn": "248",
+          "en": "248"
+        },
+        {
+          "kn": "256",
+          "en": "256"
+        },
+        {
+          "kn": "294",
+          "en": "294"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "169 = 13², 39 = 13 × 3; ಅದೇ ರೀತಿ 16² = 256, 16 × 3 = 48. ಉತ್ತರ C (256).",
+        "en": "169 = 13², and 39 = 13 × 3; so 16² = 256 and 16 × 3 = 48. Answer C (256)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0234",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 250 : 10 :: 128 : ?",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 250 : 10 :: 128 : ?"
+      },
+      "options": [
+        {
+          "kn": "62",
+          "en": "62"
+        },
+        {
+          "kn": "34",
+          "en": "34"
+        },
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "5³ × 2 = 250, 5 × 2 = 10; ಅದೇ ರೀತಿ 4³ × 2 = 128, 4 × 2 = 8. ಉತ್ತರ D (8).",
+        "en": "5³ × 2 = 250 and 5 × 2 = 10; so 4³ × 2 = 128 and 4 × 2 = 8. Answer D (8)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0235",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 7 : 329 :: 9 : ?",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 7 : 329 :: 9 : ?"
+      },
+      "options": [
+        {
+          "kn": "549",
+          "en": "549"
+        },
+        {
+          "kn": "632",
+          "en": "632"
+        },
+        {
+          "kn": "711",
+          "en": "711"
+        },
+        {
+          "kn": "678",
+          "en": "678"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "7³ − 7 × 2 = 343 − 14 = 329; ಅದೇ ರೀತಿ 9³ − 9 × 2 = 729 − 18 = 711. ಉತ್ತರ C (711).",
+        "en": "7³ − 7 × 2 = 343 − 14 = 329; so 9³ − 9 × 2 = 729 − 18 = 711. Answer C (711)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0236",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ: ಕೊಟ್ಟಿರುವ ಜೋಡಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಸಂಬಂಧವನ್ನು ಮುಂದಿನ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ. 24 : 13 :: ? : 29",
+        "en": "Complete the analogy: find the relation in the given pair and apply the same relation to the next pair to choose the correct answer. 24 : 13 :: ? : 29"
+      },
+      "options": [
+        {
+          "kn": "56",
+          "en": "56"
+        },
+        {
+          "kn": "44",
+          "en": "44"
+        },
+        {
+          "kn": "42",
+          "en": "42"
+        },
+        {
+          "kn": "58",
+          "en": "58"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "24 ÷ 2 + 1 = 13; ಅದೇ ರೀತಿ 56 ÷ 2 + 1 = 28 + 1 = 29. ಉತ್ತರ A (56).",
+        "en": "24 ÷ 2 + 1 = 13; so 56 ÷ 2 + 1 = 29. Answer A (56)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0237",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 2 10 18 26 :: 4 12 20 28 :: 6 14 22 30 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 2 10 18 26 :: 4 12 20 28 :: 6 14 22 30 :: ?"
+      },
+      "options": [
+        {
+          "kn": "8 16 24 32",
+          "en": "8 16 24 32"
+        },
+        {
+          "kn": "6 16 24 32",
+          "en": "6 16 24 32"
+        },
+        {
+          "kn": "32 24 16 8",
+          "en": "32 24 16 8"
+        },
+        {
+          "kn": "26 28 30 32",
+          "en": "26 28 30 32"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಮೊದಲ ಎರಡು ಕಾಲಂಗಳ ಮಾದರಿ: ಎರಡನೇ ಕಾಲಂ ಪ್ರತಿ ಸಂಖ್ಯೆ ಮೊದಲ ಕಾಲಂಗಿಂತ 2 ಹೆಚ್ಚು. ಅದೇ ರೀತಿ ನಾಲ್ಕನೇ ಕಾಲಂ ಮೂರನೇ ಕಾಲಂಗಿಂತ 2 ಹೆಚ್ಚು: 6, 14, 22, 30 ⇒ 8, 16, 24, 32. ಉತ್ತರ A.",
+        "en": "The second column is the first column plus 2. Likewise the fourth column is the third column plus 2: 6, 14, 22, 30 becomes 8, 16, 24, 32. Answer A. (Corrected: key gave B, but the worked answer and the column rule give A.)"
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0238",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 14 20 26 :: 10 20 30 :: 16 22 28 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 14 20 26 :: 10 20 30 :: 16 22 28 :: ?"
+      },
+      "options": [
+        {
+          "kn": "12 12 22",
+          "en": "12 12 22"
+        },
+        {
+          "kn": "12 22 32",
+          "en": "12 22 32"
+        },
+        {
+          "kn": "32 22 12",
+          "en": "32 22 12"
+        },
+        {
+          "kn": "8 14 20",
+          "en": "8 14 20"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೊದಲ ಸರಣಿಯಲ್ಲಿ 20 ಕೇಂದ್ರವಾಗಿ X ಮಾದರಿ (14, 26 ಮತ್ತು 10, 30). ಎರಡನೇ ಸರಣಿಯ ಕೇಂದ್ರ 22, ಆದ್ದರಿಂದ ಉತ್ತರ 12, 22, 32. ಉತ್ತರ B.",
+        "en": "In the first series, 20 is the centre of an X pattern (14, 26 and 10, 30). The second series has centre 22, so the answer is 12, 22, 32. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0239",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 4 9 16 :: 121 100 81 :: 16 25 36 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 4 9 16 :: 121 100 81 :: 16 25 36 :: ?"
+      },
+      "options": [
+        {
+          "kn": "9 16 25",
+          "en": "9 16 25"
+        },
+        {
+          "kn": "36 49 81",
+          "en": "36 49 81"
+        },
+        {
+          "kn": "144 121 100",
+          "en": "144 121 100"
+        },
+        {
+          "kn": "81 64 49",
+          "en": "81 64 49"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಮೊದಲ ಸರಣಿ: 2², 3², 4² ⇒ 11², 10², 9². ಅದೇ ಮಾದರಿಯಲ್ಲಿ 4², 5², 6² ⇒ 9², 8², 7² = 81, 64, 49. ಉತ್ತರ D.",
+        "en": "First series: 2², 3², 4² maps to 11², 10², 9². Applying the same to 4², 5², 6² gives 9², 8², 7² = 81, 64, 49. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0240",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 3 14 25 :: 36 23 10 :: 4 17 30 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 3 14 25 :: 36 23 10 :: 4 17 30 :: ?"
+      },
+      "options": [
+        {
+          "kn": "18 29 40",
+          "en": "18 29 40"
+        },
+        {
+          "kn": "30 41 33",
+          "en": "30 41 33"
+        },
+        {
+          "kn": "31 20 9",
+          "en": "31 20 9"
+        },
+        {
+          "kn": "25 38 34",
+          "en": "25 38 34"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೊದಲ ಸರಣಿಯ ಸಂಖ್ಯೆಗಳ ಮೊತ್ತ 39, 37, 35 ಕ್ರಮದಲ್ಲಿ; ಎರಡನೇ ಸರಣಿ ಮೊತ್ತ 35, 37, 39 ಆಗಬೇಕು. 4 + 31 = 35, 17 + 20 = 37, 30 + 9 = 39. ಉತ್ತರ C.",
+        "en": "Row sums in the first series are 39, 37, 35. The second series must give 35, 37, 39: 4 + 31 = 35, 17 + 20 = 37, 30 + 9 = 39. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0241",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 6 18 30 :: 7 19 31 :: 113 25 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 6 18 30 :: 7 19 31 :: 113 25 :: ?"
+      },
+      "options": [
+        {
+          "kn": "2 14 26",
+          "en": "2 14 26"
+        },
+        {
+          "kn": "12 24 36",
+          "en": "12 24 36"
+        },
+        {
+          "kn": "11 23 35",
+          "en": "11 23 35"
+        },
+        {
+          "kn": "25 13 1",
+          "en": "25 13 1"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೊದಲ ಸರಣಿ: ಪ್ರತಿ ಸಂಖ್ಯೆ +1. ಎರಡನೇ ಸರಣಿಯ ಮಾದರಿಯು ಪ್ರತಿ ಸಂಖ್ಯೆಗೆ ಒಂದೇ ಹೆಚ್ಚಳ ತರುತ್ತದೆ; ಫಲಿತಾಂಶ 12, 24, 36. ಉತ್ತರ B.",
+        "en": "The first series increases by 1 each step. The same relation gives 12, 24, 36. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0242",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 37 38 39 :: 42 41 10 :: 36 35 34 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 37 38 39 :: 42 41 10 :: 36 35 34 :: ?"
+      },
+      "options": [
+        {
+          "kn": "35 34 33",
+          "en": "35 34 33"
+        },
+        {
+          "kn": "32 33 34",
+          "en": "32 33 34"
+        },
+        {
+          "kn": "31 32 33",
+          "en": "31 32 33"
+        },
+        {
+          "kn": "33 32 31",
+          "en": "33 32 31"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೂರು ಸತತ ಸಂಖ್ಯೆಗಳು ಸಾಲಿನ ಕೊನೆಯಿಂದ ಮುಂದುವರಿಯುತ್ತವೆ; ಎರಡನೇ ಸಾಲಿನ ಮಾದರಿ ಅದೇ ರೀತಿ 36, 35, 34 ⇒ 31, 32, 33. ಉತ್ತರ C.",
+        "en": "Three consecutive numbers continue from the end of the row, and the same rule applied to the second group gives 31, 32, 33. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0243",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 6 18 30 29 :: 8 9 10 22 :: 1 13 25 26 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 6 18 30 29 :: 8 9 10 22 :: 1 13 25 26 :: ?"
+      },
+      "options": [
+        {
+          "kn": "26 38 35 36",
+          "en": "26 38 35 36"
+        },
+        {
+          "kn": "26 38 35 34",
+          "en": "26 38 35 34"
+        },
+        {
+          "kn": "11 10 22 34",
+          "en": "11 10 22 34"
+        },
+        {
+          "kn": "11 10 9 21",
+          "en": "11 10 9 21"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಸಂಖ್ಯೆಗಳು ಹಿಮ್ಮುಖವಾಗಿ ಚಲಿಸುತ್ತವೆ; ಕೊನೆಯ ಸಂಖ್ಯೆ ಸಾಲಿನ ಕೊನೆಯ ಸಂಖ್ಯೆಯಿಂದ ಮುಂದುವರಿಯುತ್ತದೆ. ಉತ್ತರ D (11, 10, 9, 21).",
+        "en": "The numbers move in reverse order, and the last number continues from the last number of the row. Answer D (11, 10, 9, 21)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0244",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 2 14 26 15 4 :: 4 16 28 17 6 :: 35 23 11 22 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 2 14 26 15 4 :: 4 16 28 17 6 :: 35 23 11 22 :: ?"
+      },
+      "options": [
+        {
+          "kn": "33 21 9 20 31",
+          "en": "33 21 9 20 31"
+        },
+        {
+          "kn": "33 21 9 22 35",
+          "en": "33 21 9 22 35"
+        },
+        {
+          "kn": "9 20 31 19 7",
+          "en": "9 20 31 19 7"
+        },
+        {
+          "kn": "33 21 9 20 32",
+          "en": "33 21 9 20 32"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಕಂಬಸಾಲಿನಲ್ಲಿ 2, 14, 26 ನಂತರ ಓರೆಮಾರ್ಗದಲ್ಲಿ 26, 15, 4; ಅದೇ ರೀತಿ 35, 23, 11, 22 ⇒ ಉತ್ತರ 33, 21, 9, 20, 31. ಉತ್ತರ A.",
+        "en": "Following the same column and diagonal movement as in the first pair gives 33, 21, 9, 20, 31. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0245",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 24 11 22 9 20 7 :: 19 8 21 10 23 12 :: 13 2 15 4 17 6 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 24 11 22 9 20 7 :: 19 8 21 10 23 12 :: 13 2 15 4 17 6 :: ?"
+      },
+      "options": [
+        {
+          "kn": "18 5 16 3 14 1",
+          "en": "18 5 16 3 14 1"
+        },
+        {
+          "kn": "13 26 15 28",
+          "en": "13 26 15 28"
+        },
+        {
+          "kn": "25 14 27 16 29 18",
+          "en": "25 14 27 16 29 18"
+        },
+        {
+          "kn": "1 14 3 16 5 18",
+          "en": "1 14 3 16 5 18"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಮೊದಲ ಎರಡು ಸಾಲುಗಳ ಕಾಲಂ ಮೊತ್ತಗಳು 43, 19, 43, 19, 43, 19 (ಜಿಗ್‌ಜಾಗ್). ಮೂರನೇ ಸಾಲಿನೊಂದಿಗೆ ಉತ್ತರ 18 5 16 3 14 1 ಜೋಡಿಸಿದಾಗ ಮೊತ್ತಗಳು 31, 7, 31, 7, 31, 7 ⇒ ಅದೇ ಜಿಗ್‌ಜಾಗ್ ಮಾದರಿ. ಉತ್ತರ A. (ಕೀ ಬದಲಾಯಿಸಲಾಗಿದೆ.)",
+        "en": "The column sums of the first two rows alternate 43, 19, 43, 19, 43, 19 (zig-zag). Pairing row 3 with 18 5 16 3 14 1 gives sums 31, 7, 31, 7, 31, 7, the same zig-zag. Answer A. (Corrected: key gave C or D, which do not keep this pattern.)"
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0246",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 1 14 25 32 19 :: 2 13 26 31 20 :: 3 16 27 34 21 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 1 14 25 32 19 :: 2 13 26 31 20 :: 3 16 27 34 21 :: ?"
+      },
+      "options": [
+        {
+          "kn": "22 33 15 4",
+          "en": "22 33 15 4"
+        },
+        {
+          "kn": "16 27 34 21 10",
+          "en": "16 27 34 21 10"
+        },
+        {
+          "kn": "4 15 28 33 22",
+          "en": "4 15 28 33 22"
+        },
+        {
+          "kn": "4 16 27 34 25",
+          "en": "4 16 27 34 25"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಸಾಲಿನಲ್ಲಿ ಮೊದಲ ಸಂಖ್ಯೆ 1 ರಿಂದ 4 ಆಗುತ್ತದೆ ಮತ್ತು ಉಳಿದವು ಅದೇ ಜಿಗ್‌ಜಾಗ್ ಕ್ರಮದಲ್ಲಿ ಬದಲಾಗುತ್ತವೆ: 4, 15, 28, 33, 22. ಉತ್ತರ C.",
+        "en": "Each row's first number goes 1, 2, 3, 4, and the rest follow the same zig-zag order, giving 4, 15, 28, 33, 22. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0247",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 13 26 33 :: 33 20 7 :: 17 28 33 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 13 26 33 :: 33 20 7 :: 17 28 33 :: ?"
+      },
+      "options": [
+        {
+          "kn": "33 22 11",
+          "en": "33 22 11"
+        },
+        {
+          "kn": "11 22 33",
+          "en": "11 22 33"
+        },
+        {
+          "kn": "34 35 36",
+          "en": "34 35 36"
+        },
+        {
+          "kn": "33 22 31",
+          "en": "33 22 31"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "33 ಕೇಂದ್ರವಾಗಿಟ್ಟುಕೊಂಡು ಸಂಖ್ಯೆಗಳು V ಆಕಾರದಲ್ಲಿ ಚಲಿಸುತ್ತವೆ. ಇದೇ ಮಾದರಿಯಲ್ಲಿ 33, 22, 11. ಉತ್ತರ A.",
+        "en": "The numbers move in a V shape with 33 at the centre. The same pattern gives 33, 22, 11. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0248",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 1 2 3 :: 16 17 18 :: 25 26 27 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 1 2 3 :: 16 17 18 :: 25 26 27 :: ?"
+      },
+      "options": [
+        {
+          "kn": "36 35 34",
+          "en": "36 35 34"
+        },
+        {
+          "kn": "33 32 31",
+          "en": "33 32 31"
+        },
+        {
+          "kn": "28 29 30",
+          "en": "28 29 30"
+        },
+        {
+          "kn": "34 35 36",
+          "en": "34 35 36"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಮೂರು ಸಂಖ್ಯೆಗಳು ಕ್ರಮವಾಗಿ ಕೆಳಗೆ ಬರುತ್ತವೆ ಮತ್ತು ಒಂದು ಸಂಖ್ಯೆ ಅಡ್ಡ ತಿರುಗಿ ಕೆಳಗಡೆ ಮೂರು ಸಂಖ್ಯೆಗಳು ಮುಂದುವರಿಯುತ್ತವೆ. ಉತ್ತರ D (34, 35, 36).",
+        "en": "Three numbers come down in order and one crosses over, with three numbers continuing from the bottom. Answer D (34, 35, 36)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0249",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 7 31 13 :: 8 32 14 :: 11 35 17 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 7 31 13 :: 8 32 14 :: 11 35 17 :: ?"
+      },
+      "options": [
+        {
+          "kn": "12 36 18",
+          "en": "12 36 18"
+        },
+        {
+          "kn": "18 16 12",
+          "en": "18 16 12"
+        },
+        {
+          "kn": "5 29 23",
+          "en": "5 29 23"
+        },
+        {
+          "kn": "11 23 35",
+          "en": "11 23 35"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಮೊದಲ ಸಾಲಿನಲ್ಲಿ ಕೊನೆಯಿಂದ ಆರಂಭಿಸಿ ಒಂದು ಸಂಖ್ಯೆ ಬಿಟ್ಟು ಇನ್ನೊಂದು ಸಂಖ್ಯೆಯನ್ನು ಪಾಲಿಸುತ್ತದೆ. ಅದೇ ರೀತಿ 11 + 1 = 12, 35 + 1 = 36, 17 + 1 = 18. ಉತ್ತರ A.",
+        "en": "The same row-to-row step (+1) applied to 11, 35, 17 gives 12, 36, 18. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0250",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 31 20 9 :: 25 32 21 :: 13 26 33 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 31 20 9 :: 25 32 21 :: 13 26 33 :: ?"
+      },
+      "options": [
+        {
+          "kn": "14 27 23",
+          "en": "14 27 23"
+        },
+        {
+          "kn": "1 14 27",
+          "en": "1 14 27"
+        },
+        {
+          "kn": "1 14 34",
+          "en": "1 14 34"
+        },
+        {
+          "kn": "27 14 1",
+          "en": "27 14 1"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಓರೆ ಮಾರ್ಗದಲ್ಲಿ ಮೂರು ಅಂಕಿಗಳು ಚಲಿಸುತ್ತವೆ; ಈ ಮಾದರಿಯನ್ನು ಎರಡನೇ ಜೋಡಿಗೆ ಅನ್ವಯಿಸಿ ಉತ್ತರ 1, 14, 27. ಉತ್ತರ B.",
+        "en": "Three digits move along a slanting path; applying this to the second pair gives 1, 14, 27. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NP-0251",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಖ್ಯಾ ವಿನ್ಯಾಸದಲ್ಲಿ ಒಂದೇ ಸರಣಿಯ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಎರಡನೇ ಸರಣಿಯ ಪ್ರಶ್ನಾರ್ಥಕ ಸ್ಥಾನದಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ. 5 6 18 30 29 :: 29 30 36 24 23 :: 1 2 14 26 25 :: ?",
+        "en": "Identify the relation in the first series of numbers and find the numbers in the interrogative position of the second series. 5 6 18 30 29 :: 29 30 36 24 23 :: 1 2 14 26 25 :: ?"
+      },
+      "options": [
+        {
+          "kn": "25 36 32 20 19",
+          "en": "25 36 32 20 19"
+        },
+        {
+          "kn": "19 20 32 26 25",
+          "en": "19 20 32 26 25"
+        },
+        {
+          "kn": "26 25 31 19 20",
+          "en": "26 25 31 19 20"
+        },
+        {
+          "kn": "20 19 31 25 26",
+          "en": "20 19 31 25 26"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಎರಡು ಸಂಖ್ಯೆಗಳು ಕಂಬದಲ್ಲಿ, ಮೂರು ಅಡ್ಡಸಾಲಿನಲ್ಲಿ, ಮತ್ತೆ ಎರಡು ಕಂಬದಲ್ಲಿ ಚಲಿಸುತ್ತವೆ. ಮೊದಲ ಸಾಲಿನ ಮಾದರಿ (+24, +24, +18, −6, −6) ಅನ್ವಯಿಸಿದಾಗ ನಾಲ್ಕು ಸ್ಥಾನ ಹೊಂದುವುದು A ಮಾತ್ರ. ಉತ್ತರ A. (ಕೀ ಖಾಲಿ; ಕನ್ನಡ ಕೀ A ಅನ್ನು ಅನುಸರಿಸಲಾಗಿದೆ.)",
+        "en": "Two numbers move in a column, three in a row, then two in a column. Applying the first pair's position changes (+24, +24, +18, −6, −6) matches four of the five positions only in option A, so the answer is A. (English key blank; the Kannada key says A.)"
+      },
+      "image": null
     }
   ]
 }
