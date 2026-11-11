@@ -8,9 +8,9 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 97,
+    "totalQuestions": 119,
     "questionNumberStart": 1,
-    "questionNumberEnd": 97,
+    "questionNumberEnd": 119,
     "version": "1.0.0"
   },
   "questions": [
@@ -3117,6 +3117,710 @@
         "en": "The circular fold and square holes reflect when unfolded. The leaf-shaped lines spread evenly around the centre and the square holes are symmetric. Option A shows this symmetric design."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-PF-0097.webp"
+    },
+    {
+      "id": "GMAT-MI-0098",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕನ್ನಡಿ ರೇಖೆಯ ಎಡಭಾಗದ ಆಕೃತಿ ಅಥವಾ ಚಿಹ್ನೆಯನ್ನು ಗಮನಿಸಿ. ಅದರ ಸರಿಯಾದ ಕನ್ನಡಿ ಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure or symbol and its mirror image shown on the right side of the mirror line. Select the option that is the correct mirror image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕನ್ನಡಿ ಬಿಂಬದಲ್ಲಿ ಚಿತ್ರದ ಎಡ-ಬಲ ಸ್ಥಾನ ಅದಲು-ಬದಲಾಗುತ್ತದೆ ಮತ್ತು ಬಾಣಗಳ ದಿಕ್ಕು ಪ್ರತಿಫಲಿಸುತ್ತದೆ. ಕರ್ಣದ ಗುರುತುಗಳು ಸಹ ಕನ್ನಡಿಯ ಇನ್ನೊಂದು ಬದಿಗೆ ಬದಲಾಗುತ್ತವೆ. ಆಯ್ಕೆ (B) ಈ ಪ್ರತಿಫಲನವನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+        "en": "In a mirror image, the left and right positions swap and arrow directions are reflected. The diagonal marks also move to the opposite side of the mirror. Option B shows this reflection correctly."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-MI-0098.webp"
+    },
+    {
+      "id": "GMAT-MI-0099",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕನ್ನಡಿ ರೇಖೆಯ ಎಡಭಾಗದ ಆಕೃತಿ ಅಥವಾ ಚಿಹ್ನೆಯನ್ನು ಗಮನಿಸಿ. ಅದರ ಸರಿಯಾದ ಕನ್ನಡಿ ಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure or symbol and its mirror image shown on the right side of the mirror line. Select the option that is the correct mirror image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಕನ್ನಡಿ ಬಿಂಬದಲ್ಲಿ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಎಡ-ಬಲ ಅದಲು-ಬದಲಾಗುತ್ತದೆ ಮತ್ತು ಪ್ರತಿ ಅಕ್ಷರ ಕನ್ನಡಿಯಲ್ಲಿ ತಲೆಕೆಳಗಾಗಿ ಕಾಣುತ್ತದೆ. ಮೇಲಿನ ಮತ್ತು ಕೆಳಗಿನ ಅಕ್ಷರಗಳೂ ಬದಲಾಗುತ್ತವೆ. ಆಯ್ಕೆ (A) ಈ ಪ್ರತಿಫಲಿತ ಅಕ್ಷರ ಸ್ಥಾನ ಮತ್ತು ರೂಪವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "In a mirror image, letter positions swap left and right, and each letter appears reversed. The top and bottom letters also change. Option A shows this reflected letter arrangement."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-MI-0099.webp"
+    },
+    {
+      "id": "GMAT-MI-0100",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕನ್ನಡಿ ರೇಖೆಯ ಎಡಭಾಗದ ಆಕೃತಿ ಅಥವಾ ಚಿಹ್ನೆಯನ್ನು ಗಮನಿಸಿ. ಅದರ ಸರಿಯಾದ ಕನ್ನಡಿ ಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure or symbol and its mirror image shown on the right side of the mirror line. Select the option that is the correct mirror image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಚೌಕದೊಳಗಿನ ಆಕಾರಗಳ ಸ್ಥಾನ ಕನ್ನಡಿ ರೇಖೆಯ ಮೂಲಕ ಅದಲು-ಬದಲಾಗುತ್ತದೆ. ಚುಕ್ಕೆಗಳ ಸ್ಥಾನ ಮತ್ತು ಕಪ್ಪು ಷಡ್ಭುಜದ ಸ್ಥಾನ ಸಹ ಬದಲಾಗುತ್ತದೆ. ಆಯ್ಕೆ (B) ಈ ಬದಲಾವಣೆಗಳನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+        "en": "The shapes inside the square swap positions across the mirror line, and the dots and the black hexagon also change places. Option B shows these changes correctly."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-MI-0100.webp"
+    },
+    {
+      "id": "GMAT-MI-0101",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕನ್ನಡಿ ರೇಖೆಯ ಎಡಭಾಗದ ಆಕೃತಿ ಅಥವಾ ಚಿಹ್ನೆಯನ್ನು ಗಮನಿಸಿ. ಅದರ ಸರಿಯಾದ ಕನ್ನಡಿ ಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure or symbol and its mirror image shown on the right side of the mirror line. Select the option that is the correct mirror image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಕನ್ನಡಿ ಬಿಂಬದಲ್ಲಿ ಬಾಣಗಳ ದಿಕ್ಕು ಎಡ-ಬಲ ಬದಲಾಗುತ್ತದೆ, ಚುಕ್ಕೆ ಮತ್ತು ತ್ರಿಕೋನ ಭಾಗಗಳ ಸ್ಥಾನ ಸಹ ಬದಲಾಗುತ್ತದೆ. ಆಯ್ಕೆ (D) ಈ ಬದಲಾವಣೆಗಳ ನಂತರದ ಸರಿಯಾದ ಚಿತ್ರವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "In the mirror image, arrow directions reverse left and right, and the dot and triangle parts also change position. Option D is the correct resulting figure."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-MI-0101.webp"
+    },
+    {
+      "id": "GMAT-MI-0102",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕನ್ನಡಿ ರೇಖೆಯ ಎಡಭಾಗದ ಆಕೃತಿ ಅಥವಾ ಚಿಹ್ನೆಯನ್ನು ಗಮನಿಸಿ. ಅದರ ಸರಿಯಾದ ಕನ್ನಡಿ ಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure or symbol and its mirror image shown on the right side of the mirror line. Select the option that is the correct mirror image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಕನ್ನಡಿ ಬಿಂಬದಲ್ಲಿ ಎಸ್-ಆಕಾರದ ವಕ್ರರೇಖೆ ಮತ್ತು ಬಾಣದ ತುದಿಗಳ ಸ್ಥಾನ ಕರ್ಣದ ಎದುರು ಬದಿಗೆ ಬದಲಾಗುತ್ತದೆ. ಆಯ್ಕೆ (C) ಈ ಪ್ರತಿಫಲಿತ ವಕ್ರರೇಖೆ ಮತ್ತು ತುದಿಗಳನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "In the mirror image, the S-shaped curve and the arrow ends move to the opposite side of the diagonal. Option C shows this reflected curve and ends."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-MI-0102.webp"
+    },
+    {
+      "id": "GMAT-MI-0103",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕನ್ನಡಿ ರೇಖೆಯ ಎಡಭಾಗದ ಆಕೃತಿ ಅಥವಾ ಚಿಹ್ನೆಯನ್ನು ಗಮನಿಸಿ. ಅದರ ಸರಿಯಾದ ಕನ್ನಡಿ ಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure or symbol and its mirror image shown on the right side of the mirror line. Select the option that is the correct mirror image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ತ್ರಿಕೋನದ ಒಳಗಿನ ಬಾಣಗಳ ದಿಕ್ಕು ಮತ್ತು ಕೆಳಗಿನ ವೃತ್ತ ಹಾಗೂ ಚೌಕದ ಸ್ಥಾನ ಕನ್ನಡಿಯ ಇನ್ನೊಂದು ಬದಿಗೆ ಬದಲಾಗುತ್ತವೆ. ಆಯ್ಕೆ (A) ಈ ಪ್ರತಿಫಲಿತ ವಿನ್ಯಾಸವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The arrow directions inside the triangle and the positions of the circle and square at the base reverse to the other side. Option A shows this reflected design."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-MI-0103.webp"
+    },
+    {
+      "id": "GMAT-MI-0104",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕನ್ನಡಿ ರೇಖೆಯ ಎಡಭಾಗದ ಆಕೃತಿ ಅಥವಾ ಚಿಹ್ನೆಯನ್ನು ಗಮನಿಸಿ. ಅದರ ಸರಿಯಾದ ಕನ್ನಡಿ ಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure or symbol and its mirror image shown on the right side of the mirror line. Select the option that is the correct mirror image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಬಾಣಗಳ ಸಮೂಹದ ದಿಕ್ಕು ಎಡ-ಬಲ ಪ್ರತಿಫಲನದಿಂದ ಬದಲಾಗುತ್ತದೆ ಮತ್ತು ಸರಳ ರೇಖೆಯ ಆಕಾರ ಕನ್ನಡಿಯ ಇನ್ನೊಂದು ಬದಿಗೆ ಹೋಗುತ್ತದೆ. ಆಯ್ಕೆ (B) ಈ ಬಾಣ ದಿಕ್ಕು ಮತ್ತು ಆಕಾರ ಬದಲಾವಣೆಯನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The direction of the arrow group reverses by left-right reflection, and the step-shaped line moves to the other side. Option B shows this change in arrow direction and shape."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-MI-0104.webp"
+    },
+    {
+      "id": "GMAT-MI-0105",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕನ್ನಡಿ ರೇಖೆಯ ಎಡಭಾಗದ ಆಕೃತಿ ಅಥವಾ ಚಿಹ್ನೆಯನ್ನು ಗಮನಿಸಿ. ಅದರ ಸರಿಯಾದ ಕನ್ನಡಿ ಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure or symbol and its mirror image shown on the right side of the mirror line. Select the option that is the correct mirror image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ನಾಲ್ಕು ಮೂಲೆಯ ಬಾಣಗಳು ಮತ್ತು ಚೌಕ, ವೃತ್ತ, ನಕ್ಷತ್ರ ಗುರುತುಗಳು ಕನ್ನಡಿ ರೇಖೆಯ ಮೂಲಕ ಸ್ಥಾನ ಬದಲಾಯಿಸುತ್ತವೆ. ಆಯ್ಕೆ (C) ಈ ಸ್ಥಾನ ಬದಲಾವಣೆ ಮತ್ತು ಬಾಣದ ದಿಕ್ಕನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+        "en": "The four corner arrows and the square, circle and star marks swap positions across the mirror line. Option C shows this change in positions and arrow directions correctly."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-MI-0105.webp"
+    },
+    {
+      "id": "GMAT-MI-0106",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕನ್ನಡಿ ರೇಖೆಯ ಎಡಭಾಗದ ಆಕೃತಿ ಅಥವಾ ಚಿಹ್ನೆಯನ್ನು ಗಮನಿಸಿ. ಅದರ ಸರಿಯಾದ ಕನ್ನಡಿ ಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure or symbol and its mirror image shown on the right side of the mirror line. Select the option that is the correct mirror image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕೇಂದ್ರ ವೃತ್ತದ ಸುತ್ತಲಿನ ಬಾಣಗಳು ಮತ್ತು ವಜ್ರ ಗುರುತುಗಳು ಕನ್ನಡಿಯ ಇನ್ನೊಂದು ಬದಿಗೆ ಪ್ರತಿಫಲಿಸುತ್ತವೆ. ಆಯ್ಕೆ (B) ಈ ಪ್ರತಿಫಲಿತ ಬಾಣ ಮತ್ತು ವೃತ್ತದ ಸ್ಥಾನವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The arrows and diamond marks around the central circle reflect to the other side. Option B shows this reflected arrangement of arrows and circles."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-MI-0106.webp"
+    },
+    {
+      "id": "GMAT-MI-0107",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕನ್ನಡಿ ರೇಖೆಯ ಎಡಭಾಗದ ಆಕೃತಿ ಅಥವಾ ಚಿಹ್ನೆಯನ್ನು ಗಮನಿಸಿ. ಅದರ ಸರಿಯಾದ ಕನ್ನಡಿ ಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure or symbol and its mirror image shown on the right side of the mirror line. Select the option that is the correct mirror image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಸಮಾನಾಂತರ ರೇಖೆಗಳು ಮತ್ತು ಆವರಣ ಚಿಹ್ನೆಗಳ ದಿಕ್ಕು ಕನ್ನಡಿಯಲ್ಲಿ ಹಿಮ್ಮುಖವಾಗುತ್ತದೆ. ಬಾಣಗಳ ದಿಕ್ಕು ಎಡ-ಬಲ ಅದಲು-ಬದಲಾಗುತ್ತದೆ. ಆಯ್ಕೆ (D) ಈ ಹಿಮ್ಮುಖ ದಿಕ್ಕಿನ ಸರಿಯಾದ ಕನ್ನಡಿ ಬಿಂಬವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The parallel lines and bracket symbols reverse direction in the mirror, and the arrows swap left and right. Option D shows the correct mirror image with this reversed orientation."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-MI-0107.webp"
+    },
+    {
+      "id": "GMAT-MI-0108",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕನ್ನಡಿ ರೇಖೆಯ ಎಡಭಾಗದ ಆಕೃತಿ ಅಥವಾ ಚಿಹ್ನೆಯನ್ನು ಗಮನಿಸಿ. ಅದರ ಸರಿಯಾದ ಕನ್ನಡಿ ಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure or symbol and its mirror image shown on the right side of the mirror line. Select the option that is the correct mirror image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಕನ್ನಡಿ ಬಿಂಬದಲ್ಲಿ ಸಾಲುಗಳ ಎಡ-ಬಲ ಸ್ಥಾನ ಅದಲು-ಬದಲಾಗುತ್ತದೆ. ಮೊದಲ ಸಾಲು (+ ÷) ಮತ್ತು ಎರಡನೇ ಸಾಲು (< >) ಆಯ್ಕೆ (A) ಗೆ ನಿಖರವಾಗಿ ಹೊಂದುತ್ತವೆ. ಮೂರನೇ ಸಾಲಿನ ಬಲ ಚಿಹ್ನೆ ಕನ್ನಡಿ ನಿಯಮದ ಪ್ರಕಾರ '+' ಆಗಬೇಕು, ಆದರೆ ಮೂಲ ಮುದ್ರಣದಲ್ಲಿ ಆಯ್ಕೆ (A) ನಲ್ಲಿ '×' ಇದೆ; ಇದು PDF ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಆಯ್ಕೆ. ಇತರ ಆಯ್ಕೆಗಳು ಸಾಲುಗಳನ್ನು ಹೆಚ್ಚು ಹೊಂದುವುದಿಲ್ಲ.",
+        "en": "In a mirror image, the left and right positions of each row swap. The first row (+ ÷) and second row (< >) match option A exactly. The right symbol in the third row should be '+' by the mirror rule, while option A shows '×', as printed in the source; this agrees with the PDF key. No other option matches the rows better."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-MI-0108.webp"
+    },
+    {
+      "id": "GMAT-WI-0109",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನೀರಿನ ಮೇಲ್ಮೈ ರೇಖೆಯ ಕೆಳಗೆ ನೀಡಿರುವ ಆಕೃತಿ ಮತ್ತು ಅದರ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಗಮನಿಸಿ. ಸರಿಯಾದ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure and its water image shown in the water surface line. Select the option that is the correct water image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಮೇಲ್ಭಾಗ ಮತ್ತು ಕೆಳಭಾಗ ನೀರಿನ ಪ್ರತಿಬಿಂಬದಲ್ಲಿ ಅದಲು-ಬದಲಾಗುತ್ತವೆ. ಆಯ್ಕೆ (A) PDF ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದದ್ದು; ಈ ಪ್ರಶ್ನೆಯ ಗೆರೆ ಮತ್ತು ಚುಕ್ಕೆಗಳ ನಿಖರ ಸ್ಥಾನವನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಶೀಲಿಸಿಲ್ಲ.",
+        "en": "The top and bottom parts swap in the water image. Option A is correct according to the PDF key; the exact positions of the lines and dots were not separately checked."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-WI-0109.webp"
+    },
+    {
+      "id": "GMAT-WI-0110",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನೀರಿನ ಮೇಲ್ಮೈ ರೇಖೆಯ ಕೆಳಗೆ ನೀಡಿರುವ ಆಕೃತಿ ಮತ್ತು ಅದರ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಗಮನಿಸಿ. ಸರಿಯಾದ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure and its water image shown in the water surface line. Select the option that is the correct water image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಆಕೃತಿಯ ಒಳಗಿನ ಮೇಲ್ಮುಖ ತ್ರಿಕೋನ ನೀರಿನ ಪ್ರತಿಬಿಂಬದಲ್ಲಿ ಕೆಳಮುಖವಾಗುತ್ತದೆ; ಷಡ್ಭುಜದ ಹೊರ ರೂಪ ಬದಲಾಗುವುದಿಲ್ಲ. ಆಯ್ಕೆ (A) ಕೆಳಮುಖ ತ್ರಿಕೋನವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The upward-pointing triangle inside becomes downward in the water image, while the outer hexagon stays the same. Option A shows the downward triangle."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-WI-0110.webp"
+    },
+    {
+      "id": "GMAT-WI-0111",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನೀರಿನ ಮೇಲ್ಮೈ ರೇಖೆಯ ಕೆಳಗೆ ನೀಡಿರುವ ಆಕೃತಿ ಮತ್ತು ಅದರ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಗಮನಿಸಿ. ಸರಿಯಾದ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure and its water image shown in the water surface line. Select the option that is the correct water image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೇಲಿನ ಮತ್ತು ಕೆಳಗಿನ ಭಾಗಗಳು ಅದಲು-ಬದಲಾಗುತ್ತವೆ ಮತ್ತು ಪ್ರತಿ ಆಕಾರ ತಲೆಕೆಳಗಾಗುತ್ತದೆ. ಮೇಲಿನ ಎಡದ ಅರ್ಧ-ಕಪ್ಪು ವೃತ್ತ, ಮೇಲಿನ ಬಲದ ಮೇಲ್ಮುಖ ತ್ರಿಕೋನ, ಕೆಳಗಿನ ಎಡದ ಬಿಳಿ ವೃತ್ತ ಮತ್ತು ಕೆಳಗಿನ ಬಲದ ಕೆಳಮುಖ ತ್ರಿಕೋನ ಆಯ್ಕೆ (C) ನಲ್ಲಿ ಕಾಣುತ್ತದೆ.",
+        "en": "The top and bottom parts swap and each shape turns upside down. Top-left has a half-black circle, top-right an upward triangle, bottom-left a white circle and bottom-right a downward triangle, which matches option C."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-WI-0111.webp"
+    },
+    {
+      "id": "GMAT-WI-0112",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನೀರಿನ ಮೇಲ್ಮೈ ರೇಖೆಯ ಕೆಳಗೆ ನೀಡಿರುವ ಆಕೃತಿ ಮತ್ತು ಅದರ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಗಮನಿಸಿ. ಸರಿಯಾದ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure and its water image shown in the water surface line. Select the option that is the correct water image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೇಲ್ಭಾಗದ ಕಪ್ಪು ತ್ರಿಕೋನ ಕೆಳಭಾಗಕ್ಕೆ ಮತ್ತು ಕೆಳಭಾಗದ ಗೆರೆ ಹಾಕಿದ ತ್ರಿಕೋನ ಮೇಲ್ಭಾಗಕ್ಕೆ ಬದಲಾಗುತ್ತದೆ. ಆಯ್ಕೆ (C) ಈ ಸ್ಥಾನ ಬದಲಾವಣೆಯನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುತ್ತದೆ.",
+        "en": "The black triangle at the top moves to the bottom and the hatched triangle at the bottom moves to the top. Option C shows this change correctly."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-WI-0112.webp"
+    },
+    {
+      "id": "GMAT-WI-0113",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನೀರಿನ ಮೇಲ್ಮೈ ರೇಖೆಯ ಕೆಳಗೆ ನೀಡಿರುವ ಆಕೃತಿ ಮತ್ತು ಅದರ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಗಮನಿಸಿ. ಸರಿಯಾದ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure and its water image shown in the water surface line. Select the option that is the correct water image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ನೀರಿನ ಪ್ರತಿಬಿಂಬದಲ್ಲಿ ಮೇಲಿನ ತ್ರಿಕೋನ ಕೆಳಮುಖವಾಗುತ್ತದೆ, ಅಕ್ಷರಗಳು 'p' ಮತ್ತು 'b' ಮೇಲು-ಕೆಳ ಪಲ್ಟಿಯಿಂದ ಪರಸ್ಪರ ಬದಲಾಗುತ್ತವೆ, ಮತ್ತು ಕರ್ಣ ರೇಖೆಯ ಓರೆ ವ್ಯತಿರಿಕ್ತವಾಗುತ್ತದೆ. ಈ ಎಲ್ಲಾ ಬದಲಾವಣೆಗಳನ್ನು ಆಯ್ಕೆ (D) ತೋರಿಸುತ್ತದೆ. (ಕೀ ಬದಲಾವಣೆ: PDF ಕೀ (B) ಎಂದಿತ್ತು; ಪರಿಶೀಲನೆಯ ನಂತರ (D) ಸರಿ.)",
+        "en": "In the water image the top triangle turns downward, the letters 'p' and 'b' swap through the top-bottom flip, and the diagonal slope reverses. Option D shows all these changes. (Key change: the PDF key said B; after checking, D is correct.)"
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-WI-0113.webp"
+    },
+    {
+      "id": "GMAT-WI-0114",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನೀರಿನ ಮೇಲ್ಮೈ ರೇಖೆಯ ಕೆಳಗೆ ನೀಡಿರುವ ಆಕೃತಿ ಮತ್ತು ಅದರ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಗಮನಿಸಿ. ಸರಿಯಾದ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure and its water image shown in the water surface line. Select the option that is the correct water image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಮೇಲ್ಭಾಗದ ದೀರ್ಘವೃತ್ತ ಕೆಳಭಾಗಕ್ಕೆ ಹೋಗುವ ಬದಲು ನೀರಿನ ಪ್ರತಿಬಿಂಬದಲ್ಲಿ ಮೇಲ್ಭಾಗದಲ್ಲೇ ಕಾಣುತ್ತದೆ; ತ್ರಿಕೋನ ಕೆಳಮುಖವಾಗಿ ಎಡ-ಕೆಳ ಭಾಗದಲ್ಲಿ ಮತ್ತು ಆಯತ ಬಲ-ಕೆಳ ಭಾಗದಲ್ಲಿ ಬರುತ್ತದೆ. ಆಯ್ಕೆ (D) PDF ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದದ್ದು; ಆಕೃತಿಯ ನಿಖರ ರೂಪವನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಶೀಲಿಸಿಲ್ಲ.",
+        "en": "The top ellipse stays at the top in the water image, the triangle becomes downward and moves to the bottom-left, and the rectangle moves to the bottom-right. Option D is correct according to the PDF key; the exact shape details were not separately verified."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-WI-0114.webp"
+    },
+    {
+      "id": "GMAT-WI-0115",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನೀರಿನ ಮೇಲ್ಮೈ ರೇಖೆಯ ಕೆಳಗೆ ನೀಡಿರುವ ಆಕೃತಿ ಮತ್ತು ಅದರ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಗಮನಿಸಿ. ಸರಿಯಾದ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure and its water image shown in the water surface line. Select the option that is the correct water image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಕೆಳಗಿನ ಅರ್ಧ-ವೃತ್ತ ಚುಕ್ಕೆ ಮೇಲಕ್ಕೆ ಹೋಗಿ ಕೆಳಮುಖವಾಗುತ್ತದೆ, ಮತ್ತು ಮೇಲಿನ ಬಾಣ ಕೆಳಮುಖವಾಗಿ ಕೆಳಭಾಗಕ್ಕೆ ಬರುತ್ತದೆ. ಆಯ್ಕೆ (A) ಈ ಸ್ಥಾನ ಮತ್ತು ದಿಕ್ಕು ಬದಲಾವಣೆಯನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "en": "The lower half-circle with the dot moves up and turns downward, and the upper arrow turns downward and moves to the bottom. Option A shows this change in position and direction."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-WI-0115.webp"
+    },
+    {
+      "id": "GMAT-WI-0116",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನೀರಿನ ಮೇಲ್ಮೈ ರೇಖೆಯ ಕೆಳಗೆ ನೀಡಿರುವ ಆಕೃತಿ ಮತ್ತು ಅದರ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಗಮನಿಸಿ. ಸರಿಯಾದ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure and its water image shown in the water surface line. Select the option that is the correct water image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ವೃತ್ತದ ಒಳಗಿನ ಸಂಖ್ಯೆಗಳು ಮೇಲು-ಕೆಳ ಪಲ್ಟಿಯಿಂದ ಬದಲಾಗುತ್ತವೆ; ಮೇಲಿನ ಮತ್ತು ಕೆಳಗಿನ ಸಂಖ್ಯೆಗಳು ಅದಲು-ಬದಲಾಗುತ್ತವೆ. ಆಯ್ಕೆ (C) PDF ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದದ್ದು; ಸಂಖ್ಯೆಗಳ ನಿಖರ ರೂಪವನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಶೀಲಿಸಿಲ್ಲ.",
+        "en": "The numbers inside the circle change under the top-bottom flip, and the top and bottom numbers swap. Option C is correct according to the PDF key; the exact number forms were not separately verified."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-WI-0116.webp"
+    },
+    {
+      "id": "GMAT-WI-0117",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನೀರಿನ ಮೇಲ್ಮೈ ರೇಖೆಯ ಕೆಳಗೆ ನೀಡಿರುವ ಆಕೃತಿ ಮತ್ತು ಅದರ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಗಮನಿಸಿ. ಸರಿಯಾದ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure and its water image shown in the water surface line. Select the option that is the correct water image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಕರ್ಣ ರೇಖೆಯ ಎರಡೂ ಬದಿಯ ಅಕ್ಷರ ಮತ್ತು ಚೌಕ ಚಿಹ್ನೆಗಳು ನೀರಿನ ಪ್ರತಿಬಿಂಬದಲ್ಲಿ ಮೇಲು-ಕೆಳ ಪಲ್ಟಿಯಾಗುತ್ತವೆ. ಆಯ್ಕೆ (D) PDF ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದದ್ದು; ಚಿಹ್ನೆಗಳ ನಿಖರ ಸ್ಥಾನವನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಶೀಲಿಸಿಲ್ಲ.",
+        "en": "The letters and square marks on both sides of the diagonal flip top-to-bottom in the water image. Option D is correct according to the PDF key; the exact positions of the symbols were not separately verified."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-WI-0117.webp"
+    },
+    {
+      "id": "GMAT-WI-0118",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನೀರಿನ ಮೇಲ್ಮೈ ರೇಖೆಯ ಕೆಳಗೆ ನೀಡಿರುವ ಆಕೃತಿ ಮತ್ತು ಅದರ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಗಮನಿಸಿ. ಸರಿಯಾದ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure and its water image shown in the water surface line. Select the option that is the correct water image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೇಲಿನ ತ್ರಿಕೋನ ಕೆಳಮುಖವಾಗುತ್ತದೆ ಮತ್ತು ಕಪ್ಪು ಭಾಗ ಕೆಳಭಾಗದಿಂದ ಮೇಲ್ಭಾಗಕ್ಕೆ ಬರುತ್ತದೆ; ಬಾಣಗಳ ದಿಕ್ಕು ಸಹ ಬದಲಾಗುತ್ತದೆ. ಆಯ್ಕೆ (C) PDF ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದದ್ದು; ಕಪ್ಪು ಭಾಗ ಮತ್ತು ಬಾಣಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಶೀಲಿಸಿಲ್ಲ.",
+        "en": "The upward triangle turns downward and its black part moves from bottom to top, and the arrow directions also change. Option C is correct according to the PDF key; the black part and arrows were not separately verified."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-WI-0118.webp"
+    },
+    {
+      "id": "GMAT-WI-0119",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನೀರಿನ ಮೇಲ್ಮೈ ರೇಖೆಯ ಕೆಳಗೆ ನೀಡಿರುವ ಆಕೃತಿ ಮತ್ತು ಅದರ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಗಮನಿಸಿ. ಸರಿಯಾದ ನೀರಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಆರಿಸಿ.",
+        "en": "Observe the given figure and its water image shown in the water surface line. Select the option that is the correct water image of the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ನೀರಿನ ಪ್ರತಿಬಿಂಬದಲ್ಲಿ ಮೇಲಿನ ಕಪ್ಪು ಅಂಡಾಕಾರ ಮತ್ತು ಕೆಳಗಿನ ಚುಕ್ಕೆಗಳು ಸ್ಥಾನ ಬದಲಾಯಿಸುತ್ತವೆ. ಆಯ್ಕೆ (D) PDF ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದದ್ದು; ಚುಕ್ಕೆಗಳ ನಿಖರ ಸಂಖ್ಯೆ ಮತ್ತು ಸ್ಥಾನವನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಶೀಲಿಸಿಲ್ಲ.",
+        "en": "In the water image the black oval at the top and the dots at the bottom swap positions. Option D is correct according to the PDF key; the exact number and position of dots were not separately verified."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-WI-0119.webp"
     }
   ]
 }
