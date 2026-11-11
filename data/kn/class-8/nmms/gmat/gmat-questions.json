@@ -8,7 +8,7 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 174,
+    "totalQuestions": 189,
     "questionNumberStart": 1,
     "questionNumberEnd": 146,
     "version": "1.0.0"
@@ -5581,6 +5581,486 @@
         "en": "Purple and grey faces share one edge, which has 5 cubes. The 2 corner cubes at its ends also have a third colour, so excluding them leaves 5 − 2 = 3. Answer C (3)."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0176.webp"
+    },
+    {
+      "id": "GMAT-FN-0177",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "200",
+          "en": "200"
+        },
+        {
+          "kn": "175",
+          "en": "175"
+        },
+        {
+          "kn": "100",
+          "en": "100"
+        },
+        {
+          "kn": "70",
+          "en": "70"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "90 ರಿಂದ ಪ್ರಾರಂಭಿಸಿ ಹಾವಿನ ಆಕಾರದ ಮಾರ್ಗದಲ್ಲಿ ಚಲಿಸಿದಾಗ ಸಂಖ್ಯೆಗಳು ಈ ಕ್ರಮದಲ್ಲಿ ಬದಲಾಗುತ್ತವೆ: +20, −25, +30, −35, +40, −45, +50, −55. ಆದ್ದರಿಂದ ? = 125 − 55 = 70. ಉತ್ತರ D (70).",
+        "en": "Starting from 90 and moving in a snake path, the numbers change by +20, −25, +30, −35, +40, −45, +50, −55. So ? = 125 − 55 = 70. Answer D (70)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0177.webp"
+    },
+    {
+      "id": "GMAT-FN-0178",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "8",
+          "en": "8"
+        },
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        },
+        {
+          "kn": "22",
+          "en": "22"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಸಾಲಿನಲ್ಲಿ ಮೊದಲ ಸಂಖ್ಯೆ × 2 + ಎರಡನೆಯ ಸಂಖ್ಯೆ × 2 − ಮೂರನೆಯ ಸಂಖ್ಯೆಯ ಘನ = ನಾಲ್ಕನೆಯ ಸಂಖ್ಯೆ. ಉದಾ: 4×2 + 6×2 − 1³ = 19. ಮೊದಲ ಸಾಲು: 8×2 + 6×2 − 2³ = 20. ಉತ್ತರ C (20).",
+        "en": "In each row, (first × 2) + (second × 2) − (third)³ = fourth. Example: 4×2 + 6×2 − 1³ = 19. First row: 8×2 + 6×2 − 2³ = 20. Answer C (20)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0178.webp"
+    },
+    {
+      "id": "GMAT-FN-0179",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "26",
+          "en": "26"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        },
+        {
+          "kn": "22",
+          "en": "22"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಒಳಗಿನ ಸಂಖ್ಯೆಗಳು ಗಡಿಯಾರದ ದಿಕ್ಕಿನಲ್ಲಿ 11, 16, 21 ಆಗಿವೆ; ಪ್ರತಿ ಹಂತದಲ್ಲಿ +5. ಮುಂದಿನದು 26. ಉತ್ತರ A (26).",
+        "en": "The inner numbers clockwise are 11, 16, 21, each step adding 5. The next is 26. Answer A (26)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0179.webp"
+    },
+    {
+      "id": "GMAT-FN-0180",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "90",
+          "en": "90"
+        },
+        {
+          "kn": "210",
+          "en": "210"
+        },
+        {
+          "kn": "324",
+          "en": "324"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "(13 + 15) × 3 = 84; (36 + 54) × 3 = 270. ಆದ್ದರಿಂದ (45 + 63) × 3 = 108 × 3 = 324. ಉತ್ತರ D (324).",
+        "en": "(13 + 15) × 3 = 84 and (36 + 54) × 3 = 270. So (45 + 63) × 3 = 108 × 3 = 324. Answer D (324)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0180.webp"
+    },
+    {
+      "id": "GMAT-FN-0181",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "21",
+          "en": "21"
+        },
+        {
+          "kn": "23",
+          "en": "23"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೇಲಿನ ಎರಡು ಸಂಖ್ಯೆಗಳ ಮೊತ್ತವನ್ನು 5 ರಿಂದ ಭಾಗಿಸಿದರೆ ಕೆಳಗಿನ ಬಲ ಸಂಖ್ಯೆ ಸಿಗುತ್ತದೆ. ಉದಾ: (68 + 27) ÷ 5 = 19. ಆದ್ದರಿಂದ (43 + 62) ÷ 5 = 105 ÷ 5 = 21. ಉತ್ತರ C (21).",
+        "en": "Dividing the sum of the two given numbers by 5 gives the bottom-right number. Example: (68 + 27) ÷ 5 = 19. So (43 + 62) ÷ 5 = 105 ÷ 5 = 21. Answer C (21)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0181.webp"
+    },
+    {
+      "id": "GMAT-FN-0182",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "8",
+          "en": "8"
+        },
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "18",
+          "en": "18"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಒಳಗಿನ ಸಂಖ್ಯೆ − ಹೊರ ಮೂಲೆಯ ಸಂಖ್ಯೆ ಮೂರು ಬಾರಿಯೂ ಒಂದೇ: 16 − 12 = 4, 17 − 13 = 4, 18 − 14 = 4. ಮೊತ್ತ 12. ಎರಡನೆಯ ತ್ರಿಭುಜದಲ್ಲಿ 23 − 18 = 5, 24 − 19 = 5, 25 − 20 = 5 ⇒ 5 + 5 + 5 = 15. ಉತ್ತರ C (15).",
+        "en": "In each triangle, inner number − outer corner number is the same for all three: 16 − 12 = 4, 17 − 13 = 4, 18 − 14 = 4, total 12. In the second triangle, 23 − 18 = 5, 24 − 19 = 5, 25 − 20 = 5, so the total is 15. Answer C (15)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0182.webp"
+    },
+    {
+      "id": "GMAT-FN-0183",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "19",
+          "en": "19"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        },
+        {
+          "kn": "22",
+          "en": "22"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಸಾಲಿನಲ್ಲಿ (ಮೂರನೆಯ ಸಂಖ್ಯೆ + ಎರಡನೆಯ ಸಂಖ್ಯೆ) ÷ ಎರಡನೆಯ ಸಂಖ್ಯೆ = ಮೊದಲ ಸಂಖ್ಯೆ. ಉದಾ: (21 + 3) ÷ 3 = 8. ಮೂರನೆಯ ಸಾಲು: (? + 2) ÷ 2 = 12 ⇒ ? = 24 − 2 = 22. ಉತ್ತರ C (22).",
+        "en": "In each row, (third + second) ÷ second = first. Example: (21 + 3) ÷ 3 = 8. In the last row, (? + 2) ÷ 2 = 12, so ? = 24 − 2 = 22. Answer C (22)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0183.webp"
+    },
+    {
+      "id": "GMAT-FN-0184",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "7",
+          "en": "7"
+        },
+        {
+          "kn": "2",
+          "en": "2"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        },
+        {
+          "kn": "14",
+          "en": "14"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮಧ್ಯದ ಸಂಖ್ಯೆ = (ಮೇಲ್ × ಬಲ × ಕೆಳ) ÷ (ಮೇಲ್ × ಎಡ × ಕೆಳ). ಉದಾ: (4 × 8 × 5) ÷ (4 × 2 × 5) = 4. ಕೊನೆಯ ಆಕೃತಿ: (7 × 6 × 4) ÷ (7 × 3 × 4) = 2. ಉತ್ತರ B (2).",
+        "en": "Centre = (top × right × bottom) ÷ (top × left × bottom). Example: (4 × 8 × 5) ÷ (4 × 2 × 5) = 4. Last figure: (7 × 6 × 4) ÷ (7 × 3 × 4) = 2. Answer B (2)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0184.webp"
+    },
+    {
+      "id": "GMAT-FN-0185",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "2",
+          "en": "2"
+        },
+        {
+          "kn": "3",
+          "en": "3"
+        },
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "5",
+          "en": "5"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೊದಲ ಆಕೃತಿ: 10×5 + 5×3 + 3×10 = 95. ಎರಡನೆಯ ಆಕೃತಿ: 3×4 + 4×5 + 5×3 = 47. ಕೊನೆಯ ಆಕೃತಿ: 4×8 + 8×x + x×4 = 68 ⇒ 32 + 12x = 68 ⇒ x = 3. ಉತ್ತರ B (3).",
+        "en": "First figure: 10×5 + 5×3 + 3×10 = 95. Second: 3×4 + 4×5 + 5×3 = 47. Last: 4×8 + 8×x + x×4 = 68, so 32 + 12x = 68 and x = 3. Answer B (3)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0185.webp"
+    },
+    {
+      "id": "GMAT-FN-0186",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "18",
+          "en": "18"
+        },
+        {
+          "kn": "42",
+          "en": "42"
+        },
+        {
+          "kn": "51",
+          "en": "51"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "(ಕೆಳ ಎಡ ÷ ಮೇಲ್) ವರ್ಗ = ಕೆಳ ಬಲ. ಉದಾ: (30 ÷ 6)² = 25. ಕೊನೆಯ ಆಕೃತಿ: ? ÷ 3 = √36 = 6 ⇒ ? = 18. ಉತ್ತರ B (18).",
+        "en": "(bottom-left ÷ top)² = bottom-right. Example: (30 ÷ 6)² = 25. In the blank figure, ? ÷ 3 = √36 = 6, so ? = 18. Answer B (18)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0186.webp"
+    },
+    {
+      "id": "GMAT-FN-0187",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "36",
+          "en": "36"
+        },
+        {
+          "kn": "43",
+          "en": "43"
+        },
+        {
+          "kn": "61",
+          "en": "61"
+        },
+        {
+          "kn": "72",
+          "en": "72"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಎದುರು ತ್ರಿಕೋನಗಳ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧ: 13 − 3 = −2; 23 − 3 = 5; 33 − 3 = 24; ಆದ್ದರಿಂದ 43 − 3 = 61. ಉತ್ತರ C (61).",
+        "en": "Opposite triangles follow the rule (number − 3): 13 − 3 = −2, 23 − 3 = 5, 33 − 3 = 24, so 43 − 3 = 61. Answer C (61)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0187.webp"
+    },
+    {
+      "id": "GMAT-FN-0188",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "10",
+          "en": "10"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        },
+        {
+          "kn": "9",
+          "en": "9"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ವೃತ್ತದ ಸುತ್ತ ಪ್ರತಿ ಸಂಖ್ಯೆ ಹಿಂದಿನ ಸಂಖ್ಯೆಗೆ ಹೆಚ್ಚುತ್ತದೆ: 20 + 16 = 36; 36 + 32 = 68; 68 + 64 = 132; 132 + 128 = 260. ಕಾಣೆಯಾದ ಸಂಖ್ಯೆ + 8 = 20 ⇒ ? = 12. ಉತ್ತರ A (12).",
+        "en": "Going around the circle, each number is the previous total plus a doubling value: 20 + 16 = 36; 36 + 32 = 68; 68 + 64 = 132; 132 + 128 = 260. Since ? + 8 = 20, ? = 12. Answer A (12)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0188.webp"
+    },
+    {
+      "id": "GMAT-FN-0189",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "19",
+          "en": "19"
+        },
+        {
+          "kn": "22",
+          "en": "22"
+        },
+        {
+          "kn": "25",
+          "en": "25"
+        },
+        {
+          "kn": "29",
+          "en": "29"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೊದಲ ಆಕೃತಿ: 20÷4 + 32÷4 = 5 + 8 = 13. ಎರಡನೆಯ ಆಕೃತಿ: 42÷6 + 54÷6 = 7 + 9 = 16. ಕೊನೆಯ ಆಕೃತಿ: 15÷3 + 51÷3 = 5 + 17 = 22. ಉತ್ತರ B (22).",
+        "en": "First figure: 20÷4 + 32÷4 = 5 + 8 = 13. Second: 42÷6 + 54÷6 = 7 + 9 = 16. Last: 15÷3 + 51÷3 = 5 + 17 = 22. Answer B (22)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0189.webp"
+    },
+    {
+      "id": "GMAT-FN-0190",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "55",
+          "en": "55"
+        },
+        {
+          "kn": "65",
+          "en": "65"
+        },
+        {
+          "kn": "73",
+          "en": "73"
+        },
+        {
+          "kn": "84",
+          "en": "84"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "81 + 42 = 9 + 16 = 25; 81 + 62 = 9 + 36 = 45; 81 + 82 = 9 + 64 = 73. ಆದ್ದರಿಂದ ? = 73. ಉತ್ತರ C (73).",
+        "en": "81 + 42 = 9 + 16 = 25; 81 + 62 = 9 + 36 = 45; 81 + 82 = 9 + 64 = 73. So ? = 73. Answer C (73)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0190.webp"
+    },
+    {
+      "id": "GMAT-FN-0191",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಕಾಣೆಯಾದ ಸಂಖ್ಯೆಯನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Identify the relationship between the numbers in the figure and find the missing number."
+      },
+      "options": [
+        {
+          "kn": "100",
+          "en": "100"
+        },
+        {
+          "kn": "116",
+          "en": "116"
+        },
+        {
+          "kn": "125",
+          "en": "125"
+        },
+        {
+          "kn": "170",
+          "en": "170"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "(4 + 9)² + (9 − 4)² = 169 + 25 = 194; (11 + 8)² + (11 − 8)² = 361 + 9 = 370; ಕಾಣೆಯಾದ ಆಕೃತಿ: (7 + 3)² + (7 − 3)² = 100 + 16 = 116. ಉತ್ತರ B (116).",
+        "en": "(4 + 9)² + (9 − 4)² = 169 + 25 = 194; (11 + 8)² + (11 − 8)² = 361 + 9 = 370; the missing figure: (7 + 3)² + (7 − 3)² = 100 + 16 = 116. Answer B (116)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FN-0191.webp"
     }
   ]
 }
