@@ -2223,7 +2223,7 @@ function render(){
  $('herop').textContent=(ST.view!=='subject')?'Shikshana Parva · ಕಲಿಕೆಯ ಹಬ್ಬ':'ಶಿಕ್ಷಕರಿಗಾಗಿ ಕಲಿಕಾ ಸಂಪನ್ಮೂಲ ವೇದಿಕೆ';
  $('bk').disabled=ST.view==='medium';
  let c=ST.view==='sem'?'':'<b>ಮುಖಪುಟ</b>';if(ST.cls)c+=` › ${ORD[ST.cls-1]} ತರಗತಿ`;if(ST.sub&&ST.view==='subject'&&cur())c+=` › <b>${cur().title}</b>`;if(ST.view==='nmms')c+=' › <b>NMMS</b>';$('crumb').innerHTML=c;
- $('main').innerHTML=ST.view==='medium'?vMedium():ST.view==='sem'?vSem():ST.view==='home'?vHome():ST.view==='class'?vClass():ST.view==='nmms'?vNMMS():vSubject();}
+ $('main').innerHTML=ST.view==='medium'?vMedium():ST.view==='sem'?vSem():ST.view==='home'?vHome():ST.view==='class'?vClass():ST.view==='nmms'?vNMMS():vSubject();if(ST.view==='nmms'){NM.renderToken++;nmScheduleRemaining(NM.renderToken);}}
 /* ===== NMMS module (Class 8) — question containers stay empty until content is supplied ===== */
 const gmatQuestions=[],satQuestions=[],gmatExamQuestions=[],satExamQuestions=[];
 const NM_TOTAL=90;
