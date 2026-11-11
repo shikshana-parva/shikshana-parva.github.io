@@ -3,17 +3,1681 @@
     "class": 8,
     "module": "NMMS",
     "section": "GMAT",
-    "fullName": "General Mental Ability Test – Intersecting Figures",
+    "fullName": "General Mental Ability Test",
     "languages": [
       "kn",
       "en"
     ],
-    "totalQuestions": 15,
-    "questionNumberStart": 53,
+    "totalQuestions": 67,
+    "questionNumberStart": 1,
     "questionNumberEnd": 67,
     "version": "1.0.0"
   },
   "questions": [
+    {
+      "id": "GMAT-AF-0001",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಹೊರಗಿನ ಆಕೃತಿ ತಿರುಗಿದೆ; ಒಳಗಿನ ಆಕೃತಿಯ ಒಂದು ಬಾಹು ಹೆಚ್ಚಾಗಿದೆ.",
+        "en": "The outer figure is rotated, and one side is added to the inner figure."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0001.webp"
+    },
+    {
+      "id": "GMAT-AF-0002",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ವೃತ್ತದ ನಾಲ್ಕು ಭಾಗಗಳಲ್ಲಿ ಕಾಣುವ ಚುಕ್ಕೆಗಳ ಮಾದರಿಯೇ ಚೌಕದ ನಾಲ್ಕು ಭಾಗಗಳಲ್ಲಿಯೂ ಅನ್ವಯಿಸುತ್ತದೆ.",
+        "en": "The dot pattern in the four sections of the circle is transferred to the four sections of the square."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0002.webp"
+    },
+    {
+      "id": "GMAT-AF-0003",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಎರಡೂ ರೇಖೆಗಳು ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ತಿರುಗಿವೆ. '+' ಚಿಹ್ನೆ '−' ಆಗಿ ಮತ್ತು '×' ಚಿಹ್ನೆ '÷' ಆಗಿ ಬದಲಾಗಿದೆ.",
+        "en": "Both lines turn in the opposite direction. '+' changes to '−' and '×' changes to '÷'."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0003.webp"
+    },
+    {
+      "id": "GMAT-AF-0004",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ವೃತ್ತವು ಚೌಕವಾಗಿ ಮತ್ತು ತ್ರಿಭುಜವು ಪಂಚಭುಜವಾಗಿ ಬದಲಾಗಿದೆ; ಚುಕ್ಕೆಗಳ ಸಂಖ್ಯೆಯೂ ಹೆಚ್ಚಾಗಿದೆ.",
+        "en": "The circle changes into a square and the triangle into a pentagon; the number of dots also increases."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0004.webp"
+    },
+    {
+      "id": "GMAT-AF-0005",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಚಿಕ್ಕ ಕಿರಣವು ಅರ್ಧ ಬಾಹುವಿನಷ್ಟು ಬಲಕ್ಕೆ ಸರಿಯುತ್ತದೆ; ಚುಕ್ಕೆ ಗಡಿಯಾರದ ದಿಕ್ಕಿನಲ್ಲಿ ಮತ್ತು ದೊಡ್ಡ ಕಿರಣ ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ಚಲಿಸುತ್ತದೆ.",
+        "en": "The short ray shifts right by half a side; the dot moves clockwise and the long ray moves anticlockwise."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0005.webp"
+    },
+    {
+      "id": "GMAT-AF-0006",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಆಕೃತಿ 180° ತಿರುಗಿದೆ; ವೃತ್ತದ ಒಳಗಿನ ಬಾಹುಗಳ ಸಂಖ್ಯೆ ಒಂದರಿಂದ ಹೆಚ್ಚಾಗಿದೆ.",
+        "en": "The figure is rotated by 180°, and the number of sides inside the circle increases by one."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0006.webp"
+    },
+    {
+      "id": "GMAT-AF-0007",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೊದಲ ಆಕೃತಿಯನ್ನು ತಿರುಗಿಸಿ ಅದೇ ರೀತಿಯ ಮತ್ತೊಂದು ಆಕೃತಿಯೊಂದಿಗೆ ಜೋಡಿಸಲಾಗಿದೆ.",
+        "en": "The first figure is rotated and joined with another figure of the same type."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0007.webp"
+    },
+    {
+      "id": "GMAT-AF-0008",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಚೌಕವು ಗಡಿಯಾರದ ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ಒಂದು ಭಾಗ ಚಲಿಸಿದೆ; ತ್ರಿಭುಜವು ಗಡಿಯಾರದ ದಿಕ್ಕಿನಲ್ಲಿ ಎರಡು ಭಾಗ ಚಲಿಸಿದೆ. ತಿರುಗಿದ ತ್ರಿಭುಜ ಒಂದು ಭಾಗ ಚಲಿಸಿದೆ; ಚುಕ್ಕೆ ವಿರುದ್ಧ ಭಾಗದಲ್ಲಿದೆ.",
+        "en": "The square moves one section anticlockwise; the triangle moves two sections clockwise. The inverted triangle moves one section, and the dot is on the opposite side."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0008.webp"
+    },
+    {
+      "id": "GMAT-AF-0009",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಒಂದೇ ಆಕಾರದ ಎರಡು ಆಕೃತಿಗಳು ತಮ್ಮ ಶೃಂಗಗಳಲ್ಲಿ ತಾಗಿಕೊಂಡಿವೆ; ಚುಕ್ಕೆಗಳ ಸಂಖ್ಯೆಯಲ್ಲಿ ಒಂದರಷ್ಟು ಹೆಚ್ಚಳವಾಗಿದೆ.",
+        "en": "Two similar figures touch at their vertices; the number of dots increases by one."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0009.webp"
+    },
+    {
+      "id": "GMAT-AF-0010",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ವೃತ್ತವು ಚೌಕವಾಗಿ ಬದಲಾಗಿದೆ. '+', '−', '×' ಮತ್ತು ಚುಕ್ಕೆ ತಲಾ ಮೂರು ಭಾಗಗಳಷ್ಟು ಗಡಿಯಾರದ ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ಚಲಿಸಿವೆ.",
+        "en": "The circle changes into a square. '+', '−', '×', and the dot each move three sections anticlockwise."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0010.webp"
+    },
+    {
+      "id": "GMAT-AF-0011",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ರೇಖೆಗಳು ಮತ್ತು ಚುಕ್ಕೆಗಳು ಸ್ಥಾನ ಬದಲಿಸಿವೆ; ಮೂಲೆಯಲ್ಲಿದ್ದ ಚೌಕದ ಭಾಗವು ಚೌಕದ ಆಕಾರಕ್ಕೆ ಬದಲಾಗಿದೆ.",
+        "en": "The lines and dots exchange positions; the corner square element changes into a square shape."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0011.webp"
+    },
+    {
+      "id": "GMAT-AF-0012",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಚೌಕವು ವೃತ್ತವಾಗಿ ಮತ್ತು ವೃತ್ತವು ಚೌಕವಾಗಿ ಬದಲಾಗಿದೆ. ಬಾಣದ ಗುರುತು ತಿರುಗಿದೆ; ತುಂಬಿದ ಮತ್ತು ಖಾಲಿ ಆಕೃತಿಗಳೂ ಪರಸ್ಪರ ಬದಲಾಗಿವೆ.",
+        "en": "The square changes into a circle and the circle into a square. The arrow is rotated, and filled and unfilled shapes are interchanged."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0012.webp"
+    },
+    {
+      "id": "GMAT-AF-0013",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ನೆರಳಿರುವ ಎರಡು ಭಾಗಗಳು ಗಡಿಯಾರದ ದಿಕ್ಕಿನಲ್ಲಿ ಎರಡು ವಿಭಾಗಗಳಷ್ಟು ಚಲಿಸಿವೆ.",
+        "en": "The two shaded sectors move two positions clockwise."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0013.webp"
+    },
+    {
+      "id": "GMAT-AF-0014",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಶೃಂಗ ಬಿಂದುವಿನಿಂದ ಪಕ್ಕದ ಶೃಂಗ ಬಿಂದುಗಳಿಗೆ ಕರ್ಣಗಳನ್ನು ಎಳೆಯಲಾಗಿದೆ.",
+        "en": "Diagonals are drawn from each vertex to the adjacent vertex points."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0014.webp"
+    },
+    {
+      "id": "GMAT-AF-0015",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೊದಲ ಎರಡು ಆಕೃತಿಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಗಮನಿಸಿ. ಅದೇ ಸಂಬಂಧವನ್ನು ಮೂರನೇ ಆಕೃತಿಗೆ ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Observe the relationship between the first two figures. Apply the same relationship to the third figure and choose the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಎರಡು ವಕ್ರರೇಖೆಗಳು ಸೇರಿ ವೃತ್ತವಾಗುತ್ತವೆ; ವೃತ್ತದ ಮಧ್ಯದಲ್ಲಿ ಹೊಸ ಚುಕ್ಕೆ ಸೇರಿದೆ. ಮೂಲೆಯಲ್ಲಿದ್ದ ಆಕೃತಿ ಮುಂದಿನ ಶೃಂಗದ ಕಡೆ ಗಡಿಯಾರದ ದಿಕ್ಕಿನಲ್ಲಿ ಚಲಿಸಿದೆ.",
+        "en": "The two curved lines join to form a circle, and a new dot appears at its centre. The corner figure moves clockwise toward the next vertex."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-AF-0015.webp"
+    },
+    {
+      "id": "GMAT-FS-0001",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0016.webp"
+    },
+    {
+      "id": "GMAT-FS-0002",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಮಧ್ಯದ ಭಾಗವು ಕಪ್ಪು ಮತ್ತು ಬಿಳಿ ಬಣ್ಣಗಳಲ್ಲಿ ಪರ್ಯಾಯವಾಗಿ ಬದಲಾಗುತ್ತದೆ. ಎರಡನೇ ಆಕೃತಿಯ ಕಪ್ಪು ವಿಭಾಗವು ಮೊದಲನೆಯದಕ್ಕೆ ವಿರುದ್ಧವಾಗಿದೆ.",
+        "en": "The centre alternates between black and white. The shaded sector in the second figure is opposite to the one in the first."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0017.webp"
+    },
+    {
+      "id": "GMAT-FS-0003",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಅಕ್ಷಗಳು 45° ಅಪ್ರದಕ್ಷಿಣಾವರ್ತ ದಿಕ್ಕಿನಲ್ಲಿ ತಿರುಗುತ್ತವೆ. ವೃತ್ತಗಳು ಕಪ್ಪು ಮತ್ತು ಬಿಳಿ ತ್ರಿಭುಜಗಳೊಂದಿಗೆ ಪರ್ಯಾಯವಾಗಿ ಬರುತ್ತವೆ.",
+        "en": "The axes rotate 45° anticlockwise. Circles alternate with black and white triangles."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0018.webp"
+    },
+    {
+      "id": "GMAT-FS-0004",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಸಣ್ಣ ವೃತ್ತಗಳ ಸಂಖ್ಯೆ ಒಂದು ಮತ್ತು ಎರಡು ಎಂದು ಪರ್ಯಾಯವಾಗಿ ಬದಲಾಗುತ್ತದೆ. ಎರಡು ಸಣ್ಣ ವೃತ್ತಗಳು ಅಪ್ರದಕ್ಷಿಣಾವರ್ತವಾಗಿ, ನೆರಳಿನ ಭಾಗಗಳು ಪ್ರದಕ್ಷಿಣಾವರ್ತವಾಗಿ ಚಲಿಸುತ್ತವೆ.",
+        "en": "The number of small circles alternates between one and two. The pair of small circles moves anticlockwise, while the shaded parts move clockwise."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0019.webp"
+    },
+    {
+      "id": "GMAT-FS-0005",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0020.webp"
+    },
+    {
+      "id": "GMAT-FS-0006",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಹೊರಗಿನ ಆಕೃತಿ ದೊಡ್ಡದಾಗುತ್ತದೆ ಮತ್ತು ಒಳಗಿನ ಆಕೃತಿಯ ಬಾಹುಗಳ ಸಂಖ್ಯೆ ಒಂದರಿಂದ ಕಡಿಮೆಯಾಗುತ್ತದೆ.",
+        "en": "The outer figure is enlarged, and the number of sides of the inner figure is reduced by one."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0021.webp"
+    },
+    {
+      "id": "GMAT-FS-0007",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0022.webp"
+    },
+    {
+      "id": "GMAT-FS-0008",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0023.webp"
+    },
+    {
+      "id": "GMAT-FS-0009",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0024.webp"
+    },
+    {
+      "id": "GMAT-FS-0010",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0025.webp"
+    },
+    {
+      "id": "GMAT-FS-0011",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0026.webp"
+    },
+    {
+      "id": "GMAT-FS-0012",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೂಲದಲ್ಲಿರುವ ಬಾಣಗಳೆಲ್ಲವೂ ಪಾರ್ಶ್ವವಾಗಿ ತಿರುಗುತ್ತವೆ; ರೇಖಾಖಂಡದ ಬದಲು ಎಡಕ್ಕೆ ತೋರಿಸುವ ಹೊಸ ಬಾಣ ಬರುತ್ತದೆ.",
+        "en": "All the existing arrows are laterally inverted; the line segment is replaced by a new arrow pointing to the left."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0027.webp"
+    },
+    {
+      "id": "GMAT-FS-0013",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0028.webp"
+    },
+    {
+      "id": "GMAT-FS-0014",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0029.webp"
+    },
+    {
+      "id": "GMAT-FS-0015",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0030.webp"
+    },
+    {
+      "id": "GMAT-HF-0031",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Identify which of the four options contains the given problem figure embedded within it."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0031.webp"
+    },
+    {
+      "id": "GMAT-HF-0032",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Identify which of the four options contains the given problem figure embedded within it."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0032.webp"
+    },
+    {
+      "id": "GMAT-HF-0033",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Identify which of the four options contains the given problem figure embedded within it."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0033.webp"
+    },
+    {
+      "id": "GMAT-HF-0034",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Identify which of the four options contains the given problem figure embedded within it."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0034.webp"
+    },
+    {
+      "id": "GMAT-HF-0035",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Identify which of the four options contains the given problem figure embedded within it."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0035.webp"
+    },
+    {
+      "id": "GMAT-HF-0036",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Identify which of the four options contains the given problem figure embedded within it."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0036.webp"
+    },
+    {
+      "id": "GMAT-HF-0037",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Identify which of the four options contains the given problem figure embedded within it."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0037.webp"
+    },
+    {
+      "id": "GMAT-SF-0038",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0038.webp"
+    },
+    {
+      "id": "GMAT-SF-0039",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0039.webp"
+    },
+    {
+      "id": "GMAT-SF-0040",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0040.webp"
+    },
+    {
+      "id": "GMAT-SF-0041",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0041.webp"
+    },
+    {
+      "id": "GMAT-SF-0042",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0042.webp"
+    },
+    {
+      "id": "GMAT-SF-0043",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0043.webp"
+    },
+    {
+      "id": "GMAT-SF-0044",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0044.webp"
+    },
+    {
+      "id": "GMAT-SF-0045",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0045.webp"
+    },
+    {
+      "id": "GMAT-SF-0046",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0046.webp"
+    },
+    {
+      "id": "GMAT-SF-0047",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0047.webp"
+    },
+    {
+      "id": "GMAT-SF-0048",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0048.webp"
+    },
+    {
+      "id": "GMAT-SF-0049",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0049.webp"
+    },
+    {
+      "id": "GMAT-SF-0050",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0050.webp"
+    },
+    {
+      "id": "GMAT-SF-0051",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0051.webp"
+    },
+    {
+      "id": "GMAT-SF-0052",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
+        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "",
+        "en": ""
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0052.webp"
+    },
     {
       "id": "GMAT-IF-0053",
       "difficulty": "medium",
