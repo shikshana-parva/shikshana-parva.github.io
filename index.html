@@ -2297,8 +2297,21 @@ function nmScheduleRemaining(token){
 }
 function nmSetTab(t){NM.tab=t;nmRefresh()}
 function nmSetExam(k){NM.exam=k;nmRefresh()}
-function nmPick(key,j){if(NM.sub[key])return;NM.sel[key]=j;nmRefresh()}
-function nmSubmit(key){if(NM.sub[key]||NM.sel[key]===undefined)return;NM.sub[key]=true;updateLiveScore();nmRefresh()}
+function nmPick(key,j){if(NM.sub[key])return;NM.sel[key]=j;nmRerenderCard(key)}
+function nmSubmit(key){if(NM.sub[key]||NM.sel[key]===undefined)return;NM.sub[key]=true;updateLiveScore();nmRerenderCard(key)}
+function nmRerenderCard(key){
+  const el=document.querySelector('[data-nmkey="'+key+'"]');
+  if(!el){nmRefresh();return}
+  const cut=key.indexOf(':'), scope=key.slice(0,cut), i=+key.slice(cut+1);
+  const q=nmData(scope).find(x=>x._i===i);
+  if(!q){nmRefresh();return}
+  const tmp=document.createElement('div');
+  tmp.innerHTML=nmCard(scope,q,i,+el.dataset.nmn);
+  const fresh=tmp.firstElementChild;
+  const oldPic=el.querySelector(':scope > .qpic'), newPic=fresh.querySelector(':scope > .qpic');
+  if(oldPic&&newPic)newPic.replaceWith(oldPic);
+  el.replaceWith(fresh);
+}
 function nmGo(ex,d){const n=nmData(ex).length;if(!n)return;NM.pos[ex]=Math.min(n-1,Math.max(0,(NM.pos[ex]||0)+d));nmRefresh()}
 function nmNewPaper(){toast((NM.exam==='sat'?'SAT':'GMAT')+' ಸಂಪನ್ಮೂಲಗಳನ್ನು ಸೇರಿಸಿದ ನಂತರ ಹೊಸ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ ರಚಿಸಲಾಗುತ್ತದೆ.')}
 function examScore(k){const ex=k+'Exam';let c=0;nmData(ex).forEach((q,i)=>{const key=ex+':'+i;if(NM.sub[key]&&NM.sel[key]===q.a)c++});return{correct:c,marks:c,total:NM_TOTAL}}
@@ -2310,7 +2323,7 @@ function nmCard(scope,q,i,n=i+1){
   return `<button type="button" class="${c}" ${done?'disabled':''} onclick="nmPick('${key}',${j})"><span class="nm-ol">${'ABCD'[j]}</span><span class="nm-ot">${nmHtml(o)}</span>${done&&j===q.a?'<span class="nm-tick">✔</span>':''}</button>`}).join('');
  const btn=done?'':`<button type="button" class="nm-submit" ${sel===undefined?'disabled':''} onclick="nmSubmit('${key}')">✔ ಉತ್ತರ ಸಲ್ಲಿಸಿ</button>`;
  const exp=done?`<div class="nm-exp"><b>ವಿವರಣಾತ್ಮಕ ಉತ್ತರ :</b><div>${q.exp?nmHtml(q.exp):'ವಿವರಣೆ ಲಭ್ಯವಿಲ್ಲ.'}</div></div>`:'';
- return `<div class="nm-card nm-q"><div class="nm-qh"><span class="nm-qn">ಪ್ರಶ್ನೆ ${n}</span><div class="nm-qt">${nmHtml(q.q)}</div></div>${picHtml(q.img,n<=10)}<div class="nm-opts">${opts}</div>${btn}${exp}</div>`;
+ return `<div class="nm-card nm-q" data-nmkey="${key}" data-nmn="${n}"><div class="nm-qh"><span class="nm-qn">ಪ್ರಶ್ನೆ ${n}</span><div class="nm-qt">${nmHtml(q.q)}</div></div>${picHtml(q.img,n<=10)}<div class="nm-opts">${opts}</div>${btn}${exp}</div>`;
 }
 function vNMBanner(){return `<div class="nm-banner"><svg class="nm-logo" viewBox="0 0 300 112" aria-label="NMMS" role="img"><defs><linearGradient id="nmG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff4c8"/><stop offset=".45" stop-color="#f2c75c"/><stop offset="1" stop-color="#9a6c1f"/></linearGradient></defs><g fill="url(#nmG)"><path d="M150 4 L202 20 L150 36 L98 20 Z"/><path d="M116 28 V46 Q150 60 184 46 V28 L150 42 Z"/><rect x="198" y="20" width="2.6" height="22"/><circle cx="199.3" cy="45" r="3.8"/></g><g fill="none" stroke="url(#nmG)" stroke-width="3" stroke-linecap="round"><path d="M50 36 Q34 66 66 100"/><path d="M250 36 Q266 66 234 100"/></g><g fill="url(#nmG)"><ellipse cx="46" cy="44" rx="7" ry="3.3" transform="rotate(-70 46 44)"/><ellipse cx="43" cy="57" rx="7" ry="3.3" transform="rotate(-50 43 57)"/><ellipse cx="45" cy="70" rx="7" ry="3.3" transform="rotate(-30 45 70)"/><ellipse cx="51" cy="82" rx="7" ry="3.3" transform="rotate(-12 51 82)"/><ellipse cx="60" cy="92" rx="7" ry="3.3" transform="rotate(10 60 92)"/><ellipse cx="72" cy="99" rx="7" ry="3.3" transform="rotate(30 72 99)"/><ellipse cx="254" cy="44" rx="7" ry="3.3" transform="rotate(70 254 44)"/><ellipse cx="257" cy="57" rx="7" ry="3.3" transform="rotate(50 257 57)"/><ellipse cx="255" cy="70" rx="7" ry="3.3" transform="rotate(30 255 70)"/><ellipse cx="249" cy="82" rx="7" ry="3.3" transform="rotate(12 249 82)"/><ellipse cx="240" cy="92" rx="7" ry="3.3" transform="rotate(-10 240 92)"/><ellipse cx="228" cy="99" rx="7" ry="3.3" transform="rotate(-30 228 99)"/></g><text x="150" y="103" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="42" font-weight="900" letter-spacing="3" fill="url(#nmG)" stroke="#4a2f08" stroke-width="1.2" paint-order="stroke">NMMS</text></svg><div class="nm-kn">ರಾಷ್ಟ್ರೀಯ ಮೇಧಾ ವಿದ್ಯಾರ್ಥಿವೇತನ ಪರೀಕ್ಷೆ</div><div class="nm-en">National Means-cum-Merit Scholarship</div></div>`}
 function nmSetDif(k,d){NM.dif[k]=d;nmRefresh()}
