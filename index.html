@@ -1456,6 +1456,8 @@ function classCount(c){let n=0,any=false;
  if(any)return n;
  return countsDone?0:null}
 function qaLabel(n){return 'ಪ್ರಶ್ನೋತ್ತರಗಳು: '+(n===null?'…':n)}
+function nmQuestionTotal(){return NM.load.status==='ready'?(gmatQuestions.length+satQuestions.length):null}
+function nmImageTotal(){const set=new Set();[...gmatQuestions,...satQuestions].forEach(q=>{const v=q&&q.image;if(typeof v==='string'&&v.trim())set.add(v.trim());else if(Array.isArray(v))v.forEach(x=>{if(typeof x==='string'&&x.trim())set.add(x.trim())})});return set.size}
 let countsWarm=false,countsDone=false;
 function semKey(sem,c,id){return (sem===1?'s1-':'')+c+'-'+id}
 let QC={};try{QC=JSON.parse(localStorage.getItem('sp_qc')||'{}')||{}}catch(e){}
@@ -2211,9 +2213,10 @@ function medCount(id){if(id!=='kn')return 0;const a=semCount(1,'kn'),b=semCount(
 function imgCount(){const set=new Set();
  const walk=x=>{if(typeof x==='string'){if(/^(?:\.?\/)?images\/.+\.(?:webp|png|jpe?g|gif|svg)$/i.test(x.trim()))set.add(x.trim())}else if(Array.isArray(x))x.forEach(walk);else if(x&&typeof x==='object')Object.values(x).forEach(walk)};
  Object.values(DATA).forEach(D=>walk(D.lessons));
+ if(NM.load.status==='ready')[...gmatQuestions,...satQuestions].forEach(q=>{const v=q&&q.image;if(typeof v==='string'&&v.trim())set.add(v.trim());else if(Array.isArray(v))v.forEach(x=>{if(typeof x==='string'&&x.trim())set.add(x.trim())})});
  if(set.size&&countsDone){if(QC.img!==set.size){QC.img=set.size;try{localStorage.setItem('sp_qc',JSON.stringify(QC))}catch(e){}}return set.size}
  return QC.img!=null?QC.img:(countsDone?0:null)}
-function vMedium(){const tq=MED.map(m=>medCount(m.id));const tot=tq.every(v=>v===null)?null:tq.reduce((a,v)=>a+(v||0),0);const ic=imgCount();
+function vMedium(){nmLoad();const tq=MED.map(m=>medCount(m.id));const base=tq.every(v=>v===null)?null:tq.reduce((a,v)=>a+(v||0),0);const nm=nmQuestionTotal();const tot=base===null||nm===null?null:base+nm;const ic=imgCount();
  return `<div class="fade mv">${MED_LOGOS}<div class="mlist">${MED.map(m=>mcardHtml(Object.assign({},m,{q:qaLabel(medCount(m.id))}),`openMed('${m.id}')`,MED_ICON)).join('')}</div><div class="msum"><div class="ms"><span class="sl">ಪ್ರಶ್ನೋತ್ತರಗಳ ಸಂಖ್ಯೆ :</span><span class="sv">${tot===null?'…':tot}</span></div><div class="ms"><span class="sl">ಬಳಸಿದ ಚಿತ್ರಗಳು :</span><span class="sv">${ic===null?'…':ic}</span></div></div></div>`}
 function vSem(){return `<div class="fade mv">${MED_LOGOS}<div class="mlist sem">${SEMS.map(x=>mcardHtml(Object.assign({},x,{q:qaLabel(semCount(x.n))}),`openSem(${x.n})`,CAP_ICON)).join('')}</div></div>`}
 function openMed(id){ST.med=id;nav('sem',{med:id})}
@@ -2251,7 +2254,7 @@ function nmMapQ(raw,i,m){
 }
 const nmMapAll=(arr,m)=>(Array.isArray(arr)?arr:[]).map((r,i)=>nmMapQ(r,i,m));
 const nmData=k=>nmMapAll(({gmat:gmatQuestions,sat:satQuestions,gmatExam:gmatExamQuestions,satExam:satExamQuestions})[k]||[],NM_LANG());
-function nmmsTile(){return `<button class="tile sj glass neu s-nmms" onclick="openNMMS()"><span class="ic">${NM_IC.trophy}</span><span class="sjt"><span class="l">NMMS</span><span class="e">ರಾಷ್ಟ್ರೀಯ ಮೇಧಾ ವಿದ್ಯಾರ್ಥಿವೇತನ ಪರೀಕ್ಷೆ</span><span class="e">National Means-cum-Merit Scholarship</span></span><span class="arw">${ARW}</span></button>`}
+function nmmsTile(){nmLoad();return `<button class="tile sj glass neu s-nmms" onclick="openNMMS()"><span class="ic">${NM_IC.trophy}</span><span class="sjt"><span class="l">NMMS</span><span class="e">ರಾಷ್ಟ್ರೀಯ ಮೇಧಾ ವಿದ್ಯಾರ್ಥಿವೇತನ ಪರೀಕ್ಷೆ</span><span class="e">National Means-cum-Merit Scholarship</span><span class="badge on">${qaLabel(nmQuestionTotal())}</span></span><span class="arw">${ARW}</span></button>`}
 function openNMMS(){NM.tab='gmat';NM.exam='gmat';nav('nmms',{})}
 function nmRefresh(){
  NM.renderToken++;
@@ -2312,6 +2315,7 @@ function nmLoad(){
   NM.ds.gmat={status:'loading',err:'',total:0};NM.ds.sat={status:'loading',err:'',total:0};
   await Promise.all([nmLoadDs('gmat',man,mUrl,gmatQuestions),nmLoadDs('sat',man,mUrl,satQuestions)]);
   if(ST.view==='nmms')nmRefresh();
+  else if(ST.view==='medium'||(ST.view==='class'&&ST.cls===8))render();
  })();
 }
 async function nmFetch(url){
