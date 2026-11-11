@@ -8,9 +8,9 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 131,
+    "totalQuestions": 146,
     "questionNumberStart": 1,
-    "questionNumberEnd": 131,
+    "questionNumberEnd": 146,
     "version": "1.0.0"
   },
   "questions": [
@@ -4205,6 +4205,486 @@
         "en": "Bottom layer 10 + second layer 6 + third layer 3 + top layer 1 = 20."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-CC-0125.webp"
+    },
+    {
+      "id": "GMAT-DI-0132",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ದಾಳಗಳಲ್ಲಿ 6 ಕ್ಕೆ ವಿರುದ್ಧವಾಗಿರುವ ಅಂಕಿ ಯಾವುದು?",
+        "en": "In the given dice which numbers will be opposite to \"6\"."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಸಾಮಾನ್ಯ ಮುಖ 3 ಇರುವ ಸ್ಥಿತಿಗಳಿಂದ ದಾಳದ 3ನೇ ನಿಯಮ ಬಳಸಿ, 6 ರ ವಿರುದ್ಧ ಮುಖ 5 (ಆಯ್ಕೆ C).",
+        "en": "Using the 3rd rule of dice with the common face 3, the face opposite 6 is 5 (option C)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0132.webp"
+    },
+    {
+      "id": "GMAT-DI-0133",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದೇ ದಾಳದ ಮೂರು ವಿಭಿನ್ನ ಸ್ಥಿತಿಗಳನ್ನು ನೀಡಲಾಗಿದೆ. 5 ಕ್ಕೆ ವಿರುದ್ಧವಾದ ಸಂಖ್ಯೆ ಯಾವುದು?",
+        "en": "Three positions of the same dice are given below find the opposite number to \"5\"."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ದಾಳದ 3ನೇ ನಿಯಮ ಪ್ರಕಾರ 5 ರ ವಿರುದ್ಧ ಮುಖ 1 (ಆಯ್ಕೆ A).",
+        "en": "By the 3rd rule of dice, the face opposite 5 is 1 (option A)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0133.webp"
+    },
+    {
+      "id": "GMAT-DI-0134",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ದಾಳಗಳಲ್ಲಿ 'B' ಗೆ ವಿರುದ್ಧವಾದ ಅಕ್ಷರ ಯಾವುದು?",
+        "en": "In the given dice, which letters will be opposite to the letter 'B' ?"
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ದಾಳದ 3ನೇ ನಿಯಮ ಪ್ರಕಾರ 'B' ಗೆ ವಿರುದ್ಧವಾದ ಅಕ್ಷರ A (ಆಯ್ಕೆ D).",
+        "en": "By the 3rd rule of dice, the letter opposite 'B' is A (option D)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0134.webp"
+    },
+    {
+      "id": "GMAT-DI-0135",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದೇ ದಾಳದ 3 ಸ್ಥಿತಿಗಳನ್ನು ಗಮನಿಸಿ. ಕಪ್ಪು ಬಣ್ಣಕ್ಕೆ ವಿರುದ್ಧವಾದ ಬಣ್ಣ ಯಾವುದು?",
+        "en": "Three positions of the same dice are given. Observe there carefully which colour will be opposite to 'Black' ?"
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಅಭಿಮುಖ ಮುಖಗಳು ಒಂದೇ ದಾಳದಲ್ಲಿ ಒಟ್ಟಿಗೆ ಕಾಣುವುದಿಲ್ಲ (1ನೇ ನಿಯಮ). ಕಪ್ಪು ಜೊತೆ ಕಾಣದ ಬಣ್ಣ ಹಸಿರು (ಆಯ್ಕೆ D).",
+        "en": "Opposite faces never appear together (1st rule). The colour never seen with Black is Green (option D)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0135.webp"
+    },
+    {
+      "id": "GMAT-DI-0136",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದೇ ದಾಳದ 3 ಸ್ಥಿತಿಗಳನ್ನು ಗಮನಿಸಿ, 6 ಚುಕ್ಕೆಗಳ ವಿರುದ್ಧ ಮುಖದಲ್ಲಿ ಎಷ್ಟು ಚುಕ್ಕೆಗಳಿವೆ?",
+        "en": "Three positions of same dice are given. Observe the following diagram and find how many dots are there on the dice face opposite to the six dots."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ದಾಳದ 3ನೇ ನಿಯಮ ಪ್ರಕಾರ 6 ಚುಕ್ಕೆಗಳ ವಿರುದ್ಧ ಮುಖದಲ್ಲಿ 5 ಚುಕ್ಕೆಗಳು (ಆಯ್ಕೆ D).",
+        "en": "By the 3rd rule of dice, the face opposite the six dots has five dots (option D)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0136.webp"
+    },
+    {
+      "id": "GMAT-DI-0137",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದೇ ದಾಳದ 4 ವಿಭಿನ್ನ ಸ್ಥಿತಿಗಳನ್ನು ನೀಡಲಾಗಿದೆ. 'V' ಗೆ ವಿರುದ್ಧವಾದದ್ದು ಯಾವುದು?",
+        "en": "Four positions of the same dice are given. Which of the following is opposite to 'V'"
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ದಾಳದ 2ನೇ ನಿಯಮ ಪ್ರಕಾರ 'V' ಗೆ ವಿರುದ್ಧ ಮುಖ II (ಆಯ್ಕೆ A).",
+        "en": "By the 2nd rule of dice, the face opposite 'V' is II (option A)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0137.webp"
+    },
+    {
+      "id": "GMAT-DI-0138",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಆಕೃತಿಯಲ್ಲಿ 6 ಕ್ಕೆ ವಿರುದ್ಧವಾದ ಸಂಖ್ಯೆ ಯಾವುದು?",
+        "en": "What will be the number opposite to 6?"
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಆಕೃತಿಯನ್ನು ಮಡಿಸಿದಾಗ 6 ರ ವಿರುದ್ಧ ಮುಖ 4 (ಆಯ್ಕೆ A).",
+        "en": "When the net is folded, the face opposite 6 is 4 (option A)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0138.webp"
+    },
+    {
+      "id": "GMAT-DI-0139",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ದಾಳದ ಆಕೃತಿಯಲ್ಲಿ 4 ಚುಕ್ಕೆಗಳ ವಿರುದ್ಧ ಮುಖಗಳಲ್ಲಿ ಎಷ್ಟು ಚುಕ್ಕೆಗಳಿವೆ?",
+        "en": "In the following dice form, how many dots are there on the dice faces opposite to the four dots."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮಡಿಸಿದಾಗ 4 ಚುಕ್ಕೆಗಳ ವಿರುದ್ಧ ಮುಖಗಳಲ್ಲಿ 3 ಚುಕ್ಕೆಗಳು ಇವೆ (ಆಯ್ಕೆ B).",
+        "en": "When folded, the faces opposite the four dots carry 3 dots (option B)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0139.webp"
+    },
+    {
+      "id": "GMAT-DI-0140",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಆಕೃತಿಯಲ್ಲಿ 'M' ಗೆ ವಿರುದ್ಧವಾದ ಅಕ್ಷರ ಯಾವುದು?",
+        "en": "In the given dice form, what will be the letter opposite to 'M' ?"
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಮಡಿಸಿದಾಗ 'M' ರ ವಿರುದ್ಧ ಅಕ್ಷರ P (ಆಯ್ಕೆ D).",
+        "en": "When folded, the letter opposite 'M' is P (option D)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0140.webp"
+    },
+    {
+      "id": "GMAT-DI-0141",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಆಕೃತಿಯಲ್ಲಿ '*' ಚಿಹ್ನೆಯ ವಿರುದ್ಧ ಮುಖದಲ್ಲಿ ಯಾವ ಚಿಹ್ನೆಯಿದೆ?",
+        "en": "Which of the following is opposite to the sign '*'"
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮಡಿಸಿದಾಗ '*' ರ ವಿರುದ್ಧ ಚಿಹ್ನೆ '=' (ಆಯ್ಕೆ C).",
+        "en": "When folded, the sign opposite '*' is '=' (option C)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0141.webp"
+    },
+    {
+      "id": "GMAT-DI-0142",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಚಿತ್ರ ಗಮನಿಸಿ, '10' ರ ವಿರುದ್ಧ ಮುಖದಲ್ಲಿರುವ ಚಿಹ್ನೆ ಗುರುತಿಸಿ.",
+        "en": "Observe the following figure, and find the opposite to '10'"
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಆಕೃತಿಯನ್ನು ಮಡಿಸಿದಾಗ '10' ರ ವಿರುದ್ಧ ಮುಖದಲ್ಲಿ ಚಿಹ್ನೆಗಳು +, -, ×, ÷ (ಆಯ್ಕೆ D).",
+        "en": "When folded, the faces opposite '10' carry the signs +, -, ×, ÷ (option D)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0142.webp"
+    },
+    {
+      "id": "GMAT-DI-0143",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರಕ್ಕೆ ಸರಿಹೊಂದುವ ದಾಳವನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Identify the correct dice for the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಕೊಟ್ಟ ಬಿಡಿಸಿದ ಆಕೃತಿಯಲ್ಲಿ ಪಕ್ಕಪಕ್ಕದ ಮುಖಗಳ ಕ್ರಮ ಹೊಂದುವ ದಾಳ ಆಯ್ಕೆ (C).",
+        "en": "The dice whose adjacent faces match the given net's arrangement is option C."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0143.webp"
+    },
+    {
+      "id": "GMAT-DI-0144",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಸಾಮಾನ್ಯ ದಾಳವನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Identify the general dice in the given figure."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪಕ್ಕದ ಮುಖಗಳ ಮೊತ್ತ 7 ಇರಬೇಕು ಎಂಬ ನಿಯಮದಿಂದ ಸಾಮಾನ್ಯ ದಾಳ ಆಯ್ಕೆ (C).",
+        "en": "Adjacent faces must sum to 7, so the general dice is option C."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0144.webp"
+    },
+    {
+      "id": "GMAT-DI-0145",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗೆ ನೀಡಿದ ದಾಳದ ಅಭಿಮುಖ ಜೋಡಿಗಳಲ್ಲಿ, ಯಾವುದು ಸರಿಯಾದ ಜೋಡಿ ಅಲ್ಲ ಗುರುತಿಸಿ.",
+        "en": "Pair of opposite faces of a dice are given below which of the following is not a right pair."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಜೋಡಿ ಕೇವಲ ಒಂದೇ ಅಭಿಮುಖ ಮುಖ ಹೊಂದಿರಬೇಕು. ಆಯ್ಕೆ (D) ಈ ನಿಯಮ ಮುರಿಯುವ ಜೋಡಿ.",
+        "en": "Each pair must contain exactly one opposite face. Option D breaks this rule."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0145.webp"
+    },
+    {
+      "id": "GMAT-DI-0146",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದೇ ದಾಳದ ಎರಡು ವಿಭಿನ್ನ ಸ್ಥಿತಿಗಳನ್ನು ನೀಡಲಾಗಿದೆ. ಅಭಿಮುಖಗಳಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಸರಿಯಾದ ಜೋಡಿ ಯಾವುದು?",
+        "en": "Two positions of the same dice are given below identify the right pair of opposite faces?"
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ದಾಳದ ಅಭಿಮುಖ ಜೋಡಿಗಳು (4,3) (1,2) (6,5) ಸರಿಯಾದವು (ಆಯ್ಕೆ A).",
+        "en": "The correct opposite pairs are (4,3), (1,2), (6,5) (option A)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-DI-0146.webp"
     }
   ]
 }
