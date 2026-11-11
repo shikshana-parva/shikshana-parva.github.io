@@ -8,9 +8,9 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 248,
+    "totalQuestions": 285,
     "questionNumberStart": 1,
-    "questionNumberEnd": 146,
+    "questionNumberEnd": 285,
     "version": "1.0.0"
   },
   "questions": [
@@ -6450,8 +6450,8 @@
       "id": "GMAT-VN-0205",
       "difficulty": "medium",
       "question": {
-        "kn": null,
-        "en": null
+        "kn": "ಕೊಟ್ಟಿರುವ ವೆನ್ ನಕ್ಷೆಯು ಕೆಳಗಿನ ಯಾವುದನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ?",
+        "en": "Which of the following represents the given Venn diagram?"
       },
       "options": [
         {
@@ -6482,8 +6482,8 @@
       "id": "GMAT-VN-0206",
       "difficulty": "medium",
       "question": {
-        "kn": null,
-        "en": null
+        "kn": "ಕೊಟ್ಟಿರುವ ವೆನ್ ನಕ್ಷೆಯು ಕೆಳಗಿನ ಯಾವುದನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ?",
+        "en": "Which of the following represents the given Venn diagram?"
       },
       "options": [
         {
@@ -7947,6 +7947,1190 @@
       "explanation": {
         "kn": "ಎರಡು ಸಂಖ್ಯೆಗಳು ಕಂಬದಲ್ಲಿ, ಮೂರು ಅಡ್ಡಸಾಲಿನಲ್ಲಿ, ಮತ್ತೆ ಎರಡು ಕಂಬದಲ್ಲಿ ಚಲಿಸುತ್ತವೆ. ಮೊದಲ ಸಾಲಿನ ಮಾದರಿ (+24, +24, +18, −6, −6) ಅನ್ವಯಿಸಿದಾಗ ನಾಲ್ಕು ಸ್ಥಾನ ಹೊಂದುವುದು A ಮಾತ್ರ. ಉತ್ತರ A. (ಕೀ ಖಾಲಿ; ಕನ್ನಡ ಕೀ A ಅನ್ನು ಅನುಸರಿಸಲಾಗಿದೆ.)",
         "en": "Two numbers move in a column, three in a row, then two in a column. Applying the first pair's position changes (+24, +24, +18, −6, −6) matches four of the five positions only in option A, so the answer is A. (English key blank; the Kannada key says A.)"
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0252",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "PONML",
+          "en": "PONML"
+        },
+        {
+          "kn": "CBAZY",
+          "en": "CBAZY"
+        },
+        {
+          "kn": "BAXYZ",
+          "en": "BAXYZ"
+        },
+        {
+          "kn": "KJIHG",
+          "en": "KJIHG"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "PONML, CBAZY ಮತ್ತು KJIHG ಗುಂಪುಗಳಲ್ಲಿ ಪ್ರತಿ ಅಕ್ಷರ ವರ್ಣಮಾಲೆಯಲ್ಲಿ ಹಿಂದಿನ ಅಕ್ಷರಕ್ಕಿಂತ ಒಂದು ಸ್ಥಾನ ಹಿಂದೆ ಬರುತ್ತದೆ (A ನಂತರ Z ಗೆ ಸುತ್ತಿಕೊಂಡು ಮುಂದುವರಿಯುತ್ತದೆ: C, B, A, Z, Y). BAXYZ ನಲ್ಲಿ B, A ನಂತರ X, Y, Z ಮುಂದಕ್ಕೆ ಹೋಗುವುದರಿಂದ ಅದು ಈ ಕ್ರಮಕ್ಕೆ ಹೊಂದುವುದಿಲ್ಲ. ಉತ್ತರ C.",
+        "en": "In PONML, CBAZY and KJIHG each letter is one step back in the alphabet, wrapping from A to Z (C, B, A, Z, Y). In BAXYZ the letters move forward after A (X, Y, Z), so it does not follow this pattern. Answer: C (BAXYZ)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0253",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "AJKL",
+          "en": "AJKL"
+        },
+        {
+          "kn": "IXYZ",
+          "en": "IXYZ"
+        },
+        {
+          "kn": "EPQR",
+          "en": "EPQR"
+        },
+        {
+          "kn": "VABC",
+          "en": "VABC"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "AJKL, IXYZ ಮತ್ತು EPQR ಗುಂಪುಗಳ ಮೊದಲ ಅಕ್ಷರಗಳು A, I, E — ಇವು ಸ್ವರಾಕ್ಷರಗಳು. VABC ಯ ಮೊದಲ ಅಕ್ಷರ V ಒಂದು ವ್ಯಂಜನ. ಆದ್ದರಿಂದ ಉತ್ತರ D (VABC).",
+        "en": "The first letters of AJKL, IXYZ and EPQR are A, I and E, which are vowels. The first letter of VABC is V, a consonant. So the odd one is D (VABC)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0254",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "CA",
+          "en": "CA"
+        },
+        {
+          "kn": "MO",
+          "en": "MO"
+        },
+        {
+          "kn": "RP",
+          "en": "RP"
+        },
+        {
+          "kn": "YW",
+          "en": "YW"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "CA, RP ಮತ್ತು YW ಗುಂಪುಗಳಲ್ಲಿ ಎರಡನೇ ಅಕ್ಷರ ಮೊದಲ ಅಕ್ಷರಕ್ಕಿಂತ ವರ್ಣಮಾಲೆಯಲ್ಲಿ 2 ಸ್ಥಾನ ಹಿಂದೆ ಇದೆ (C→A, R→P, Y→W). ಅಂದರೆ ಹಿಮ್ಮುಖ ಕ್ರಮದಲ್ಲಿ ಒಂದು ಅಕ್ಷರ ಬಿಟ್ಟು ಹೋಗುತ್ತದೆ. MO ಯಲ್ಲಿ M (13) ನಂತರ O (15) ಮುಂದಕ್ಕೆ ಬರುತ್ತದೆ. ಆದ್ದರಿಂದ ಉತ್ತರ B (MO).",
+        "en": "In CA, RP and YW the second letter is 2 places before the first letter in the alphabet (C to A, R to P, Y to W), a reverse order with a gap of one letter. In MO, M (13) is followed by O (15), which moves forward. So the answer is B (MO)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0255",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "ABD",
+          "en": "ABD"
+        },
+        {
+          "kn": "ABA",
+          "en": "ABA"
+        },
+        {
+          "kn": "AFI",
+          "en": "AFI"
+        },
+        {
+          "kn": "AIF",
+          "en": "AIF"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಕ್ಷರವನ್ನು ವರ್ಣಮಾಲೆಯ ಸ್ಥಾನ ಸಂಖ್ಯೆಯಾಗಿ ಬರೆಯಿರಿ: ABA = 1,2,1 → 121 = 11² (ವರ್ಗ ಸಂಖ್ಯೆ); AFI = 1,6,9 → 169 = 13² (ವರ್ಗ ಸಂಖ್ಯೆ); AIF = 1,9,6 → 196 = 14² (ವರ್ಗ ಸಂಖ್ಯೆ). ABD = 1,2,4 → 124, ಇದು ವರ್ಗ ಸಂಖ್ಯೆ ಅಲ್ಲ. ಆದ್ದರಿಂದ ಉತ್ತರ A (ABD).",
+        "en": "Write each letter as its alphabet position: ABA = 121 = 11², AFI = 169 = 13², AIF = 196 = 14², all perfect squares. ABD = 124, which is not a perfect square. So the answer is A (ABD)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0256",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "XUSR",
+          "en": "XUSR"
+        },
+        {
+          "kn": "EBZY",
+          "en": "EBZY"
+        },
+        {
+          "kn": "IFDC",
+          "en": "IFDC"
+        },
+        {
+          "kn": "SOML",
+          "en": "SOML"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "XUSR ಮತ್ತು IFDC ಗುಂಪುಗಳಲ್ಲಿ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಸಂಖ್ಯೆಗಳು −3, −2, −1 ರ ಕ್ರಮದಲ್ಲಿ ಕಡಿಮೆಯಾಗುತ್ತವೆ. ಆದರೆ EBZY ಮತ್ತು SOML ಈ ಮಾದರಿಗೆ ಸರಿಯಾಗಿ ಹೊಂದುವುದಿಲ್ಲ. ಉತ್ತರ ಕೀಯಲ್ಲಿ D (SOML) ಎಂದು ನೀಡಲಾಗಿದೆ. ಈ ಪ್ರಶ್ನೆಯನ್ನು ಮೂಲ ಪುಸ್ತಕದ ಆಧಾರದಲ್ಲಿ ಕೈಯಾರೆ ಪರಿಶೀಲಿಸಬೇಕು.",
+        "en": "In XUSR and IFDC the letter positions decrease by 3, then 2, then 1. EBZY and SOML do not follow this clean pattern, so the key answer D (SOML) needs manual verification against the source. The key answer as printed is D (SOML)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0257",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "CPGT",
+          "en": "CPGT"
+        },
+        {
+          "kn": "JWBO",
+          "en": "JWBO"
+        },
+        {
+          "kn": "MZAN",
+          "en": "MZAN"
+        },
+        {
+          "kn": "EVKP",
+          "en": "EVKP"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ವರ್ಣಮಾಲೆಯನ್ನು ಎರಡು ಸಾಲುಗಳಲ್ಲಿ ಬರೆಯಿರಿ: ಮೇಲಿನ ಸಾಲು A–M, ಕೆಳಗಿನ ಸಾಲು N–Z. ಸರಿಯಾದ ಗುಂಪುಗಳಲ್ಲಿ ಮೇಲಿನ ಅಕ್ಷರದ ಕೆಳಗೆ ಅದೇ ಕಾಲಂನಲ್ಲಿ ಕೆಳಗಿನ ಸಾಲಿನ ಅಕ್ಷರ ಬರುತ್ತದೆ: C–P, G–T; J–W, B–O; M–Z, A–N. EVKP ನಲ್ಲಿ E (ಕಾಲಂ 5) ಕೆಳಗೆ V (ಕಾಲಂ 9) ಬರುತ್ತದೆ, ಮತ್ತು K (ಕಾಲಂ 11) ಕೆಳಗೆ P (ಕಾಲಂ 3) ಬರುತ್ತದೆ — ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ. ಉತ್ತರ D (EVKP).",
+        "en": "Write the alphabet in two rows: A to M on top and N to Z below. In the correct groups each top letter sits directly above the bottom letter in the same column: C–P, G–T; J–W, B–O; M–Z, A–N. In EVKP, E (column 5) is above V (column 9), and K (column 11) is above P (column 3), so the columns do not match. Answer: D (EVKP)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0258",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "DHBP",
+          "en": "DHBP"
+        },
+        {
+          "kn": "KSCY",
+          "en": "KSCY"
+        },
+        {
+          "kn": "LRFH",
+          "en": "LRFH"
+        },
+        {
+          "kn": "HRVN",
+          "en": "HRVN"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಕ್ಷರದ ಸ್ಥಾನ ಸಂಖ್ಯೆಯನ್ನು ನೋಡಿ: DHBP = 4, 8, 2, 16 (ಎಲ್ಲವೂ ಸಮ); LRFH = 12, 18, 6, 8 (ಎಲ್ಲವೂ ಸಮ); HRVN = 8, 18, 22, 14 (ಎಲ್ಲವೂ ಸಮ). KSCY = 11, 19, 3, 25 — ಇವೆಲ್ಲವೂ ಬೆಸ ಸಂಖ್ಯೆಗಳು. ಆದ್ದರಿಂದ ಉತ್ತರ B (KSCY).",
+        "en": "Check the position number of each letter: DHBP = 4, 8, 2, 16 (all even); LRFH = 12, 18, 6, 8 (all even); HRVN = 8, 18, 22, 14 (all even). KSCY = 11, 19, 3, 25, which are all odd. So the answer is B (KSCY)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0259",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "DGK",
+          "en": "DGK"
+        },
+        {
+          "kn": "KCN",
+          "en": "KCN"
+        },
+        {
+          "kn": "JFD",
+          "en": "JFD"
+        },
+        {
+          "kn": "MGT",
+          "en": "MGT"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೊದಲ ಎರಡು ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಸಂಖ್ಯೆಗಳ ಮೊತ್ತ ಮೂರನೇ ಅಕ್ಷರದ ಸ್ಥಾನಕ್ಕೆ ಸಮವಾಗುತ್ತದೆ: DGK → 4 + 7 = 11 = K ✓; KCN → 11 + 3 = 14 = N ✓; MGT → 13 + 7 = 20 = T ✓. JFD → 10 + 6 = 16, ಆದರೆ ಮೂರನೇ ಅಕ್ಷರ D ಯ ಸ್ಥಾನ 4 — ಹೊಂದುವುದಿಲ್ಲ. ಆದ್ದರಿಂದ ಉತ್ತರ C (JFD).",
+        "en": "The first two letters add up to the position of the third letter: DGK → 4 + 7 = 11 = K; KCN → 11 + 3 = 14 = N; MGT → 13 + 7 = 20 = T. For JFD, 10 + 6 = 16, but the third letter D is position 4, so it does not fit. Answer: C (JFD)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0260",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "HKLM",
+          "en": "HKLM"
+        },
+        {
+          "kn": "VWFI",
+          "en": "VWFI"
+        },
+        {
+          "kn": "NXYZ",
+          "en": "NXYZ"
+        },
+        {
+          "kn": "CQSO",
+          "en": "CQSO"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "HKLM, VWFI ಮತ್ತು NXYZ ಗುಂಪುಗಳ ಅಕ್ಷರಗಳನ್ನು ನೇರ ರೇಖೆಗಳಿಂದ ಬರೆಯಬಹುದು (H, K, L, M, V, W, F, I, N, X, Y, Z). CQSO ನಲ್ಲಿ C, Q, S, O ವಕ್ರ ರೇಖೆಗಳನ್ನು ಹೊಂದಿವೆ. ಆದ್ದರಿಂದ ಉತ್ತರ D (CQSO).",
+        "en": "All letters of HKLM, VWFI and NXYZ are made only of straight lines. C, Q, S and O have curved lines. So the answer is D (CQSO)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0261",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "AZXU",
+          "en": "AZXU"
+        },
+        {
+          "kn": "TSQN",
+          "en": "TSQN"
+        },
+        {
+          "kn": "MLJG",
+          "en": "MLJG"
+        },
+        {
+          "kn": "FECA",
+          "en": "FECA"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಗುಂಪಿನಲ್ಲಿ ಮುಂದಿನ ಅಕ್ಷರ ಹಿಂದಿನದರಿಂದ 1, 2, 3 ಸ್ಥಾನ ಹಿಂದೆ ಬರುತ್ತದೆ (ವರ್ಣಮಾಲೆ ಮುಗಿದರೆ Z ರಿಂದ ಮತ್ತೆ ಸುತ್ತುತ್ತದೆ). AZXU: A→Z (1), Z→X (2), X→U (3). TSQN: T→S (1), S→Q (2), Q→N (3). MLJG: M→L (1), L→J (2), J→G (3). FECA: F→E (1), E→C (2), C→A (2) — ಇಲ್ಲಿ 3 ಆಗಬೇಕಿತ್ತು. ಆದ್ದರಿಂದ ಉತ್ತರ D (FECA).",
+        "en": "In each group the next letter moves back by 1, then 2, then 3 places (wrapping from A to Z). AZXU: A→Z (1), Z→X (2), X→U (3). TSQN: T→S (1), S→Q (2), Q→N (3). MLJG: M→L (1), L→J (2), J→G (3). FECA: F→E (1), E→C (2), C→A (2), but the third step should be 3. Answer: D (FECA)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0262",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "LF",
+          "en": "LF"
+        },
+        {
+          "kn": "BD",
+          "en": "BD"
+        },
+        {
+          "kn": "IC",
+          "en": "IC"
+        },
+        {
+          "kn": "YE",
+          "en": "YE"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಸಂಖ್ಯೆಗಳ ಗುಣಲಬ್ಧ ನೋಡಿ: LF = 12 × 6 = 72 (ಘನ ಸಂಖ್ಯೆ ಅಲ್ಲ); BD = 2 × 4 = 8 = 2³ ✓; IC = 9 × 3 = 27 = 3³ ✓; YE = 25 × 5 = 125 = 5³ ✓. ಆದ್ದರಿಂದ ಉತ್ತರ A (LF).",
+        "en": "Multiply the two position numbers: LF = 12 × 6 = 72, which is not a cube; BD = 2 × 4 = 8 = 2³; IC = 9 × 3 = 27 = 3³; YE = 25 × 5 = 125 = 5³. So the answer is A (LF)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0263",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "CJ 13",
+          "en": "CJ 13"
+        },
+        {
+          "kn": "MP 29",
+          "en": "MP 29"
+        },
+        {
+          "kn": "BJ 20",
+          "en": "BJ 20"
+        },
+        {
+          "kn": "FO 21",
+          "en": "FO 21"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಅಕ್ಷರ ಸ್ಥಾನಗಳ ಮೊತ್ತವೇ ಸಂಖ್ಯೆ ಆಗಿರುವ ಗುಂಪುಗಳನ್ನು ನೋಡಿ: CJ = 3 + 10 = 13 ✓; MP = 13 + 16 = 29 ✓; FO = 6 + 15 = 21 ✓. BJ = 2 + 10 = 12, ಆದರೆ ಕೊಟ್ಟಿರುವ ಸಂಖ್ಯೆ 20 (2 × 10 = 20, ಇದು ಗುಣಲಬ್ಧ). ಆದ್ದರಿಂದ ಉತ್ತರ C (BJ 20).",
+        "en": "In CJ 13, MP 29 and FO 21 the number is the sum of the two letter positions: 3 + 10 = 13, 13 + 16 = 29, 6 + 15 = 21. For BJ 20, 2 + 10 = 12, but the number given is 20, which is the product 2 × 10. Answer: C (BJ 20)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0264",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "RDJY",
+          "en": "RDJY"
+        },
+        {
+          "kn": "EAPS",
+          "en": "EAPS"
+        },
+        {
+          "kn": "YRYK",
+          "en": "YRYK"
+        },
+        {
+          "kn": "CTIZ",
+          "en": "CTIZ"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "RDJY, EAPS ಮತ್ತು CTIZ ಗುಂಪುಗಳಲ್ಲಿ ಯಾವ ಅಕ್ಷರವೂ ಪುನರಾವರ್ತನೆಯಾಗಿಲ್ಲ. YRYK ನಲ್ಲಿ Y ಎರಡು ಬಾರಿ ಬಂದಿದೆ. ಆದ್ದರಿಂದ ಉತ್ತರ C (YRYK).",
+        "en": "No letter repeats in RDJY, EAPS or CTIZ. In YRYK, the letter Y appears twice. So the answer is C (YRYK)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0265",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "BDGK",
+          "en": "BDGK"
+        },
+        {
+          "kn": "PRUY",
+          "en": "PRUY"
+        },
+        {
+          "kn": "XZCG",
+          "en": "XZCG"
+        },
+        {
+          "kn": "ACEG",
+          "en": "ACEG"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "BDGK ನಲ್ಲಿ ಅಕ್ಷರ ಸ್ಥಾನಗಳು +2, +3, +4 ರ ಕ್ರಮದಲ್ಲಿ ಹೆಚ್ಚುತ್ತವೆ (B→D, D→G, G→K). PRUY: P→R (+2), R→U (+3), U→Y (+4) ✓. XZCG: X→Z (+2), Z→C (ವರ್ಣಮಾಲೆ ಸುತ್ತಿ +3), C→G (+4) ✓. ACEG ನಲ್ಲಿ A→C, C→E, E→G ಪ್ರತಿ ಬಾರಿಯೂ +2 — ಕ್ರಮ ಬೇರೆ. ಆದ್ದರಿಂದ ಉತ್ತರ D (ACEG).",
+        "en": "In BDGK the positions go up by +2, +3, +4 (B→D, D→G, G→K). PRUY also goes +2, +3, +4. XZCG follows the same steps after wrapping from Z to A (X→Z +2, Z→C +3, C→G +4). In ACEG every step is +2 (A→C, C→E, E→G), which breaks the pattern. Answer: D (ACEG)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-OL-0266",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಪ್ರಶ್ನೆಯಲ್ಲಿ ನಾಲ್ಕು ಅಕ್ಷರ ಗುಂಪುಗಳಿವೆ. ಅವುಗಳಲ್ಲಿ ಮೂರು ಒಂದೇ ರೀತಿಯಾಗಿದ್ದು ಒಂದು ಭಿನ್ನವಾಗಿದೆ. ಭಿನ್ನವಾಗಿರುವುದನ್ನು ಗುರುತಿಸಿ.",
+        "en": "Four groups of letters are given. Three are alike and one is different. Find the different one."
+      },
+      "options": [
+        {
+          "kn": "DAC",
+          "en": "DAC"
+        },
+        {
+          "kn": "MED",
+          "en": "MED"
+        },
+        {
+          "kn": "OJB",
+          "en": "OJB"
+        },
+        {
+          "kn": "YUR",
+          "en": "YUR"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಅಕ್ಷರ ಸ್ಥಾನಗಳ ಮೊತ್ತ ನೋಡಿ: DAC = 4 + 1 + 3 = 8 = 2³ ✓; OJB = 15 + 10 + 2 = 27 = 3³ ✓; YUR = 25 + 21 + 18 = 64 = 4³ ✓. MED = 13 + 5 + 4 = 22, ಇದು ಘನ ಸಂಖ್ಯೆ ಅಲ್ಲ. ಆದ್ದರಿಂದ ಉತ್ತರ B (MED).",
+        "en": "Add the position numbers: DAC = 4 + 1 + 3 = 8 = 2³; OJB = 15 + 10 + 2 = 27 = 3³; YUR = 25 + 21 + 18 = 64 = 4³. MED = 13 + 5 + 4 = 22, which is not a cube. So the answer is B (MED)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0267",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 2, 3, 5, 7, 11, ______, 17",
+        "en": "Complete the number series by choosing the correct answer from the given options. 2, 3, 5, 7, 11, ______, 17"
+      },
+      "options": [
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "13",
+          "en": "13"
+        },
+        {
+          "kn": "14",
+          "en": "14"
+        },
+        {
+          "kn": "15",
+          "en": "15"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಇವು ಎಲ್ಲವೂ ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆಗಳು (2, 3, 5, 7, 11, 13, 17). ಆದ್ದರಿಂದ ಖಾಲಿ ಜಾಗಕ್ಕೆ 13 ಬರಬೇಕು. ಉತ್ತರ B (13).",
+        "en": "All the numbers are prime numbers: 2, 3, 5, 7, 11, 13, 17. So the blank is 13. Answer B (13)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0268",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 1, 6, 15, ______, 45, 66, 91",
+        "en": "Complete the number series by choosing the correct answer from the given options. 1, 6, 15, ______, 45, 66, 91"
+      },
+      "options": [
+        {
+          "kn": "25",
+          "en": "25"
+        },
+        {
+          "kn": "26",
+          "en": "26"
+        },
+        {
+          "kn": "27",
+          "en": "27"
+        },
+        {
+          "kn": "28",
+          "en": "28"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಎರಡು ಪಕ್ಕದ ಸಂಖ್ಯೆಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸ 4 ರಷ್ಟು ಹೆಚ್ಚುತ್ತದೆ: +5, +9, +13, +17, +21, +25. 15 + 13 = 28. ಉತ್ತರ D (28).",
+        "en": "The difference between consecutive numbers increases by 4 each time: +5, +9, +13, +17, +21, +25. So 15 + 13 = 28. Answer D (28)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0269",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 6, 17, 10, 15, 16, 13, 24, ______, ______",
+        "en": "Complete the number series by choosing the correct answer from the given options. 6, 17, 10, 15, 16, 13, 24, ______, ______"
+      },
+      "options": [
+        {
+          "kn": "11, 34",
+          "en": "11, 34"
+        },
+        {
+          "kn": "11, 28",
+          "en": "11, 28"
+        },
+        {
+          "kn": "34, 11",
+          "en": "34, 11"
+        },
+        {
+          "kn": "34, 16",
+          "en": "34, 16"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಈ ಶ್ರೇಣಿ ಎರಡು ಉಪ-ಶ್ರೇಣಿಗಳ ಮಿಶ್ರಣ. ಮೊದಲ, ಮೂರನೇ, ಐದನೇ, ಏಳನೇ ಸ್ಥಾನ: 6, 10, 16, 24 → ವ್ಯತ್ಯಾಸ +4, +6, +8, ಆದ್ದರಿಂದ ಮುಂದಿನದು 24 + 10 = 34. ಎರಡನೇ, ನಾಲ್ಕನೇ, ಆರನೇ, ಎಂಟನೇ ಸ್ಥಾನ: 17, 15, 13, 11 → ಪ್ರತಿ ಬಾರಿ −2, ಆದ್ದರಿಂದ ಮುಂದಿನದು 11. ಉತ್ತರ A (11, 34).",
+        "en": "The series has two interleaved sequences. Positions 1, 3, 5, 7: 6, 10, 16, 24 with differences +4, +6, +8, so the next is 24 + 10 = 34. Positions 2, 4, 6, 8: 17, 15, 13, 11 with difference −2, so the next is 11. Answer A (11, 34)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0270",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 6305, 5204, 4123, ______, 221",
+        "en": "Complete the number series by choosing the correct answer from the given options. 6305, 5204, 4123, ______, 221"
+      },
+      "options": [
+        {
+          "kn": "352",
+          "en": "352"
+        },
+        {
+          "kn": "343",
+          "en": "343"
+        },
+        {
+          "kn": "362",
+          "en": "362"
+        },
+        {
+          "kn": "386",
+          "en": "386"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "PDF ಕೀ ಪ್ರಕಾರ ಉತ್ತರ C (362). ಕೀ ನೀಡಿರುವ ನಿಯಮ: ಮೊದಲ ಮತ್ತು ಕೊನೆಯ ಅಂಕಿಗಳ ಗುಣಲಬ್ಧ ಮಧ್ಯದ ಅಂಕಿ ಆಗಿರುತ್ತದೆ (362: 3 × 2 = 6). ಇದನ್ನು ಕೈಯಾರೆ ಪರಿಶೀಲಿಸಬೇಕು.",
+        "en": "The printed key answer is C (362), using the rule that the product of the first and last digit is the middle digit (3 × 2 = 6 in 362). This rule should be manually verified against the other numbers in the series."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0271",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 360, ______, 18, 6, 3, 3",
+        "en": "Complete the number series by choosing the correct answer from the given options. 360, ______, 18, 6, 3, 3"
+      },
+      "options": [
+        {
+          "kn": "87",
+          "en": "87"
+        },
+        {
+          "kn": "72",
+          "en": "72"
+        },
+        {
+          "kn": "65",
+          "en": "65"
+        },
+        {
+          "kn": "71",
+          "en": "71"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಬಲಭಾಗದಿಂದ ಪ್ರತಿ ಸಂಖ್ಯೆಯನ್ನು 1, 2, 3, 4, 5 ರಿಂದ ಕ್ರಮವಾಗಿ ಗುಣಿಸಲಾಗಿದೆ. 3 × 1 = 3, 3 × 2 = 6, 6 × 3 = 18, 18 × 4 = 72, 72 × 5 = 360. ಆದ್ದರಿಂದ ಖಾಲಿ ಜಾಗ 72. ಉತ್ತರ B (72).",
+        "en": "Going from right to left, each number is multiplied by 1, 2, 3, 4, 5 in turn: 3 × 1 = 3, 3 × 2 = 6, 6 × 3 = 18, 18 × 4 = 72, 72 × 5 = 360. So the blank is 72. Answer B (72)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0272",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 3, 15, ______, 63, 99, 143",
+        "en": "Complete the number series by choosing the correct answer from the given options. 3, 15, ______, 63, 99, 143"
+      },
+      "options": [
+        {
+          "kn": "27",
+          "en": "27"
+        },
+        {
+          "kn": "35",
+          "en": "35"
+        },
+        {
+          "kn": "45",
+          "en": "45"
+        },
+        {
+          "kn": "56",
+          "en": "56"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸಮ ಸಂಖ್ಯೆಗಳ ವರ್ಗದಿಂದ 1 ಕಳೆದರೆ ಶ್ರೇಣಿ ಸಿಗುತ್ತದೆ: 2² − 1 = 3, 4² − 1 = 15, 6² − 1 = 35, 8² − 1 = 63, 10² − 1 = 99, 12² − 1 = 143. ಆದ್ದರಿಂದ ಖಾಲಿ ಜಾಗ 35. ಉತ್ತರ B (35).",
+        "en": "Each term is the square of an even number minus 1: 2² − 1 = 3, 4² − 1 = 15, 6² − 1 = 35, 8² − 1 = 63, 10² − 1 = 99, 12² − 1 = 143. So the blank is 35. Answer B (35)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0273",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 7, 8, 16, 43, ______, 232",
+        "en": "Complete the number series by choosing the correct answer from the given options. 7, 8, 16, 43, ______, 232"
+      },
+      "options": [
+        {
+          "kn": "115",
+          "en": "115"
+        },
+        {
+          "kn": "112",
+          "en": "112"
+        },
+        {
+          "kn": "107",
+          "en": "107"
+        },
+        {
+          "kn": "109",
+          "en": "109"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಎರಡು ಪಕ್ಕದ ಸಂಖ್ಯೆಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸಗಳು ಘನ ಸಂಖ್ಯೆಗಳು: 8 − 7 = 1³, 16 − 8 = 2³, 43 − 16 = 3³. ಮುಂದಿನ ವ್ಯತ್ಯಾಸ 4³ = 64. ಆದ್ದರಿಂದ ಖಾಲಿ ಜಾಗ 43 + 64 = 107. ಉತ್ತರ C (107).",
+        "en": "The differences between consecutive numbers are cubes: 8 − 7 = 1³, 16 − 8 = 2³, 43 − 16 = 3³. The next difference is 4³ = 64, so the blank is 43 + 64 = 107. Answer C (107)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0274",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 30, 67, 128, ______, 346",
+        "en": "Complete the number series by choosing the correct answer from the given options. 30, 67, 128, ______, 346"
+      },
+      "options": [
+        {
+          "kn": "218",
+          "en": "218"
+        },
+        {
+          "kn": "219",
+          "en": "219"
+        },
+        {
+          "kn": "248",
+          "en": "248"
+        },
+        {
+          "kn": "236",
+          "en": "236"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಸಂಖ್ಯೆ n³ + 3 ರ ರೂಪದಲ್ಲಿದೆ: 3³ + 3 = 30, 4³ + 3 = 67, 5³ + 3 = 128, 6³ + 3 = 219, 7³ + 3 = 346. ಆದ್ದರಿಂದ ಖಾಲಿ ಜಾಗ 219. ಉತ್ತರ B (219).",
+        "en": "Each number is n³ + 3: 3³ + 3 = 30, 4³ + 3 = 67, 5³ + 3 = 128, 6³ + 3 = 219, 7³ + 3 = 346. So the blank is 219. Answer B (219)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0275",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 1/3, 4/5, 5/11, 6/19, ______",
+        "en": "Complete the number series by choosing the correct answer from the given options. 1/3, 4/5, 5/11, 6/19, ______"
+      },
+      "options": [
+        {
+          "kn": "10/11",
+          "en": "10/11"
+        },
+        {
+          "kn": "18/15",
+          "en": "18/15"
+        },
+        {
+          "kn": "13/23",
+          "en": "13/23"
+        },
+        {
+          "kn": "6/19",
+          "en": "6/19"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಅಂಶ ಮತ್ತು ಛೇದದ ಮೊತ್ತಗಳು ಪೂರ್ಣ ವರ್ಗ ಸಂಖ್ಯೆಗಳು: 1+3 = 4 = 2², 4+5 = 9 = 3², 5+11 = 16 = 4², 6+19 = 25 = 5². ಮುಂದಿನದು 36 = 6², ಮತ್ತು 13 + 23 = 36. ಆದ್ದರಿಂದ ಉತ್ತರ C (13/23).",
+        "en": "The sum of numerator and denominator is a perfect square: 1+3 = 4 = 2², 4+5 = 9 = 3², 5+11 = 16 = 4², 6+19 = 25 = 5². The next is 36 = 6², and 13 + 23 = 36. Answer C (13/23)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0276",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 1, 1, 4, 8, 9, 27, 16, ______",
+        "en": "Complete the number series by choosing the correct answer from the given options. 1, 1, 4, 8, 9, 27, 16, ______"
+      },
+      "options": [
+        {
+          "kn": "32",
+          "en": "32"
+        },
+        {
+          "kn": "64",
+          "en": "64"
+        },
+        {
+          "kn": "81",
+          "en": "81"
+        },
+        {
+          "kn": "256",
+          "en": "256"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಈ ಶ್ರೇಣಿಯಲ್ಲಿ ಎರಡು ಉಪ-ಶ್ರೇಣಿಗಳು ಬೆರೆತಿವೆ: ವರ್ಗಗಳು 1, 4, 9, 16 (1², 2², 3², 4²), ಘನಗಳು 1, 8, 27 (1³, 2³, 3³). ಮುಂದಿನ ಘನ 4³ = 64. ಉತ್ತರ B (64).",
+        "en": "Two sequences are mixed: squares 1, 4, 9, 16 (1², 2², 3², 4²) and cubes 1, 8, 27 (1³, 2³, 3³). The next cube is 4³ = 64. Answer B (64)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0277",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 360, 72, 18, 6, 3, ______",
+        "en": "Complete the number series by choosing the correct answer from the given options. 360, 72, 18, 6, 3, ______"
+      },
+      "options": [
+        {
+          "kn": "1",
+          "en": "1"
+        },
+        {
+          "kn": "2",
+          "en": "2"
+        },
+        {
+          "kn": "3",
+          "en": "3"
+        },
+        {
+          "kn": "4",
+          "en": "4"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಸಂಖ್ಯೆಯನ್ನು 5, 4, 3, 2, 1 ರಿಂದ ಕ್ರಮವಾಗಿ ಭಾಗಿಸಲಾಗಿದೆ: 360 ÷ 5 = 72, 72 ÷ 4 = 18, 18 ÷ 3 = 6, 6 ÷ 2 = 3, 3 ÷ 1 = 3. ಉತ್ತರ C (3).",
+        "en": "Each number is divided by 5, 4, 3, 2, 1 in turn: 360 ÷ 5 = 72, 72 ÷ 4 = 18, 18 ÷ 3 = 6, 6 ÷ 2 = 3, 3 ÷ 1 = 3. Answer C (3)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0278",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 3, 14, 39, 84, ______, 258",
+        "en": "Complete the number series by choosing the correct answer from the given options. 3, 14, 39, 84, ______, 258"
+      },
+      "options": [
+        {
+          "kn": "155",
+          "en": "155"
+        },
+        {
+          "kn": "162",
+          "en": "162"
+        },
+        {
+          "kn": "158",
+          "en": "158"
+        },
+        {
+          "kn": "169",
+          "en": "169"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಸಂಖ್ಯೆ n³ + n² + n ರೂಪದಲ್ಲಿದೆ: n=1: 1+1+1 = 3; n=2: 8+4+2 = 14; n=3: 27+9+3 = 39; n=4: 64+16+4 = 84; n=5: 125+25+5 = 155; n=6: 216+36+6 = 258. ಆದ್ದರಿಂದ ಖಾಲಿ ಜಾಗ 155. ಉತ್ತರ A (155).",
+        "en": "Each number is n³ + n² + n: n=1: 3; n=2: 14; n=3: 39; n=4: 84; n=5: 125 + 25 + 5 = 155; n=6: 258. So the blank is 155. Answer A (155)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0279",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 4, 8, 15, 28, 53, ______",
+        "en": "Complete the number series by choosing the correct answer from the given options. 4, 8, 15, 28, 53, ______"
+      },
+      "options": [
+        {
+          "kn": "110",
+          "en": "110"
+        },
+        {
+          "kn": "102",
+          "en": "102"
+        },
+        {
+          "kn": "107",
+          "en": "107"
+        },
+        {
+          "kn": "121",
+          "en": "121"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಹಂತದಲ್ಲಿ ಸಂಖ್ಯೆಯನ್ನು 2 ರಿಂದ ಗುಣಿಸಿ ಕ್ರಮವಾಗಿ 0, 1, 2, 3, 4 ಕಳೆಯಲಾಗಿದೆ: 4×2−0 = 8, 8×2−1 = 15, 15×2−2 = 28, 28×2−3 = 53, 53×2−4 = 102. ಉತ್ತರ B (102).",
+        "en": "Each number is multiplied by 2 and then 0, 1, 2, 3, 4 is subtracted in turn: 4×2−0 = 8, 8×2−1 = 15, 15×2−2 = 28, 28×2−3 = 53, 53×2−4 = 102. Answer B (102)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0280",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 0, 4, 18, 48, ______, 180",
+        "en": "Complete the number series by choosing the correct answer from the given options. 0, 4, 18, 48, ______, 180"
+      },
+      "options": [
+        {
+          "kn": "110",
+          "en": "110"
+        },
+        {
+          "kn": "141",
+          "en": "141"
+        },
+        {
+          "kn": "100",
+          "en": "100"
+        },
+        {
+          "kn": "125",
+          "en": "125"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಸಂಖ್ಯೆ n²(n − 1) ರೂಪದಲ್ಲಿದೆ: n=1: 0; n=2: 4×1 = 4; n=3: 9×2 = 18; n=4: 16×3 = 48; n=5: 25×4 = 100; n=6: 36×5 = 180. ಆದ್ದರಿಂದ ಖಾಲಿ ಜಾಗ 100. ಉತ್ತರ C (100).",
+        "en": "Each number is n²(n − 1): n=1: 0; n=2: 4×1 = 4; n=3: 9×2 = 18; n=4: 16×3 = 48; n=5: 25×4 = 100; n=6: 36×5 = 180. So the blank is 100. Answer C (100)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0281",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 350, 222, ______, 68, 30, 10",
+        "en": "Complete the number series by choosing the correct answer from the given options. 350, 222, ______, 68, 30, 10"
+      },
+      "options": [
+        {
+          "kn": "145",
+          "en": "145"
+        },
+        {
+          "kn": "130",
+          "en": "130"
+        },
+        {
+          "kn": "168",
+          "en": "168"
+        },
+        {
+          "kn": "170",
+          "en": "170"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪಕ್ಕದ ಸಂಖ್ಯೆಗಳ ವ್ಯತ್ಯಾಸಗಳು: 128, 92, 62, 38, 20. ಇವುಗಳ ವ್ಯತ್ಯಾಸಗಳು 36, 30, 24, 18 (ಪ್ರತಿ ಬಾರಿ 6 ಕಡಿಮೆ). ಆದ್ದರಿಂದ ಖಾಲಿ ಜಾಗ 222 − 92 = 130. ಪರಿಶೀಲನೆ: 130 − 62 = 68 ✓, 68 − 38 = 30 ✓, 30 − 20 = 10 ✓. ಉತ್ತರ B (130).",
+        "en": "Differences between neighbours are 128, 92, 62, 38, 20, and their differences are 36, 30, 24, 18 (each one 6 less). The missing term is 222 − 92 = 130. Check: 130 − 62 = 68, 68 − 38 = 30, 30 − 20 = 10. Answer B (130)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0282",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 2, 12, 36, 80, ______, 252",
+        "en": "Complete the number series by choosing the correct answer from the given options. 2, 12, 36, 80, ______, 252"
+      },
+      "options": [
+        {
+          "kn": "110",
+          "en": "110"
+        },
+        {
+          "kn": "100",
+          "en": "100"
+        },
+        {
+          "kn": "120",
+          "en": "120"
+        },
+        {
+          "kn": "150",
+          "en": "150"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಸಂಖ್ಯೆ n³ + n² ರೂಪದಲ್ಲಿದೆ: n=1: 2; n=2: 8+4 = 12; n=3: 27+9 = 36; n=4: 64+16 = 80; n=5: 125+25 = 150; n=6: 216+36 = 252. ಆದ್ದರಿಂದ ಖಾಲಿ ಜಾಗ 150. ಉತ್ತರ D (150).",
+        "en": "Each number is n³ + n²: n=1: 2; n=2: 12; n=3: 36; n=4: 80; n=5: 125 + 25 = 150; n=6: 216 + 36 = 252. So the blank is 150. Answer D (150)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0283",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 10, 22, 46, 94, ______",
+        "en": "Complete the number series by choosing the correct answer from the given options. 10, 22, 46, 94, ______"
+      },
+      "options": [
+        {
+          "kn": "180",
+          "en": "180"
+        },
+        {
+          "kn": "184",
+          "en": "184"
+        },
+        {
+          "kn": "190",
+          "en": "190"
+        },
+        {
+          "kn": "140",
+          "en": "140"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಸಂಖ್ಯೆಯನ್ನು 2 ರಿಂದ ಗುಣಿಸಿ 2 ಕೂಡಿಸಲಾಗಿದೆ: 10×2+2 = 22, 22×2+2 = 46, 46×2+2 = 94, 94×2+2 = 190. ಉತ್ತರ C (190).",
+        "en": "Each number is multiplied by 2 and then 2 is added: 10×2+2 = 22, 22×2+2 = 46, 46×2+2 = 94, 94×2+2 = 190. Answer C (190)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0284",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 2, 5, 9, 19, 37, ______",
+        "en": "Complete the number series by choosing the correct answer from the given options. 2, 5, 9, 19, 37, ______"
+      },
+      "options": [
+        {
+          "kn": "73",
+          "en": "73"
+        },
+        {
+          "kn": "75",
+          "en": "75"
+        },
+        {
+          "kn": "76",
+          "en": "76"
+        },
+        {
+          "kn": "78",
+          "en": "78"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಶ್ರೇಣಿ ಪರ್ಯಾಯವಾಗಿ ×2+1 ಮತ್ತು ×2−1: 2×2+1 = 5, 5×2−1 = 9, 9×2+1 = 19, 19×2−1 = 37, 37×2+1 = 75. ಉತ್ತರ B (75).",
+        "en": "The series alternates ×2+1 and ×2−1: 2×2+1 = 5, 5×2−1 = 9, 9×2+1 = 19, 19×2−1 = 37, 37×2+1 = 75. Answer B (75)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0285",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 2, 7, 27, 107, ______",
+        "en": "Complete the number series by choosing the correct answer from the given options. 2, 7, 27, 107, ______"
+      },
+      "options": [
+        {
+          "kn": "227",
+          "en": "227"
+        },
+        {
+          "kn": "327",
+          "en": "327"
+        },
+        {
+          "kn": "427",
+          "en": "427"
+        },
+        {
+          "kn": "527",
+          "en": "527"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಸಂಖ್ಯೆಯನ್ನು 4 ರಿಂದ ಗುಣಿಸಿ 1 ಕಳೆಯಲಾಗಿದೆ: 2×4−1 = 7, 7×4−1 = 27, 27×4−1 = 107, 107×4−1 = 427. ಉತ್ತರ C (427).",
+        "en": "Each number is multiplied by 4 and then 1 is subtracted: 2×4−1 = 7, 7×4−1 = 27, 27×4−1 = 107, 107×4−1 = 427. Answer C (427)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0286",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 134, 245, 356, 467, ______",
+        "en": "Complete the number series by choosing the correct answer from the given options. 134, 245, 356, 467, ______"
+      },
+      "options": [
+        {
+          "kn": "579",
+          "en": "579"
+        },
+        {
+          "kn": "578",
+          "en": "578"
+        },
+        {
+          "kn": "568",
+          "en": "568"
+        },
+        {
+          "kn": "478",
+          "en": "478"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಹಂತದಲ್ಲಿ 111 ಸೇರಿಸಲಾಗಿದೆ: 134 → 245 → 356 → 467 → 578. ಉತ್ತರ B (578).",
+        "en": "Each step adds 111: 134 → 245 → 356 → 467 → 578. Answer B (578)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0287",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 4, 9, 21, 47, ______, 211, 433",
+        "en": "Complete the number series by choosing the correct answer from the given options. 4, 9, 21, 47, ______, 211, 433"
+      },
+      "options": [
+        {
+          "kn": "99",
+          "en": "99"
+        },
+        {
+          "kn": "94",
+          "en": "94"
+        },
+        {
+          "kn": "101",
+          "en": "101"
+        },
+        {
+          "kn": "111",
+          "en": "111"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಹಂತದಲ್ಲಿ ಸಂಖ್ಯೆಯನ್ನು 2 ರಿಂದ ಗುಣಿಸಿ ಬೆಸ ಸಂಖ್ಯೆಗಳನ್ನು ಕೂಡಿಸಲಾಗಿದೆ (+1, +3, +5, +7, +9, +11): 4×2+1 = 9, 9×2+3 = 21, 21×2+5 = 47, 47×2+7 = 101, 101×2+9 = 211, 211×2+11 = 433. ಆದ್ದರಿಂದ ಖಾಲಿ ಜಾಗ 101. ಉತ್ತರ C (101).",
+        "en": "Each number is multiplied by 2 and then an odd number is added (+1, +3, +5, +7, +9, +11): 4×2+1 = 9, 9×2+3 = 21, 21×2+5 = 47, 47×2+7 = 101, 101×2+9 = 211, 211×2+11 = 433. So the blank is 101. Answer C (101)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-NS-0288",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಆಯ್ಕೆಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ ಸಂಖ್ಯಾ ಶ್ರೇಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 3, 9, 21, ______, 93",
+        "en": "Complete the number series by choosing the correct answer from the given options. 3, 9, 21, ______, 93"
+      },
+      "options": [
+        {
+          "kn": "45",
+          "en": "45"
+        },
+        {
+          "kn": "43",
+          "en": "43"
+        },
+        {
+          "kn": "46",
+          "en": "46"
+        },
+        {
+          "kn": "49",
+          "en": "49"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಸಂಖ್ಯೆಯನ್ನು 2 ರಿಂದ ಗುಣಿಸಿ 3 ಕೂಡಿಸಲಾಗಿದೆ: 3×2+3 = 9, 9×2+3 = 21, 21×2+3 = 45, 45×2+3 = 93. ಆದ್ದರಿಂದ ಖಾಲಿ ಜಾಗ 45. ಉತ್ತರ A (45).",
+        "en": "Each number is multiplied by 2 and then 3 is added: 3×2+3 = 9, 9×2+3 = 21, 21×2+3 = 45, 45×2+3 = 93. So the blank is 45. Answer A (45)."
       },
       "image": null
     }
