@@ -8,7 +8,7 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 168,
+    "totalQuestions": 174,
     "questionNumberStart": 1,
     "questionNumberEnd": 146,
     "version": "1.0.0"
@@ -5389,6 +5389,198 @@
         "en": "The brown, blue and yellow faces meet at one vertex. Only the small cube at that vertex has all three colours. Answer B (1)."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0173.webp"
+    },
+    {
+      "id": "GMAT-CF-0149",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ತ್ರಿಭುಜಗಳೆಷ್ಟು?",
+        "en": "How many triangles are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "8",
+          "en": "8"
+        },
+        {
+          "kn": "6",
+          "en": "6"
+        },
+        {
+          "kn": "5",
+          "en": "5"
+        },
+        {
+          "kn": "10",
+          "en": "10"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಈ ಐದು ಮೂಲೆಯ ತಾರೆಯಲ್ಲಿ 5 ಚಿಕ್ಕ ಮೂಲೆ ತ್ರಿಭುಜಗಳು ಮತ್ತು 5 ದೊಡ್ಡ ತ್ರಿಭುಜಗಳಿವೆ. ಒಟ್ಟು 5 + 5 = 10. ಉತ್ತರ D (10).",
+        "en": "This five-pointed star has 5 small tip triangles and 5 larger triangles. Total 5 + 5 = 10. Answer D (10)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0149.webp"
+    },
+    {
+      "id": "GMAT-CF-0159",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಆಕೃತಿಯಲ್ಲಿರುವ ಒಟ್ಟು ಪಂಚಭುಜಾಕೃತಿಗಳೆಷ್ಟು?",
+        "en": "How many pentagons are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        },
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "ಯಾವುದೂ ಅಲ್ಲ",
+          "en": "None of these"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪಂಚಭುಜ ಎಂದರೆ 5 ಬದಿಗಳಿರುವ ಆಕೃತಿ. ಮೇಲಿನ ಅರ್ಧದಲ್ಲಿ ಎಡ ಮತ್ತು ಬಲ ಮೂಲೆಯ ತ್ರಿಭುಜಗಳನ್ನು ಕೆಳಗಿನ ಮಧ್ಯದ ತ್ರಿಭುಜಗಳ ಜೊತೆ ಸೇರಿಸಿದರೆ 2 ಪಂಚಭುಜಗಳು ಸಿಗುತ್ತವೆ. ಕೆಳಗಿನ ಅರ್ಧದಲ್ಲೂ ಅದೇ ರೀತಿ 2. ಒಟ್ಟು 4. ಉತ್ತರ A (4).",
+        "en": "A pentagon has 5 sides. In the top half, the top-left and top-right corner triangles combine with the middle triangles to form 2 pentagons. The bottom half gives 2 more. Total 4. Answer A (4)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CF-0159.webp"
+    },
+    {
+      "id": "GMAT-CL-0169",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಚಿತ್ರದಲ್ಲಿ ಇರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are there in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "48",
+          "en": "48"
+        },
+        {
+          "kn": "128",
+          "en": "128"
+        },
+        {
+          "kn": "256",
+          "en": "256"
+        },
+        {
+          "kn": "64",
+          "en": "64"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಂಚನ್ನು 4 ಸಮಭಾಗ ಮಾಡಿದರೆ n = 4. ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ n³ = 4 × 4 × 4 = 64. ಉತ್ತರ D (64).",
+        "en": "Each edge is divided into 4 equal parts, so n = 4. Number of small cubes = n³ = 4 × 4 × 4 = 64. Answer D (64)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0169.webp"
+    },
+    {
+      "id": "GMAT-CL-0174",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ಎರಡು ಮುಖಗಳಿಗೆ ಮಾತ್ರ ಬಣ್ಣ ಲೇಪಿತವಾಗಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are two faces painted in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "58",
+          "en": "58"
+        },
+        {
+          "kn": "48",
+          "en": "48"
+        },
+        {
+          "kn": "36",
+          "en": "36"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಂಚನ್ನು 5 ಸಮಭಾಗ ಮಾಡಿದರೆ n = 5. ಎರಡು ಮುಖಗಳಿಗೆ ಬಣ್ಣವಿರುವ ಘನಗಳು 12(n − 2) = 12(5 − 2) = 36. ಉತ್ತರ C (36).",
+        "en": "Each edge is divided into 5 equal parts, so n = 5. Cubes with exactly two painted faces = 12(n − 2) = 12(5 − 2) = 36. Answer C (36)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0174.webp"
+    },
+    {
+      "id": "GMAT-CL-0175",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ನೇರಳೆ ಬಣ್ಣ ಮಾತ್ರ ಲೇಪಿಸಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are painted only with purple colour in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "25",
+          "en": "25"
+        },
+        {
+          "kn": "9",
+          "en": "9"
+        },
+        {
+          "kn": "16",
+          "en": "16"
+        },
+        {
+          "kn": "21",
+          "en": "21"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ನೇರಳೆ ಮುಖದ ಹೊರ ಪದರದ ಘನಗಳನ್ನು ಬಿಟ್ಟರೆ ಉಳಿಯುವುದು ಒಳಗಿನ ಭಾಗ. n = 5 ಆದ್ದರಿಂದ (n − 2)² = (5 − 2)² = 3² = 9. ಉತ್ತರ B (9).",
+        "en": "Leaving out the outer layer of the purple face leaves the inner part. With n = 5, the count is (n − 2)² = (5 − 2)² = 9. Answer B (9)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0175.webp"
+    },
+    {
+      "id": "GMAT-CL-0176",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಚಿತ್ರದಲ್ಲಿ ನೇರಳೆ ಮತ್ತು ಬೂದು ಬಣ್ಣಗಳನ್ನು ಲೇಪಿಸಿರುವ ಚಿಕ್ಕ ಘನಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "How many small cubes are painted with purple and grey colours in the given figure?"
+      },
+      "options": [
+        {
+          "kn": "5",
+          "en": "5"
+        },
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "3",
+          "en": "3"
+        },
+        {
+          "kn": "50",
+          "en": "50"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ನೇರಳೆ ಮತ್ತು ಬೂದು ಮುಖಗಳು ಒಂದು ಅಂಚನ್ನು ಹಂಚಿಕೊಳ್ಳುತ್ತವೆ. ಆ ಅಂಚಿನಲ್ಲಿ 5 ಘನಗಳಿವೆ. ತುದಿಯ 2 ಮೂಲೆ ಘನಗಳಿಗೆ ಮೂರನೇ ಬಣ್ಣವೂ ಇರುವುದರಿಂದ ಅವನ್ನು ಬಿಟ್ಟರೆ 5 − 2 = 3. ಉತ್ತರ C (3).",
+        "en": "Purple and grey faces share one edge, which has 5 cubes. The 2 corner cubes at its ends also have a third colour, so excluding them leaves 5 − 2 = 3. Answer C (3)."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-CL-0176.webp"
     }
   ]
 }
