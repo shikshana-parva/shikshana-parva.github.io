@@ -8,7 +8,7 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 203,
+    "totalQuestions": 218,
     "questionNumberStart": 1,
     "questionNumberEnd": 146,
     "version": "1.0.0"
@@ -6509,6 +6509,486 @@
         "en": "Three overlapping circles represent teachers, farmers and actors. Answer C."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-VN-0206.webp"
+    },
+    {
+      "id": "GMAT-PY-0207",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: abcd : cfgh : : glmn : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: abcd : cfgh : : glmn : ?"
+      },
+      "options": [
+        {
+          "kn": "mstu",
+          "en": "mstu"
+        },
+        {
+          "kn": "mtuv",
+          "en": "mtuv"
+        },
+        {
+          "kn": "nuvx",
+          "en": "nuvx"
+        },
+        {
+          "kn": "lstr",
+          "en": "lstr"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ B (mtuv). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ mtuv ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is B (mtuv). Applying the letter positions and arrow pattern of the pyramid gives mtuv."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0207.webp"
+    },
+    {
+      "id": "GMAT-PY-0208",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: abje : ? : : beqj : diyp",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: abje : ? : : beqj : diyp"
+      },
+      "options": [
+        {
+          "kn": "adpi",
+          "en": "adpi"
+        },
+        {
+          "kn": "adip",
+          "en": "adip"
+        },
+        {
+          "kn": "dipy",
+          "en": "dipy"
+        },
+        {
+          "kn": "adyp",
+          "en": "adyp"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ A (adpi). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ adpi ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is A (adpi). Applying the letter positions and arrow pattern of the pyramid gives adpi."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0208.webp"
+    },
+    {
+      "id": "GMAT-PY-0209",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: bdfh : gimo : : egkm : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: bdfh : gimo : : egkm : ?"
+      },
+      "options": [
+        {
+          "kn": "lntv",
+          "en": "lntv"
+        },
+        {
+          "kn": "fhin",
+          "en": "fhin"
+        },
+        {
+          "kn": "intv",
+          "en": "intv"
+        },
+        {
+          "kn": "intu",
+          "en": "intu"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ A (lntv). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ lntv ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is A (lntv). Applying the letter positions and arrow pattern of the pyramid gives lntv."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0209.webp"
+    },
+    {
+      "id": "GMAT-PY-0210",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: bgfc : gnmh : : elkf : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: bgfc : gnmh : : elkf : ?"
+      },
+      "options": [
+        {
+          "kn": "lutm",
+          "en": "lutm"
+        },
+        {
+          "kn": "ktlu",
+          "en": "ktlu"
+        },
+        {
+          "kn": "lskt",
+          "en": "lskt"
+        },
+        {
+          "kn": "tmlu",
+          "en": "tmlu"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ A (lutm). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ lutm ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is A (lutm). Applying the letter positions and arrow pattern of the pyramid gives lutm."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0210.webp"
+    },
+    {
+      "id": "GMAT-PY-0211",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: abad : cfch : : hmho : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: abad : cfch : : hmho : ?"
+      },
+      "options": [
+        {
+          "kn": "nuvw",
+          "en": "nuvw"
+        },
+        {
+          "kn": "mtmw",
+          "en": "mtmw"
+        },
+        {
+          "kn": "niip",
+          "en": "niip"
+        },
+        {
+          "kn": "nunw",
+          "en": "nunw"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ D (nunw). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ nunw ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is D (nunw). Applying the letter positions and arrow pattern of the pyramid gives nunw."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0211.webp"
+    },
+    {
+      "id": "GMAT-PY-0212",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: B1C2 : G4H5 : : F3E2 : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: B1C2 : G4H5 : : F3E2 : ?"
+      },
+      "options": [
+        {
+          "kn": "O10N9",
+          "en": "O10N9"
+        },
+        {
+          "kn": "ON10M",
+          "en": "ON10M"
+        },
+        {
+          "kn": "LGM10",
+          "en": "LGM10"
+        },
+        {
+          "kn": "N10M9",
+          "en": "N10M9"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ A (O10N9). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ O10 N9 ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is A (O10N9). Applying the letter positions and arrow pattern of the pyramid gives O10 N9."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0212.webp"
+    },
+    {
+      "id": "GMAT-PY-0213",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: 1CU15 : 4HS13 : : 3EW17 : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: 1CU15 : 4HS13 : : 3EW17 : ?"
+      },
+      "options": [
+        {
+          "kn": "F9M18",
+          "en": "F9M18"
+        },
+        {
+          "kn": "10N19Y",
+          "en": "10N19Y"
+        },
+        {
+          "kn": "F9X18",
+          "en": "F9X18"
+        },
+        {
+          "kn": "10NY19",
+          "en": "10NY19"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ D (10NY19). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ 10NY19 ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is D (10NY19). Applying the letter positions and arrow pattern of the pyramid gives 10NY19."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0213.webp"
+    },
+    {
+      "id": "GMAT-PY-0214",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: A21 : A23 : : D78 : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: A21 : A23 : : D78 : ?"
+      },
+      "options": [
+        {
+          "kn": "D21",
+          "en": "D21"
+        },
+        {
+          "kn": "D76",
+          "en": "D76"
+        },
+        {
+          "kn": "D67",
+          "en": "D67"
+        },
+        {
+          "kn": "D87",
+          "en": "D87"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ B (D76). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ D76 ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is B (D76). Applying the letter positions and arrow pattern of the pyramid gives D76."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0214.webp"
+    },
+    {
+      "id": "GMAT-PY-0215",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: A2B1 : E10J5 : : A4D1 : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: A2B1 : E10J5 : : A4D1 : ?"
+      },
+      "options": [
+        {
+          "kn": "I16P9",
+          "en": "I16P9"
+        },
+        {
+          "kn": "P9I16",
+          "en": "P9I16"
+        },
+        {
+          "kn": "D9I4",
+          "en": "D9I4"
+        },
+        {
+          "kn": "I4D9",
+          "en": "I4D9"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ D (I4D9). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ I4D9 ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is D (I4D9). Applying the letter positions and arrow pattern of the pyramid gives I4D9."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0215.webp"
+    },
+    {
+      "id": "GMAT-PY-0216",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: JRS5 : PXW9 : : EST2 : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: JRS5 : PXW9 : : EST2 : ?"
+      },
+      "options": [
+        {
+          "kn": "IWV8",
+          "en": "IWV8"
+        },
+        {
+          "kn": "IWV4",
+          "en": "IWV4"
+        },
+        {
+          "kn": "IWX16",
+          "en": "IWX16"
+        },
+        {
+          "kn": "IWU1",
+          "en": "IWU1"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ B (IWV4). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ IWV4 ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is B (IWV4). Applying the letter positions and arrow pattern of the pyramid gives IWV4."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0216.webp"
+    },
+    {
+      "id": "GMAT-PY-0217",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: A2B : 1C3 : : A2E4 : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: A2B : 1C3 : : A2E4 : ?"
+      },
+      "options": [
+        {
+          "kn": "1C5F6",
+          "en": "1C5F6"
+        },
+        {
+          "kn": "1C5F",
+          "en": "1C5F"
+        },
+        {
+          "kn": "I5F6",
+          "en": "I5F6"
+        },
+        {
+          "kn": "1C5I",
+          "en": "1C5I"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ B (1C5F). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ 1C5F ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is B (1C5F). Applying the letter positions and arrow pattern of the pyramid gives 1C5F."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0217.webp"
+    },
+    {
+      "id": "GMAT-PY-0218",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: AB4H : 13F9 : : 47L17 : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: AB4H : 13F9 : : 47L17 : ?"
+      },
+      "options": [
+        {
+          "kn": "F914T",
+          "en": "F914T"
+        },
+        {
+          "kn": "3,6J14",
+          "en": "3,6J14"
+        },
+        {
+          "kn": "FJ14T",
+          "en": "FJ14T"
+        },
+        {
+          "kn": "3FJ14",
+          "en": "3FJ14"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ B (3,6J14). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ 36J14 ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is B (3,6J14). Applying the letter positions and arrow pattern of the pyramid gives 36J14."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0218.webp"
+    },
+    {
+      "id": "GMAT-PY-0219",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: B24E : C35F : : 12MR18 : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: B24E : C35F : : 12MR18 : ?"
+      },
+      "options": [
+        {
+          "kn": "13NS19",
+          "en": "13NS19"
+        },
+        {
+          "kn": "13SN19",
+          "en": "13SN19"
+        },
+        {
+          "kn": "I9N13",
+          "en": "I9N13"
+        },
+        {
+          "kn": "I9519",
+          "en": "I9519"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ A (13NS19). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ 13NS19 ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is A (13NS19). Applying the letter positions and arrow pattern of the pyramid gives 13NS19."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0219.webp"
+    },
+    {
+      "id": "GMAT-PY-0220",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: 21U15O : P16K11 : : 6F3C : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: 21U15O : P16K11 : : 6F3C : ?"
+      },
+      "options": [
+        {
+          "kn": "D4H8",
+          "en": "D4H8"
+        },
+        {
+          "kn": "8H4D",
+          "en": "8H4D"
+        },
+        {
+          "kn": "DFB2",
+          "en": "DFB2"
+        },
+        {
+          "kn": "D4B2",
+          "en": "D4B2"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ D (D4B2). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ D4B2 ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is D (D4B2). Applying the letter positions and arrow pattern of the pyramid gives D4B2."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0220.webp"
+    },
+    {
+      "id": "GMAT-PY-0221",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪಿರಮಿಡ್ ಆಧಾರಿತ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ, ಅದೇ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿ ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿ: 2C8I : B3G10 : : E5M13 : ?",
+        "en": "Identify the pyramid-based relation and apply the same pattern to choose the correct option: 2C8I : B3G10 : : E5M13 : ?"
+      },
+      "options": [
+        {
+          "kn": "B3K15",
+          "en": "B3K15"
+        },
+        {
+          "kn": "D6G10",
+          "en": "D6G10"
+        },
+        {
+          "kn": "D6K15",
+          "en": "D6K15"
+        },
+        {
+          "kn": "K15D6",
+          "en": "K15D6"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಉತ್ತರ ಕೀ ಪ್ರಕಾರ ಸರಿಯಾದ ಉತ್ತರ B (D6G10). ಪಿರಮಿಡ್‌ನ ಅಕ್ಷರಗಳ ಸ್ಥಾನ ಮತ್ತು ಬಾಣದ ಮಾದರಿಯನ್ನು ಅನ್ವಯಿಸಿದರೆ ಫಲಿತಾಂಶ D6G10 ಆಗುತ್ತದೆ.",
+        "en": "According to the answer key, the correct option is B (D6G10). Applying the letter positions and arrow pattern of the pyramid gives D6G10."
+      },
+      "image": "data/kn/class-8/nmms/gmat/images/GMAT-PY-0221.webp"
     }
   ]
 }
