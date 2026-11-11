@@ -1518,7 +1518,7 @@ function ansHtml(a){a=String(a);
  if(a.startsWith('[GRID]'))return gridHtml(a.slice(6));
  if(a.startsWith('[TAB]')){let rows='',rest=[];a.slice(5).split('\n').forEach(ln=>{const i=ln.indexOf('|');if(i>0&&!rest.length){rows+=`<div class="trow"><span>${esc(ln.slice(0,i))}</span><span>${esc(ln.slice(i+1))}</span></div>`}else rest.push(ln)});return `<div class="ans"><b>${T('ans')}</b><div class="tbl">${rows}</div>${esc(rest.join('\n'))}</div>`}
  return `<div class="ans"><b>${T('ans')}</b> ${esc(a)}</div>`}
-function picHtml(p){if(!p||(Array.isArray(p)&&!p.length))return '';const a=Array.isArray(p)?p:[p];return `<div class="qpic">${a.map(x=>String(x).trim().startsWith('<svg')?x:`<img loading="lazy" src="${x}" alt="">`).join('')}</div>`}
+function picHtml(p,eager=false){if(!p||(Array.isArray(p)&&!p.length))return '';const a=Array.isArray(p)?p:[p];return `<div class="qpic">${a.map(x=>String(x).trim().startsWith('<svg')?x:`<img loading="${eager?'eager':'lazy'}" decoding="async" fetchpriority="${eager?'high':'low'}" src="${x}" alt="">`).join('')}</div>`}
 function vAb(){const L=lessons(),l=L.find(x=>x.n==ST.abl)||L[0];
  let h=`<div class="abrow nopr"><div class="card glass neu ddz nopr abchap"><label class="fl" style="margin-top:0">${T('chapter')}</label>${sel('abs',L.map(x=>[String(x.n),lessonLabel(x)]),l.n,'ST.abl=+value;render()')}</div><div class="pills acts abside"><button class="btn" id="abedbtn" data-ic="edit" onclick="togAbEdit()">${pl(T('edit'))}</button><button class="btn" type="button" data-ic="print" onclick="printMode('ab',event)">${pl(T('print'))}</button></div></div>
  <div id="abbody">
@@ -2227,7 +2227,7 @@ function render(){
 /* ===== NMMS module (Class 8) — question containers stay empty until content is supplied ===== */
 const gmatQuestions=[],satQuestions=[],gmatExamQuestions=[],satExamQuestions=[];
 const NM_TOTAL=90;
-const NM={tab:'gmat',exam:'gmat',pos:{},sel:{},sub:{},dif:{gmat:'all',sat:'all'},load:{status:'idle',err:''},ds:{gmat:{status:'idle',err:'',total:0},sat:{status:'idle',err:'',total:0}},manifest:null};
+const NM={tab:'gmat',exam:'gmat',pos:{},sel:{},sub:{},dif:{gmat:'all',sat:'all'},load:{status:'idle',err:''},ds:{gmat:{status:'idle',err:'',total:0},sat:{status:'idle',err:'',total:0}},manifest:null,renderToken:0};
 const NM_MANIFEST='data/kn/class-8/nmms/manifest.json';
 const NM_DIF=[['all','ಎಲ್ಲವೂ'],['easy','ಸುಲಭ'],['medium','ಮಧ್ಯಮ'],['hard','ಕಠಿಣ']];
 const NM_EMPTY={gmat:'GMAT ಪ್ರಶ್ನೆಗಳು ಸಂಪನ್ಮೂಲಗಳನ್ನು ಸೇರಿಸಿದ ನಂತರ ಇಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ.',sat:'SAT ಪ್ರಶ್ನೆಗಳು ಸಂಪನ್ಮೂಲಗಳನ್ನು ಸೇರಿಸಿದ ನಂತರ ಇಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ.'};
@@ -2253,7 +2253,36 @@ const nmMapAll=(arr,m)=>(Array.isArray(arr)?arr:[]).map((r,i)=>nmMapQ(r,i,m));
 const nmData=k=>nmMapAll(({gmat:gmatQuestions,sat:satQuestions,gmatExam:gmatExamQuestions,satExam:satExamQuestions})[k]||[],NM_LANG());
 function nmmsTile(){return `<button class="tile sj glass neu s-nmms" onclick="openNMMS()"><span class="ic">${NM_IC.trophy}</span><span class="sjt"><span class="l">NMMS</span><span class="e">ರಾಷ್ಟ್ರೀಯ ಮೇಧಾ ವಿದ್ಯಾರ್ಥಿವೇತನ ಪರೀಕ್ಷೆ</span><span class="e">National Means-cum-Merit Scholarship</span></span><span class="arw">${ARW}</span></button>`}
 function openNMMS(){NM.tab='gmat';NM.exam='gmat';nav('nmms',{})}
-function nmRefresh(){$('main').innerHTML=vNMMS()}
+function nmRefresh(){
+ NM.renderToken++;
+ $('main').innerHTML=vNMMS();
+ nmScheduleRemaining(NM.renderToken);
+}
+// ಮೊದಲ 10 ಪ್ರಶ್ನೆಗಳನ್ನು ತಕ್ಷಣ ತೋರಿಸಿ, ಉಳಿದವುಗಳನ್ನು ಮುಖ್ಯ thread ಬಿಡುವಿನ ವೇಳೆಯಲ್ಲಿ ಸೇರಿಸು.
+function nmScheduleRemaining(token){
+ const k=NM.tab;
+ if(!['gmat','sat'].includes(k))return;
+ const host=document.getElementById('nm-bg-rest');
+ if(!host)return;
+ const all=nmData(k).filter(q=>!q.bad),cur=NM.dif[k]||'all';
+ const shown=cur==='all'?all:all.filter(q=>q.difficulty===cur);
+ let index=Math.min(10,shown.length);
+ if(index>=shown.length){host.remove();return;}
+ const run=()=>{
+  if(token!==NM.renderToken||!host.isConnected)return;
+  const end=Math.min(index+5,shown.length),html=[];
+  for(;index<end;index++){const q=shown[index];html.push(nmCard(k,q,q._i,index+1));}
+  host.insertAdjacentHTML('beforebegin',html.join(''));
+  if(index>=shown.length){host.remove();return;}
+  schedule();
+ };
+ const schedule=()=>{
+  if(token!==NM.renderToken||!host.isConnected)return;
+  if('requestIdleCallback' in window)window.requestIdleCallback(run,{timeout:250});
+  else window.setTimeout(run,40);
+ };
+ schedule();
+}
 function nmSetTab(t){NM.tab=t;nmRefresh()}
 function nmSetExam(k){NM.exam=k;nmRefresh()}
 function nmPick(key,j){if(NM.sub[key])return;NM.sel[key]=j;nmRefresh()}
@@ -2269,7 +2298,7 @@ function nmCard(scope,q,i,n=i+1){
   return `<button type="button" class="${c}" ${done?'disabled':''} onclick="nmPick('${key}',${j})"><span class="nm-ol">${'ABCD'[j]}</span><span class="nm-ot">${nmHtml(o)}</span>${done&&j===q.a?'<span class="nm-tick">✔</span>':''}</button>`}).join('');
  const btn=done?'':`<button type="button" class="nm-submit" ${sel===undefined?'disabled':''} onclick="nmSubmit('${key}')">✔ ಉತ್ತರ ಸಲ್ಲಿಸಿ</button>`;
  const exp=done?`<div class="nm-exp"><b>ವಿವರಣಾತ್ಮಕ ಉತ್ತರ :</b><div>${q.exp?nmHtml(q.exp):'ವಿವರಣೆ ಲಭ್ಯವಿಲ್ಲ.'}</div></div>`:'';
- return `<div class="nm-card nm-q"><div class="nm-qh"><span class="nm-qn">ಪ್ರಶ್ನೆ ${n}</span><div class="nm-qt">${nmHtml(q.q)}</div></div>${picHtml(q.img)}<div class="nm-opts">${opts}</div>${btn}${exp}</div>`;
+ return `<div class="nm-card nm-q"><div class="nm-qh"><span class="nm-qn">ಪ್ರಶ್ನೆ ${n}</span><div class="nm-qt">${nmHtml(q.q)}</div></div>${picHtml(q.img,n<=10)}<div class="nm-opts">${opts}</div>${btn}${exp}</div>`;
 }
 function vNMBanner(){return `<div class="nm-banner"><svg class="nm-logo" viewBox="0 0 300 112" aria-label="NMMS" role="img"><defs><linearGradient id="nmG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff4c8"/><stop offset=".45" stop-color="#f2c75c"/><stop offset="1" stop-color="#9a6c1f"/></linearGradient></defs><g fill="url(#nmG)"><path d="M150 4 L202 20 L150 36 L98 20 Z"/><path d="M116 28 V46 Q150 60 184 46 V28 L150 42 Z"/><rect x="198" y="20" width="2.6" height="22"/><circle cx="199.3" cy="45" r="3.8"/></g><g fill="none" stroke="url(#nmG)" stroke-width="3" stroke-linecap="round"><path d="M50 36 Q34 66 66 100"/><path d="M250 36 Q266 66 234 100"/></g><g fill="url(#nmG)"><ellipse cx="46" cy="44" rx="7" ry="3.3" transform="rotate(-70 46 44)"/><ellipse cx="43" cy="57" rx="7" ry="3.3" transform="rotate(-50 43 57)"/><ellipse cx="45" cy="70" rx="7" ry="3.3" transform="rotate(-30 45 70)"/><ellipse cx="51" cy="82" rx="7" ry="3.3" transform="rotate(-12 51 82)"/><ellipse cx="60" cy="92" rx="7" ry="3.3" transform="rotate(10 60 92)"/><ellipse cx="72" cy="99" rx="7" ry="3.3" transform="rotate(30 72 99)"/><ellipse cx="254" cy="44" rx="7" ry="3.3" transform="rotate(70 254 44)"/><ellipse cx="257" cy="57" rx="7" ry="3.3" transform="rotate(50 257 57)"/><ellipse cx="255" cy="70" rx="7" ry="3.3" transform="rotate(30 255 70)"/><ellipse cx="249" cy="82" rx="7" ry="3.3" transform="rotate(12 249 82)"/><ellipse cx="240" cy="92" rx="7" ry="3.3" transform="rotate(-10 240 92)"/><ellipse cx="228" cy="99" rx="7" ry="3.3" transform="rotate(-30 228 99)"/></g><text x="150" y="103" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="42" font-weight="900" letter-spacing="3" fill="url(#nmG)" stroke="#4a2f08" stroke-width="1.2" paint-order="stroke">NMMS</text></svg><div class="nm-kn">ರಾಷ್ಟ್ರೀಯ ಮೇಧಾ ವಿದ್ಯಾರ್ಥಿವೇತನ ಪರೀಕ್ಷೆ</div><div class="nm-en">National Means-cum-Merit Scholarship</div></div>`}
 function nmSetDif(k,d){NM.dif[k]=d;nmRefresh()}
@@ -2327,7 +2356,7 @@ function vNMBank(k){
  if(ds.status==='unavailable')return msg('ಈ ಪ್ರಶ್ನೆ ಬ್ಯಾಂಕ್ ಇನ್ನೂ ಲಭ್ಯವಿಲ್ಲ.');
  if(ds.status==='error')return msg('ಈ ಪ್ರಶ್ನೆ ಬ್ಯಾಂಕ್ ಲೋಡ್ ಆಗಲಿಲ್ಲ.<br><small>'+esc(ds.err)+'</small><br><button type="button" class="nm-submit" onclick="nmRetry()">ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</button>');
  const all=nmData(k).filter(q=>!q.bad),shown=cur==='all'?all:all.filter(q=>q.difficulty===cur);
- return head+`<span class="nm-count">ಒಟ್ಟು ಪ್ರಶ್ನೆಗಳು: ${shown.length}</span></div>`+filters+(shown.length?shown.map((q,p)=>nmCard(k,q,q._i,p+1)).join(''):`<div class="nm-empty">${all.length?'ಈ ಮಟ್ಟದಲ್ಲಿ ಪ್ರಶ್ನೆಗಳಿಲ್ಲ.':NM_EMPTY[k]}</div>`);
+ return head+`<span class="nm-count">ಒಟ್ಟು ಪ್ರಶ್ನೆಗಳು: ${shown.length}</span></div>`+filters+(shown.length?shown.slice(0,10).map((q,p)=>nmCard(k,q,q._i,p+1)).join('')+(shown.length>10?'<div id="nm-bg-rest" aria-hidden="true"></div>':''):`<div class="nm-empty">${all.length?'ಈ ಮಟ್ಟದಲ್ಲಿ ಪ್ರಶ್ನೆಗಳಿಲ್ಲ.':NM_EMPTY[k]}</div>`);
 }
 function vNMExam(){
  const k=NM.exam,ex=k+'Exam',D=nmData(ex),n=D.length,L=k.toUpperCase(),p=n?Math.min(NM.pos[ex]||0,n-1):0,s=examScore(k);
