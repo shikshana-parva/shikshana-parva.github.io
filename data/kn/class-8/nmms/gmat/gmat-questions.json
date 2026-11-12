@@ -8,9 +8,9 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 373,
+    "totalQuestions": 387,
     "questionNumberStart": 1,
-    "questionNumberEnd": 373,
+    "questionNumberEnd": 387,
     "version": "1.0.0"
   },
   "questions": [
@@ -11947,6 +11947,454 @@
       "explanation": {
         "kn": "ಆಯ್ಕೆ C Q S P = 7 × 7 + 7 ÷ 7 = 50. ಉತ್ತರ C.",
         "en": "Option C Q S P = 7 × 7 + 7 ÷ 7 = 49 + 1 = 50. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0409",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆ: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣಗಳನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು, ಕೊಟ್ಟಿರುವ ಯಾವ ಚಿನ್ನೆಯ ಗಣವನ್ನು (*) ಜಾಗದಲ್ಲಿ ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಬೇಕು ಎಂಬುದನ್ನು ಪರ್ಯಾಯಗಳಿಂದ ಆರಿಸಿ.",
+        "en": "Directions: Choose and substitute the correct set of signs in place of (*) sequentially, selecting from the given alternatives to make the question meaningful. 6*8*9*7"
+      },
+      "options": [
+        {
+          "kn": "×,<,×",
+          "en": "×,<,×"
+        },
+        {
+          "kn": "+,>,+",
+          "en": "+,>,+"
+        },
+        {
+          "kn": "+,–,=",
+          "en": "+,–,="
+        },
+        {
+          "kn": "=,×,÷",
+          "en": "=,×,÷"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ A: 6 × 8 = 48, 9 × 7 = 63; ಆದ್ದರಿಂದ 48 < 63.",
+        "en": "6 × 8 = 48 and 9 × 7 = 63, so 48 < 63 is true. Other options fail: B gives 14 > 16 (false); C gives 6 + 8 − 9 = 5, not 7; D gives 6 = 8 × 9 ÷ 7 (false)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0410",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆ: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣಗಳನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು, ಕೊಟ್ಟಿರುವ ಯಾವ ಚಿನ್ನೆಯ ಗಣವನ್ನು (*) ಜಾಗದಲ್ಲಿ ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಬೇಕು ಎಂಬುದನ್ನು ಪರ್ಯಾಯಗಳಿಂದ ಆರಿಸಿ.",
+        "en": "Directions: Choose and substitute the correct set of signs in place of (*) sequentially, selecting from the given alternatives to make the question meaningful. 22*33*66*11"
+      },
+      "options": [
+        {
+          "kn": "=,–,÷",
+          "en": "=,–,÷"
+        },
+        {
+          "kn": "+,=,–",
+          "en": "+,=,–"
+        },
+        {
+          "kn": "–,+,=",
+          "en": "–,+,="
+        },
+        {
+          "kn": "+,–,=",
+          "en": "+,–,="
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ B: 22 + 33 = 55, 66 − 11 = 55; ಆದ್ದರಿಂದ 55 = 55.",
+        "en": "22 + 33 = 55 and 66 − 11 = 55, so 55 = 55 is true. Other options fail: A gives 22 = 27; C gives 55 = 11; D gives −11 = 11."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0411",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆ: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣಗಳನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು, ಕೊಟ್ಟಿರುವ ಯಾವ ಚಿನ್ನೆಯ ಗಣವನ್ನು (*) ಜಾಗದಲ್ಲಿ ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಬೇಕು ಎಂಬುದನ್ನು ಪರ್ಯಾಯಗಳಿಂದ ಆರಿಸಿ.",
+        "en": "Directions: Choose and substitute the correct set of signs in place of (*) sequentially, selecting from the given alternatives to make the question meaningful. 48*8*8*48"
+      },
+      "options": [
+        {
+          "kn": "÷,=,+",
+          "en": "÷,=,+"
+        },
+        {
+          "kn": "+,÷,=",
+          "en": "+,÷,="
+        },
+        {
+          "kn": "+,=,–",
+          "en": "+,=,–"
+        },
+        {
+          "kn": "÷,×,=",
+          "en": "÷,×,="
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ D: 48 ÷ 8 × 8 = 48; ಆದ್ದರಿಂದ 48 = 48.",
+        "en": "48 ÷ 8 × 8 = 48 and 48 = 48 is true. Other options fail: A gives 6 = 56; B gives 49 = 48; C gives 56 = −40."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0412",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆ: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣಗಳನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು, ಕೊಟ್ಟಿರುವ ಯಾವ ಚಿನ್ನೆಯ ಗಣವನ್ನು (*) ಜಾಗದಲ್ಲಿ ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಬೇಕು ಎಂಬುದನ್ನು ಪರ್ಯಾಯಗಳಿಂದ ಆರಿಸಿ.",
+        "en": "Directions: Choose and substitute the correct set of signs in place of (*) sequentially, selecting from the given alternatives to make the question meaningful. 11*8*7*10"
+      },
+      "options": [
+        {
+          "kn": "–,+,=",
+          "en": "–,+,="
+        },
+        {
+          "kn": "+,–,=",
+          "en": "+,–,="
+        },
+        {
+          "kn": "+,=,+",
+          "en": "+,=,+"
+        },
+        {
+          "kn": "–,=,+",
+          "en": "–,=,+"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ A: 11 − 8 + 7 = 10; ಆದ್ದರಿಂದ 10 = 10.",
+        "en": "11 − 8 + 7 = 10, so 10 = 10 is true. Other options fail: B gives 12 = 10; C gives 19 = 17; D gives 3 = 17."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0413",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆ: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣಗಳನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು, ಕೊಟ್ಟಿರುವ ಯಾವ ಚಿನ್ನೆಯ ಗಣವನ್ನು (*) ಜಾಗದಲ್ಲಿ ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಬೇಕು ಎಂಬುದನ್ನು ಪರ್ಯಾಯಗಳಿಂದ ಆರಿಸಿ.",
+        "en": "Directions: Choose and substitute the correct set of signs in place of (*) sequentially, selecting from the given alternatives to make the question meaningful. 3*45*15*2*3"
+      },
+      "options": [
+        {
+          "kn": "+,÷,+,=",
+          "en": "+,÷,+,="
+        },
+        {
+          "kn": "+,=,×,+",
+          "en": "+,=,×,+"
+        },
+        {
+          "kn": "+,÷,=,×",
+          "en": "+,÷,=,×"
+        },
+        {
+          "kn": "=,÷,×,÷",
+          "en": "=,÷,×,÷"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ C: 3 + 45 ÷ 15 = 6, 2 × 3 = 6; ಆದ್ದರಿಂದ 6 = 6.",
+        "en": "3 + 45 ÷ 15 = 3 + 3 = 6 and 2 × 3 = 6, so 6 = 6 is true. Other options fail: A gives 8 = 3; B gives 48 = 33; D gives 3 = 2."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0414",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆ: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣಗಳನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು, ಕೊಟ್ಟಿರುವ ಯಾವ ಚಿನ್ನೆಯ ಗಣವನ್ನು (*) ಜಾಗದಲ್ಲಿ ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಬೇಕು ಎಂಬುದನ್ನು ಪರ್ಯಾಯಗಳಿಂದ ಆರಿಸಿ.",
+        "en": "Directions: Choose and substitute the correct set of signs in place of (*) sequentially, selecting from the given alternatives to make the question meaningful. 30*8*2*40*6"
+      },
+      "options": [
+        {
+          "kn": "+,÷,=,–",
+          "en": "+,÷,=,–"
+        },
+        {
+          "kn": "÷,×,–,=",
+          "en": "÷,×,–,="
+        },
+        {
+          "kn": "=,+,÷,×",
+          "en": "=,+,÷,×"
+        },
+        {
+          "kn": "–,=,×,+",
+          "en": "–,=,×,+"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ A: 30 + 8 ÷ 2 = 34, 40 − 6 = 34; ಆದ್ದರಿಂದ 34 = 34.",
+        "en": "30 + 8 ÷ 2 = 30 + 4 = 34 and 40 − 6 = 34, so 34 = 34 is true. Other options fail: B gives −32.5 = 6; C gives 30 = 8.3; D gives 22 = 86."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0415",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆ: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣಗಳನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು, ಕೊಟ್ಟಿರುವ ಯಾವ ಚಿನ್ನೆಯ ಗಣವನ್ನು (*) ಜಾಗದಲ್ಲಿ ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಬೇಕು ಎಂಬುದನ್ನು ಪರ್ಯಾಯಗಳಿಂದ ಆರಿಸಿ.",
+        "en": "Directions: Choose and substitute the correct set of signs in place of (*) sequentially, selecting from the given alternatives to make the question meaningful. 13*5*15*5*9"
+      },
+      "options": [
+        {
+          "kn": "×,<,÷,×",
+          "en": "×,<,÷,×"
+        },
+        {
+          "kn": "×,–,>,+",
+          "en": "×,–,>,+"
+        },
+        {
+          "kn": "+,<,–,×",
+          "en": "+,<,–,×"
+        },
+        {
+          "kn": "–,×,>,+",
+          "en": "–,×,>,+"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ B: 13 × 5 − 15 = 50 > 5 + 9 = 14.",
+        "en": "13 × 5 − 15 = 50 > 14 = 5 + 9, which is true. Other options fail: A gives 65 < 27; C gives 18 < −30; D gives −62 > 14."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0416",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆ: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣಗಳನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು, ಕೊಟ್ಟಿರುವ ಯಾವ ಚಿನ್ನೆಯ ಗಣವನ್ನು (*) ಜಾಗದಲ್ಲಿ ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಬೇಕು ಎಂಬುದನ್ನು ಪರ್ಯಾಯಗಳಿಂದ ಆರಿಸಿ.",
+        "en": "Directions: Choose and substitute the correct set of signs in place of (*) sequentially, selecting from the given alternatives to make the question meaningful. 18*3*5*17*47"
+      },
+      "options": [
+        {
+          "kn": "÷,×,+,=",
+          "en": "÷,×,+,="
+        },
+        {
+          "kn": "×,+,=,–",
+          "en": "×,+,=,–"
+        },
+        {
+          "kn": "÷,+,–,=",
+          "en": "÷,+,–,="
+        },
+        {
+          "kn": "×,=,×,–",
+          "en": "×,=,×,–"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ A: 18 ÷ 3 × 5 + 17 = 47; ಆದ್ದರಿಂದ 47 = 47.",
+        "en": "18 ÷ 3 × 5 + 17 = 6 × 5 + 17 = 47, so 47 = 47 is true. Other options fail: B gives 59 = −30; C gives −6 = 47; D gives 54 = 38."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0417",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆ: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣಗಳನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು, ಕೊಟ್ಟಿರುವ ಯಾವ ಚಿನ್ನೆಯ ಗಣವನ್ನು (*) ಜಾಗದಲ್ಲಿ ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಬೇಕು ಎಂಬುದನ್ನು ಪರ್ಯಾಯಗಳಿಂದ ಆರಿಸಿ.",
+        "en": "Directions: Choose and substitute the correct set of signs in place of (*) sequentially, selecting from the given alternatives to make the question meaningful. 23*8*4*21*7"
+      },
+      "options": [
+        {
+          "kn": "=,+,×,–",
+          "en": "=,+,×,–"
+        },
+        {
+          "kn": ">,×,–,+",
+          "en": ">,×,–,+"
+        },
+        {
+          "kn": "=,÷,×,÷",
+          "en": "=,÷,×,÷"
+        },
+        {
+          "kn": "<,÷,–,+",
+          "en": "<,÷,–,+"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ B: 8 × 4 − 21 + 7 = 18; ಆದ್ದರಿಂದ 23 > 18.",
+        "en": "8 × 4 − 21 + 7 = 18, and 23 > 18 is true. Other options fail: A gives 23 = 85; C gives 23 = 6; D gives 23 < −12."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0418",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆ: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣಗಳನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು, ಕೊಟ್ಟಿರುವ ಯಾವ ಚಿನ್ನೆಯ ಗಣವನ್ನು (*) ಜಾಗದಲ್ಲಿ ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಬೇಕು ಎಂಬುದನ್ನು ಪರ್ಯಾಯಗಳಿಂದ ಆರಿಸಿ.",
+        "en": "Directions: Choose and substitute the correct set of signs in place of (*) sequentially, selecting from the given alternatives to make the question meaningful. 35*14*7*84*14"
+      },
+      "options": [
+        {
+          "kn": "–,=,÷,×",
+          "en": "–,=,÷,×"
+        },
+        {
+          "kn": "+,=,×,÷",
+          "en": "+,=,×,÷"
+        },
+        {
+          "kn": "÷,×,=,+",
+          "en": "÷,×,=,+"
+        },
+        {
+          "kn": "×,÷,=,–",
+          "en": "×,÷,=,–"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ D: 35 × 14 ÷ 7 = 70, 84 − 14 = 70; ಆದ್ದರಿಂದ 70 = 70.",
+        "en": "35 × 14 ÷ 7 = 490 ÷ 7 = 70 and 84 − 14 = 70, so 70 = 70 is true. Other options fail: A gives 21 = 1.17; B gives 49 = 42; C gives 17.5 = 98."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0419",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆ: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣಗಳನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು, ಕೊಟ್ಟಿರುವ ಯಾವ ಚಿನ್ನೆಯ ಗಣವನ್ನು (*) ಜಾಗದಲ್ಲಿ ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಬೇಕು ಎಂಬುದನ್ನು ಪರ್ಯಾಯಗಳಿಂದ ಆರಿಸಿ.",
+        "en": "Directions: Choose and substitute the correct set of signs in place of (*) sequentially, selecting from the given alternatives to make the question meaningful. 14*7*14*28*28"
+      },
+      "options": [
+        {
+          "kn": "+,÷,×,=",
+          "en": "+,÷,×,="
+        },
+        {
+          "kn": "÷,+,÷,=",
+          "en": "÷,+,÷,="
+        },
+        {
+          "kn": "+,–,+,=",
+          "en": "+,–,+,="
+        },
+        {
+          "kn": "÷,×,+,=",
+          "en": "÷,×,+,="
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ A: 14 + 7 ÷ 14 × 28 = 28; ಆದ್ದರಿಂದ 28 = 28.",
+        "en": "14 + 7 ÷ 14 × 28 = 14 + 0.5 × 28 = 14 + 14 = 28, so 28 = 28 is true. Other options fail: B gives 2.5 = 28; C gives 35 = 28; D gives 56 = 28."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0420",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣದಲ್ಲಿ ಯಾವ ಚಿಹ್ನೆಗಳು/ಸಂಖ್ಯೆಗಳನ್ನು ಅದಲು ಬದಲು ಮಾಡಿದಾಗ ಸಮೀಕರಣವು ಸರಿಯಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Directions: In the given equations find which of the following interchange of signs/numbers would make the equation correct. 91 = 7 + 36 ÷ 54 – 5"
+      },
+      "options": [
+        {
+          "kn": "91 and 54",
+          "en": "91 and 54"
+        },
+        {
+          "kn": "+ and ÷",
+          "en": "+ and ÷"
+        },
+        {
+          "kn": "= and ÷",
+          "en": "= and ÷"
+        },
+        {
+          "kn": "7 and 5",
+          "en": "7 and 5"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ C: = ಮತ್ತು ÷ ಅದಲು ಬದಲು ಮಾಡಿದಾಗ 91 ÷ 7 + 36 = 54 − 5, ಅಂದರೆ 49 = 49.",
+        "en": "Interchanging = and ÷ gives 91 ÷ 7 + 36 = 54 − 5, i.e. 13 + 36 = 49 = 49. Other options fail: A gives 54 = 7 + 36 ÷ 91 − 5 ≈ 2.4 (false); B gives 91 = 7 ÷ 36 + 54 − 5 (false); D gives 91 = 5 + 36 ÷ 54 − 7 (false)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0421",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣದಲ್ಲಿ ಯಾವ ಚಿಹ್ನೆಗಳು/ಸಂಖ್ಯೆಗಳನ್ನು ಅದಲು ಬದಲು ಮಾಡಿದಾಗ ಸಮೀಕರಣವು ಸರಿಯಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Directions: In the given equations find which of the following interchange of signs/numbers would make the equation correct. 7 + 9 ÷ 27 × 7 = 28"
+      },
+      "options": [
+        {
+          "kn": "÷ and ×",
+          "en": "÷ and ×"
+        },
+        {
+          "kn": "÷ and +",
+          "en": "÷ and +"
+        },
+        {
+          "kn": "7 and 9",
+          "en": "7 and 9"
+        },
+        {
+          "kn": "9 and 27",
+          "en": "9 and 27"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ D: 9 ಮತ್ತು 27 ಅದಲು ಬದಲು ಮಾಡಿದಾಗ 7 + 27 ÷ 9 × 7 = 28.",
+        "en": "Interchanging 9 and 27 gives 7 + 27 ÷ 9 × 7 = 7 + 3 × 7 = 7 + 21 = 28. Other options fail: A gives 7 + 9 × 27 ÷ 7 ≠ 28; B gives 7 ÷ 9 + 27 × 7 ≠ 28; C gives 9 + 7 ÷ 27 × 7 and 7 + 7 ÷ 27 × 9, neither equal to 28."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SS-0422",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣದಲ್ಲಿ ಯಾವ ಚಿಹ್ನೆಗಳು/ಸಂಖ್ಯೆಗಳನ್ನು ಅದಲು ಬದಲು ಮಾಡಿದಾಗ ಸಮೀಕರಣವು ಸರಿಯಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಕಂಡುಹಿಡಿಯಿರಿ.",
+        "en": "Directions: In the given equations find which of the following interchange of signs/numbers would make the equation correct. 14 × 22 + 5 ÷ 2 = 81"
+      },
+      "options": [
+        {
+          "kn": "× and ÷",
+          "en": "× and ÷"
+        },
+        {
+          "kn": "22 and 5",
+          "en": "22 and 5"
+        },
+        {
+          "kn": "÷ and =",
+          "en": "÷ and ="
+        },
+        {
+          "kn": "14 and 22",
+          "en": "14 and 22"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸರಿಯಾದ ಉತ್ತರ B: 22 ಮತ್ತು 5 ಅದಲು ಬದಲು ಮಾಡಿದಾಗ 14 × 5 + 22 ÷ 2 = 81.",
+        "en": "Interchanging 22 and 5 gives 14 × 5 + 22 ÷ 2 = 70 + 11 = 81. Other options fail: A gives 14 ÷ 22 + 5 × 2 ≠ 81; C gives 14 × 22 + 5 = 2 ÷ 81 (false); D gives 22 × 14 + 5 ÷ 2 ≠ 81."
       },
       "image": null
     }
