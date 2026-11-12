@@ -8,9 +8,9 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 344,
+    "totalQuestions": 373,
     "questionNumberStart": 1,
-    "questionNumberEnd": 344,
+    "questionNumberEnd": 373,
     "version": "1.0.0"
   },
   "questions": [
@@ -687,70 +687,6 @@
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0021.webp"
     },
     {
-      "id": "GMAT-FS-0007",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
-        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0022.webp"
-    },
-    {
-      "id": "GMAT-FS-0008",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
-        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0023.webp"
-    },
-    {
       "id": "GMAT-FS-0009",
       "difficulty": "medium",
       "question": {
@@ -781,70 +717,6 @@
         "en": "The number of ellipses on the vertical line goes 1, 2, 2, 3, 3 across the figures, increasing by one every two figures. So the next figure has 4 ellipses on the line. Option C shows a vertical line with 4 ellipses. Answer C."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0024.webp"
-    },
-    {
-      "id": "GMAT-FS-0010",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
-        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0025.webp"
-    },
-    {
-      "id": "GMAT-FS-0011",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೆಳಗಿನ ಆಕೃತಿಗಳ ಸರಣಿಯನ್ನು ಗಮನಿಸಿ. ಸರಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಸರಿಯಾದ ಮುಂದಿನ ಆಕೃತಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
-        "en": "Observe the following series of figures. Choose the correct next figure to complete the series."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0026.webp"
     },
     {
       "id": "GMAT-FS-0012",
@@ -973,710 +845,6 @@
         "en": "Each figure has an oval and one bracket-shaped arc. The arc moves 90° at each step: right, bottom, left, top. The next position is right, so the arc must be on the right side of the oval. Option B shows the arc on the right. Answer B."
       },
       "image": "data/kn/class-8/nmms/gmat/images/GMAT-FS-0030.webp"
-    },
-    {
-      "id": "GMAT-HF-0031",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
-        "en": "Identify which of the four options contains the given problem figure embedded within it."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0031.webp"
-    },
-    {
-      "id": "GMAT-HF-0032",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
-        "en": "Identify which of the four options contains the given problem figure embedded within it."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0032.webp"
-    },
-    {
-      "id": "GMAT-HF-0033",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
-        "en": "Identify which of the four options contains the given problem figure embedded within it."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0033.webp"
-    },
-    {
-      "id": "GMAT-HF-0034",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
-        "en": "Identify which of the four options contains the given problem figure embedded within it."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0034.webp"
-    },
-    {
-      "id": "GMAT-HF-0035",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
-        "en": "Identify which of the four options contains the given problem figure embedded within it."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0035.webp"
-    },
-    {
-      "id": "GMAT-HF-0036",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
-        "en": "Identify which of the four options contains the given problem figure embedded within it."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0036.webp"
-    },
-    {
-      "id": "GMAT-HF-0037",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಸಮಸ್ಯೆಯ ಆಕೃತಿಯು ಕೆಳಗಿನ ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವ ಆಕೃತಿಯೊಳಗೆ ಅಡಕವಾಗಿದೆ ಎಂಬುದನ್ನು ಗುರುತಿಸಿ.",
-        "en": "Identify which of the four options contains the given problem figure embedded within it."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-HF-0037.webp"
-    },
-    {
-      "id": "GMAT-SF-0038",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0038.webp"
-    },
-    {
-      "id": "GMAT-SF-0039",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0039.webp"
-    },
-    {
-      "id": "GMAT-SF-0040",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0040.webp"
-    },
-    {
-      "id": "GMAT-SF-0041",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0041.webp"
-    },
-    {
-      "id": "GMAT-SF-0042",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0042.webp"
-    },
-    {
-      "id": "GMAT-SF-0043",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0043.webp"
-    },
-    {
-      "id": "GMAT-SF-0044",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0044.webp"
-    },
-    {
-      "id": "GMAT-SF-0045",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0045.webp"
-    },
-    {
-      "id": "GMAT-SF-0046",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 1,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0046.webp"
-    },
-    {
-      "id": "GMAT-SF-0047",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 0,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0047.webp"
-    },
-    {
-      "id": "GMAT-SF-0048",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0048.webp"
-    },
-    {
-      "id": "GMAT-SF-0049",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0049.webp"
-    },
-    {
-      "id": "GMAT-SF-0050",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0050.webp"
-    },
-    {
-      "id": "GMAT-SF-0051",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 2,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0051.webp"
-    },
-    {
-      "id": "GMAT-SF-0052",
-      "difficulty": "medium",
-      "question": {
-        "kn": "ಕೊಟ್ಟಿರುವ ಆಕೃತಿಗೆ ಹೋಲುವ ಆಕೃತಿಯನ್ನು ಬೇರೆ ಸ್ಥಾನದಲ್ಲಿ ನೀಡಲಾಗಿದೆ. A, B, C, D ಆಯ್ಕೆಗಳಲ್ಲಿ ಸರಿಯಾದ ಆಕೃತಿಯನ್ನು ಗುರುತಿಸಿ.",
-        "en": "One of the four options is the same as the given figure in a different position. Identify the correct option."
-      },
-      "options": [
-        {
-          "kn": "ಆಯ್ಕೆ A",
-          "en": "Option A"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ B",
-          "en": "Option B"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ C",
-          "en": "Option C"
-        },
-        {
-          "kn": "ಆಯ್ಕೆ D",
-          "en": "Option D"
-        }
-      ],
-      "correctIndex": 3,
-      "explanation": {
-        "kn": "",
-        "en": ""
-      },
-      "image": "data/kn/class-8/nmms/gmat/images/GMAT-SF-0052.webp"
     },
     {
       "id": "GMAT-IF-0053",
@@ -11019,6 +10187,1766 @@
       "explanation": {
         "kn": "2 ರ ಗುಣಕ ಸ್ಥಾನದ ಅಕ್ಷರಗಳು: b, c, e, h, i, l, m, p, q, t, u, x, y. ಸ್ವರಗಳು: e, i, u. ಒಟ್ಟು 3. ಉತ್ತರ C (3).",
         "en": "Letters at positions that are multiples of 2: b, c, e, h, i, l, m, p, q, t, u, x, y. Vowels: e, i, u. Total 3. Answer C (3)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0348",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. K, M, P, T, Y, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. K, M, P, T, Y, _________"
+      },
+      "options": [
+        {
+          "kn": "D",
+          "en": "D"
+        },
+        {
+          "kn": "B",
+          "en": "B"
+        },
+        {
+          "kn": "C",
+          "en": "C"
+        },
+        {
+          "kn": "E",
+          "en": "E"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಹಂತದಲ್ಲಿ ಅಂತರ ಹಿಂದಿನ ಅಂತರಕ್ಕಿಂತ ಒಂದು ಹೆಚ್ಚಾಗುತ್ತದೆ: +2, +3, +4, +5, +6. Y (25) + 6 = 31; 31 − 26 = 5, ಅಂದರೆ E.",
+        "en": "Each step increases by 1 more than the last: +2, +3, +4, +5, +6. Y (25) + 6 = 31; 31 − 26 = 5, which is E."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0349",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. BY, GT, LO, QJ, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. BY, GT, LO, QJ, _________"
+      },
+      "options": [
+        {
+          "kn": "VE",
+          "en": "VE"
+        },
+        {
+          "kn": "VF",
+          "en": "VF"
+        },
+        {
+          "kn": "VD",
+          "en": "VD"
+        },
+        {
+          "kn": "UE",
+          "en": "UE"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಮೊದಲ ಅಕ್ಷರಗಳು B, G, L, Q ಪ್ರತಿ ಬಾರಿ +5 ಆಗುತ್ತವೆ (ಮುಂದಿನದು V). ಎರಡನೇ ಅಕ್ಷರಗಳು Y, T, O, J ಪ್ರತಿ ಬಾರಿ −5 ಆಗುತ್ತವೆ (ಮುಂದಿನದು E). ಉತ್ತರ VE.",
+        "en": "First letters B, G, L, Q each step +5 (next V). Second letters Y, T, O, J each step −5 (next E). Answer VE."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0350",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. CAX, DEW, EIV, FOU, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. CAX, DEW, EIV, FOU, _________"
+      },
+      "options": [
+        {
+          "kn": "GVT",
+          "en": "GVT"
+        },
+        {
+          "kn": "VUT",
+          "en": "VUT"
+        },
+        {
+          "kn": "GUT",
+          "en": "GUT"
+        },
+        {
+          "kn": "TUG",
+          "en": "TUG"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೊದಲ ಅಕ್ಷರಗಳು C, D, E, F ಪ್ರತಿ ಬಾರಿ +1 (ಮುಂದಿನದು G). ಮಧ್ಯದ ಸ್ವರ ಅಕ್ಷರಗಳು A, E, I, O ವರ್ಣಮಾಲೆಯ ಸ್ವರಗಳ ಕ್ರಮದಲ್ಲಿ ಬರುತ್ತವೆ (ಮುಂದಿನ ಸ್ವರ U). ಕೊನೆಯ ಅಕ್ಷರಗಳು X, W, V, U ಪ್ರತಿ ಬಾರಿ −1 (ಮುಂದಿನದು T). ಉತ್ತರ GUT.",
+        "en": "First letters C, D, E, F each step +1 (next G). Middle letters A, E, I, O are vowels in alphabetical order (next vowel U). Last letters X, W, V, U each step −1 (next T). Answer GUT."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0351",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. C, K, D, L, E, M, F, N, G _________, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. C, K, D, L, E, M, F, N, G _________, _________"
+      },
+      "options": [
+        {
+          "kn": "H, I",
+          "en": "H, I"
+        },
+        {
+          "kn": "O, H",
+          "en": "O, H"
+        },
+        {
+          "kn": "O, P",
+          "en": "O, P"
+        },
+        {
+          "kn": "H,O",
+          "en": "H,O"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಎರಡು ಸರಣಿಗಳು ಒಂದರೊಳಗೊಂದು ಬರುತ್ತವೆ: C, D, E, F, G, H (ಬೆಸ ಸ್ಥಾನಗಳು) ಮತ್ತು K, L, M, N, O (ಸಮ ಸ್ಥಾನಗಳು). 10ನೇ ಪದ O ಮತ್ತು 11ನೇ ಪದ H. ಉತ್ತರ O, H.",
+        "en": "Two interleaved series: C, D, E, F, G, H (odd positions) and K, L, M, N, O (even positions). The 10th term is O and the 11th term is H. Answer O, H."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0352",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. EGF, HJI, KML, NPO, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. EGF, HJI, KML, NPO, _________"
+      },
+      "options": [
+        {
+          "kn": "QRS",
+          "en": "QRS"
+        },
+        {
+          "kn": "QTR",
+          "en": "QTR"
+        },
+        {
+          "kn": "QSR",
+          "en": "QSR"
+        },
+        {
+          "kn": "PQR",
+          "en": "PQR"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೊದಲ ಅಕ್ಷರಗಳು E, H, K, N ಪ್ರತಿ ಬಾರಿ +3 (ಮುಂದಿನದು Q). ಮಧ್ಯದ ಅಕ್ಷರಗಳು G, J, M, P ಪ್ರತಿ ಬಾರಿ +3 (ಮುಂದಿನದು S). ಕೊನೆಯ ಅಕ್ಷರಗಳು F, I, L, O ಪ್ರತಿ ಬಾರಿ +3 (ಮುಂದಿನದು R). ಉತ್ತರ QSR.",
+        "en": "First letters E, H, K, N each step +3 (next Q). Middle letters G, J, M, P each step +3 (next S). Last letters F, I, L, O each step +3 (next R). Answer QSR."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0353",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. ENVIRONMENT, NVIRONMEN, VIRONME, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. ENVIRONMENT, NVIRONMEN, VIRONME, _________"
+      },
+      "options": [
+        {
+          "kn": "VIRONM",
+          "en": "VIRONM"
+        },
+        {
+          "kn": "IRONM",
+          "en": "IRONM"
+        },
+        {
+          "kn": "IRONME",
+          "en": "IRONME"
+        },
+        {
+          "kn": "IRON",
+          "en": "IRON"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಪದವನ್ನು ಹಿಂದಿನ ಪದದ ಮೊದಲ ಮತ್ತು ಕೊನೆಯ ಅಕ್ಷರಗಳನ್ನು ತೆಗೆದು ರಚಿಸಲಾಗಿದೆ: ENVIRONMENT → NVIRONMEN → VIRONME → IRONM. ಉತ್ತರ IRONM.",
+        "en": "Each word is formed by removing the first and last letters of the previous word: ENVIRONMENT → NVIRONMEN → VIRONME → IRONM. Answer IRONM."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0354",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. G, J, M, P, S, _________, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. G, J, M, P, S, _________, _________"
+      },
+      "options": [
+        {
+          "kn": "V, Y",
+          "en": "V, Y"
+        },
+        {
+          "kn": "T, U",
+          "en": "T, U"
+        },
+        {
+          "kn": "U, V",
+          "en": "U, V"
+        },
+        {
+          "kn": "X, U",
+          "en": "X, U"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಕ್ಷರವೂ +3 ಆಗುತ್ತದೆ: G, J, M, P, S, V, Y. ಉತ್ತರ V, Y.",
+        "en": "Each letter steps +3: G, J, M, P, S, V, Y. Answer V, Y."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0355",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. Z2A, X4D, V6G, T8J, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. Z2A, X4D, V6G, T8J, _________"
+      },
+      "options": [
+        {
+          "kn": "K10M",
+          "en": "K10M"
+        },
+        {
+          "kn": "R01M",
+          "en": "R01M"
+        },
+        {
+          "kn": "R10M",
+          "en": "R10M"
+        },
+        {
+          "kn": "R18M",
+          "en": "R18M"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೊದಲ ಅಕ್ಷರಗಳು Z, X, V, T ಪ್ರತಿ ಬಾರಿ −2 ಆಗುತ್ತವೆ (ಮುಂದಿನದು R). ಸಂಖ್ಯೆಗಳು 2, 4, 6, 8 ಪ್ರತಿ ಬಾರಿ +2 ಆಗುತ್ತವೆ (ಮುಂದಿನದು 10). ಮೂರನೇ ಅಕ್ಷರಗಳು A, D, G, J ಪ್ರತಿ ಬಾರಿ +3 ಆಗುತ್ತವೆ (ಮುಂದಿನದು M). ಉತ್ತರ R10M.",
+        "en": "First letters Z, X, V, T each step −2 (next R). Numbers 2, 4, 6, 8 each step +2 (next 10). Third letters A, D, G, J each step +3 (next M). Answer R10M."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0356",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. ACDB, EGHF, IKLJ, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. ACDB, EGHF, IKLJ, _________"
+      },
+      "options": [
+        {
+          "kn": "MOPN",
+          "en": "MOPN"
+        },
+        {
+          "kn": "MNOP",
+          "en": "MNOP"
+        },
+        {
+          "kn": "MONP",
+          "en": "MONP"
+        },
+        {
+          "kn": "MPON",
+          "en": "MPON"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಗುಂಪಿನೊಳಗೆ ಅಕ್ಷರಗಳು ಈ ಕ್ರಮದಲ್ಲಿ ಬದಲಾಗುತ್ತವೆ: ಮೊದಲ ಅಕ್ಷರದಿಂದ ಎರಡನೆಯದಕ್ಕೆ +2, ಎರಡನೆಯದರಿಂದ ಮೂರನೆಯದಕ್ಕೆ +1, ಮೂರನೆಯದರಿಂದ ನಾಲ್ಕನೆಯದಕ್ಕೆ −2. ಪ್ರತಿ ಗುಂಪಿನ ಅಕ್ಷರವೂ ಹಿಂದಿನ ಗುಂಪಿನ ಅನುಗುಣವಾದ ಅಕ್ಷರಕ್ಕಿಂತ +4 ಆಗಿದೆ (A→E, E→I, I→M). ಮುಂದಿನ ಗುಂಪು M, O, P, N. ಉತ್ತರ MOPN.",
+        "en": "Within each group, each letter is +2, +1, −2 from the previous one (1st to 2nd +2, 2nd to 3rd +1, 3rd to 4th −2). Each letter of a group is +4 from the matching letter of the previous group (A→E, E→I, I→M). The next group is M, O, P, N. Answer MOPN."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0357",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. XC, VE, TG, RI, _________ _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. XC, VE, TG, RI, _________ _________"
+      },
+      "options": [
+        {
+          "kn": "PK",
+          "en": "PK"
+        },
+        {
+          "kn": "AZ",
+          "en": "AZ"
+        },
+        {
+          "kn": "QL",
+          "en": "QL"
+        },
+        {
+          "kn": "PH",
+          "en": "PH"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಮೊದಲ ಅಕ್ಷರಗಳು X, V, T, R ಪ್ರತಿ ಬಾರಿ −2 (ಮುಂದಿನದು P). ಎರಡನೇ ಅಕ್ಷರಗಳು C, E, G, I ಪ್ರತಿ ಬಾರಿ +2 (ಮುಂದಿನದು K). ಉತ್ತರ PK.",
+        "en": "First letters X, V, T, R each step −2 (next P). Second letters C, E, G, I each step +2 (next K). Answer PK."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0358",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. B, G, L, Q, V, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. B, G, L, Q, V, _________"
+      },
+      "options": [
+        {
+          "kn": "A",
+          "en": "A"
+        },
+        {
+          "kn": "W",
+          "en": "W"
+        },
+        {
+          "kn": "Z",
+          "en": "Z"
+        },
+        {
+          "kn": "B",
+          "en": "B"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಕ್ಷರವೂ +5 ಆಗುತ್ತದೆ: B, G, L, Q, V. V ಗೆ +5 ಸೇರಿಸಿದಾಗ ವರ್ಣಮಾಲೆ ಸುತ್ತಿಕೊಂಡು A ಬರುತ್ತದೆ. ಉತ್ತರ A.",
+        "en": "Each letter steps +5: B, G, L, Q, V, then V + 5 wraps around the alphabet to A. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0359",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. KFU, LEV, ???, NCX, OBY",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. KFU, LEV, ???, NCX, OBY"
+      },
+      "options": [
+        {
+          "kn": "MPW",
+          "en": "MPW"
+        },
+        {
+          "kn": "MDW",
+          "en": "MDW"
+        },
+        {
+          "kn": "MOW",
+          "en": "MOW"
+        },
+        {
+          "kn": "WDM",
+          "en": "WDM"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೊದಲ ಅಕ್ಷರಗಳು K, L, M, N, O ಪ್ರತಿ ಬಾರಿ +1 (ಕಾಣೆಯಾದದ್ದು M). ಮಧ್ಯದ ಅಕ್ಷರಗಳು F, E, D, C, B ಪ್ರತಿ ಬಾರಿ −1 (ಕಾಣೆಯಾದದ್ದು D). ಕೊನೆಯ ಅಕ್ಷರಗಳು U, V, W, X, Y ಪ್ರತಿ ಬಾರಿ +1 (ಕಾಣೆಯಾದದ್ದು W). ಉತ್ತರ MDW.",
+        "en": "First letters K, L, M, N, O each step +1 (missing: M). Middle letters F, E, D, C, B each step −1 (missing: D). Last letters U, V, W, X, Y each step +1 (missing: W). Answer MDW."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0360",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. BC, DF, FI, HL, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. BC, DF, FI, HL, _________"
+      },
+      "options": [
+        {
+          "kn": "JK",
+          "en": "JK"
+        },
+        {
+          "kn": "JO",
+          "en": "JO"
+        },
+        {
+          "kn": "KJ",
+          "en": "KJ"
+        },
+        {
+          "kn": "JL",
+          "en": "JL"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೊದಲ ಅಕ್ಷರಗಳು B, D, F, H ಪ್ರತಿ ಬಾರಿ +2 (ಮುಂದಿನದು J). ಎರಡನೇ ಅಕ್ಷರಗಳು C, F, I, L ಪ್ರತಿ ಬಾರಿ +3 (ಮುಂದಿನದು O). ಉತ್ತರ JO.",
+        "en": "First letters B, D, F, H each step +2 (next J). Second letters C, F, I, L each step +3 (next O). Answer JO."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0361",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. BDF, DGK, FJP, HMU, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. BDF, DGK, FJP, HMU, _________"
+      },
+      "options": [
+        {
+          "kn": "JPY",
+          "en": "JPY"
+        },
+        {
+          "kn": "IPY",
+          "en": "IPY"
+        },
+        {
+          "kn": "JPZ",
+          "en": "JPZ"
+        },
+        {
+          "kn": "JPA",
+          "en": "JPA"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೊದಲ ಅಕ್ಷರಗಳು B, D, F, H ಪ್ರತಿ ಬಾರಿ +2 (ಮುಂದಿನದು J). ಎರಡನೇ ಅಕ್ಷರಗಳು D, G, J, M ಪ್ರತಿ ಬಾರಿ +3 (ಮುಂದಿನದು P). ಮೂರನೇ ಅಕ್ಷರಗಳು F, K, P, U ಪ್ರತಿ ಬಾರಿ +5 (ಮುಂದಿನದು Z). ಉತ್ತರ JPZ.",
+        "en": "First letters B, D, F, H each step +2 (next J). Second letters D, G, J, M each step +3 (next P). Third letters F, K, P, U each step +5 (next Z). Answer JPZ."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0362",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. LIGHT : KMHJFHGISU :: SOUND : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. LIGHT : KMHJFHGISU :: SOUND : ?"
+      },
+      "options": [
+        {
+          "kn": "RTNPTVMOCE",
+          "en": "RTNPTVMOCE"
+        },
+        {
+          "kn": "RTNPVTMOCE",
+          "en": "RTNPVTMOCE"
+        },
+        {
+          "kn": "RTNPTVOMCE",
+          "en": "RTNPTVOMCE"
+        },
+        {
+          "kn": "RTNPTVMOEC",
+          "en": "RTNPTVMOEC"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "LIGHT ನ ಪ್ರತಿ ಅಕ್ಷರವನ್ನು ವರ್ಣಮಾಲೆಯಲ್ಲಿ ಅದರ ಹಿಂದಿನ ಮತ್ತು ಮುಂದಿನ ಅಕ್ಷರಗಳಿಂದ ಬದಲಿಸಲಾಗಿದೆ (L→KM, I→HJ, G→FH, H→GI, T→SU). ಇದೇ ನಿಯಮವನ್ನು SOUND ಗೆ ಅನ್ವಯಿಸಿದಾಗ RTNPTVMOCE ಬರುತ್ತದೆ. ಉತ್ತರ A.",
+        "en": "Each letter of LIGHT is replaced by the letter before and after it in the alphabet (L→KM, I→HJ, G→FH, H→GI, T→SU). Applied to SOUND: S→RT, O→NP, U→TV, N→MO, D→CE, giving RTNPTVMOCE. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0363",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. PIGEON : RGJBSJ :: PARROT : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. PIGEON : RGJBSJ :: PARROT : ?"
+      },
+      "options": [
+        {
+          "kn": "RYUORP",
+          "en": "RYUORP"
+        },
+        {
+          "kn": "RYOUSP",
+          "en": "RYOUSP"
+        },
+        {
+          "kn": "RYVUSP",
+          "en": "RYVUSP"
+        },
+        {
+          "kn": "RYUOSP",
+          "en": "RYUOSP"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "PIGEON → RGJBSJ ನಲ್ಲಿ ಅಕ್ಷರಗಳು ಕ್ರಮವಾಗಿ +2, −2, +3, −3, +4, −4 ಆಗುತ್ತವೆ (ವರ್ಣಮಾಲೆ ಸುತ್ತುತ್ತದೆ). ಇದೇ ನಿಯಮವನ್ನು PARROT ಗೆ ಅನ್ವಯಿಸಿದಾಗ RYUOSP ಬರುತ್ತದೆ. ಉತ್ತರ D.",
+        "en": "In PIGEON → RGJBSJ the letters shift +2, −2, +3, −3, +4, −4 in turn (the alphabet wraps around). Applied to PARROT: P+2=R, A−2=Y, R+3=U, R−3=O, O+4=S, T−4=P, giving RYUOSP. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0364",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. M : 196 :: ? : 289",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. M : 196 :: ? : 289"
+      },
+      "options": [
+        {
+          "kn": "O",
+          "en": "O"
+        },
+        {
+          "kn": "P",
+          "en": "P"
+        },
+        {
+          "kn": "Q",
+          "en": "Q"
+        },
+        {
+          "kn": "R",
+          "en": "R"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "M ವರ್ಣಮಾಲೆಯಲ್ಲಿ 13ನೇ ಅಕ್ಷರ; 13 + 1 = 14, 14² = 196. P 16ನೇ ಅಕ್ಷರ; 16 + 1 = 17, 17² = 289. ಉತ್ತರ B (P).",
+        "en": "M is the 13th letter; 13 + 1 = 14 and 14² = 196. P is the 16th letter; 16 + 1 = 17 and 17² = 289. Answer B (P)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0365",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. RK : 324/121 :: NH : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. RK : 324/121 :: NH : ?"
+      },
+      "options": [
+        {
+          "kn": "100/144",
+          "en": "100/144"
+        },
+        {
+          "kn": "144/196",
+          "en": "144/196"
+        },
+        {
+          "kn": "196/64",
+          "en": "196/64"
+        },
+        {
+          "kn": "64/100",
+          "en": "64/100"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "R = 18, K = 11: 18² = 324, 11² = 121. N = 14, H = 8: 14² = 196, 8² = 64. ಉತ್ತರ C (196/64).",
+        "en": "R = 18 and K = 11: 18² = 324 and 11² = 121. N = 14 and H = 8: 14² = 196 and 8² = 64. Answer C (196/64)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0366",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. CSMK : HNHP :: FVRJ : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. CSMK : HNHP :: FVRJ : ?"
+      },
+      "options": [
+        {
+          "kn": "KQRO",
+          "en": "KQRO"
+        },
+        {
+          "kn": "KAON",
+          "en": "KAON"
+        },
+        {
+          "kn": "KQWE",
+          "en": "KQWE"
+        },
+        {
+          "kn": "KQMO",
+          "en": "KQMO"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಮೊದಲ ಮತ್ತು ನಾಲ್ಕನೇ ಅಕ್ಷರಗಳು +5 ಆಗುತ್ತವೆ; ಎರಡನೇ ಮತ್ತು ಮೂರನೇ ಅಕ್ಷರಗಳು −5 ಆಗುತ್ತವೆ. CSMK → HNHP ಈ ನಿಯಮಕ್ಕೆ ಹೊಂದುತ್ತದೆ. FVRJ ಗೆ ಅನ್ವಯಿಸಿದಾಗ KQMO ಬರುತ್ತದೆ. ಉತ್ತರ D.",
+        "en": "The first and fourth letters move +5; the second and third letters move −5. CSMK → HNHP fits this. Applied to FVRJ: F+5=K, V−5=Q, R−5=M, J+5=O, giving KQMO. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0367",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. F12O23E18 : 6L15W5R :: L5A22E19 : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. F12O23E18 : 6L15W5R :: L5A22E19 : ?"
+      },
+      "options": [
+        {
+          "kn": "12E1U5S",
+          "en": "12E1U5S"
+        },
+        {
+          "kn": "12EAV5S",
+          "en": "12EAV5S"
+        },
+        {
+          "kn": "12E1V519",
+          "en": "12E1V519"
+        },
+        {
+          "kn": "12E1V5S",
+          "en": "12E1V5S"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಗುಂಪಿನಲ್ಲಿ ಬೆಸ ಸ್ಥಾನದ ಅಕ್ಷರವನ್ನು ಅದರ ವರ್ಣಮಾಲೆ ಕ್ರಮ ಸಂಖ್ಯೆಯಿಂದ ಮತ್ತು ಸಮ ಸ್ಥಾನದ ಸಂಖ್ಯೆಯನ್ನು ಅದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಅಕ್ಷರದಿಂದ ಬದಲಿಸಲಾಗಿದೆ. ಇದು F12O23E18 → 6L15W5R ಗೆ ಹೊಂದುತ್ತದೆ. L5A22E19 ಗೆ ಅನ್ವಯಿಸಿದಾಗ 12E1V5S ಬರುತ್ತದೆ. ಉತ್ತರ D.",
+        "en": "In each group, a letter in an odd position is replaced by its alphabet serial number, and a number in an even position is replaced by the letter with that serial number. F12O23E18 → 6L15W5R fits this. Applied to L5A22E19: L=12, 5=E, A=1, 22=V, E=5, 19=S, giving 12E1V5S. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0368",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. SBF/RVX : 3/4 :: CAD/KIG : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. SBF/RVX : 3/4 :: CAD/KIG : ?"
+      },
+      "options": [
+        {
+          "kn": "2/3",
+          "en": "2/3"
+        },
+        {
+          "kn": "3/2",
+          "en": "3/2"
+        },
+        {
+          "kn": "1/3",
+          "en": "1/3"
+        },
+        {
+          "kn": "3/4",
+          "en": "3/4"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಮೂರು ಅಕ್ಷರಗಳ ಗುಂಪಿನ ವರ್ಣಮಾಲೆ ಕ್ರಮ ಸಂಖ್ಯೆಗಳನ್ನು ಕೂಡಿ, ಅದರ ಘನಮೂಲವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ. SBF = 27 → 3; RVX = 64 → 4, ಆದ್ದರಿಂದ 3/4. CAD = 8 → 2; KIG = 27 → 3, ಆದ್ದರಿಂದ 2/3. ಉತ್ತರ A.",
+        "en": "For each three-letter group, add the alphabet serial numbers and take the cube root. SBF = 19+2+6 = 27 → 3; RVX = 18+22+24 = 64 → 4, giving 3/4. CAD = 3+1+4 = 8 → 2; KIG = 11+9+7 = 27 → 3, giving 2/3. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0369",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. PTI/DHU : WSF/KGR :: RVG/FJS : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. PTI/DHU : WSF/KGR :: RVG/FJS : ?"
+      },
+      "options": [
+        {
+          "kn": "VQH/IET",
+          "en": "VQH/IET"
+        },
+        {
+          "kn": "UQH/IDT",
+          "en": "UQH/IDT"
+        },
+        {
+          "kn": "UQH/IET",
+          "en": "UQH/IET"
+        },
+        {
+          "kn": "UQH/IER",
+          "en": "UQH/IER"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ವರ್ಣಮಾಲೆಯಲ್ಲಿ ಪ್ರತಿ ಅಕ್ಷರವನ್ನು ಅದರ ವಿರುದ್ಧ ಅಕ್ಷರದಿಂದ ಬದಲಿಸಲಾಗಿದೆ (A↔Z, B↔Y, …, M↔N). ಎರಡನೇ ಭಿನ್ನ ಕ್ರಮವಾಗಿ: ಅಂಶ = ಮೊದಲ ಛೇದದ ವಿರುದ್ಧ, ಛೇದ = ಮೊದಲ ಅಂಶದ ವಿರುದ್ಧ (DHU → WSF, PTI → KGR). RVG/FJS ಗೆ ಅನ್ವಯಿಸಿದಾಗ UQH/IET ಬರುತ್ತದೆ. ಉತ್ತರ C.",
+        "en": "Each letter is replaced by its opposite in the alphabet (A↔Z, B↔Y, …, M↔N). The second fraction is formed as: numerator = opposite of the first denominator, denominator = opposite of the first numerator (DHU → WSF, PTI → KGR). Applied to RVG/FJS: FJS → UQH and RVG → IET, giving UQH/IET. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0370",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. √MGP : 6 :: √RTZ : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. √MGP : 6 :: √RTZ : ?"
+      },
+      "options": [
+        {
+          "kn": "5",
+          "en": "5"
+        },
+        {
+          "kn": "8",
+          "en": "8"
+        },
+        {
+          "kn": "7",
+          "en": "7"
+        },
+        {
+          "kn": "9",
+          "en": "9"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ವರ್ಣಮಾಲೆ ಕ್ರಮ ಸಂಖ್ಯೆಗಳನ್ನು ಕೂಡಿ, ವರ್ಗಮೂಲ ತೆಗೆದುಕೊಳ್ಳಿ. MGP = 36 → 6; RTZ = 64 → 8. ಉತ್ತರ B (8).",
+        "en": "Add the alphabet serial numbers, then take the square root. MGP = 13+7+16 = 36 → √36 = 6. RTZ = 18+20+26 = 64 → √64 = 8. Answer B (8)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0371",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. HL/ID : 66 :: PG/KJ : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. HL/ID : 66 :: PG/KJ : ?"
+      },
+      "options": [
+        {
+          "kn": "55",
+          "en": "55"
+        },
+        {
+          "kn": "99",
+          "en": "99"
+        },
+        {
+          "kn": "77",
+          "en": "77"
+        },
+        {
+          "kn": "88",
+          "en": "88"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ನಾಲ್ಕು ಅಕ್ಷರಗಳ ಕ್ರಮ ಸಂಖ್ಯೆಗಳನ್ನು ಕೂಡಿ 2 ರಿಂದ ಗುಣಿಸಿ. HL/ID: 33 × 2 = 66. PG/KJ: 44 × 2 = 88. ಉತ್ತರ D (88).",
+        "en": "Add the serial numbers of the four letters and multiply by 2. HL/ID: 8+12+9+4 = 33, × 2 = 66. PG/KJ: 16+7+11+10 = 44, × 2 = 88. Answer D (88)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0372",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. BAT : DDX :: CUP : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. BAT : DDX :: CUP : ?"
+      },
+      "options": [
+        {
+          "kn": "EVS",
+          "en": "EVS"
+        },
+        {
+          "kn": "EXS",
+          "en": "EXS"
+        },
+        {
+          "kn": "EXT",
+          "en": "EXT"
+        },
+        {
+          "kn": "DXT",
+          "en": "DXT"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೊದಲ, ಎರಡನೇ ಮತ್ತು ಮೂರನೇ ಅಕ್ಷರಗಳು ಕ್ರಮವಾಗಿ +2, +3 ಮತ್ತು +4 ಹೆಜ್ಜೆ ಮುಂದೆ ಸರಿಯುತ್ತವೆ. CUP ಗೆ ಅನ್ವಯಿಸಿದಾಗ EXT ಬರುತ್ತದೆ. ಉತ್ತರ C.",
+        "en": "The first, second and third letters move +2, +3 and +4 steps forward. BAT → DDX fits this. Applied to CUP: C+2=E, U+3=X, P+4=T, giving EXT. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0373",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. TEACHER : 18V8X1V20 :: STUDENT : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. TEACHER : 18V8X1V20 :: STUDENT : ?"
+      },
+      "options": [
+        {
+          "kn": "20MV4F20H",
+          "en": "20MV4F20H"
+        },
+        {
+          "kn": "20M5W21G19",
+          "en": "20M5W21G19"
+        },
+        {
+          "kn": "20M4W21G19",
+          "en": "20M4W21G19"
+        },
+        {
+          "kn": "T13E23U7S",
+          "en": "T13E23U7S"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪದವನ್ನು ತಿರುವು ಮುರುವು ಮಾಡಿ. ಬೆಸ ಸ್ಥಾನದ ಅಕ್ಷರವನ್ನು ಅದರ ಕ್ರಮ ಸಂಖ್ಯೆಯಿಂದ, ಸಮ ಸ್ಥಾನದ ಅಕ್ಷರವನ್ನು ಅದರ ವಿರುದ್ಧ ಅಕ್ಷರದಿಂದ ಬದಲಿಸಿ (A↔Z). TEACHER → 18V8X1V20; STUDENT → TNEDUTS → 20M5W21G19. ಉತ್ತರ B.",
+        "en": "Reverse the word. Each letter in an odd position becomes its serial number; each letter in an even position becomes its opposite letter (A↔Z). TEACHER → REHCAET → 18V8X1V20. STUDENT → TNEDUTS → 20 M 5 W 21 G 19. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0374",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. DAISY : 29 :: OXLIP : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. DAISY : 29 :: OXLIP : ?"
+      },
+      "options": [
+        {
+          "kn": "32",
+          "en": "32"
+        },
+        {
+          "kn": "35",
+          "en": "35"
+        },
+        {
+          "kn": "38",
+          "en": "38"
+        },
+        {
+          "kn": "19",
+          "en": "19"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಅಕ್ಷರಗಳ ಕ್ರಮ ಸಂಖ್ಯೆಗಳನ್ನು ಕೂಡಿ, ಮೊತ್ತವನ್ನು 2 ರಿಂದ ಭಾಗಿಸಿ. DAISY = 58 ÷ 2 = 29; OXLIP = 76 ÷ 2 = 38. ಉತ್ತರ C (38).",
+        "en": "Add the serial numbers of the letters and halve the total. DAISY = 4+1+9+19+25 = 58, 58 ÷ 2 = 29. OXLIP = 15+24+12+9+16 = 76, 76 ÷ 2 = 38. Answer C (38)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AN-0375",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು: ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ, ಕೆಳಗಿನ ಸಾಮ್ಯತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. EMU : 1521 :: OWL : ?",
+        "en": "Complete the given analogy by choosing the correct answer from the given alternatives. EMU : 1521 :: OWL : ?"
+      },
+      "options": [
+        {
+          "kn": "2025",
+          "en": "2025"
+        },
+        {
+          "kn": "2304",
+          "en": "2304"
+        },
+        {
+          "kn": "2500",
+          "en": "2500"
+        },
+        {
+          "kn": "2809",
+          "en": "2809"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಅಕ್ಷರಗಳ ಕ್ರಮ ಸಂಖ್ಯೆಗಳನ್ನು ಕೂಡಿ, ಮೊತ್ತದ ವರ್ಗವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ. EMU = 39, 39² = 1521. OWL = 50, 50² = 2500. ಉತ್ತರ C (2500).",
+        "en": "Add the serial numbers of the letters, then square the total. EMU = 5+13+21 = 39, 39² = 1521. OWL = 15+23+12 = 50, 50² = 2500. Answer C (2500)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0376",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. 2A10, 4B12, 8D15, 16G19, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. 2A10, 4B12, 8D15, 16G19, _________"
+      },
+      "options": [
+        {
+          "kn": "32J24",
+          "en": "32J24"
+        },
+        {
+          "kn": "32K24",
+          "en": "32K24"
+        },
+        {
+          "kn": "32K23",
+          "en": "32K23"
+        },
+        {
+          "kn": "32K32",
+          "en": "32K32"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸಂಖ್ಯೆಗಳು ಪ್ರತಿ ಬಾರಿ ದ್ವಿಗುಣವಾಗುತ್ತವೆ (2, 4, 8, 16 → 32). ಅಕ್ಷರಗಳು +1, +2, +3, +4 ಆಗುತ್ತವೆ (A, B, D, G → K). ಕೊನೆಯ ಸಂಖ್ಯೆಗಳು +2, +3, +4, +5 ಆಗುತ್ತವೆ (10, 12, 15, 19 → 24). ಉತ್ತರ B (32K24).",
+        "en": "Numbers double each step (2, 4, 8, 16 → 32). Letters step +1, +2, +3, +4 (A, B, D, G → K). The trailing numbers step +2, +3, +4, +5 (10, 12, 15, 19 → 24). Answer B (32K24)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0377",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. VUEF, TSGH, RQIJ, POKL, ????",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. VUEF, TSGH, RQIJ, POKL, ????"
+      },
+      "options": [
+        {
+          "kn": "NMMN",
+          "en": "NMMN"
+        },
+        {
+          "kn": "NMMS",
+          "en": "NMMS"
+        },
+        {
+          "kn": "MNMN",
+          "en": "MNMN"
+        },
+        {
+          "kn": "MMNN",
+          "en": "MMNN"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಗುಂಪಿನಿಂದ ಗುಂಪಿಗೆ ಮೊದಲ ಮತ್ತು ಎರಡನೇ ಅಕ್ಷರಗಳು −2 ಆಗುತ್ತವೆ (V→T→R→P→N; U→S→Q→O→M). ಮೂರನೇ ಮತ್ತು ನಾಲ್ಕನೇ ಅಕ್ಷರಗಳು +2 ಆಗುತ್ತವೆ (E→G→I→K→M; F→H→J→L→N). ಮುಂದಿನ ಗುಂಪು N M M N. ಉತ್ತರ A (NMMN).",
+        "en": "From group to group, the first and second letters move −2 (V→T→R→P→N; U→S→Q→O→M) and the third and fourth letters move +2 (E→G→I→K→M; F→H→J→L→N). The next group is N M M N. Answer A (NMMN)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0378",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. X2Y3Z5, X7Y11Z13, X17Y19Z23",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. X2Y3Z5, X7Y11Z13, X17Y19Z23"
+      },
+      "options": [
+        {
+          "kn": "X29Y31Z37",
+          "en": "X29Y31Z37"
+        },
+        {
+          "kn": "X24Y25Z26",
+          "en": "X24Y25Z26"
+        },
+        {
+          "kn": "X25Y27Z29",
+          "en": "X25Y27Z29"
+        },
+        {
+          "kn": "X29Y31Z33",
+          "en": "X29Y31Z33"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "XYZ ಬದಲಾಗುವುದಿಲ್ಲ. ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆಗಳು ಕ್ರಮವಾಗಿ ಮುಂದುವರಿಯುತ್ತವೆ, ಪ್ರತಿ ಗುಂಪಿನಲ್ಲಿ ಮೂರು: (2, 3, 5), (7, 11, 13), (17, 19, 23), ಮುಂದಿನ ಮೂರು ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆಗಳು (29, 31, 37). ಉತ್ತರ A (X29Y31Z37).",
+        "en": "XYZ stays the same. The prime numbers continue in order, three per group: (2, 3, 5), (7, 11, 13), (17, 19, 23), and the next three primes are (29, 31, 37). Answer A (X29Y31Z37)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0379",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. EFD, HIG, KLJ, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. EFD, HIG, KLJ, _________"
+      },
+      "options": [
+        {
+          "kn": "MNO",
+          "en": "MNO"
+        },
+        {
+          "kn": "NOM",
+          "en": "NOM"
+        },
+        {
+          "kn": "MON",
+          "en": "MON"
+        },
+        {
+          "kn": "NON",
+          "en": "NON"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಕ್ಷರವೂ ಗುಂಪಿನಿಂದ ಗುಂಪಿಗೆ +3 ಆಗುತ್ತದೆ: E→H→K→N, F→I→L→O, D→G→J→M. ಮುಂದಿನ ಗುಂಪು N O M. ಉತ್ತರ B (NOM).",
+        "en": "Each letter moves +3 from group to group: E→H→K→N, F→I→L→O, D→G→J→M. The next group is N O M. Answer B (NOM)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0380",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. KBL, LBK, MBN, NBM, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. KBL, LBK, MBN, NBM, _________"
+      },
+      "options": [
+        {
+          "kn": "OBC",
+          "en": "OBC"
+        },
+        {
+          "kn": "OBP",
+          "en": "OBP"
+        },
+        {
+          "kn": "PBO",
+          "en": "PBO"
+        },
+        {
+          "kn": "OBL",
+          "en": "OBL"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮಧ್ಯದ ಅಕ್ಷರ B ಬದಲಾಗುವುದಿಲ್ಲ. ಮೊದಲ ಅಕ್ಷರಗಳು +1 ಆಗುತ್ತವೆ (K, L, M, N, O). ಬೆಸ ಗುಂಪುಗಳಲ್ಲಿ ಮೂರನೇ ಅಕ್ಷರವು ಮೊದಲ ಅಕ್ಷರಕ್ಕಿಂತ ಒಂದು ಹೆಚ್ಚು (K→L, M→N, ಆದ್ದರಿಂದ O→P); ಸಮ ಗುಂಪುಗಳಲ್ಲಿ ಒಂದು ಕಡಿಮೆ (L→K, N→M). ಮುಂದಿನ ಗುಂಪು O B P. ಉತ್ತರ B (OBP).",
+        "en": "The middle letter B stays the same. The first letters step +1 (K, L, M, N, O). The third letter is one step after the first in the odd groups (K→L, M→N, so O→P) and one step before it in the even groups (L→K, N→M). The next group is O B P. Answer B (OBP)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LS-0381",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಉತ್ತರವನ್ನು ಆರಿಸಿ. ಕೆಳಗಿನ ಅಕ್ಷರ ಶ್ರೇಣಿಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. D-4, H-8, L-12, P-16, _________",
+        "en": "Complete the following letter series by choosing the correct answer from the given alternatives. D-4, H-8, L-12, P-16, _________"
+      },
+      "options": [
+        {
+          "kn": "T-20",
+          "en": "T-20"
+        },
+        {
+          "kn": "J-20",
+          "en": "J-20"
+        },
+        {
+          "kn": "I-20",
+          "en": "I-20"
+        },
+        {
+          "kn": "S-20",
+          "en": "S-20"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಕ್ಷರ ಮತ್ತು ಸಂಖ್ಯೆಯೂ +4 ಆಗುತ್ತದೆ: D(4)→H(8)→L(12)→P(16)→T(20). ಉತ್ತರ A (T-20).",
+        "en": "Each letter and each number steps +4: D(4)→H(8)→L(12)→P(16)→T(20). Answer A (T-20)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CD-0382",
+      "difficulty": "medium",
+      "question": {
+        "kn": "HOME ಅನ್ನು IQPI ಎಂದು ಸಂಕೇತಿಸಿದರೆ, ಅದೇ ಭಾಷೆಯಲ್ಲಿ STEM ಅನ್ನು ಹೇಗೆ ಸಂಕೇತಿಸಲಾಗುತ್ತದೆ?",
+        "en": "HOME is coded as IQPI, then in the same language STEM is coded as"
+      },
+      "options": [
+        {
+          "kn": "TVHQ",
+          "en": "TVHQ"
+        },
+        {
+          "kn": "TUFN",
+          "en": "TUFN"
+        },
+        {
+          "kn": "TUHQ",
+          "en": "TUHQ"
+        },
+        {
+          "kn": "TVGP",
+          "en": "TVGP"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಕ್ಷರವು +1, +2, +3, +4 ಹೆಜ್ಜೆ ಮುಂದೆ ಸರಿಯುತ್ತದೆ. HOME → IQPI. ಇದೇ ನಿಯಮವನ್ನು STEM ಗೆ ಅನ್ವಯಿಸಿದಾಗ TVHQ ಬರುತ್ತದೆ. ಉತ್ತರ A.",
+        "en": "Each letter moves forward by an increasing step: +1, +2, +3, +4. HOME → H+1=I, O+2=Q, M+3=P, E+4=I, giving IQPI. Applied to STEM: S+1=T, T+2=V, E+3=H, M+4=Q, giving TVHQ. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CD-0383",
+      "difficulty": "medium",
+      "question": {
+        "kn": "PHOBN ಅನ್ನು MANGO ಎಂದು ಸಂಕೇತಿಸಿದರೆ, ಅದೇ ಭಾಷೆಯಲ್ಲಿ NFFO ಪದದ ಸಂಕೇತ ಯಾವುದು?",
+        "en": "If PHOBN is coded as MANGO, then in the same language NFFO can be coded as"
+      },
+      "options": [
+        {
+          "kn": "NAME",
+          "en": "NAME"
+        },
+        {
+          "kn": "NEAM",
+          "en": "NEAM"
+        },
+        {
+          "kn": "NEEM",
+          "en": "NEEM"
+        },
+        {
+          "kn": "NEET",
+          "en": "NEET"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪದವನ್ನು ಹಿಮ್ಮುಖ ಕ್ರಮದಲ್ಲಿ ಬರೆದು, ಪ್ರತಿ ಅಕ್ಷರವನ್ನು ಒಂದು ಹೆಜ್ಜೆ ಹಿಂದಕ್ಕೆ ಸರಿಸಲಾಗಿದೆ. PHOBN → MANGO. NFFO ಗೆ ಅನ್ವಯಿಸಿದಾಗ OFFN → NEEM. ಉತ್ತರ C.",
+        "en": "The word is reversed and each letter moves back one step. PHOBN → reversed NBOHP → one step back MANGO. Applied to NFFO: reversed OFFN → one step back NEEM. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CD-0384",
+      "difficulty": "easy",
+      "question": {
+        "kn": "BENGALURU ಅನ್ನು YVMTZOFIF ಎಂದು ಸಂಕೇತಿಸಿದರೆ, SHIMOGA ಪದದ ಸಂಕೇತ ಯಾವುದು?",
+        "en": "BENGALURU is coded as YVMTZOFIF then SHIMOGA is coded as"
+      },
+      "options": [
+        {
+          "kn": "YVMTZAG",
+          "en": "YVMTZAG"
+        },
+        {
+          "kn": "HSNGAZA",
+          "en": "HSNGAZA"
+        },
+        {
+          "kn": "HSRNLTZ",
+          "en": "HSRNLTZ"
+        },
+        {
+          "kn": "HSNRLTZ",
+          "en": "HSNRLTZ"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಕ್ಷರವನ್ನು ವರ್ಣಮಾಲೆಯಲ್ಲಿ ಅದರ ವಿರುದ್ಧ ಅಕ್ಷರದಿಂದ ಬದಲಿಸಲಾಗಿದೆ (A↔Z, B↔Y, C↔X, …). SHIMOGA → HSRNLTZ. ಉತ್ತರ C.",
+        "en": "Each letter is replaced by its opposite in the alphabet (A↔Z, B↔Y, C↔X, …). SHIMOGA: S→H, H→S, I→R, M→N, O→L, G→T, A→Z, giving HSRNLTZ. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CD-0385",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದು ಸಂಕೇತ ಭಾಷೆಯಲ್ಲಿ TWENTY ಅನ್ನು WTNEYT ಎಂದು ಬರೆದರೆ, THIRTY ಅನ್ನು ಹೇಗೆ ಬರೆಯಲಾಗುತ್ತದೆ?",
+        "en": "In a certain coded language, if TWENTY is written as WTNEYT then THIRTY is written as"
+      },
+      "options": [
+        {
+          "kn": "HTRIYT",
+          "en": "HTRIYT"
+        },
+        {
+          "kn": "THIRTY",
+          "en": "THIRTY"
+        },
+        {
+          "kn": "HTIRYT",
+          "en": "HTIRYT"
+        },
+        {
+          "kn": "HRTITY",
+          "en": "HRTITY"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಎರಡು ಅಕ್ಷರಗಳ ಜೋಡಿಯ ಸ್ಥಾನಗಳನ್ನು ಅದಲುಬದಲು ಮಾಡಲಾಗಿದೆ. THIRTY → HTRIYT. ಉತ್ತರ A.",
+        "en": "Every two letters are swapped in position. TWENTY → TW→WT, EN→NE, TY→YT, giving WTNEYT. THIRTY → TH→HT, IR→RI, TY→YT, giving HTRIYT. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CD-0386",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ಸಂಕೇತ ಭಾಷೆಯಲ್ಲಿ YENKNOM ಅನ್ನು MONKEY ಎಂದು ಸಂಕೇತಿಸಿದರೆ, REGIT ಸಂಕೇತದಿಂದ ಪಡೆಯಬಹುದಾದ ಪದ ಯಾವುದು?",
+        "en": "In a coded language YENKNOM is coded as MONKEY, the code if REGIT is written as"
+      },
+      "options": [
+        {
+          "kn": "TIGER",
+          "en": "TIGER"
+        },
+        {
+          "kn": "LIONS",
+          "en": "LIONS"
+        },
+        {
+          "kn": "SHEEP",
+          "en": "SHEEP"
+        },
+        {
+          "kn": "GOATS",
+          "en": "GOATS"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪದವನ್ನು ಹಿಮ್ಮುಖ ಕ್ರಮದಲ್ಲಿ ಬರೆಯಲಾಗಿದೆ. YENKNOM → MONKEY; REGIT → TIGER. ಉತ್ತರ A.",
+        "en": "The word is written in reverse order. YENKNOM reversed = MONKEY. REGIT reversed = TIGER. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CD-0387",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದು ಸಂಕೇತ ಭಾಷೆಯಲ್ಲಿ TITAN ಅನ್ನು 20920114 ಎಂದು ಬರೆದರೆ, ಅದೇ ಭಾಷೆಯಲ್ಲಿ 'WORD' ಅನ್ನು ಹೇಗೆ ಬರೆಯಲಾಗುತ್ತದೆ?",
+        "en": "In a code language, TITAN is written as 20920114, then in the same language 'WORD' is written as."
+      },
+      "options": [
+        {
+          "kn": "12315184",
+          "en": "12315184"
+        },
+        {
+          "kn": "2315184",
+          "en": "2315184"
+        },
+        {
+          "kn": "230151804",
+          "en": "230151804"
+        },
+        {
+          "kn": "2315174",
+          "en": "2315174"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಕ್ಷರವನ್ನು ವರ್ಣಮಾಲೆ ಕ್ರಮ ಸಂಖ್ಯೆಯಿಂದ ಬದಲಿಸಲಾಗಿದೆ (A=1 … Z=26). TITAN → 20920114; WORD → 2315184. ಉತ್ತರ B.",
+        "en": "Each letter is replaced by its alphabet position (A=1 … Z=26). TITAN → 20, 9, 20, 1, 14 = 20920114. WORD → W=23, O=15, R=18, D=4, giving 2315184. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CD-0388",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದು ಸಂಕೇತ ಭಾಷೆಯಲ್ಲಿ BUNDLE ಅನ್ನು 'EXQGOH' ಎಂದು ಸಂಕೇತಿಸಿದರೆ, MOTHER ಪದದ ಸಂಕೇತ ಯಾವುದು?",
+        "en": "In a code languages BUNDLE is coded as 'EXQGOH' then code for MOTHER is"
+      },
+      "options": [
+        {
+          "kn": "PRWKHU",
+          "en": "PRWKHU"
+        },
+        {
+          "kn": "PQSJGT",
+          "en": "PQSJGT"
+        },
+        {
+          "kn": "PLSJGT",
+          "en": "PLSJGT"
+        },
+        {
+          "kn": "PQWKUH",
+          "en": "PQWKUH"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಕ್ಷರವನ್ನು +3 ಹೆಜ್ಜೆ ಮುಂದೆ ಸರಿಸಲಾಗಿದೆ. BUNDLE → EXQGOH. MOTHER → PRWKHU. ಉತ್ತರ A.",
+        "en": "Each letter moves forward by 3 (+3). BUNDLE → EXQGOH. MOTHER: M→P, O→R, T→W, H→K, E→H, R→U, giving PRWKHU. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CD-0389",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕಂಬ ಸಾಲು I ರಲ್ಲಿ ಪದಗಳನ್ನು ಅಂಕೆ ರೂಪದಲ್ಲಿ ಸಂಕೇತಿಸಲಾಗಿದೆ; ಕಂಬ ಸಾಲು II ರಲ್ಲಿ ಅಂಕೆಗಳ ಕ್ರಮ ಬೇರೆಯಾಗಿದೆ. BEAN ಪದದ ಸಂಕೇತ ಯಾವುದು?",
+        "en": "Direction: The letters in column I are coded in the form of numbers. Which is written in column II, but the order of numbers is different. Read carefully the codes of letters and find out the correct answer from the given alternatives. Column I: PAN 372; NIB 643; BET 156; TIP 241. The code for word BEAN is."
+      },
+      "options": [
+        {
+          "kn": "3576",
+          "en": "3576"
+        },
+        {
+          "kn": "6543",
+          "en": "6543"
+        },
+        {
+          "kn": "5763",
+          "en": "5763"
+        },
+        {
+          "kn": "6573",
+          "en": "6573"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಕಂಬ ಸಾಲು I ಮತ್ತು II ಎರಡಕ್ಕೂ ಹೊಂದುವ ಅಕ್ಷರ ಮೌಲ್ಯಗಳು: P=2, A=7, N=3, I=4, B=6, E=5, T=1. BEAN → 6573. ಉತ್ತರ D.",
+        "en": "The letter-to-digit values consistent with both columns are P=2, A=7, N=3, I=4, B=6, E=5, T=1 (PAN 372, NIB 643, BET 156, TIP 241). BEAN → B=6, E=5, A=7, N=3, giving 6573. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CD-0390",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕಂಬ ಸಾಲು I ಮತ್ತು II ರ ಸಂಕೇತಗಳ ಆಧಾರದ ಮೇಲೆ PAINT ಪದದ ಸಂಕೇತ ಯಾವುದು?",
+        "en": "Direction: The letters in column I are coded in the form of numbers. Which is written in column II, but the order of numbers is different. Read carefully the codes of letters and find out the correct answer from the given alternatives. Column I: PAN 372; NIB 643; BET 156; TIP 241. The code for word PAINT is."
+      },
+      "options": [
+        {
+          "kn": "24713",
+          "en": "24713"
+        },
+        {
+          "kn": "27431",
+          "en": "27431"
+        },
+        {
+          "kn": "13427",
+          "en": "13427"
+        },
+        {
+          "kn": "42731",
+          "en": "42731"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಅದೇ ಅಕ್ಷರ ಮೌಲ್ಯಗಳನ್ನು ಬಳಸಿ (P=2, A=7, I=4, N=3, T=1): PAINT → 27431. ಉತ್ತರ B.",
+        "en": "Using the same letter values (P=2, A=7, I=4, N=3, T=1): PAINT → 2, 7, 4, 3, 1 = 27431. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CD-0391",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕಂಬ ಸಾಲು I ಮತ್ತು II ರ ಸಂಕೇತಗಳ ಆಧಾರದ ಮೇಲೆ TAB ಪದದ ಸಂಕೇತ ಯಾವುದು?",
+        "en": "Direction: The letters in column I are coded in the form of numbers. Which is written in column II, but the order of numbers is different. Read carefully the codes of letters and find out the correct answer from the given alternatives. Column I: PAN 372; NIB 643; BET 156; TIP 241. The code for word TAB is."
+      },
+      "options": [
+        {
+          "kn": "761",
+          "en": "761"
+        },
+        {
+          "kn": "146",
+          "en": "146"
+        },
+        {
+          "kn": "567",
+          "en": "567"
+        },
+        {
+          "kn": "176",
+          "en": "176"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "T=1, A=7, B=6 ಬಳಸಿದಾಗ TAB → 176. ಉತ್ತರ D.",
+        "en": "Using T=1, A=7, B=6: TAB → 1, 7, 6 = 176. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CD-0392",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಕೇತಗಳನ್ನು ಗಮನಿಸಿ: MIN 315; PIT 238; BAN 954; TEN 725. MEAN ಪದದ ಸಂಕೇತ ಯಾವುದು?",
+        "en": "Carefully observe the following codes: Column I: MIN 315; PIT 238; BAN 954; TEN 725. Code for MEAN is."
+      },
+      "options": [
+        {
+          "kn": "1795",
+          "en": "1795"
+        },
+        {
+          "kn": "7951",
+          "en": "7951"
+        },
+        {
+          "kn": "1759",
+          "en": "1759"
+        },
+        {
+          "kn": "9751",
+          "en": "9751"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ನಾಲ್ಕೂ ಸಂಕೇತಗಳಿಗೆ ಹೊಂದುವ ಅಕ್ಷರ ಮೌಲ್ಯಗಳು: M=1, I=3, N=5, P=8, T=2, E=7, B=4, A=9. MEAN → 1795. ಉತ್ತರ A.",
+        "en": "Letter values consistent with all four codes: M=1, I=3, N=5, P=8, T=2, E=7, B=4, A=9. MEAN → 1, 7, 9, 5 = 1795. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CD-0393",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೆಳಗಿನ ಸಂಕೇತಗಳನ್ನು ಗಮನಿಸಿ: MIN 315; PIT 238; BAN 954; TEN 725. BEATER ಪದದ ಸಂಕೇತ ಯಾವುದು?",
+        "en": "Carefully observe the following codes: Column I: MIN 315; PIT 238; BAN 954; TEN 725. Code for BEATER is."
+      },
+      "options": [
+        {
+          "kn": "479276",
+          "en": "479276"
+        },
+        {
+          "kn": "497276",
+          "en": "497276"
+        },
+        {
+          "kn": "972764",
+          "en": "972764"
+        },
+        {
+          "kn": "427628",
+          "en": "427628"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "B=4, E=7, A=9, T=2 ಮೌಲ್ಯಗಳಿಂದ BEATER → 479276 ಆಗುತ್ತದೆ. ಇತರ ಆಯ್ಕೆಗಳು E ಅಥವಾ B ಗೆ ಬೇರೆ ಅಂಕೆ ನೀಡುತ್ತವೆ. R ಕೋಷ್ಟಕದಲ್ಲಿ ಇಲ್ಲ; ಆದ್ದರಿಂದ ಆಯ್ಕೆಗಳ ನಿರ್ಮೂಲನದಿಂದ ಮಾತ್ರ ಖಚಿತ. ಉತ್ತರ A.",
+        "en": "Using B=4, E=7, A=9, T=2 (from the table above): BEATER → 4, 7, 9, 2, 7, R. Only option A matches these values (4 7 9 2 7 6); the other options give a different digit for E or B. R is not in the table, so Q13 is confirmed by elimination of the options. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AO-0394",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣವನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು * ಜಾಗದಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಚಿಹ್ನೆಗಳನ್ನು ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಿ. 45 * 5 * 5 * 1 * 1 = 45",
+        "en": "Directions: Choose and substitute the correct set of signs in place of * sequentially selecting from the given alternatives to make the question meaningful. 45 * 5 * 5 * 1 * 1 = 45"
+      },
+      "options": [
+        {
+          "kn": "× − + ÷",
+          "en": "× − + ÷"
+        },
+        {
+          "kn": "+ + × ÷",
+          "en": "+ + × ÷"
+        },
+        {
+          "kn": "÷ × + −",
+          "en": "÷ × + −"
+        },
+        {
+          "kn": "− − × ÷",
+          "en": "− − × ÷"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "÷ × + − ಬಳಸಿದಾಗ 45 ÷ 5 × 5 + 1 − 1 = 45. ಇತರ ಗುಂಪುಗಳು 221, 55, 35 ನೀಡುತ್ತವೆ. ಉತ್ತರ C.",
+        "en": "Using ÷ × + −: 45 ÷ 5 × 5 + 1 − 1 = 45. The other sets give 221 (× − + ÷), 55 (+ + × ÷) and 35 (− − × ÷). Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AO-0396",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣವನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು * ಜಾಗದಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಪರ್ಯಾಯಗಳಿಂದ ಸರಿಯಾದ ಚಿಹ್ನೆಗಳನ್ನು ಕ್ರಮವಾಗಿ ಆದೇಶಿಸಿ. a * ad * abc * abcd = 2a",
+        "en": "Directions: Choose and substitute the correct set of signs in place of * sequentially selecting from the given alternatives to make the question meaningful. a * ad * abc * abcd = 2a"
+      },
+      "options": [
+        {
+          "kn": "+ × ÷",
+          "en": "+ × ÷"
+        },
+        {
+          "kn": "+ − −",
+          "en": "+ − −"
+        },
+        {
+          "kn": "+ ÷ ×",
+          "en": "+ ÷ ×"
+        },
+        {
+          "kn": "− − +",
+          "en": "− − +"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "+ × ÷ ಬಳಸಿದಾಗ a + ad × abc ÷ abcd = a + a = 2a. ಉತ್ತರ A.",
+        "en": "Using + × ÷: a + ad × abc ÷ abcd = a + a = 2a. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AO-0397",
+      "difficulty": "medium",
+      "question": {
+        "kn": "k ಸಂಕಲನ, L ಗುಣಾಕಾರ, N ವ್ಯವಕಲನ ಮತ್ತು M ಭಾಗಾಕಾರವನ್ನು ಸೂಚಿಸಿದರೆ, ಸರಿಯಾದ ಸಮೀಕರಣಕ್ಕೆ ಸರಿಯಾದ ಉತ್ತರ ಆರಿಸಿ. 50 * 40 * 30 * 20 * 10 = 100",
+        "en": "Directions: If k denotes addition, L denotes multiplication, N denotes subtraction and M denotes division, then choose the correct answer to get the correct equation. 50 * 40 * 30 * 20 * 10 = 100"
+      },
+      "options": [
+        {
+          "kn": "K L N M",
+          "en": "K L N M"
+        },
+        {
+          "kn": "K L M N",
+          "en": "K L M N"
+        },
+        {
+          "kn": "N M L K",
+          "en": "N M L K"
+        },
+        {
+          "kn": "N M K L",
+          "en": "N M K L"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "K = +, L = ×, M = ÷, N = − ಬಳಸಿದಾಗ ಆಯ್ಕೆ B ಸರಿ: 50 + 60 − 10 = 100. ಉತ್ತರ B.",
+        "en": "Using K = +, L = ×, M = ÷, N = −, option B gives 50 + 40 × 30 ÷ 20 − 10 = 50 + 60 − 10 = 100. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AO-0399",
+      "difficulty": "medium",
+      "question": {
+        "kn": "□ ಸಂಕಲನ, △ ಭಾಗಾಕಾರ, ◊ ಗುಣಾಕಾರ ಮತ್ತು ○ ವ್ಯವಕಲನವನ್ನು ಸೂಚಿಸಿದರೆ, ಸರಿಯಾದ ಉತ್ತರ ಆರಿಸಿ. (5 * 2) * 15 * 105 = 1",
+        "en": "Directions: If □ denotes addition, △ denotes division, ◊ denotes multiplication and ○ denotes subtraction, then choose the correct answer. (5 * 2) * 15 * 105 = 1"
+      },
+      "options": [
+        {
+          "kn": "□ ◊ △",
+          "en": "□ ◊ △"
+        },
+        {
+          "kn": "△ ◊ △",
+          "en": "△ ◊ △"
+        },
+        {
+          "kn": "△ ◊ □",
+          "en": "△ ◊ □"
+        },
+        {
+          "kn": "□ △ □",
+          "en": "□ △ □"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "□ = +, ◊ = ×, △ = ÷ ಬಳಸಿದಾಗ (5 + 2) × 15 ÷ 105 = 1. ಉತ್ತರ A.",
+        "en": "Using □ = +, ◊ = ×, △ = ÷: (5 + 2) × 15 ÷ 105 = 7 × 15 ÷ 105 = 1. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AO-0400",
+      "difficulty": "hard",
+      "question": {
+        "kn": "□ ಸಂಕಲನ, △ ಭಾಗಾಕಾರ, ◊ ಗುಣಾಕಾರ ಮತ್ತು ○ ವ್ಯವಕಲನವನ್ನು ಸೂಚಿಸಿದರೆ, ಸರಿಯಾದ ಉತ್ತರ ಆರಿಸಿ. 1/4 * 1/4 * 1/4 * 1/4 = 17/16",
+        "en": "Directions: If □ denotes addition, △ denotes division, ◊ denotes multiplication and ○ denotes subtraction, then choose the correct answer. 1/4 * 1/4 * 1/4 * 1/4 = 17/16"
+      },
+      "options": [
+        {
+          "kn": "◊ □ △",
+          "en": "◊ □ △"
+        },
+        {
+          "kn": "□ ○ □",
+          "en": "□ ○ □"
+        },
+        {
+          "kn": "△ △ ○",
+          "en": "△ △ ○"
+        },
+        {
+          "kn": "○ □ ○",
+          "en": "○ □ ○"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "◊ = ×, □ = +, △ = ÷ ಬಳಸಿದಾಗ 1/4 × 1/4 + 1/4 ÷ 1/4 = 17/16. ಉತ್ತರ A.",
+        "en": "Using ◊ = ×, □ = +, △ = ÷: 1/4 × 1/4 + 1/4 ÷ 1/4 = 1/16 + 1 = 17/16. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AO-0403",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣವನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು ಯಾವ ಎರಡು ಚಿಹ್ನೆಗಳನ್ನು ಅದಲು ಬದಲು ಮಾಡಬೇಕು ಎಂಬುದನ್ನು ಆರಿಸಿ. 12 + 3 × 5 ÷ 5 − 1 = 36",
+        "en": "Directions: Which of the two symbols should be interchanged from the given alternatives to make the question meaningful. 12 + 3 × 5 ÷ 5 − 1 = 36"
+      },
+      "options": [
+        {
+          "kn": "+ ÷",
+          "en": "+ ÷"
+        },
+        {
+          "kn": "× ÷",
+          "en": "× ÷"
+        },
+        {
+          "kn": "× +",
+          "en": "× +"
+        },
+        {
+          "kn": "÷ −",
+          "en": "÷ −"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "× ಮತ್ತು + ಅದಲು ಬದಲು ಮಾಡಿದಾಗ 12 × 3 + 5 ÷ 5 − 1 = 36. ಉತ್ತರ C.",
+        "en": "Interchanging × and +: 12 × 3 + 5 ÷ 5 − 1 = 36 + 1 − 1 = 36. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AO-0406",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಸಮೀಕರಣವನ್ನು ಅರ್ಥಪೂರ್ಣಗೊಳಿಸಲು ಯಾವ ಎರಡು ಸಂಖ್ಯೆಗಳನ್ನು ಅದಲು ಬದಲು ಮಾಡಬೇಕು ಎಂಬುದನ್ನು ಆರಿಸಿ. 12 + 9 − 10 × 11 = −77",
+        "en": "Directions: Which of the two numbers should be interchanged from the given alternatives to make the question meaningful. 12 + 9 − 10 × 11 = −77"
+      },
+      "options": [
+        {
+          "kn": "9 & 10",
+          "en": "9 & 10"
+        },
+        {
+          "kn": "9 & 11",
+          "en": "9 & 11"
+        },
+        {
+          "kn": "12 & 11",
+          "en": "12 & 11"
+        },
+        {
+          "kn": "10 & 11",
+          "en": "10 & 11"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "9 ಮತ್ತು 10 ಅದಲು ಬದಲು ಮಾಡಿದಾಗ 22 − 99 = −77. ಉತ್ತರ A.",
+        "en": "Interchanging 9 and 10: 12 + 10 − 9 × 11 = 22 − 99 = −77. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AO-0407",
+      "difficulty": "hard",
+      "question": {
+        "kn": "P ಭಾಗಾಕಾರ, Q ಗುಣಾಕಾರ, R ವ್ಯವಕಲನ ಮತ್ತು S ಸಂಕಲನವನ್ನು ಸೂಚಿಸಿದರೆ, ಸರಿಯಾದ ಉತ್ತರ ಆರಿಸಿ. [125 * 5 * 150 * 5] * 8 = 60",
+        "en": "Directions: If P denotes division, Q denotes multiplication, R denotes subtraction and S denotes addition, then choose the correct answer. [125 * 5 * 150 * 5] * 8 = 60"
+      },
+      "options": [
+        {
+          "kn": "PQRS",
+          "en": "PQRS"
+        },
+        {
+          "kn": "PRSQ",
+          "en": "PRSQ"
+        },
+        {
+          "kn": "QRSP",
+          "en": "QRSP"
+        },
+        {
+          "kn": "RSQP",
+          "en": "RSQP"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "P = ÷, Q = ×, R = −, S = + ಬಳಸಿದಾಗ [125 × 5 − 150 + 5] ÷ 8 = 60. ಉತ್ತರ C.",
+        "en": "Using P = ÷, Q = ×, R = −, S = +: [125 × 5 − 150 + 5] ÷ 8 = [625 − 150 + 5] ÷ 8 = 480 ÷ 8 = 60. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AO-0408",
+      "difficulty": "easy",
+      "question": {
+        "kn": "P ಭಾಗಾಕಾರ, Q ಗುಣಾಕಾರ, R ವ್ಯವಕಲನ ಮತ್ತು S ಸಂಕಲನವನ್ನು ಸೂಚಿಸಿದರೆ, ಸರಿಯಾದ ಉತ್ತರ ಆರಿಸಿ. 7 * 7 * 7 * 7 = 50",
+        "en": "Directions: If P denotes division, Q denotes multiplication, R denotes subtraction and S denotes addition, then choose the correct answer. 7 * 7 * 7 * 7 = 50"
+      },
+      "options": [
+        {
+          "kn": "Q S Q",
+          "en": "Q S Q"
+        },
+        {
+          "kn": "P S P",
+          "en": "P S P"
+        },
+        {
+          "kn": "Q S P",
+          "en": "Q S P"
+        },
+        {
+          "kn": "S S S",
+          "en": "S S S"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಆಯ್ಕೆ C Q S P = 7 × 7 + 7 ÷ 7 = 50. ಉತ್ತರ C.",
+        "en": "Option C Q S P = 7 × 7 + 7 ÷ 7 = 49 + 1 = 50. Answer C."
       },
       "image": null
     }
