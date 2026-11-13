@@ -8,9 +8,9 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 443,
+    "totalQuestions": 510,
     "questionNumberStart": 1,
-    "questionNumberEnd": 443,
+    "questionNumberEnd": 510,
     "version": "1.0.0"
   },
   "questions": [
@@ -14187,6 +14187,2150 @@
       "explanation": {
         "kn": "P (0,0); Q ನೈಋತ್ಯ: (−a,−a); R Q ನ ಪೂರ್ವ ಮತ್ತು P ನ ಆಗ್ನೇಯ: (a,−a); T QP ರೇಖೆಯ ಮೇಲೆ R ನ ಉತ್ತರ: (a,a). T, P ನ ಈಶಾನ್ಯದಲ್ಲಿದೆ. ಸರಿಯಾದ ಉತ್ತರ B: ಈಶಾನ್ಯ.",
         "en": "P (0,0); Q south-west of P: (−a,−a); R east of Q and south-east of P: (a,−a); T north of R on line QP (y = x): (a,a). T is north-east of P. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-BR-0480",
+      "difficulty": "medium",
+      "question": {
+        "en": "Amit is the son of Rahul. Rahul's sister Sarika has a son named Sonu and a daughter named Rita. Raju is the maternal uncle of Sonu. How is Rita related to Raju?",
+        "kn": "ಅಮಿತ್ ರಾಹುಲ್‌ನ ಮಗ. ರಾಹುಲ್‌ನ ತಂಗಿ ಸರಿಕಾಳಿಗೆ ಸೋನು ಎಂಬ ಮಗ ಮತ್ತು ರೀತಾ ಎಂಬ ಮಗಳು ಇದ್ದಾರೆ. ರಾಜು ಸೋನುವಿನ ತಾಯಿಯ ಸಹೋದರ (ಮಾವ). ರೀತಾ ರಾಜುವಿಗೆ ಯಾವ ಸಂಬಂಧ?"
+      },
+      "options": [
+        {
+          "kn": "ಸಹೋದರಿ",
+          "en": "Sister"
+        },
+        {
+          "kn": "ಮಗಳು",
+          "en": "Daughter"
+        },
+        {
+          "kn": "ಸೋದರ ಮಗಳು",
+          "en": "Niece"
+        },
+        {
+          "kn": "ಚಿಕ್ಕಮ್ಮ",
+          "en": "Aunt"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "en": "Sarika is Rahul's sister. Sonu and Rita are Sarika's children. Raju is Sonu's maternal uncle, so Raju is Sarika's brother. Rita is Sarika's daughter, so Rita is Raju's niece. Answer C.",
+        "kn": "ಸರಿಕಾ ರಾಹುಲ್‌ನ ತಂಗಿ. ಸೋನು ಮತ್ತು ರೀತಾ ಸರಿಕಾಳ ಮಕ್ಕಳು. ರಾಜು ಸೋನುವಿನ ತಾಯಿಯ ಸಹೋದರ, ಅಂದರೆ ರಾಜು ಸರಿಕಾಳ ಸಹೋದರ. ರೀತಾ ಸರಿಕಾಳ ಮಗಳು, ಆದ್ದರಿಂದ ರೀತಾ ರಾಜುವಿನ ಸೋದರ ಮಗಳು. ಉತ್ತರ C: ಸೋದರ ಮಗಳು."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-BR-0481",
+      "difficulty": "medium",
+      "question": {
+        "en": "Anand and Badri are brothers. Vasanth is the sister of Anand. Deva is the brother of Eashwari. Eashwari is the daughter of Badri. Then who is the uncle of Deva?",
+        "kn": "ಆನಂದ ಮತ್ತು ಬದ್ರಿ ಸಹೋದರರು. ವಸಂತ ಆನಂದನ ಸಹೋದರಿ. ದೇವ ಈಶ್ವರಿಯ ಸಹೋದರ. ಈಶ್ವರಿ ಬದ್ರಿಯ ಮಗಳು. ಹಾಗಾದರೆ ದೇವನ ಚಿಕ್ಕಪ್ಪ ಯಾರು?"
+      },
+      "options": [
+        {
+          "kn": "ಆನಂದ",
+          "en": "Anand"
+        },
+        {
+          "kn": "ಈಶ್ವರ",
+          "en": "Eashwar"
+        },
+        {
+          "kn": "ಬದ್ರಿ",
+          "en": "Badri"
+        },
+        {
+          "kn": "ವಸಂತ",
+          "en": "Vasanth"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "Eashwari is Badri's daughter. Deva is her brother, so Deva is Badri's son. Anand is Badri's brother, so Anand is Deva's uncle. Answer A.",
+        "kn": "ಈಶ್ವರಿ ಬದ್ರಿಯ ಮಗಳು. ದೇವ ಅವಳ ಸಹೋದರ, ಆದ್ದರಿಂದ ದೇವ ಬದ್ರಿಯ ಮಗ. ಆನಂದ ಬದ್ರಿಯ ಸಹೋದರ, ಆದ್ದರಿಂದ ಆನಂದ ದೇವನ ಚಿಕ್ಕಪ್ಪ. ಉತ್ತರ A: ಆನಂದ."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-BR-0482",
+      "difficulty": "easy",
+      "question": {
+        "en": "If A is a brother of F, C is a daughter of A, F's daughter is K, and G is a brother of C, then who is the uncle of G?",
+        "kn": "A, F ನ ಸಹೋದರ. C, A ನ ಮಗಳು. F ನ ಮಗಳು K. G, C ನ ಸಹೋದರ. ಹಾಗಾದರೆ G ನ ಚಿಕ್ಕಪ್ಪ ಯಾರು?"
+      },
+      "options": [
+        {
+          "kn": "F",
+          "en": "F"
+        },
+        {
+          "kn": "K",
+          "en": "K"
+        },
+        {
+          "kn": "C",
+          "en": "C"
+        },
+        {
+          "kn": "A",
+          "en": "A"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "C is A's daughter and G is C's brother, so G is A's son. A's brother is F, so F is G's uncle. Answer A.",
+        "kn": "C, A ನ ಮಗಳು ಮತ್ತು G, C ನ ಸಹೋದರ, ಆದ್ದರಿಂದ G, A ನ ಮಗ. A ನ ಸಹೋದರ F. ಆದ್ದರಿಂದ F, G ನ ಚಿಕ್ಕಪ್ಪ. ಉತ್ತರ A: F."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-BR-0483",
+      "difficulty": "medium",
+      "question": {
+        "en": "Pointing to a woman, Raju said that she is the daughter of the mother of my mother's husband. Then how is that woman related to Raju?",
+        "kn": "ಒಬ್ಬ ಮಹಿಳೆಯನ್ನು ತೋರಿಸಿ ರಾಜು ಹೇಳಿದ: \"ಅವಳು ನನ್ನ ತಾಯಿಯ ಪತಿಯ ತಾಯಿಯ ಮಗಳು.\" ಹಾಗಾದರೆ ಆ ಮಹಿಳೆ ರಾಜುವಿಗೆ ಯಾವ ಸಂಬಂಧ?"
+      },
+      "options": [
+        {
+          "kn": "ಚಿಕ್ಕಮ್ಮ",
+          "en": "Aunt"
+        },
+        {
+          "kn": "ಮೊಮ್ಮಗಳು",
+          "en": "Grand Daughter"
+        },
+        {
+          "kn": "ಮಗಳು",
+          "en": "Daughter"
+        },
+        {
+          "kn": "ಸಹೋದರಿ",
+          "en": "Sister"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "My mother's husband is my father. The mother of my father is my grandmother. Her daughter is my father's sister, who is my aunt. Answer A.",
+        "kn": "ನನ್ನ ತಾಯಿಯ ಪತಿ = ನನ್ನ ತಂದೆ. ತಂದೆಯ ತಾಯಿ = ನನ್ನ ಅಜ್ಜಿ. ಅಜ್ಜಿಯ ಮಗಳು = ತಂದೆಯ ಸಹೋದರಿ = ಚಿಕ್ಕಮ್ಮ. ಉತ್ತರ A: ಚಿಕ್ಕಮ್ಮ."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-BR-0484",
+      "difficulty": "easy",
+      "question": {
+        "en": "A is the mother of B. C is the son of A. D is the brother of E. E is the daughter of B. Then who is the grandmother of D?",
+        "kn": "A, B ನ ತಾಯಿ. C, A ನ ಮಗ. D, E ನ ಸಹೋದರ. E, B ನ ಮಗಳು. ಹಾಗಾದರೆ D ನ ಅಜ್ಜಿ ಯಾರು?"
+      },
+      "options": [
+        {
+          "kn": "A",
+          "en": "A"
+        },
+        {
+          "kn": "B",
+          "en": "B"
+        },
+        {
+          "kn": "C",
+          "en": "C"
+        },
+        {
+          "kn": "D",
+          "en": "D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "en": "E is B's daughter and D is E's brother, so D is B's son. B's mother is A, so A is D's grandmother. Answer A.",
+        "kn": "E, B ನ ಮಗಳು ಮತ್ತು D, E ನ ಸಹೋದರ, ಆದ್ದರಿಂದ D, B ನ ಮಗ. B ನ ತಾಯಿ A. ಆದ್ದರಿಂದ A, D ನ ಅಜ್ಜಿ. ಉತ್ತರ A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-BR-0485",
+      "difficulty": "medium",
+      "question": {
+        "en": "E is the son of A. D is the son of B. E is married to C. C is the daughter of B. Then how is D related to E?",
+        "kn": "E, A ನ ಮಗ. D, B ನ ಮಗ. E, C ಯನ್ನು ಮದುವೆಯಾಗಿದ್ದಾನೆ. C, B ನ ಮಗಳು. ಹಾಗಾದರೆ D ಗೆ E ಯ ಸಂಬಂಧವೇನು?"
+      },
+      "options": [
+        {
+          "kn": "ಸಹೋದರ",
+          "en": "Brother"
+        },
+        {
+          "kn": "ಚಿಕ್ಕಪ್ಪ/ದೊಡ್ಡಪ್ಪ",
+          "en": "Uncle"
+        },
+        {
+          "kn": "ತಾಯಿಯ ಕಡೆಯ ಮಾವ",
+          "en": "Maternal uncle"
+        },
+        {
+          "kn": "ಬಾವ",
+          "en": "Brother-in-law"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "en": "C is B's daughter and D is B's son, so C and D are siblings. E is married to C, so D is E's wife's brother, who is his brother-in-law. Answer D.",
+        "kn": "C, B ನ ಮಗಳು ಮತ್ತು D, B ನ ಮಗ, ಆದ್ದರಿಂದ C ಮತ್ತು D ಒಡಹುಟ್ಟಿದವರು. E, C ಯನ್ನು ಮದುವೆಯಾಗಿದ್ದಾನೆ, ಆದ್ದರಿಂದ D, E ನ ಹೆಂಡತಿಯ ಸಹೋದರ, ಅಂದರೆ ಬಾವ. ಉತ್ತರ D: ಬಾವ."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-VD-0486",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೌರಮಂಡಲ, ಧೂಮಕೇತು, ಗೆಲಾಕ್ಸಿ — ಇವುಗಳ ಸಂಬಂಧವನ್ನು ತೋರಿಸುವ ಸೂಕ್ತ ವೆನ್ ನಕ್ಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Solar System, Commet, Galaxy — Indicate the appropriate diagram that shows their relationship."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಗೆಲಾಕ್ಸಿ ಸೌರಮಂಡಲವನ್ನು ಒಳಗೊಂಡಿದೆ, ಮತ್ತು ಸೌರಮಂಡಲ ಧೂಮಕೇತುವನ್ನು ಒಳಗೊಂಡಿದೆ. ಆದ್ದರಿಂದ ಮೂರೂ ಒಳಒಳಗಾಗಿ ಇರುವ ವೃತ್ತಗಳು: ಗೆಲಾಕ್ಸಿ ⊃ ಸೌರಮಂಡಲ ⊃ ಧೂಮಕೇತು. ಉತ್ತರ A.",
+        "en": "The Galaxy contains the Solar System, and the Solar System contains comets. So the three are nested: Galaxy ⊃ Solar System ⊃ Comet. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-VD-0487",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಜೀವಿಗಳು, ಸಸ್ತನಿಗಳು, ನಾಯಿ, ಪಾರಿವಾಳ — ಇವುಗಳ ಸಂಬಂಧವನ್ನು ತೋರಿಸುವ ಸೂಕ್ತ ವೆನ್ ನಕ್ಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Living Organisms, Mammals, Dog, Pigeon — Indicate the appropriate diagram that shows their relationship."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ನಾಯಿ ಸಸ್ತನಿ; ಸಸ್ತನಿಗಳು ಜೀವಿಗಳ ಒಂದು ಭಾಗ. ಪಾರಿವಾಳವೂ ಜೀವಿ, ಆದರೆ ಸಸ್ತನಿಯಲ್ಲ. ಆದ್ದರಿಂದ ಜೀವಿಗಳ ವೃತ್ತದೊಳಗೆ ಸಸ್ತನಿಗಳ ವೃತ್ತ, ಅದರೊಳಗೆ ನಾಯಿ, ಮತ್ತು ಪಾರಿವಾಳ ಸಸ್ತನಿಗಳ ಹೊರಗೆ. ಉತ್ತರ A.",
+        "en": "A dog is a mammal, and mammals are living organisms. A pigeon is a living organism but not a mammal. So Dog lies inside Mammals, Mammals lie inside Living Organisms, and Pigeon lies inside Living Organisms but outside Mammals. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-VD-0488",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೊನ್ನೆ, ಪೂರ್ಣಾಂಕಗಳು, ಸ್ವಾಭಾವಿಕ ಸಂಖ್ಯೆಗಳು, ಅಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳು — ಇವುಗಳ ಸಂಬಂಧವನ್ನು ತೋರಿಸುವ ಸೂಕ್ತ ವೆನ್ ನಕ್ಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Zero, Integers, Natural Numbers, Irrational Numbers — Indicate the appropriate diagram that shows their relationship."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಸೊನ್ನೆ ಮತ್ತು ಸ್ವಾಭಾವಿಕ ಸಂಖ್ಯೆಗಳು ಎರಡೂ ಪೂರ್ಣಾಂಕಗಳು. ಅಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳು ಪೂರ್ಣಾಂಕಗಳಲ್ಲ. ಆದ್ದರಿಂದ ಪೂರ್ಣಾಂಕಗಳ ವೃತ್ತದೊಳಗೆ ಸೊನ್ನೆ ಮತ್ತು ಸ್ವಾಭಾವಿಕ ಸಂಖ್ಯೆಗಳು, ಮತ್ತು ಅಭಾಗಲಬ್ಧ ಸಂಖ್ಯೆಗಳು ಬೇರೆಯಾಗಿ. ಉತ್ತರ C.",
+        "en": "Zero and natural numbers are both integers. Irrational numbers are not integers. So inside the Integers circle are Zero and Natural Numbers, and Irrational Numbers stands apart. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-VD-0489",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ವಜ್ರಾಕೃತಿ, ಆಯತ, ಚೌಕ, ಸಮಾಂತರ ಚತುರ್ಭುಜ — ಇವುಗಳ ಸಂಬಂಧವನ್ನು ತೋರಿಸುವ ಸೂಕ್ತ ವೆನ್ ನಕ್ಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Rhombus, Rectangle, Square, Parallelogram — Indicate the appropriate diagram that shows their relationship."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಚೌಕ ವಜ್ರಾಕೃತಿಯೂ ಹೌದು ಮತ್ತು ಆಯತವೂ ಹೌದು. ವಜ್ರಾಕೃತಿ ಮತ್ತು ಆಯತ ಎರಡೂ ಸಮಾಂತರ ಚತುರ್ಭುಜಗಳು. ಆದ್ದರಿಂದ ಸಮಾಂತರ ಚತುರ್ಭುಜದ ವೃತ್ತದೊಳಗೆ ವಜ್ರಾಕೃತಿ ಮತ್ತು ಆಯತ ಅತಿಕ್ರಮಿಸುತ್ತವೆ, ಮತ್ತು ಅವುಗಳ ಅತಿಕ್ರಮಣದಲ್ಲಿ ಚೌಕ ಇರುತ್ತದೆ. ಉತ್ತರ D.",
+        "en": "A square is both a rhombus and a rectangle. Rhombus and rectangle are both parallelograms. So inside the Parallelogram circle, Rhombus and Rectangle overlap, and the Square lies in the overlap. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-VD-0490",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ನೋಬೆಲ್ ಪುರಸ್ಕೃತರು, ವಿಜ್ಞಾನಿಗಳು, ಸಿ.ವಿ. ರಾಮನ್ — ಇವುಗಳ ಸಂಬಂಧವನ್ನು ತೋರಿಸುವ ಸೂಕ್ತ ವೆನ್ ನಕ್ಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Nobel prize winners, Scientists, C.V. Raman — Indicate the appropriate diagram that shows their relationship."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಸಿ.ವಿ. ರಾಮನ್ ನೋಬೆಲ್ ಪುರಸ್ಕೃತರೂ ಹೌದು ವಿಜ್ಞಾನಿಯೂ ಹೌದು. ನೋಬೆಲ್ ಪುರಸ್ಕೃತರು ಮತ್ತು ವಿಜ್ಞಾನಿಗಳು ಅತಿಕ್ರಮಿಸುತ್ತಾರೆ, ಮತ್ತು ರಾಮನ್ ಆ ಅತಿಕ್ರಮಣದಲ್ಲಿದ್ದಾರೆ. ಉತ್ತರ D.",
+        "en": "C.V. Raman is both a Nobel prize winner and a scientist. The two groups overlap, and Raman lies in the overlap. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-VD-0491",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸಮಸಂಖ್ಯೆಗಳು, ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆಗಳು, ಸ್ವಾಭಾವಿಕ ಸಂಖ್ಯೆಗಳು — ಇವುಗಳ ಸಂಬಂಧವನ್ನು ತೋರಿಸುವ ಸೂಕ್ತ ವೆನ್ ನಕ್ಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+        "en": "Even Numbers, Prime Numbers, Natural Numbers — Indicate the appropriate diagram that shows their relationship."
+      },
+      "options": [
+        {
+          "kn": "ಆಯ್ಕೆ A",
+          "en": "Option A"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ B",
+          "en": "Option B"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ C",
+          "en": "Option C"
+        },
+        {
+          "kn": "ಆಯ್ಕೆ D",
+          "en": "Option D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸಮಸಂಖ್ಯೆಗಳು ಮತ್ತು ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆಗಳು ಎರಡೂ ಸ್ವಾಭಾವಿಕ ಸಂಖ್ಯೆಗಳು. ಸಂಖ್ಯೆ 2 ಸಮ ಮತ್ತು ಅವಿಭಾಜ್ಯ ಎರಡೂ ಹೌದು, ಆದ್ದರಿಂದ ಅವೆರಡೂ ಅತಿಕ್ರಮಿಸುತ್ತವೆ. ಉತ್ತರ B.",
+        "en": "Even and prime numbers are both natural numbers. The number 2 is both even and prime, so the two groups overlap. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-VD-0492",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ತರಗತಿಯ 100 ವಿದ್ಯಾರ್ಥಿಗಳ ಸಮೀಕ್ಷೆಯಲ್ಲಿ ಕಾಫಿ ಮತ್ತು ಟೀ ಕುಡಿಯುವವರ ಸಂಖ್ಯೆಯನ್ನು ಕೆಳಗಿನ ವೆನ್ ನಕ್ಷೆ ತೋರಿಸುತ್ತದೆ. ಕಾಫಿ ಕುಡಿಯುವವರ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "In a Survey of 100 students in a class, the number of coffee and tea drinking students is represented in a venn diagrams as shown below, answer the questions that follow. How many students drink coffee?"
+      },
+      "options": [
+        {
+          "kn": "20",
+          "en": "20"
+        },
+        {
+          "kn": "30",
+          "en": "30"
+        },
+        {
+          "kn": "50",
+          "en": "50"
+        },
+        {
+          "kn": "60",
+          "en": "60"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಕಾಫಿ ಮಾತ್ರ 30 ಮತ್ತು ಕಾಫಿ ಹಾಗೂ ಟೀ ಎರಡನ್ನೂ ಕುಡಿಯುವವರು 20. ಒಟ್ಟು ಕಾಫಿ ಕುಡಿಯುವವರು 30 + 20 = 50. ಉತ್ತರ C.",
+        "en": "Coffee only is 30 and coffee and tea together is 20. Total coffee drinkers = 30 + 20 = 50. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-VD-0493",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ತರಗತಿಯ 100 ವಿದ್ಯಾರ್ಥಿಗಳ ಸಮೀಕ್ಷೆಯಲ್ಲಿ ಕಾಫಿ ಮತ್ತು ಟೀ ಕುಡಿಯುವವರ ಸಂಖ್ಯೆಯನ್ನು ಕೆಳಗಿನ ವೆನ್ ನಕ್ಷೆ ತೋರಿಸುತ್ತದೆ. ಟೀ ಮಾತ್ರ ಕುಡಿಯುವ ವಿದ್ಯಾರ್ಥಿಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "In a Survey of 100 students in a class, the number of coffee and tea drinking students is represented in a venn diagrams as shown below, answer the questions that follow. How many students drink only tea?"
+      },
+      "options": [
+        {
+          "kn": "20",
+          "en": "20"
+        },
+        {
+          "kn": "30",
+          "en": "30"
+        },
+        {
+          "kn": "40",
+          "en": "40"
+        },
+        {
+          "kn": "50",
+          "en": "50"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಟೀ ಮಾತ್ರ ಕುಡಿಯುವವರು ವೆನ್ ನಕ್ಷೆಯಲ್ಲಿ 40. ಉತ್ತರ C.",
+        "en": "Tea only is 40 in the diagram. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-VD-0494",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ತರಗತಿಯ 100 ವಿದ್ಯಾರ್ಥಿಗಳ ಸಮೀಕ್ಷೆಯಲ್ಲಿ ಕಾಫಿ ಮತ್ತು ಟೀ ಕುಡಿಯುವವರ ಸಂಖ್ಯೆಯನ್ನು ಕೆಳಗಿನ ವೆನ್ ನಕ್ಷೆ ತೋರಿಸುತ್ತದೆ. ಕಾಫಿ ಮತ್ತು ಟೀ ಎರಡನ್ನೂ ಕುಡಿಯುವ ವಿದ್ಯಾರ್ಥಿಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "In a Survey of 100 students in a class, the number of coffee and tea drinking students is represented in a venn diagrams as shown below, answer the questions that follow. How many students drink both coffee and tea?"
+      },
+      "options": [
+        {
+          "kn": "50",
+          "en": "50"
+        },
+        {
+          "kn": "40",
+          "en": "40"
+        },
+        {
+          "kn": "30",
+          "en": "30"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಕಾಫಿ ಮತ್ತು ಟೀ ಎರಡೂ ಕುಡಿಯುವವರು ಅತಿಕ್ರಮಣ ಭಾಗದಲ್ಲಿ, ಅದು 20. ಉತ್ತರ D.",
+        "en": "The overlap of the two circles, which represents students who drink both, is 20. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-VD-0495",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ವೆನ್ ನಕ್ಷೆಯು ಕೆಳಗಿನ ಯಾವುದನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ?",
+        "en": "Which of the following is represents the given Venn diagram?"
+      },
+      "options": [
+        {
+          "kn": "ಕಾಡು ಪ್ರಾಣಿಗಳು, ಸಸ್ಯಹಾರಿಗಳು, ಹುಲಿ",
+          "en": "Wild Animals, Herbivorous, Tiger"
+        },
+        {
+          "kn": "ಕಾಡು ಪ್ರಾಣಿಗಳು, ಸಸ್ಯಹಾರಿಗಳು, ಆನೆ",
+          "en": "Wild Animals, Herbivorous, Elephant"
+        },
+        {
+          "kn": "ಸಸ್ಯಹಾರಿಗಳು, ಆನೆ, ಮಾಂಸಾಹಾರಿಗಳು",
+          "en": "Herbivorous, Elephant, Cornivorous"
+        },
+        {
+          "kn": "ಕಾಡು ಪ್ರಾಣಿಗಳು, ಸಸ್ಯಹಾರಿಗಳು, ಮಾಂಸಾಹಾರಿಗಳು",
+          "en": "Wild Animals, Herbivorous, Cornivorous"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಆನೆ ಕಾಡು ಪ್ರಾಣಿ ಮತ್ತು ಸಸ್ಯಹಾರಿ. ವೆನ್ ನಕ್ಷೆಯ ಅತಿಕ್ರಮಣದಲ್ಲಿರುವ ಚಿಕ್ಕ ವೃತ್ತ ಆನೆಯನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ. ಉತ್ತರ B.",
+        "en": "An elephant is a wild animal and a herbivore. The small circle in the overlap of Wild Animals and Herbivorous represents the elephant. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-VD-0496",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ವೆನ್ ನಕ್ಷೆಯು ಕೆಳಗಿನ ಯಾವುದನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ?",
+        "en": "Which of the following is represents the given Venn diagram?"
+      },
+      "options": [
+        {
+          "kn": "ಶಿಕ್ಷಕರು, ರೈತರು, ಮಾನವರು",
+          "en": "Teachers, Formers, Human beings"
+        },
+        {
+          "kn": "ಶಿಕ್ಷಕರು, ಕಪ್ಪುಹಲಗೆ, ನಟರು",
+          "en": "Teachers, Blackboard, Actors"
+        },
+        {
+          "kn": "ಶಿಕ್ಷಕರು, ರೈತರು, ನಟರು",
+          "en": "Teachers, Formers, Actors"
+        },
+        {
+          "kn": "ಮಾನವರು, ರೈತರು, ಪ್ರಾಣಿಗಳು",
+          "en": "Human beings, Formers, Animals"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಶಿಕ್ಷಕರು, ರೈತರು ಮತ್ತು ನಟರು ಮೂರು ಬೇರೆ ಬೇರೆ ವರ್ಗಗಳು, ಇವು ಪರಸ್ಪರ ಅತಿಕ್ರಮಿಸಬಹುದು. ಆದ್ದರಿಂದ ಮೂರು ಅತಿಕ್ರಮಿಸುವ ವೃತ್ತಗಳು. ಉತ್ತರ C.",
+        "en": "Teachers, farmers and actors are three different groups that can overlap, so they form three overlapping circles. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0497",
+      "difficulty": "medium",
+      "question": {
+        "kn": "2001ರ ಜೂನ್ 1ರಂದು ಯಾವ ವಾರವಿತ್ತು?",
+        "en": "What was the day of the week on 1st June 2001?"
+      },
+      "options": [
+        {
+          "kn": "ಸೋಮವಾರ",
+          "en": "Monday"
+        },
+        {
+          "kn": "ಬುಧವಾರ",
+          "en": "Wednesday"
+        },
+        {
+          "kn": "ಶುಕ್ರವಾರ",
+          "en": "Friday"
+        },
+        {
+          "kn": "ಭಾನುವಾರ",
+          "en": "Sunday"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "2001 ರ ಜನವರಿ 1 ಸೋಮವಾರ. ಜನವರಿಯಿಂದ ಜೂನ್ 1 ರವರೆಗೆ 151 ದಿನಗಳು (31+28+31+30+31). 151 = 21×7 + 4. ಸೋಮವಾರದಿಂದ 4 ದಿನ ಮುಂದೆ ಹೋದರೆ ಶುಕ್ರವಾರ. ಉತ್ತರ C.",
+        "en": "1 January 2001 was a Monday. From 1 January to 1 June is 151 days (31+28+31+30+31). 151 = 21×7 + 4. Four days after Monday is Friday. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0498",
+      "difficulty": "easy",
+      "question": {
+        "kn": "6 ವಾರ 8 ದಿನಗಳಲ್ಲಿ ಎಷ್ಟು ದಿನಗಳಿವೆ?",
+        "en": "How many days are there in 6 weeks 8 days?"
+      },
+      "options": [
+        {
+          "kn": "64",
+          "en": "64"
+        },
+        {
+          "kn": "48",
+          "en": "48"
+        },
+        {
+          "kn": "14",
+          "en": "14"
+        },
+        {
+          "kn": "50",
+          "en": "50"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "1 ವಾರ = 7 ದಿನಗಳು. 6 ವಾರ = 42 ದಿನಗಳು. 42 + 8 = 50 ದಿನಗಳು. ಉತ್ತರ D.",
+        "en": "1 week = 7 days. 6 weeks = 42 days. 42 + 8 = 50 days. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0499",
+      "difficulty": "medium",
+      "question": {
+        "kn": "1601 ರ ಜನವರಿಯಲ್ಲಿ ಮೊದಲ ಶನಿವಾರ ಯಾವ ದಿನಾಂಕದಂದು ಬರುತ್ತದೆ?",
+        "en": "On what date of January 1601 did the first Saturday fall?"
+      },
+      "options": [
+        {
+          "kn": "1",
+          "en": "1"
+        },
+        {
+          "kn": "3",
+          "en": "3"
+        },
+        {
+          "kn": "6",
+          "en": "6"
+        },
+        {
+          "kn": "7",
+          "en": "7"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "1601 ರ ಜನವರಿ 1 ಸೋಮವಾರ. ಸೋಮವಾರದಿಂದ ಶನಿವಾರಕ್ಕೆ 5 ದಿನಗಳು. ಆದ್ದರಿಂದ ಮೊದಲ ಶನಿವಾರ ಜನವರಿ 6. ಉತ್ತರ C.",
+        "en": "1 January 1601 was a Monday. Saturday is 5 days after Monday, so the first Saturday is 6 January. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0500",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ತಿಂಗಳ 6ನೇ ದಿನ ಶುಕ್ರವಾರವಾದರೆ, ತಿಂಗಳ 14ನೇ ದಿನ ಯಾವ ವಾರವಾಗಿರುತ್ತದೆ?",
+        "en": "If the 6th day of the month is Friday, what day will it be the 14th day of the month?"
+      },
+      "options": [
+        {
+          "kn": "ಶನಿವಾರ",
+          "en": "Saturday"
+        },
+        {
+          "kn": "ಬುಧವಾರ",
+          "en": "Wednesday"
+        },
+        {
+          "kn": "ಶುಕ್ರವಾರ",
+          "en": "Friday"
+        },
+        {
+          "kn": "ಭಾನುವಾರ",
+          "en": "Sunday"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "6ನೇ ದಿನ ಶುಕ್ರವಾರ. 14ನೇ ದಿನ 8 ದಿನಗಳ ನಂತರ. 8 = 7 + 1. ಶುಕ್ರವಾರದಿಂದ 1 ದಿನ ನಂತರ ಶನಿವಾರ. ಉತ್ತರ A.",
+        "en": "The 6th is a Friday. The 14th is 8 days later. 8 = 7 + 1, so one day after Friday is Saturday. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0501",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಇಂದು ಭಾನುವಾರ. 78 ದಿನಗಳ ನಂತರ ಅದು ಯಾವ ವಾರವಾಗಿರುತ್ತದೆ?",
+        "en": "Today is Sunday, after 78 days it will be?"
+      },
+      "options": [
+        {
+          "kn": "ಸೋಮವಾರ",
+          "en": "Monday"
+        },
+        {
+          "kn": "ಬುಧವಾರ",
+          "en": "Wednesday"
+        },
+        {
+          "kn": "ಶುಕ್ರವಾರ",
+          "en": "Friday"
+        },
+        {
+          "kn": "ಭಾನುವಾರ",
+          "en": "Sunday"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "78 = 11×7 + 1. ಭಾನುವಾರದಿಂದ 1 ದಿನ ನಂತರ ಸೋಮವಾರ. ಉತ್ತರ A.",
+        "en": "78 = 11×7 + 1. One day after Sunday is Monday. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0502",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ರಾಜೇಶ್ 2022 ರ ಮಾರ್ಚ್ 14 ರಂದು ತನ್ನ ಹುಟ್ಟುಹಬ್ಬ ಆಚರಿಸಿದನು; ಅದು ಸೋಮವಾರವಾಗಿತ್ತು. ಮುಂದಿನ ವರ್ಷ ಅವನು ತನ್ನ ಹುಟ್ಟುಹಬ್ಬವನ್ನು ಯಾವ ವಾರದಂದು ಆಚರಿಸುತ್ತಾನೆ?",
+        "en": "Rajesh celebrated his birthday on 14th March 2022, it was Monday. On which day the next year he celebrates his birthday?"
+      },
+      "options": [
+        {
+          "kn": "ಭಾನುವಾರ",
+          "en": "Sunday"
+        },
+        {
+          "kn": "ಮಂಗಳವಾರ",
+          "en": "Tuesday"
+        },
+        {
+          "kn": "ಶುಕ್ರವಾರ",
+          "en": "Friday"
+        },
+        {
+          "kn": "ಸೋಮವಾರ",
+          "en": "Monday"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "2022 ರ ಮಾರ್ಚ್ 14 ರಿಂದ 2023 ರ ಮಾರ್ಚ್ 14 ರವರೆಗೆ 365 ದಿನಗಳು (ಫೆಬ್ರವರಿ 2023 ಅಧಿಕ ವರ್ಷವಲ್ಲ). 365 = 52×7 + 1. ಸೋಮವಾರದಿಂದ 1 ದಿನ ನಂತರ ಮಂಗಳವಾರ. ಉತ್ತರ B.",
+        "en": "From 14 March 2022 to 14 March 2023 is 365 days (2023 is not a leap year). 365 = 52×7 + 1. One day after Monday is Tuesday. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0503",
+      "difficulty": "easy",
+      "question": {
+        "kn": "01.12.1991 ಭಾನುವಾರ. ಡಿಸೆಂಬರ್ 1991 ರ ನಾಲ್ಕನೇ ಬುಧವಾರ ಯಾವುದು?",
+        "en": "01.12.1991 is the Sunday. Which is the fourth Wednesday of December 1991?"
+      },
+      "options": [
+        {
+          "kn": "17.12.1991",
+          "en": "17.12.1991"
+        },
+        {
+          "kn": "25.12.1991",
+          "en": "25.12.1991"
+        },
+        {
+          "kn": "24.12.1991",
+          "en": "24.12.1991"
+        },
+        {
+          "kn": "31.12.1991",
+          "en": "31.12.1991"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಡಿಸೆಂಬರ್ 1 ಭಾನುವಾರ. ಬುಧವಾರಗಳು: 4, 11, 18, 25. ನಾಲ್ಕನೇ ಬುಧವಾರ 25.12.1991. ಉತ್ತರ B.",
+        "en": "1 December is a Sunday. The Wednesdays are 4, 11, 18 and 25. The fourth Wednesday is 25.12.1991. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0504",
+      "difficulty": "medium",
+      "question": {
+        "kn": "1991 ರ ನಂತರದ ವರ್ಷದ ಕ್ಯಾಲೆಂಡರ್ 1991 ರ ಕ್ಯಾಲೆಂಡರ್‌ನಂತೆಯೇ ಇರುವ ವರ್ಷ ಯಾವುದು?",
+        "en": "The year next to 1991 will be the same calendar as that of the year 1991."
+      },
+      "options": [
+        {
+          "kn": "2000",
+          "en": "2000"
+        },
+        {
+          "kn": "2002",
+          "en": "2002"
+        },
+        {
+          "kn": "1997",
+          "en": "1997"
+        },
+        {
+          "kn": "1998",
+          "en": "1998"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "1991 ರ ಜನವರಿ 1 ಮಂಗಳವಾರ. 1991 ರಿಂದ 2002 ರವರೆಗೆ 11 ವರ್ಷಗಳು, ಅದರಲ್ಲಿ 3 ಅಧಿಕ ವರ್ಷಗಳು (1992, 1996, 2000). 11 + 3 = 14 = 2×7, ಆದ್ದರಿಂದ ಬದಲಾವಣೆ 0. 2002 ರ ಜನವರಿ 1 ಕೂಡ ಮಂಗಳವಾರ. ಉತ್ತರ B.",
+        "en": "1 January 1991 was a Tuesday. From 1991 to 2002 there are 11 years, including 3 leap years (1992, 1996, 2000). 11 + 3 = 14 = 2×7, so the shift is 0. 1 January 2002 is also a Tuesday. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0505",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಮೊನ್ನೆ ಶನಿವಾರವಾಗಿದ್ದರೆ, ನಾಡಿದ್ದು ಯಾವ ವಾರ ಬರುತ್ತದೆ?",
+        "en": "If the day before yesterday was Saturday, what day will fall on the day after tomorrow?"
+      },
+      "options": [
+        {
+          "kn": "ಗುರುವಾರ",
+          "en": "Thursday"
+        },
+        {
+          "kn": "ಬುಧವಾರ",
+          "en": "Wednesday"
+        },
+        {
+          "kn": "ಶನಿವಾರ",
+          "en": "Saturday"
+        },
+        {
+          "kn": "ಮಂಗಳವಾರ",
+          "en": "Tuesday"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೊನ್ನೆ ಶನಿವಾರ ಆದ್ದರಿಂದ ಇಂದು ಸೋಮವಾರ, ನಾಳೆ ಮಂಗಳವಾರ, ನಾಡಿದ್ದು ಬುಧವಾರ. ಉತ್ತರ B.",
+        "en": "The day before yesterday was Saturday, so today is Monday, tomorrow is Tuesday, and the day after tomorrow is Wednesday. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0506",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಶನಿವಾರದಿಂದ ಪ್ರಾರಂಭವಾಗುವ 30 ದಿನಗಳ ತಿಂಗಳಲ್ಲಿ ಪ್ರತಿ ಎರಡನೇ ಮತ್ತು ನಾಲ್ಕನೇ ಶನಿವಾರ ಮತ್ತು ಎಲ್ಲಾ ಭಾನುವಾರಗಳು ರಜೆಯಾದರೆ, ಆ ತಿಂಗಳಲ್ಲಿ ಎಷ್ಟು ಕೆಲಸದ ದಿನಗಳಿವೆ?",
+        "en": "If every second & fourth Saturdays and all Sundays are holidays in a 30 days month beginning Saturday, then how many working days are there in that month?"
+      },
+      "options": [
+        {
+          "kn": "28",
+          "en": "28"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        },
+        {
+          "kn": "25",
+          "en": "25"
+        },
+        {
+          "kn": "23",
+          "en": "23"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ತಿಂಗಳ ಶನಿವಾರಗಳು: 1, 8, 15, 22, 29. ಭಾನುವಾರಗಳು: 2, 9, 16, 23, 30. ರಜೆ: ಎಲ್ಲಾ 5 ಭಾನುವಾರಗಳು + 2ನೇ ಶನಿವಾರ (8) + 4ನೇ ಶನಿವಾರ (22) = 7 ದಿನಗಳು. ಕೆಲಸದ ದಿನ = 30 − 7 = 23. ಉತ್ತರ D.",
+        "en": "Saturdays fall on 1, 8, 15, 22 and 29. Sundays fall on 2, 9, 16, 23 and 30. Holidays: all 5 Sundays + the 2nd Saturday (8) + the 4th Saturday (22) = 7 days. Working days = 30 − 7 = 23. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0507",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಶತಮಾನದ ಕೊನೆಯ ದಿನ ಯಾವ ವಾರವಾಗಿರಬಹುದು?",
+        "en": "The last day of a century can be"
+      },
+      "options": [
+        {
+          "kn": "ಮಂಗಳವಾರ",
+          "en": "Tuesday"
+        },
+        {
+          "kn": "ಗುರುವಾರ",
+          "en": "Thursday"
+        },
+        {
+          "kn": "ಶನಿವಾರ",
+          "en": "Saturday"
+        },
+        {
+          "kn": "ಶುಕ್ರವಾರ",
+          "en": "Friday"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಶತಮಾನದ ಕೊನೆಯ ದಿನ ಎಂದರೆ ಶತಮಾನದ ವರ್ಷ (2000, 2100, 2200, 2300) ಡಿಸೆಂಬರ್ 31. ಈ ದಿನಗಳು ಭಾನುವಾರ, ಶುಕ್ರವಾರ, ಬುಧವಾರ, ಸೋಮವಾರ ಎಂಬ ಕ್ರಮದಲ್ಲಿ ಬರುತ್ತವೆ. ಆಯ್ಕೆಗಳಲ್ಲಿ ಈ ಕ್ರಮದಲ್ಲಿರುವುದು ಶುಕ್ರವಾರ ಮಾತ್ರ. ಉತ್ತರ D.",
+        "en": "The last day of a century is 31 December of a year ending in 00 (2000, 2100, 2200, 2300). These days fall on Sunday, Friday, Wednesday and Monday in turn. Among the options only Friday appears in this pattern. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0508",
+      "difficulty": "medium",
+      "question": {
+        "kn": "100 ವರ್ಷಗಳ ಅವಧಿಯಲ್ಲಿ ಎಷ್ಟು ಅಧಿಕ ವರ್ಷಗಳಿರುತ್ತವೆ?",
+        "en": "How many leap years do a period of 100 years have?"
+      },
+      "options": [
+        {
+          "kn": "25",
+          "en": "25"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        },
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "26",
+          "en": "26"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "100 ÷ 4 = 25. ಆದರೆ ಶತಮಾನದ ವರ್ಷ 400 ರಿಂದ ಭಾಗವಾಗದಿದ್ದರೆ ಅದು ಅಧಿಕ ವರ್ಷವಲ್ಲ. ಆದ್ದರಿಂದ 25 − 1 = 24. ಉತ್ತರ B.",
+        "en": "100 ÷ 4 = 25. But a century year that is not divisible by 400 is not a leap year, so 25 − 1 = 24. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0509",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ವಿರಾಟ್ 10 ದಿನಗಳ ಹಿಂದೆ ಮಾರುಕಟ್ಟೆಗೆ ಹೋದನು. ಅವನು ಭಾನುವಾರ ಮಾತ್ರ ಮಾರುಕಟ್ಟೆಗೆ ಹೋಗುತ್ತಾನೆ. ಇಂದು ಯಾವ ವಾರ?",
+        "en": "Virat went to the market 10 days ago. He goes to the market only on Sunday. What day of week is today?"
+      },
+      "options": [
+        {
+          "kn": "ಸೋಮವಾರ",
+          "en": "Monday"
+        },
+        {
+          "kn": "ಬುಧವಾರ",
+          "en": "Wednesday"
+        },
+        {
+          "kn": "ಶನಿವಾರ",
+          "en": "Saturday"
+        },
+        {
+          "kn": "ಮಂಗಳವಾರ",
+          "en": "Tuesday"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "10 ದಿನಗಳ ಹಿಂದೆ ಭಾನುವಾರ. 10 = 7 + 3. ಭಾನುವಾರದಿಂದ 3 ದಿನ ನಂತರ ಬುಧವಾರ. ಉತ್ತರ B.",
+        "en": "10 days ago it was Sunday. 10 = 7 + 3. Three days after Sunday is Wednesday. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CA-0510",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಕಿರಣ್ 2000 ರ ಮಾರ್ಚ್ 5 ರಂದು ಜನಿಸಿದನು. ಅದೇ ವರ್ಷ ಗಣರಾಜ್ಯೋತ್ಸವವನ್ನು ಬುಧವಾರದಂದು ಆಚರಿಸಲಾಯಿತು. ಕಿರಣ್ ಹುಟ್ಟಿದ ದಿನ ಯಾವ ವಾರ?",
+        "en": "Kiran was born on March 5, 2000. The same year Republic day was celebrated on Wednesday. On which day was Kiran born?"
+      },
+      "options": [
+        {
+          "kn": "ಭಾನುವಾರ",
+          "en": "Sunday"
+        },
+        {
+          "kn": "ಬುಧವಾರ",
+          "en": "Wednesday"
+        },
+        {
+          "kn": "ಶನಿವಾರ",
+          "en": "Saturday"
+        },
+        {
+          "kn": "ಮಂಗಳವಾರ",
+          "en": "Tuesday"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "26 ಜನವರಿ 2000 ಬುಧವಾರ. 26 ಜನವರಿಯಿಂದ 5 ಮಾರ್ಚ್ ವರೆಗೆ 39 ದಿನಗಳು (5 + 29 + 5, 2000 ಅಧಿಕ ವರ್ಷ). 39 = 5×7 + 4. ಬುಧವಾರದಿಂದ 4 ದಿನ ನಂತರ ಭಾನುವಾರ. ಉತ್ತರ A.",
+        "en": "26 January 2000 was a Wednesday. From 26 January to 5 March is 39 days (5 + 29 + 5, 2000 is a leap year). 39 = 5×7 + 4. Four days after Wednesday is Sunday. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CK-0511",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ಗಡಿಯಾರ ಬೆಳಿಗ್ಗೆ 9 ಗಂಟೆಯನ್ನು ತೋರಿಸುತ್ತದೆ. ಮಧ್ಯಾಹ್ನ ಗಡಿಯಾರ 3:00 ತೋರಿಸುವಾಗ ಗಂಟೆ ಮುಳ್ಳು ಎಷ್ಟು ಡಿಗ್ರಿ ತಿರುಗಿರುತ್ತದೆ?",
+        "en": "A clock shows 9 o'clock in the morning. Through how many degrees will the hour hand rotate when the clock shows 3 o'clock in the afternoon?"
+      },
+      "options": [
+        {
+          "kn": "145°",
+          "en": "145°"
+        },
+        {
+          "kn": "150°",
+          "en": "150°"
+        },
+        {
+          "kn": "160°",
+          "en": "160°"
+        },
+        {
+          "kn": "180°",
+          "en": "180°"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಬೆಳಿಗ್ಗೆ 9 ರಿಂದ ಮಧ್ಯಾಹ್ನ 3 ರವರೆಗೆ 6 ಗಂಟೆಗಳು. ಗಂಟೆ ಮುಳ್ಳು ಪ್ರತಿ ಗಂಟೆಗೆ 30° ತಿರುಗುತ್ತದೆ. 6 × 30° = 180°. ಉತ್ತರ D.",
+        "en": "From 9 a.m. to 3 p.m. is 6 hours. The hour hand turns 30° per hour: 6 × 30° = 180°. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CK-0512",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕನ್ನಡಿಯಲ್ಲಿ ನೋಡಿದಾಗ ಒಂದು ಗಡಿಯಾರ 11:25 ತೋರಿಸುತ್ತಿರುವಂತೆ ಕಾಣುತ್ತದೆ. ಗಡಿಯಾರದ ನಿಜವಾದ ಸಮಯ ಯಾವುದು?",
+        "en": "By looking in mirror, it appears that it is 11:25 in the clock, what is the real time?"
+      },
+      "options": [
+        {
+          "kn": "1:35",
+          "en": "1:35"
+        },
+        {
+          "kn": "12:35",
+          "en": "12:35"
+        },
+        {
+          "kn": "1:30",
+          "en": "1:30"
+        },
+        {
+          "kn": "12:25",
+          "en": "12:25"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕನ್ನಡಿ ಪ್ರತಿಬಿಂಬದಲ್ಲಿ ನಿಜವಾದ ಸಮಯ = 11:60 − ಪ್ರತಿಬಿಂಬ ಸಮಯ. 11:60 − 11:25 = 12:35. ಉತ್ತರ B.",
+        "en": "For a mirror image, real time = 11:60 − image time. 11:60 − 11:25 = 12:35. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CK-0513",
+      "difficulty": "easy",
+      "question": {
+        "kn": "5:50 ಕ್ಕೆ ನಿಮಿಷದ ಮುಳ್ಳು ಮತ್ತು ಗಂಟೆ ಮುಳ್ಳಿನ ನಡುವಿನ ಕೋನ ಎಷ್ಟು?",
+        "en": "What is the angle between minute hand and hour hand at 5:50?"
+      },
+      "options": [
+        {
+          "kn": "235°",
+          "en": "235°"
+        },
+        {
+          "kn": "75°",
+          "en": "75°"
+        },
+        {
+          "kn": "125°",
+          "en": "125°"
+        },
+        {
+          "kn": "100°",
+          "en": "100°"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "5:50 ಕ್ಕೆ ಗಂಟೆ ಮುಳ್ಳು = 5×30° + 50×0.5° = 175°. ನಿಮಿಷದ ಮುಳ್ಳು = 50×6° = 300°. ವ್ಯತ್ಯಾಸ = 300° − 175° = 125°. ಉತ್ತರ C.",
+        "en": "At 5:50 the hour hand is at 5×30° + 50×0.5° = 175°. The minute hand is at 50×6° = 300°. Difference = 300° − 175° = 125°. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CK-0514",
+      "difficulty": "medium",
+      "question": {
+        "kn": "9:10 ಕ್ಕೆ ಗಡಿಯಾರದ ಮುಳ್ಳುಗಳ ನಡುವಿನ ಕೋನ ಎಷ್ಟು?",
+        "en": "The angle between the hands of a clock at 9:10 is"
+      },
+      "options": [
+        {
+          "kn": "215°",
+          "en": "215°"
+        },
+        {
+          "kn": "225°",
+          "en": "225°"
+        },
+        {
+          "kn": "145°",
+          "en": "145°"
+        },
+        {
+          "kn": "95°",
+          "en": "95°"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "9:10 ಕ್ಕೆ ಗಂಟೆ ಮುಳ್ಳು = 9×30° + 10×0.5° = 275°. ನಿಮಿಷದ ಮುಳ್ಳು = 60°. ವ್ಯತ್ಯಾಸ = 215°. ಚಿಕ್ಕ ಕೋನ = 360° − 215° = 145°. ಉತ್ತರ C.",
+        "en": "At 9:10 the hour hand is at 275° and the minute hand at 60°. Difference = 215°. The smaller angle is 360° − 215° = 145°. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CK-0515",
+      "difficulty": "medium",
+      "question": {
+        "kn": "7:28 ಕ್ಕೆ ಗಡಿಯಾರದ ಮುಳ್ಳುಗಳ ನಡುವಿನ ಪ್ರತಿಕೋನ (ರಿಫ್ಲೆಕ್ಸ್ ಕೋನ) ಎಷ್ಟು?",
+        "en": "The reflex angle between the hand of a clock a 7:28 is"
+      },
+      "options": [
+        {
+          "kn": "124°",
+          "en": "124°"
+        },
+        {
+          "kn": "56°",
+          "en": "56°"
+        },
+        {
+          "kn": "304°",
+          "en": "304°"
+        },
+        {
+          "kn": "194°",
+          "en": "194°"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "7:28 ಕ್ಕೆ ಗಂಟೆ ಮುಳ್ಳು = 7×30° + 28×0.5° = 224°. ನಿಮಿಷದ ಮುಳ್ಳು = 28×6° = 168°. ವ್ಯತ್ಯಾಸ = 56°. ಪ್ರತಿಕೋನ = 360° − 56° = 304°. ಉತ್ತರ C.",
+        "en": "At 7:28 the hour hand is at 224° and the minute hand at 168°. Difference = 56°. Reflex angle = 360° − 56° = 304°. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CK-0516",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದು ಗಡಿಯಾರ ಪ್ರತಿದಿನ ಸರಿಯಾದ ಸಮಯಕ್ಕಿಂತ 15 ನಿಮಿಷ ಮುಂದೆ ಓಡುತ್ತದೆ. ಅದನ್ನು ಸರಿಪಡಿಸಿ ಮಧ್ಯಾಹ್ನ 12 ಗಂಟೆಗೆ ಪ್ರಮಾಣಿತ ಸಮಯಕ್ಕೆ ಹೊಂದಿಸಿದರೆ, ಬೆಳಿಗ್ಗೆ 4:00 ಕ್ಕೆ ಅದು ಯಾವ ಸಮಯ ತೋರಿಸುತ್ತದೆ?",
+        "en": "A watch goes fast by 15 min compared to the right time every day. If it is corrected and set to the standard time at 12 o'clock at noon, which of the following will be the time shown by it at 4:00 am?"
+      },
+      "options": [
+        {
+          "kn": "3:45 am",
+          "en": "3:45 am"
+        },
+        {
+          "kn": "4:10 am",
+          "en": "4:10 am"
+        },
+        {
+          "kn": "4:15 am",
+          "en": "4:15 am"
+        },
+        {
+          "kn": "4:30 am",
+          "en": "4:30 am"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮಧ್ಯಾಹ್ನ 12 ರಿಂದ ಬೆಳಿಗ್ಗೆ 4 ರವರೆಗೆ 16 ಗಂಟೆಗಳು. ಗಡಿಯಾರ ದಿನಕ್ಕೆ 15 ನಿಮಿಷ ಮುಂದೆ ಹೋಗುತ್ತದೆ, ಆದ್ದರಿಂದ 16 ಗಂಟೆಗಳಲ್ಲಿ 15 × 16/24 = 10 ನಿಮಿಷ ಮುಂದೆ ಹೋಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಅದು 4:10 am ತೋರಿಸುತ್ತದೆ. ಉತ್ತರ B.",
+        "en": "From 12 noon to 4 a.m. is 16 hours. The watch gains 15 min per 24 hours, so in 16 hours it gains 15 × 16/24 = 10 min. It shows 4:10 a.m. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CK-0517",
+      "difficulty": "hard",
+      "question": {
+        "kn": "6 ಮತ್ತು 7 ಗಂಟೆಯ ನಡುವೆ ಯಾವ ಸಮಯಕ್ಕೆ ನಿಮಿಷದ ಮುಳ್ಳು ಮತ್ತು ಗಂಟೆ ಮುಳ್ಳು ಒಂದರ ಮೇಲೊಂದು ಬರುತ್ತವೆ?",
+        "en": "At what time between 6 to 7 o'clock the minute hand and hour hand when overlap each other?"
+      },
+      "options": [
+        {
+          "kn": "6:30 7/11",
+          "en": "6:30 7/11"
+        },
+        {
+          "kn": "6:31 6/11",
+          "en": "6:31 6/11"
+        },
+        {
+          "kn": "6:32 8/11",
+          "en": "6:32 8/11"
+        },
+        {
+          "kn": "6: 32 2/11",
+          "en": "6: 32 2/11"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "6:00 ಕ್ಕೆ ಗಂಟೆ ಮುಳ್ಳು 180° ನಲ್ಲಿ, ನಿಮಿಷದ ಮುಳ್ಳು 0° ನಲ್ಲಿ. m ನಿಮಿಷಗಳ ನಂತರ: 180 + 0.5m = 6m → m = 180/5.5 = 32 8/11. ಆದ್ದರಿಂದ 6:32 8/11. ಉತ್ತರ C.",
+        "en": "At 6:00 the hour hand is at 180° and the minute hand at 0°. After m minutes they meet when 180 + 0.5m = 6m, so m = 180/5.5 = 32 8/11. The overlap is at 6:32 8/11. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-CK-0518",
+      "difficulty": "hard",
+      "question": {
+        "kn": "9 ಮತ್ತು 10 ಗಂಟೆಯ ನಡುವೆ ಯಾವ ಸಮಯದಲ್ಲಿ ಗಂಟೆ ಮುಳ್ಳು ಮತ್ತು ನಿಮಿಷದ ಮುಳ್ಳು ನಡುವಿನ ಕೋನ ಸೊನ್ನೆ ಡಿಗ್ರಿ ಆಗಿರುತ್ತದೆ?",
+        "en": "Between 9 o'clock and 10 o'clock, at what time minute hand and hour hand will make an angle of 0(zero) degree?"
+      },
+      "options": [
+        {
+          "kn": "9:39 8/11",
+          "en": "9:39 8/11"
+        },
+        {
+          "kn": "9:49 10/11",
+          "en": "9:49 10/11"
+        },
+        {
+          "kn": "9:49 1/11",
+          "en": "9:49 1/11"
+        },
+        {
+          "kn": "9:50 9/11",
+          "en": "9:50 9/11"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "9:00 ಕ್ಕೆ ಗಂಟೆ ಮುಳ್ಳು 270° ನಲ್ಲಿ. m ನಿಮಿಷಗಳ ನಂತರ: 270 + 0.5m = 6m → m = 270/5.5 = 49 1/11. ಆದ್ದರಿಂದ 9:49 1/11. ಉತ್ತರ C.",
+        "en": "At 9:00 the hour hand is at 270°. The hands coincide when 270 + 0.5m = 6m, so m = 270/5.5 = 49 1/11. The time is 9:49 1/11. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AT-0519",
+      "difficulty": "easy",
+      "question": {
+        "kn": "50 ವಿದ್ಯಾರ್ಥಿಗಳಿರುವ ತರಗತಿಯಲ್ಲಿ ಅಕಾಶ್ 20ನೇ ರ‍್ಯಾಂಕ್ ಪಡೆದಿದ್ದಾನೆ. ಹಿಂದಿನಿಂದ ಅವನ ರ‍್ಯಾಂಕ್ ಎಷ್ಟು?",
+        "en": "Akash has secured 20th rank in a class of 50 students. So what is his rank from the last?"
+      },
+      "options": [
+        {
+          "kn": "19",
+          "en": "19"
+        },
+        {
+          "kn": "20",
+          "en": "20"
+        },
+        {
+          "kn": "30",
+          "en": "30"
+        },
+        {
+          "kn": "31",
+          "en": "31"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಅಕಾಶ್ ಮುಂದೆ 19 ವಿದ್ಯಾರ್ಥಿಗಳಿದ್ದಾರೆ ಮತ್ತು ಹಿಂದೆ 50 − 20 = 30 ವಿದ್ಯಾರ್ಥಿಗಳಿದ್ದಾರೆ. ಆದ್ದರಿಂದ ಹಿಂದಿನಿಂದ ಅವನ ರ‍್ಯಾಂಕ್ 30 + 1 = 31. ಉತ್ತರ D.",
+        "en": "There are 50 − 20 = 30 students behind Akash. So his rank from the last is 30 + 1 = 31. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AT-0520",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ವಿಶಾಲ್ ತರಗತಿಯಲ್ಲಿ ಮೇಲಿನಿಂದ 10ನೇ ರ‍್ಯಾಂಕ್ ಮತ್ತು ಕೆಳಗಿನಿಂದ 25ನೇ ರ‍್ಯಾಂಕ್ ಪಡೆದಿದ್ದಾನೆ. ಆ ತರಗತಿಯಲ್ಲಿ ಒಟ್ಟು ವಿದ್ಯಾರ್ಥಿಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "Vishal has posted 10th rank from the top and 25th rank from the bottom in a class. So what is the total number of students in his class?"
+      },
+      "options": [
+        {
+          "kn": "35",
+          "en": "35"
+        },
+        {
+          "kn": "36",
+          "en": "36"
+        },
+        {
+          "kn": "34",
+          "en": "34"
+        },
+        {
+          "kn": "37",
+          "en": "37"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ವಿಶಾಲ್‌ನ ಎರಡೂ ಕಡೆಯ ರ‍್ಯಾಂಕ್ ಗಳನ್ನು ಕೂಡಿಸಿ, ಅವನನ್ನು ಎರಡು ಬಾರಿ ಎಣಿಸಿದ್ದರಿಂದ 1 ಕಳೆಯಬೇಕು: 10 + 25 − 1 = 34. ಉತ್ತರ C.",
+        "en": "Add the two ranks and subtract 1, because Vishal is counted twice: 10 + 25 − 1 = 34. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AT-0521",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ಶಾಲೆಯಲ್ಲಿ ಅಟಲ್ ಟಿಂಕರಿಂಗ್ ಲ್ಯಾಬ್ ಎರಡೂ ಕಡೆಯಿಂದ ಏಳನೇ ಸ್ಥಾನದಲ್ಲಿದೆ. ಆ ಶಾಲೆಯಲ್ಲಿರುವ ಒಟ್ಟು ಕೊಠಡಿಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "In a school Atal tinkering lab is at seventh position from two sides then what is the total number of rooms in that school?"
+      },
+      "options": [
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "13",
+          "en": "13"
+        },
+        {
+          "kn": "14",
+          "en": "14"
+        },
+        {
+          "kn": "16",
+          "en": "16"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಎರಡೂ ಕಡೆಯಿಂದ ಏಳನೇ: 7 + 7 = 14. ಲ್ಯಾಬ್ ಅನ್ನು ಎರಡು ಬಾರಿ ಎಣಿಸಿರುವುದರಿಂದ 1 ಕಳೆಯಬೇಕು: 14 − 1 = 13. ಉತ್ತರ B.",
+        "en": "Seventh from both sides: 7 + 7 = 14. The lab is counted twice, so subtract 1: 14 − 1 = 13. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AT-0522",
+      "difficulty": "medium",
+      "question": {
+        "kn": "18 ಪುಸ್ತಕಗಳಿರುವ ಕಪಾಟಿನಲ್ಲಿ ಒಂದು ಗಣಿತ ಪುಸ್ತಕವನ್ನು ಐದು ಸ್ಥಾನ ಬಲಕ್ಕೆ ಸರಿಸಿದಾಗ ಅದು ಹತ್ತನೇ ಸ್ಥಾನಕ್ಕೆ ಬರುತ್ತದೆ. ಹಾಗಾದರೆ ಸರಿಸುವ ಮೊದಲು ಬಲದಿಂದ ಅದರ ಸ್ಥಾನ ಎಷ್ಟು?",
+        "en": "In a rack of 18 books, a math book is moved five places to the right to become the tenth. So what is the position before it from the right?"
+      },
+      "options": [
+        {
+          "kn": "13",
+          "en": "13"
+        },
+        {
+          "kn": "14",
+          "en": "14"
+        },
+        {
+          "kn": "12",
+          "en": "12"
+        },
+        {
+          "kn": "11",
+          "en": "11"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಗಣಿತ ಪುಸ್ತಕ ಮೊದಲು ಎಡದಿಂದ 10 − 5 = 5ನೇ ಸ್ಥಾನದಲ್ಲಿತ್ತು. ಅದರ ಬಲಭಾಗದಲ್ಲಿ 18 − 5 = 13 ಪುಸ್ತಕಗಳಿದ್ದವು. ಆದ್ದರಿಂದ ಬಲದಿಂದ ಅದರ ಸ್ಥಾನ 13 + 1 = 14. ಉತ್ತರ B.",
+        "en": "The math book was originally 10 − 5 = 5th from the left. There were 18 − 5 = 13 books to its right. So its position from the right was 13 + 1 = 14. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AT-0523",
+      "difficulty": "hard",
+      "question": {
+        "kn": "97424105869591845207 ಈ ಸಂಖ್ಯೆಗಳ ಅಂಕೆಗಳನ್ನು ಏರುಕ್ರಮದಲ್ಲಿ ಬರೆದಾಗ, ಮೂಲ ಸ್ಥಾನದಲ್ಲಿಯೇ ಉಳಿಯುವ ಅಂಕೆಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "When these numbers are written in ascending order, what is the number of digits that remain in the original position?"
+      },
+      "options": [
+        {
+          "kn": "01",
+          "en": "01"
+        },
+        {
+          "kn": "02",
+          "en": "02"
+        },
+        {
+          "kn": "03",
+          "en": "03"
+        },
+        {
+          "kn": "04",
+          "en": "04"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಅಂಕೆಗಳನ್ನು ಏರುಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸಿದಾಗ 00112244455567788999 ಆಗುತ್ತದೆ. ಮೂಲ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ಹೋಲಿಸಿದಾಗ, 15ನೇ ಸ್ಥಾನದ 8 ಮಾತ್ರ ಒಂದೇ ಸ್ಥಾನದಲ್ಲಿದೆ. ಉತ್ತರ A: 01.",
+        "en": "Sorting the digits in ascending order gives 00112244455567788999. Comparing with the original number, only the digit 8 in the 15th place stays in its position. Answer A: 01."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AT-0524",
+      "difficulty": "medium",
+      "question": {
+        "kn": "MATHEMATICS ಈ ಪದದ ಅಕ್ಷರಗಳನ್ನು ವರ್ಣಮಾಲೆಯ ಕ್ರಮದಲ್ಲಿ ಬರೆದಾಗ, ಮೂಲ ಸ್ಥಾನದಲ್ಲಿಯೇ ಉಳಿಯುವ ಅಕ್ಷರಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "MATHEMATICS When the letters in this word are written alphabetically, how many letters remain in their original position?"
+      },
+      "options": [
+        {
+          "kn": "01",
+          "en": "01"
+        },
+        {
+          "kn": "02",
+          "en": "02"
+        },
+        {
+          "kn": "03",
+          "en": "03"
+        },
+        {
+          "kn": "04",
+          "en": "04"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "MATHEMATICS ನ ಅಕ್ಷರಗಳನ್ನು ವರ್ಣಮಾಲೆ ಕ್ರಮದಲ್ಲಿ ಬರೆದರೆ AACEHIMMSTT ಆಗುತ್ತದೆ. ಎರಡನೇ ಸ್ಥಾನದ A ಮಾತ್ರ ಮೂಲ ಸ್ಥಾನದಲ್ಲಿ ಉಳಿಯುತ್ತದೆ. ಉತ್ತರ A: 01.",
+        "en": "Writing the letters of MATHEMATICS alphabetically gives AACEHIMMSTT. Only the A in the 2nd place stays in its original position. Answer A: 01."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AT-0525",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸಾಲಿನಲ್ಲಿ ಹೇಮಾ ಬಲದಿಂದ 10ನೇ ಸ್ಥಾನದಲ್ಲಿದ್ದಾಳೆ. ತೃಪ್ತಿ ಎಡದಿಂದ 6ನೇ ಸ್ಥಾನದಲ್ಲಿದ್ದಾಳೆ. ಇಬ್ಬರೂ ಸ್ಥಾನ ಬದಲಿಸಿದರೆ, ತೃಪ್ತಿ ಎಡದಿಂದ 16ನೇ ಸ್ಥಾನಕ್ಕೆ ಬರುತ್ತಾಳೆ. ಆ ಸಾಲಿನಲ್ಲಿ ಒಟ್ಟು ಹುಡುಗಿಯರ ಸಂಖ್ಯೆ ಎಷ್ಟು?",
+        "en": "Hema is 10th from right in a row. Trupti is sixth from the left. If the two of them switch their positions, Trupti will be sixteenth from the left. So what is the total number of girls in that row?"
+      },
+      "options": [
+        {
+          "kn": "26",
+          "en": "26"
+        },
+        {
+          "kn": "25",
+          "en": "25"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        },
+        {
+          "kn": "27",
+          "en": "27"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಬದಲಾವಣೆಯ ನಂತರ ತೃಪ್ತಿ ಎಡದಿಂದ 16ನೇ ಸ್ಥಾನದಲ್ಲಿದ್ದಾಳೆ, ಅಂದರೆ ಹೇಮಾಳ ಮೂಲ ಸ್ಥಾನ ಎಡದಿಂದ 16ನೇಯದು. ಒಟ್ಟು = (ಎಡದಿಂದ ಸ್ಥಾನ) + (ಬಲದಿಂದ ಸ್ಥಾನ) − 1 = 16 + 10 − 1 = 25. ಉತ್ತರ B.",
+        "en": "After the switch Trupti is 16th from the left, so Hema's original place is 16th from the left. Total = (place from left) + (place from right) − 1 = 16 + 10 − 1 = 25. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AT-0526",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು (14-15): ಕೆಳಗಿನ ಮಾಹಿತಿಯನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಓದಿ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ. ಶಾಲೆಯ ಮೈದಾನದಲ್ಲಿ ಹನ್ನೆರಡು ವಿದ್ಯಾರ್ಥಿಗಳು ಒಬ್ಬರಿಗೊಬ್ಬರು ಎದುರಾಗಿ ಕುಳಿತಿದ್ದಾರೆ. ಸಾಲು 1ರಲ್ಲಿ A, B, C, D, E, ಮತ್ತು F ದಕ್ಷಿಣಕ್ಕೆ ಮುಖಮಾಡಿದ್ದಾರೆ. ಸಾಲು 2ರಲ್ಲಿ U, V, W, X, Y ಮತ್ತು Z ಉತ್ತರಕ್ಕೆ ಮುಖಮಾಡಿದ್ದಾರೆ. ಎಲ್ಲ ಮಾಹಿತಿಯೂ ಒಂದೇ ಕ್ರಮದಲ್ಲಿ ಇರಬೇಕೆಂದಿಲ್ಲ. X ನ ಎಡದಿಂದ ಮೂರನೆಯವರಿಗೆ ಎದುರಾಗಿ E ಕುಳಿತಿದ್ದಾರೆ. E ಅಥವಾ X ಸಾಲಿನ ಕೊನೆಯಲ್ಲಿ ಕುಳಿತಿದ್ದಾರೆ. E ಮತ್ತು F ನಡುವೆ ಒಬ್ಬರು ಮಾತ್ರ ಕುಳಿತಿದ್ದಾರೆ. F ನ ಎಡಭಾಗದಲ್ಲಿ ಕುಳಿತವರ ಸಂಖ್ಯೆ Z ನ ಬಲಭಾಗದಲ್ಲಿ ಕುಳಿತವರ ಸಂಖ್ಯೆಗೆ ಸಮ. Z ಮತ್ತು A ಗೆ ಎದುರಾಗಿ ಕುಳಿತವರ ನಡುವೆ ಕೇವಲ ಇಬ್ಬರು ಕುಳಿತಿದ್ದಾರೆ. A ಮತ್ತು F ನಡುವೆ ಕುಳಿತವರ ಸಂಖ್ಯೆ Y ಮತ್ತು U ನಡುವೆ ಕುಳಿತವರ ಸಂಖ್ಯೆಗೆ ಸಮ. Y ಮತ್ತು Z ಪಕ್ಕಪಕ್ಕದವರಲ್ಲ. W, V ನ ಬಲಭಾಗದಲ್ಲಿದ್ದಾನೆ ಮತ್ತು A ಗೆ ಎದುರಾಗಿಲ್ಲ. C, D ಯ ಎಡಭಾಗದಲ್ಲಿದ್ದು B ಯ ಬಲಭಾಗದಲ್ಲಿದ್ದಾನೆ. ಪ್ರಶ್ನೆ: Y ಮತ್ತು F ಗೆ ಎದುರಾಗಿ ಕುಳಿತವರ ನಡುವೆ ಎಷ್ಟು ಜನ ಕುಳಿತಿದ್ದಾರೆ?",
+        "en": "Directions (14-15): Study the following information carefully and answer the below questions. Twelve students are sitting on the school ground and facing each other. In row1, A, B, C, D, E, and F are facing south. In row 2 - U, V, W, X, Y and Z are facing north. All the information is not necessarily in the same order. E sits opposite to the one who sits third to the left of X. Either E or X are sitting at the end of the row. Only one person sits between E and F. The number of persons sitting to the left of F is the same as to the right of Z. Only two persons are sitting between Z and the one who sits opposite to A. The number of persons sitting between A and F is the same as between Y and U. Y and Z are not immediate neighbours. W sits to the right of V and does not face A. C sits to the left of D and to the right of B. Question: How many persons are sitting between Y and the one who faces F?"
+      },
+      "options": [
+        {
+          "kn": "ಮೂರು",
+          "en": "Three"
+        },
+        {
+          "kn": "ನಾಲ್ಕು",
+          "en": "Four"
+        },
+        {
+          "kn": "ಎರಡು",
+          "en": "Two"
+        },
+        {
+          "kn": "ಒಂದು",
+          "en": "One"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಸಂಪೂರ್ಣ ವ್ಯವಸ್ಥೆಯಲ್ಲಿ F ನ ಎದುರು Z ಇದೆ ಮತ್ತು Y ಸಾಲು 2ರ ಕೊನೆಯಲ್ಲಿದೆ. Y ಮತ್ತು Z ನಡುವೆ U, W, V ಕುಳಿತಿದ್ದಾರೆ: ಮೂವರು. ಉತ್ತರ A: ಮೂರು.",
+        "en": "In the full arrangement, F faces Z and Y sits at the end of row 2. Between Y and Z sit U, W and V, which is three. Answer A: Three."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AT-0527",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು (14-15): ಕೆಳಗಿನ ಮಾಹಿತಿಯನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಓದಿ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ. ಶಾಲೆಯ ಮೈದಾನದಲ್ಲಿ ಹನ್ನೆರಡು ವಿದ್ಯಾರ್ಥಿಗಳು ಒಬ್ಬರಿಗೊಬ್ಬರು ಎದುರಾಗಿ ಕುಳಿತಿದ್ದಾರೆ. ಸಾಲು 1ರಲ್ಲಿ A, B, C, D, E, ಮತ್ತು F ದಕ್ಷಿಣಕ್ಕೆ ಮುಖಮಾಡಿದ್ದಾರೆ. ಸಾಲು 2ರಲ್ಲಿ U, V, W, X, Y ಮತ್ತು Z ಉತ್ತರಕ್ಕೆ ಮುಖಮಾಡಿದ್ದಾರೆ. ಎಲ್ಲ ಮಾಹಿತಿಯೂ ಒಂದೇ ಕ್ರಮದಲ್ಲಿ ಇರಬೇಕೆಂದಿಲ್ಲ. X ನ ಎಡದಿಂದ ಮೂರನೆಯವರಿಗೆ ಎದುರಾಗಿ E ಕುಳಿತಿದ್ದಾರೆ. E ಅಥವಾ X ಸಾಲಿನ ಕೊನೆಯಲ್ಲಿ ಕುಳಿತಿದ್ದಾರೆ. E ಮತ್ತು F ನಡುವೆ ಒಬ್ಬರು ಮಾತ್ರ ಕುಳಿತಿದ್ದಾರೆ. F ನ ಎಡಭಾಗದಲ್ಲಿ ಕುಳಿತವರ ಸಂಖ್ಯೆ Z ನ ಬಲಭಾಗದಲ್ಲಿ ಕುಳಿತವರ ಸಂಖ್ಯೆಗೆ ಸಮ. Z ಮತ್ತು A ಗೆ ಎದುರಾಗಿ ಕುಳಿತವರ ನಡುವೆ ಕೇವಲ ಇಬ್ಬರು ಕುಳಿತಿದ್ದಾರೆ. A ಮತ್ತು F ನಡುವೆ ಕುಳಿತವರ ಸಂಖ್ಯೆ Y ಮತ್ತು U ನಡುವೆ ಕುಳಿತವರ ಸಂಖ್ಯೆಗೆ ಸಮ. Y ಮತ್ತು Z ಪಕ್ಕಪಕ್ಕದವರಲ್ಲ. W, V ನ ಬಲಭಾಗದಲ್ಲಿದ್ದಾನೆ ಮತ್ತು A ಗೆ ಎದುರಾಗಿಲ್ಲ. C, D ಯ ಎಡಭಾಗದಲ್ಲಿದ್ದು B ಯ ಬಲಭಾಗದಲ್ಲಿದ್ದಾನೆ. ಪ್ರಶ್ನೆ: ನಾಲ್ಕರಲ್ಲಿ ಮೂರು ಆಯ್ಕೆಗಳು ಒಂದು ಗುಂಪನ್ನು ರೂಪಿಸುವ ರೀತಿಯಲ್ಲಿ ಹೋಲುತ್ತವೆ. ಗುಂಪಿಗೆ ಸೇರದ ಆಯ್ಕೆ ಯಾವುದು?",
+        "en": "Directions (14-15): Study the following information carefully and answer the below questions. Twelve students are sitting on the school ground and facing each other. In row1, A, B, C, D, E, and F are facing south. In row 2 - U, V, W, X, Y and Z are facing north. All the information is not necessarily in the same order. E sits opposite to the one who sits third to the left of X. Either E or X are sitting at the end of the row. Only one person sits between E and F. The number of persons sitting to the left of F is the same as to the right of Z. Only two persons are sitting between Z and the one who sits opposite to A. The number of persons sitting between A and F is the same as between Y and U. Y and Z are not immediate neighbours. W sits to the right of V and does not face A. C sits to the left of D and to the right of B. Question: Three of the four of the following are similar in such a way to form a group, which one of the following doesn't belong to the group?"
+      },
+      "options": [
+        {
+          "kn": "YW",
+          "en": "YW"
+        },
+        {
+          "kn": "AF",
+          "en": "AF"
+        },
+        {
+          "kn": "DE",
+          "en": "DE"
+        },
+        {
+          "kn": "CB",
+          "en": "CB"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಜೋಡಿಯ ನಡುವೆ ಎಷ್ಟು ಜನರಿದ್ದಾರೆ ಎಂದು ಪರಿಶೀಲಿಸಿ: YW ನಡುವೆ V (ಒಬ್ಬರು), DE ನಡುವೆ A (ಒಬ್ಬರು), CB ನಡುವೆ F (ಒಬ್ಬರು). AF ನಡುವೆ C ಮತ್ತು E (ಇಬ್ಬರು). ಆದ್ದರಿಂದ AF ಗುಂಪಿಗೆ ಸೇರುವುದಿಲ್ಲ. ಉತ್ತರ B.",
+        "en": "Checking the people between each pair: YW has V (one), DE has A (one), CB has F (one), but AF has C and E (two). So AF does not belong to the group. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AG-0528",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ರಾಮನ ವಯಸ್ಸು 15 ವರ್ಷಗಳ ನಂತರ, ಅವನ 5 ವರ್ಷಗಳ ಹಿಂದಿನ ವಯಸ್ಸಿನ ಐದು ಪಟ್ಟು ಆಗುತ್ತದೆ. ಹಾಗಾದರೆ ರಾಮನ ಈಗಿನ ವಯಸ್ಸು ಎಷ್ಟು?",
+        "en": "Ram's age after 15 years will be five times his age five years back, then the present age of Rama is:"
+      },
+      "options": [
+        {
+          "kn": "10 ವರ್ಷ",
+          "en": "10 years"
+        },
+        {
+          "kn": "15 ವರ್ಷ",
+          "en": "15 years"
+        },
+        {
+          "kn": "18 ವರ್ಷ",
+          "en": "18 years"
+        },
+        {
+          "kn": "20 ವರ್ಷ",
+          "en": "20 years"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಈಗಿನ ವಯಸ್ಸು x ಎಂದು ಭಾವಿಸಿ: x + 15 = 5(x − 5) → x + 15 = 5x − 25 → 40 = 4x → x = 10. ಉತ್ತರ A.",
+        "en": "Let the present age be x. Then x + 15 = 5(x − 5), so x + 15 = 5x − 25, 40 = 4x, and x = 10. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AG-0529",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮಗ ಮತ್ತು ತಂದೆಯ ವಯಸ್ಸುಗಳ ಮೊತ್ತ 90 ವರ್ಷಗಳು. 5 ವರ್ಷಗಳ ನಂತರ ತಂದೆಯ ವಯಸ್ಸು ಮಗನ ವಯಸ್ಸಿನ ಮೂರು ಪಟ್ಟು ಆಗುತ್ತದೆ. ತಂದೆಯ ಈಗಿನ ವಯಸ್ಸು ಎಷ್ಟು?",
+        "en": "The sum of the ages of a son and father is 90 years. After five years the age of the father will be three times that of the son. The present age of the father is,"
+      },
+      "options": [
+        {
+          "kn": "75 ವರ್ಷ",
+          "en": "75 years"
+        },
+        {
+          "kn": "70 ವರ್ಷ",
+          "en": "70 years"
+        },
+        {
+          "kn": "60 ವರ್ಷ",
+          "en": "60 years"
+        },
+        {
+          "kn": "20 ವರ್ಷ",
+          "en": "20 years"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ತಂದೆಯ ಈಗಿನ ವಯಸ್ಸು x ಎಂದು ಭಾವಿಸಿ, ಮಗನ ವಯಸ್ಸು = 90 − x. 5 ವರ್ಷಗಳ ನಂತರ: x + 5 = 3(90 − x + 5) = 3(95 − x) → x + 5 = 285 − 3x → 4x = 280 → x = 70. ಉತ್ತರ B.",
+        "en": "Let the father's present age be x. The son's age is 90 − x. After 5 years: x + 5 = 3(90 − x + 5) = 3(95 − x), so x + 5 = 285 − 3x, 4x = 280, and x = 70. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AG-0530",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಹರಿ 20 ವರ್ಷದವನು ಮತ್ತು ಗೌರವ್ 30 ವರ್ಷದವನು. ಎಷ್ಟು ವರ್ಷಗಳ ಹಿಂದೆ ಅವರ ವಯಸ್ಸುಗಳ ಅನುಪಾತ 3 : 5 ಆಗಿತ್ತು?",
+        "en": "Hari is 20 years old and Gaurav is 30 years old. How many years ago the ratio of their ages was 3 : 5."
+      },
+      "options": [
+        {
+          "kn": "3 ವರ್ಷ",
+          "en": "3 years"
+        },
+        {
+          "kn": "4 ವರ್ಷ",
+          "en": "4 years"
+        },
+        {
+          "kn": "5 ವರ್ಷ",
+          "en": "5 years"
+        },
+        {
+          "kn": "6 ವರ್ಷ",
+          "en": "6 years"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "x ವರ್ಷಗಳ ಹಿಂದೆ: (20 − x)/(30 − x) = 3/5 → 100 − 5x = 90 − 3x → 10 = 2x → x = 5. ಪರಿಶೀಲನೆ: 15 : 25 = 3 : 5. ಉತ್ತರ C.",
+        "en": "Let x be the number of years ago: (20 − x)/(30 − x) = 3/5, so 100 − 5x = 90 − 3x, 10 = 2x, and x = 5. Check: 15 : 25 = 3 : 5. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AG-0531",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ತವನ್ ನ ವಯಸ್ಸು 15 ವರ್ಷಗಳ ನಂತರ, ಅವನ 5 ವರ್ಷಗಳ ಹಿಂದಿನ ವಯಸ್ಸಿನ 3 ಪಟ್ಟು ಆಗುತ್ತದೆ. ಹಾಗಾದರೆ ತವನ್ ನ ಈಗಿನ ವಯಸ್ಸು ಎಷ್ಟು?",
+        "en": "Thavan's age after 15 years will be 3 times his age 5 years ago, then the present age of Thavan's"
+      },
+      "options": [
+        {
+          "kn": "15 ವರ್ಷ",
+          "en": "15 years"
+        },
+        {
+          "kn": "20 ವರ್ಷ",
+          "en": "20 years"
+        },
+        {
+          "kn": "10 ವರ್ಷ",
+          "en": "10 years"
+        },
+        {
+          "kn": "25 ವರ್ಷ",
+          "en": "25 years"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ತವನ್ ನ ಈಗಿನ ವಯಸ್ಸು x ಎಂದು ಭಾವಿಸಿ: x + 15 = 3(x − 5) → x + 15 = 3x − 15 → 30 = 2x → x = 15. ಉತ್ತರ A.",
+        "en": "Let Thavan's present age be x. Then x + 15 = 3(x − 5), so x + 15 = 3x − 15, 30 = 2x, and x = 15. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AG-0532",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನಾನು ನನ್ನ ಮಗನಿಗಿಂತ ನಾಲ್ಕು ಪಟ್ಟು ಹಿರಿಯವನು. 5 ವರ್ಷಗಳ ನಂತರ ನಾನು ನನ್ನ ಮಗನ ವಯಸ್ಸಿನ ಮೂರು ಪಟ್ಟು ಆಗುತ್ತೇನೆ. ನಮ್ಮಿಬ್ಬರ ವಯಸ್ಸುಗಳ ಮೊತ್ತ ಎಷ್ಟು?",
+        "en": "I am four times as old as my son. Five years hence I will be thrice as my son's age. The sum of our ages is"
+      },
+      "options": [
+        {
+          "kn": "40 ವರ್ಷ",
+          "en": "40 years"
+        },
+        {
+          "kn": "50 ವರ್ಷ",
+          "en": "50 years"
+        },
+        {
+          "kn": "60 ವರ್ಷ",
+          "en": "60 years"
+        },
+        {
+          "kn": "55 ವರ್ಷ",
+          "en": "55 years"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮಗನ ಈಗಿನ ವಯಸ್ಸು s ಎಂದು ಭಾವಿಸಿ, ನನ್ನ ವಯಸ್ಸು 4s. 5 ವರ್ಷಗಳ ನಂತರ: 4s + 5 = 3(s + 5) → 4s + 5 = 3s + 15 → s = 10. ನನ್ನ ವಯಸ್ಸು 40, ಮೊತ್ತ 40 + 10 = 50. ಉತ್ತರ B.",
+        "en": "Let the son's present age be s. My age is 4s. After 5 years: 4s + 5 = 3(s + 5), so 4s + 5 = 3s + 15 and s = 10. My age is 40, and the sum is 40 + 10 = 50. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AG-0533",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ರಾಮ ಮತ್ತು ಹರಿಯ ಈಗಿನ ವಯಸ್ಸುಗಳ ಅನುಪಾತ 5 : 6. ಆರು ವರ್ಷಗಳ ನಂತರ ಅವರ ವಯಸ್ಸುಗಳ ಅನುಪಾತ 7 : 8 ಆಗುತ್ತದೆ. ಅವರ ವಯಸ್ಸುಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸ ಎಷ್ಟು?",
+        "en": "The ratio of the present age of Ram and Hari is 5:6. Six years hence, the ratio of their ages will be 7:8. Difference between their ages is."
+      },
+      "options": [
+        {
+          "kn": "3 ವರ್ಷ",
+          "en": "3 years"
+        },
+        {
+          "kn": "5 ವರ್ಷ",
+          "en": "5 years"
+        },
+        {
+          "kn": "6 ವರ್ಷ",
+          "en": "6 years"
+        },
+        {
+          "kn": "1 ವರ್ಷ",
+          "en": "1 year"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ರಾಮ 5k, ಹರಿ 6k ಎಂದು ಭಾವಿಸಿ: (5k + 6)/(6k + 6) = 7/8 → 40k + 48 = 42k + 42 → k = 3. ರಾಮ 15, ಹರಿ 18; ವ್ಯತ್ಯಾಸ 3. ಪರಿಶೀಲನೆ: 21 : 24 = 7 : 8. ಉತ್ತರ A.",
+        "en": "Let Ram be 5k and Hari be 6k. Then (5k + 6)/(6k + 6) = 7/8, so 40k + 48 = 42k + 42 and k = 3. Ram is 15 and Hari is 18, so the difference is 3. Check: 21 : 24 = 7 : 8. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AG-0534",
+      "difficulty": "hard",
+      "question": {
+        "kn": "4 ವರ್ಷಗಳ ಹಿಂದೆ A ಮತ್ತು B ಅವರ ವಯಸ್ಸುಗಳ ಅನುಪಾತ 2 : 3 ಆಗಿತ್ತು ಮತ್ತು 4 ವರ್ಷಗಳ ನಂತರ ಅದು 5 : 7 ಆಗುತ್ತದೆ. ಹಾಗಾದರೆ A ಮತ್ತು B ಅವರ ಈಗಿನ ವಯಸ್ಸುಗಳು ಎಷ್ಟು?",
+        "en": "Four years ago the ratio of the ages of A and B was 2:3 and after 4 years it will become 5:7. then the Present age of A and B is."
+      },
+      "options": [
+        {
+          "kn": "36, 52",
+          "en": "36, 52"
+        },
+        {
+          "kn": "52, 36",
+          "en": "52, 36"
+        },
+        {
+          "kn": "42, 36",
+          "en": "42, 36"
+        },
+        {
+          "kn": "52, 34",
+          "en": "52, 34"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "A = a, B = b ಎಂದು ಭಾವಿಸಿ: 3(a − 4) = 2(b − 4) → 3a − 2b = 4. ಮತ್ತು 7(a + 4) = 5(b + 4) → 7a − 5b = −8. ಪರಿಹರಿಸಿದಾಗ a = 36, b = 52. ಪರಿಶೀಲನೆ: 4 ವರ್ಷ ಹಿಂದೆ 32 : 48 = 2 : 3; 4 ವರ್ಷ ನಂತರ 40 : 56 = 5 : 7. ಉತ್ತರ A.",
+        "en": "Let A be a and B be b. Then 3(a − 4) = 2(b − 4), so 3a − 2b = 4; and 7(a + 4) = 5(b + 4), so 7a − 5b = −8. Solving gives a = 36 and b = 52. Check: 4 years ago 32 : 48 = 2 : 3; 4 years later 40 : 56 = 5 : 7. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-AG-0535",
+      "difficulty": "hard",
+      "question": {
+        "kn": "A ಮತ್ತು B ಅವರ ಈಗಿನ ವಯಸ್ಸುಗಳ ಮೊತ್ತ ಅವರ ವಯಸ್ಸುಗಳ ವ್ಯತ್ಯಾಸದ 11 ಪಟ್ಟು. 5 ವರ್ಷಗಳ ನಂತರ ಅವರ ಒಟ್ಟು ವಯಸ್ಸುಗಳು ಅವರ ವಯಸ್ಸುಗಳ ವ್ಯತ್ಯಾಸದ 13 ಪಟ್ಟು ಆಗುತ್ತದೆ. ಹಾಗಾದರೆ ಹಿರಿಯವರ ಈಗಿನ ವಯಸ್ಸು ಎಷ್ಟು?",
+        "en": "The sum of present ages of A and B is 11 times the difference of their ages, 5 years hence their total ages will be 13 times the difference of their ages. The present age of elder one is"
+      },
+      "options": [
+        {
+          "kn": "30 ವರ್ಷ",
+          "en": "30 years"
+        },
+        {
+          "kn": "25 ವರ್ಷ",
+          "en": "25 years"
+        },
+        {
+          "kn": "35 ವರ್ಷ",
+          "en": "35 years"
+        },
+        {
+          "kn": "20 ವರ್ಷ",
+          "en": "20 years"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ವ್ಯತ್ಯಾಸ d, ಮೊತ್ತ S ಎಂದು ಭಾವಿಸಿ: S = 11d. 5 ವರ್ಷಗಳ ನಂತರ ಮೊತ್ತ S + 10 = 13d. ಆದ್ದರಿಂದ 11d + 10 = 13d → d = 5, S = 55. ಹಿರಿಯವರ ವಯಸ್ಸು = (55 + 5)/2 = 30. ಪರಿಶೀಲನೆ: 25 ಮತ್ತು 30; ಮೊತ್ತ 55 = 11 × 5; 5 ವರ್ಷ ನಂತರ ಮೊತ್ತ 65 = 13 × 5. ಉತ್ತರ A.",
+        "en": "Let the difference be d and the sum be S. Then S = 11d, and 5 years later the sum is S + 10 = 13d. So 11d + 10 = 13d, giving d = 5 and S = 55. The elder's age is (55 + 5)/2 = 30. Check: 25 and 30 have sum 55 = 11 × 5, and 5 years later the sum is 65 = 13 × 5. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SD-0536",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಹೇಳಿಕೆಗಳು:\n(1) ಎಲ್ಲಾ ಸಂತರು ಬ್ರಹ್ಮಚಾರಿಗಳು\n(2) ಯಾವ ಬ್ರಹ್ಮಚಾರಿಯೂ ದೇವರಲ್ಲ\nನಿರ್ಣಯಗಳು:\n(I) ಎಲ್ಲಾ ಬ್ರಹ್ಮಚಾರಿಗಳು ಸಂತರು\n(II) ಯಾವ ಸಂತನೂ ದೇವರಲ್ಲ",
+        "en": "Statements:\n(1) All Saints are Bachelors\n(2) No one Bachelors is God\nDecisions:\n(I) All Bachelors are Saints\n(II) No one saint is God"
+      },
+      "options": [
+        {
+          "kn": "ನಿರ್ಣಯ I ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision I follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ II ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುತ್ತವೆ",
+          "en": "Both Decision I and II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Neither Decision I nor II follows"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ನಿರ್ಣಯ II ಅನುಸರಿಸುತ್ತದೆ: ಎಲ್ಲಾ ಸಂತರು ಬ್ರಹ್ಮಚಾರಿಗಳು ಮತ್ತು ಯಾವ ಬ್ರಹ್ಮಚಾರಿಯೂ ದೇವರಲ್ಲ, ಆದ್ದರಿಂದ ಯಾವ ಸಂತನೂ ದೇವರಲ್ಲ. ನಿರ್ಣಯ I ಅನುಸರಿಸುವುದಿಲ್ಲ: 'ಎಲ್ಲಾ ಸಂತರು ಬ್ರಹ್ಮಚಾರಿಗಳು' ಎಂಬುದನ್ನು ಹಿಮ್ಮುಖಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಉತ್ತರ B.",
+        "en": "Decision II follows: all saints are bachelors, and no bachelor is God, so no saint is God. Decision I does not follow: 'All saints are bachelors' cannot be reversed. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SD-0537",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಹೇಳಿಕೆಗಳು:\n(1) ಎಲ್ಲಾ ಕಲ್ಲುಗಳು ವಜ್ರಗಳು\n(2) ಕೆಲವು ವಜ್ರಗಳು ಗೋಲಿಗಳು\nನಿರ್ಣಯಗಳು:\n(I) ಕೆಲವು ಕಲ್ಲುಗಳು ಗೋಲಿಗಳು\n(II) ಕೆಲವು ಗೋಲಿಗಳು ವಜ್ರಗಳು",
+        "en": "Statements:\n(1) All Stones are Diamonds\n(2) Some Diamonds are Marbles\nDecisions:\n(I) Some Stones are Marbles\n(II) Some Marbles are Diamonds"
+      },
+      "options": [
+        {
+          "kn": "ನಿರ್ಣಯ I ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision I follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ II ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುತ್ತವೆ",
+          "en": "Both Decisions I and II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Neither Decisions I nor II follows"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ನಿರ್ಣಯ II ಅನುಸರಿಸುತ್ತದೆ: ಕೆಲವು ವಜ್ರಗಳು ಗೋಲಿಗಳು, ಆದ್ದರಿಂದ ಕೆಲವು ಗೋಲಿಗಳು ವಜ್ರಗಳು. ನಿರ್ಣಯ I ಅನುಸರಿಸುವುದಿಲ್ಲ: ಗೋಲಿಗಳಾಗಿರುವ ವಜ್ರಗಳು ಕಲ್ಲುಗಳಾಗಿರಬೇಕೆಂದಿಲ್ಲ. ಉತ್ತರ B.",
+        "en": "Decision II follows: some diamonds are marbles, so some marbles are diamonds. Decision I does not follow: the diamonds that are marbles need not be stones. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SD-0538",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಹೇಳಿಕೆಗಳು:\n(1) ಕೆಲವು ಹುಡುಗರು ಆಟಗಾರರಾಗಿದ್ದಾರೆ.\n(2) ಕೆಲವು ಆಟಗಾರರು ಆರೋಗ್ಯವಂತರಾಗಿದ್ದಾರೆ.\n\nನಿರ್ಣಯಗಳು:\n(I) ಕೆಲವು ಹುಡುಗರು ಆರೋಗ್ಯವಂತರಾಗಿದ್ದಾರೆ.\n(II) ಕೆಲವು ಆರೋಗ್ಯವಂತರು ಆಟಗಾರರಾಗಿದ್ದಾರೆ.",
+        "en": "Statements:\n(1) Some boys are players.\n(2) Some players are healthy.\n\nDecisions:\n(I) Some boys are healthy.\n(II) Few healthy people are players."
+      },
+      "options": [
+        {
+          "kn": "ನಿರ್ಣಯ I ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision I follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ II ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುತ್ತವೆ",
+          "en": "Both Decisions I and II follow"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Neither Decision I nor II follows"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಹೇಳಿಕೆ (2) ಪ್ರಕಾರ ಕೆಲವು ಆಟಗಾರರು ಆರೋಗ್ಯವಂತರಾಗಿದ್ದಾರೆ. ಅದೇ ಸಂಬಂಧವನ್ನು ವಿರುದ್ಧ ಕ್ರಮದಲ್ಲಿ ಹೇಳಿದರೆ ಕೆಲವು ಆರೋಗ್ಯವಂತರು ಆಟಗಾರರಾಗಿದ್ದಾರೆ. ಆದ್ದರಿಂದ ನಿರ್ಣಯ II ಅನುಸರಿಸುತ್ತದೆ. ಆದರೆ ಹೇಳಿಕೆ (1) ಮತ್ತು (2)ಗಳಲ್ಲಿ ಆರೋಗ್ಯವಂತ ಆಟಗಾರರು ಹುಡುಗರೇ ಆಗಿರಬೇಕು ಎಂಬ ಸಂಬಂಧವಿಲ್ಲ; ಆದ್ದರಿಂದ ನಿರ್ಣಯ I ಅನುಸರಿಸುವುದಿಲ್ಲ. ಇಲ್ಲಿ 'Few' ಅನ್ನು ಪರೀಕ್ಷೆಯ ಸಾಮಾನ್ಯ ಅರ್ಥವಾದ 'ಕೆಲವರು/ಕೆಲವು' ಎಂದು ಪರಿಗಣಿಸಲಾಗಿದೆ. ಉತ್ತರ B.",
+        "en": "Statement (2) says that some players are healthy. Reversing the same intersection, some healthy people are players, so Decision II follows (with 'few' interpreted in the conventional exam sense of 'some'). The statements do not establish that the healthy players are boys, so Decision I does not follow. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SD-0539",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಹೇಳಿಕೆಗಳು:\n(1) ಕೆಲವು ಕಾರುಗಳು ಜೀಪುಗಳು\n(2) ಕೆಲವು ಜೀಪುಗಳು ಬಸ್ಸುಗಳು\nನಿರ್ಣಯಗಳು:\n(I) ಕೆಲವು ಜೀಪುಗಳು ಕಾರುಗಳು\n(II) ಎಲ್ಲಾ ದ್ರಾಕ್ಷಿಗಳು ಬಸ್ಸುಗಳು",
+        "en": "Statements:\n(1) Some Cars are Jeeps\n(2) Some Jeeps are Buses\nDecisions:\n(I) Some Jeeps are Cars\n(II) All grapes are Buses"
+      },
+      "options": [
+        {
+          "kn": "ನಿರ್ಣಯ I ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision I follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ II ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುತ್ತವೆ",
+          "en": "Both Decision I and II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Neither Decision I nor II follows"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ನಿರ್ಣಯ I ಅನುಸರಿಸುತ್ತದೆ: ಕೆಲವು ಕಾರುಗಳು ಜೀಪುಗಳು, ಆದ್ದರಿಂದ ಕೆಲವು ಜೀಪುಗಳು ಕಾರುಗಳು. ನಿರ್ಣಯ II ಅನುಸರಿಸುವುದಿಲ್ಲ: ಹೇಳಿಕೆಗಳಲ್ಲಿ ದ್ರಾಕ್ಷಿಗಳ ಬಗ್ಗೆ ಯಾವುದೇ ಮಾಹಿತಿ ಇಲ್ಲ. ಉತ್ತರ A.",
+        "en": "Decision I follows: some cars are jeeps, so some jeeps are cars. Decision II does not follow: the statements say nothing about grapes. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SD-0540",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಹೇಳಿಕೆಗಳು:\n(1) ಕೆಲವು ವಿದ್ಯಾರ್ಥಿಗಳು ಪ್ರತಿಭಾವಂತರು\n(2) ಕೆಲವು ಪ್ರತಿಭಾವಂತರು ನಾಯಕರಲ್ಲ\n(3) ಕೆಲವು ನಾಯಕರು ದೇಶಭಕ್ತರು\nನಿರ್ಣಯಗಳು:\n(I) ಎಲ್ಲಾ ನಾಯಕರು ಪ್ರತಿಭಾವಂತರು\n(II) ಕೆಲವು ದೇಶಭಕ್ತರು ವಿದ್ಯಾರ್ಥಿಗಳು\n(III) ಎಲ್ಲಾ ಪ್ರತಿಭಾವಂತರು ದೇಶಭಕ್ತರು",
+        "en": "Statements:\n(1) Some Students are talented\n(2) Some talented are not leaders\n(3) Some leaders are patriots\nDecisions:\n(I) All leaders are talented\n(II) Some Patriots are students\n(III) All talented are patriots"
+      },
+      "options": [
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುತ್ತವೆ",
+          "en": "Both Decisions I and II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ II ಮತ್ತು III ಎರಡೂ ಅನುಸರಿಸುತ್ತವೆ",
+          "en": "Both Decisions II and III follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I, II ಮತ್ತು III ಅನುಸರಿಸುತ್ತವೆ",
+          "en": "Decisions I, II and III follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I, II ಮತ್ತು III ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Decisions I, II and III are not follows"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ನಿರ್ಣಯ I ಅನುಸರಿಸುವುದಿಲ್ಲ: ನಾಯಕರೆಲ್ಲರೂ ಪ್ರತಿಭಾವಂತರಲ್ಲದಿರಬಹುದು. ನಿರ್ಣಯ II ಅನುಸರಿಸುವುದಿಲ್ಲ: ನಾಯಕರು ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳ ನಡುವೆ ಸಂಬಂಧ ತೋರಿಸುವ ಹೇಳಿಕೆ ಇಲ್ಲ. ನಿರ್ಣಯ III ಅನುಸರಿಸುವುದಿಲ್ಲ: ಕೆಲವು ಪ್ರತಿಭಾವಂತರು ನಾಯಕರಲ್ಲ, ಆದ್ದರಿಂದ ಅವರೆಲ್ಲರೂ ದೇಶಭಕ್ತರಾಗಿರಬೇಕೆಂದಿಲ್ಲ. ಉತ್ತರ D.",
+        "en": "Decision I does not follow: all leaders may be non-talented. Decision II does not follow: no link between leaders and students is given. Decision III does not follow: some talented people are not leaders, so they need not be patriots. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SD-0541",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಹೇಳಿಕೆಗಳು:\n(1) ಎಲ್ಲಾ ಹುಡುಗಿಯರು ಧೈರ್ಯವಂತರು\n(2) ಯಾವ ಶಿಕ್ಷಕರೂ ಧೈರ್ಯವಂತರಲ್ಲ\nನಿರ್ಣಯಗಳು:\n(I) ಎಲ್ಲಾ ಶಿಕ್ಷಕರು ಹುಡುಗಿಯರು\n(II) ಯಾವ ಹುಡುಗಿಯೂ ಶಿಕ್ಷಕಿಯಲ್ಲ",
+        "en": "Statements:\n(1) All girls are brave\n(2) No one teacher is brave\nDecisions:\n(I) All teachers are girls\n(II) No one girl is a teacher"
+      },
+      "options": [
+        {
+          "kn": "ನಿರ್ಣಯ I ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision I follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುತ್ತವೆ",
+          "en": "Both Decision I and II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Neither Decision I nor II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ II ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision II follows"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ನಿರ್ಣಯ II ಅನುಸರಿಸುತ್ತದೆ: ಹುಡುಗಿಯರು ಧೈರ್ಯವಂತರು ಮತ್ತು ಶಿಕ್ಷಕರು ಧೈರ್ಯವಂತರಲ್ಲ, ಆದ್ದರಿಂದ ಯಾವ ಹುಡುಗಿಯೂ ಶಿಕ್ಷಕಿಯಲ್ಲ. ನಿರ್ಣಯ I ಅನುಸರಿಸುವುದಿಲ್ಲ. ಉತ್ತರ D.",
+        "en": "Decision II follows: girls are brave and teachers are not brave, so no girl is a teacher. Decision I does not follow. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SD-0542",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಹೇಳಿಕೆಗಳು:\n(1) ಕೆಲವು ಕವಿಗಳು ಬರಹಗಾರರು\n(2) ಕೆಲವು ಬರಹಗಾರರು ನಿರ್ದೇಶಕರು\n(3) ಎಲ್ಲಾ ನಿರ್ದೇಶಕರು ನಿರ್ಮಾಪಕರು\nನಿರ್ಣಯಗಳು:\n(I) ಕೆಲವು ನಿರ್ದೇಶಕರು ಕವಿಗಳು\n(II) ಎಲ್ಲಾ ನಿರ್ಮಾಪಕರು ಬರಹಗಾರರು\n(III) ಕೆಲವು ನಿರ್ಮಾಪಕರು ನಿರ್ದೇಶಕರು",
+        "en": "Statements:\n(1) Some poets are writers\n(2) Some writers are directors\n(3) All directors are producers\nDecisions:\n(I) Some directors are poets\n(II) All producers are writers\n(III) Some producers are directors"
+      },
+      "options": [
+        {
+          "kn": "I ಮತ್ತು III ಅನುಸರಿಸುತ್ತವೆ ಆದರೆ II ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Both decision I and III follows but 'II' not follows"
+        },
+        {
+          "kn": "I ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ, II ಮತ್ತು III ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Only decision I follows, II and III are not follows"
+        },
+        {
+          "kn": "I, II ಮತ್ತು III ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Decision I, II and III are not follows"
+        },
+        {
+          "kn": "III ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ, I ಮತ್ತು II ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Only decision 'III' follows, decisions I and II are not follows"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ನಿರ್ಣಯ III ಅನುಸರಿಸುತ್ತದೆ: ಕೆಲವು ಬರಹಗಾರರು ನಿರ್ದೇಶಕರು ಮತ್ತು ಎಲ್ಲಾ ನಿರ್ದೇಶಕರು ನಿರ್ಮಾಪಕರು, ಆದ್ದರಿಂದ ಕೆಲವು ನಿರ್ಮಾಪಕರು ನಿರ್ದೇಶಕರು. ನಿರ್ಣಯ I ಅನುಸರಿಸುವುದಿಲ್ಲ: ಕವಿಗಳು ನಿರ್ದೇಶಕರೊಂದಿಗೆ ಅತಿಕ್ರಮಿಸಬೇಕಿಲ್ಲ. ನಿರ್ಣಯ II ಅನುಸರಿಸುವುದಿಲ್ಲ: ಎಲ್ಲಾ ನಿರ್ಮಾಪಕರು ಬರಹಗಾರರಾಗಿರಬೇಕಿಲ್ಲ. ಉತ್ತರ D.",
+        "en": "Decision III follows: some writers are directors and all directors are producers, so some producers are directors. Decision I does not follow: poets may not overlap with directors. Decision II does not follow: producers need not all be writers. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SD-0543",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಹೇಳಿಕೆಗಳು:\n(1) ಕೆಲವು ತ್ರಿಭುಜಗಳು ಚತುರ್ಭುಜಗಳು\n(2) ಕೆಲವು ಚತುರ್ಭುಜಗಳು ವೃತ್ತಗಳು\nನಿರ್ಣಯಗಳು:\n(I) ಎಲ್ಲಾ ತ್ರಿಭುಜಗಳು ವೃತ್ತಗಳು\n(II) ಕೆಲವು ವೃತ್ತಗಳು ಚತುರ್ಭುಜಗಳು",
+        "en": "Statements:\n(1) Some triangles are quadrilaterals\n(2) Some quadrilaterals are Circles\nDecisions:\n(I) All triangles are circles\n(II) Some circles are quadrilaterals"
+      },
+      "options": [
+        {
+          "kn": "ನಿರ್ಣಯ I ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision 'I' follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ II ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision 'II' follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಅಥವಾ II ಯಾವುದೂ ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Neither Decision 'I' nor 'II' follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುತ್ತವೆ",
+          "en": "Both Decision I and II follows"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ನಿರ್ಣಯ II ಅನುಸರಿಸುತ್ತದೆ: ಕೆಲವು ಚತುರ್ಭುಜಗಳು ವೃತ್ತಗಳು, ಆದ್ದರಿಂದ ಕೆಲವು ವೃತ್ತಗಳು ಚತುರ್ಭುಜಗಳು. ನಿರ್ಣಯ I ಅನುಸರಿಸುವುದಿಲ್ಲ: ಕೆಲವು ತ್ರಿಭುಜಗಳು ಮಾತ್ರ ಚತುರ್ಭುಜಗಳು. ಉತ್ತರ B.",
+        "en": "Decision II follows: some quadrilaterals are circles, so some circles are quadrilaterals. Decision I does not follow: only some triangles are quadrilaterals. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SD-0544",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಹೇಳಿಕೆಗಳು:\n(1) ಎಲ್ಲಾ ಹೂಗಳು ಬೀಜಗಳು\n(2) ಕೆಲವು ಬೀಜಗಳು ಹಣ್ಣುಗಳು\nನಿರ್ಣಯಗಳು:\n(I) ಎಲ್ಲಾ ಹೂಗಳು ಹಣ್ಣುಗಳು\n(II) ಎಲ್ಲಾ ಬೀಜಗಳು ಹೂಗಳು",
+        "en": "Statements:\n(1) All flowers are seeds\n(2) Some seeds are fruits\nDecisions:\n(I) All flowers are fruits\n(II) All seeds are flowers"
+      },
+      "options": [
+        {
+          "kn": "ನಿರ್ಣಯ I ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision ‘I’ follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುತ್ತವೆ",
+          "en": "Both Decisions I and II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಅಥವಾ II ಯಾವುದೂ ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Neither Decision I or II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ II ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision II follows"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ನಿರ್ಣಯ I ಅನುಸರಿಸುವುದಿಲ್ಲ: ಹೂಗಳು ಬೀಜಗಳು, ಆದರೆ ಬೀಜಗಳಲ್ಲಿ ಕೆಲವು ಮಾತ್ರ ಹಣ್ಣುಗಳು. ನಿರ್ಣಯ II ಅನುಸರಿಸುವುದಿಲ್ಲ: ಎಲ್ಲಾ ಬೀಜಗಳು ಹೂಗಳಾಗಿರಬೇಕಿಲ್ಲ. ಉತ್ತರ C.",
+        "en": "Decision I does not follow: flowers are seeds, but only some seeds are fruits. Decision II does not follow: seeds need not all be flowers. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SD-0545",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಹೇಳಿಕೆಗಳು:\n(1) ಕೆಲವು ಕಾಗೆಗಳು ಕೋಗಿಲೆಗಳು\n(2) ಎಲ್ಲಾ ಕೋಗಿಲೆಗಳು ನವಿಲುಗಳು\nನಿರ್ಣಯಗಳು:\n(I) ಕೆಲವು ನವಿಲುಗಳು ಕಾಗೆಗಳು\n(II) ಎಲ್ಲಾ ನವಿಲುಗಳು ಕೋಗಿಲೆಗಳು",
+        "en": "Statements:\n(1) Some crows are cuckoos\n(2) All cuckoos are peacocks\nDecisions:\n(I) Some peacocks are crows\n(II) All peacocks are cuckoos"
+      },
+      "options": [
+        {
+          "kn": "ನಿರ್ಣಯ I ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision ‘I’ follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ II ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision ‘II’ follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುತ್ತವೆ",
+          "en": "Both Decision I and II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Neither Decision I nor Decision II follows"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ನಿರ್ಣಯ I ಅನುಸರಿಸುತ್ತದೆ: ಕೆಲವು ಕಾಗೆಗಳು ಕೋಗಿಲೆಗಳು ಮತ್ತು ಎಲ್ಲಾ ಕೋಗಿಲೆಗಳು ನವಿಲುಗಳು, ಆದ್ದರಿಂದ ಕೆಲವು ನವಿಲುಗಳು ಕಾಗೆಗಳು. ನಿರ್ಣಯ II ಅನುಸರಿಸುವುದಿಲ್ಲ: ಎಲ್ಲಾ ನವಿಲುಗಳು ಕೋಗಿಲೆಗಳಾಗಿರಬೇಕೆಂದಿಲ್ಲ. ಉತ್ತರ A.",
+        "en": "Decision I follows: some crows are cuckoos and all cuckoos are peacocks, so some peacocks are crows. Decision II does not follow: not all peacocks need be cuckoos. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-SD-0546",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಹೇಳಿಕೆಗಳು:\n(1) ಎಲ್ಲಾ ಚೀತಾಗಳು ಹುಲಿಗಳು\n(2) ಕೆಲವು ಹುಲಿಗಳು ಸಿಂಹಗಳು\nನಿರ್ಣಯಗಳು:\n(I) ಕೆಲವು ಸಿಂಹಗಳು ಹುಲಿಗಳು\n(II) ಎಲ್ಲಾ ಹುಲಿಗಳು ಚೀತಾಗಳು",
+        "en": "Statements:\n(1) All Cheethas are tigers\n(2) Some tigers are lions\nDecisions:\n(I) Some lions are tigers\n(II) All tigers are cheethas"
+      },
+      "options": [
+        {
+          "kn": "ನಿರ್ಣಯ I ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision ‘I’ follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಮತ್ತು II ಎರಡೂ ಅನುಸರಿಸುತ್ತವೆ",
+          "en": "Both Decision I and II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ I ಅಥವಾ II ಯಾವುದೂ ಅನುಸರಿಸುವುದಿಲ್ಲ",
+          "en": "Neither Decision I nor II follows"
+        },
+        {
+          "kn": "ನಿರ್ಣಯ II ಮಾತ್ರ ಅನುಸರಿಸುತ್ತದೆ",
+          "en": "Only Decision ‘II’ follows"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ನಿರ್ಣಯ I ಅನುಸರಿಸುತ್ತದೆ: ಕೆಲವು ಹುಲಿಗಳು ಸಿಂಹಗಳು, ಆದ್ದರಿಂದ ಕೆಲವು ಸಿಂಹಗಳು ಹುಲಿಗಳು. ನಿರ್ಣಯ II ಅನುಸರಿಸುವುದಿಲ್ಲ: ಹೇಳಿಕೆಗಳು ಎಲ್ಲಾ ಹುಲಿಗಳು ಚೀತಾಗಳು ಎಂದು ಹೇಳುವುದಿಲ್ಲ. ಉತ್ತರ A.",
+        "en": "Decision I follows: some tigers are lions, so some lions are tigers. Decision II does not follow: the statements do not say all tigers are cheetahs. Answer A."
       },
       "image": null
     }
