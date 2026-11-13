@@ -8,9 +8,9 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 401,
+    "totalQuestions": 443,
     "questionNumberStart": 1,
-    "questionNumberEnd": 401,
+    "questionNumberEnd": 443,
     "version": "1.0.0"
   },
   "questions": [
@@ -12843,6 +12843,1350 @@
       "explanation": {
         "kn": "ಪ್ರತಿ ಕಾಲಮ್‌ನಲ್ಲಿ (ಮೇಲಿನ ಸಂಖ್ಯೆ × ಮಧ್ಯದ ಸಂಖ್ಯೆ) − ಮೇಲಿನ ಸಂಖ್ಯೆ = ಕೆಳಗಿನ ಸಂಖ್ಯೆ. ಮೊದಲ ಕಾಲಮ್: 5 × 8 − 5 = 35. ಎರಡನೆಯ ಕಾಲಮ್: 3 × 10 − 3 = 27. ಮೂರನೆಯ ಕಾಲಮ್: 3 × 8 − 3 = 21. ಸರಿಯಾದ ಉತ್ತರ C: 21.",
         "en": "Each column: (top × middle) − top = bottom. Col 1: 5×8−5=35. Col 2: 3×10−3=27. Col 3: 3×8−3=21."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0437",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nB  D  G\nH  J  M\nN  P  ?",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nB  D  G\nH  J  M\nN  P  ?"
+      },
+      "options": [
+        {
+          "kn": "R",
+          "en": "R"
+        },
+        {
+          "kn": "S",
+          "en": "S"
+        },
+        {
+          "kn": "T",
+          "en": "T"
+        },
+        {
+          "kn": "U",
+          "en": "U"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಡ್ಡಸಾಲಿನಲ್ಲಿ ಅಕ್ಷರದ ಸ್ಥಾನ ಮೊದಲು +2, ನಂತರ +3 ಆಗುತ್ತದೆ. ಮೂರನೆಯ ಅಡ್ಡಸಾಲು: N(14) +2 = P(16), P(16) +3 = S(19). ಸರಿಯಾದ ಉತ್ತರ B: S.",
+        "en": "Each row steps +2 then +3 in alphabet positions. Row 3: N(14) +2 = P(16) +3 = S(19). Answer B: S."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0438",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nU  W  Z\nA  C  F\nG  I  ?",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nU  W  Z\nA  C  F\nG  I  ?"
+      },
+      "options": [
+        {
+          "kn": "J",
+          "en": "J"
+        },
+        {
+          "kn": "K",
+          "en": "K"
+        },
+        {
+          "kn": "L",
+          "en": "L"
+        },
+        {
+          "kn": "M",
+          "en": "M"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಡ್ಡಸಾಲಿನಲ್ಲಿ ಅಕ್ಷರದ ಸ್ಥಾನ ಮೊದಲು +2, ನಂತರ +3 ಆಗುತ್ತದೆ. ಮೂರನೆಯ ಅಡ್ಡಸಾಲು: G(7) +2 = I(9), I(9) +3 = L(12). ಸರಿಯಾದ ಉತ್ತರ C: L.",
+        "en": "Each row steps +2 then +3. Row 3: G(7) +2 = I(9), I(9) +3 = L(12). Answer C: L."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0439",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nO  T  Y\nC  K  G\nL  I  ?",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nO  T  Y\nC  K  G\nL  I  ?"
+      },
+      "options": [
+        {
+          "kn": "Q",
+          "en": "Q"
+        },
+        {
+          "kn": "R",
+          "en": "R"
+        },
+        {
+          "kn": "S",
+          "en": "S"
+        },
+        {
+          "kn": "T",
+          "en": "T"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಕಂಬಸಾಲಿನಲ್ಲಿ ಮೇಲಿನ ಅಕ್ಷರದ ಸ್ಥಾನ − ಮಧ್ಯದ ಅಕ್ಷರದ ಸ್ಥಾನ = ಕೆಳಗಿನ ಅಕ್ಷರದ ಸ್ಥಾನ. ಮೂರನೆಯ ಕಂಬಸಾಲು: Y(25) − G(7) = 18 = R. (ಪರಿಶೀಲನೆ: O−C=12=L, T−K=9=I.) ಸರಿಯಾದ ಉತ್ತರ B: R.",
+        "en": "Each column: top letter position minus middle letter position equals bottom letter position. Column 3: Y(25) − G(7) = 18 = R. (Check: O−C=12=L, T−K=9=I.) Answer B: R."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0440",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nF  I  N\nE  ?  D\nK  Q  R",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nF  I  N\nE  ?  D\nK  Q  R"
+      },
+      "options": [
+        {
+          "kn": "H",
+          "en": "H"
+        },
+        {
+          "kn": "I",
+          "en": "I"
+        },
+        {
+          "kn": "J",
+          "en": "J"
+        },
+        {
+          "kn": "K",
+          "en": "K"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಕಂಬಸಾಲಿನಲ್ಲಿ ಮೇಲಿನ ಅಕ್ಷರದ ಸ್ಥಾನ + ಮಧ್ಯದ ಅಕ್ಷರದ ಸ್ಥಾನ = ಕೆಳಗಿನ ಅಕ್ಷರದ ಸ್ಥಾನ. ಮೊದಲ ಕಂಬಸಾಲು: F(6)+E(5)=11=K. ಎರಡನೆಯ ಕಂಬಸಾಲು: I(9)+?=Q(17), ಆದ್ದರಿಂದ ?=8=H. ಮೂರನೆಯ ಕಂಬಸಾಲು: N(14)+D(4)=18=R. ಸರಿಯಾದ ಉತ್ತರ A: H.",
+        "en": "Each column: top + middle = bottom (positions). Column 1: F(6)+E(5)=11=K. Column 2: I(9)+?=Q(17), so ?=8=H. Column 3: N(14)+D(4)=18=R. Answer A: H."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0441",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nW  S  N\nM  I  L\nJ  ?  B",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nW  S  N\nM  I  L\nJ  ?  B"
+      },
+      "options": [
+        {
+          "kn": "J",
+          "en": "J"
+        },
+        {
+          "kn": "K",
+          "en": "K"
+        },
+        {
+          "kn": "L",
+          "en": "L"
+        },
+        {
+          "kn": "M",
+          "en": "M"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಕಂಬಸಾಲಿನಲ್ಲಿ ಮೇಲಿನ ಅಕ್ಷರದ ಸ್ಥಾನ − ಮಧ್ಯದ ಅಕ್ಷರದ ಸ್ಥಾನ = ಕೆಳಗಿನ ಅಕ್ಷರದ ಸ್ಥಾನ. ಮೊದಲ ಕಂಬಸಾಲು: W(23)−M(13)=10=J. ಎರಡನೆಯ ಕಂಬಸಾಲು: S(19)−I(9)=10=J, ಆದ್ದರಿಂದ ?=J. ಮೂರನೆಯ ಕಂಬಸಾಲು: N(14)−L(12)=2=B. ಸರಿಯಾದ ಉತ್ತರ A: J.",
+        "en": "Each column: top − middle = bottom (positions). Column 1: W(23)−M(13)=10=J. Column 2: S(19)−I(9)=10=J, so ?=J. Column 3: N(14)−L(12)=2=B. Answer A: J."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0442",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nC  3  X\nO  15  L\nM  13  ?",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nC  3  X\nO  15  L\nM  13  ?"
+      },
+      "options": [
+        {
+          "kn": "J",
+          "en": "J"
+        },
+        {
+          "kn": "K",
+          "en": "K"
+        },
+        {
+          "kn": "L",
+          "en": "L"
+        },
+        {
+          "kn": "N",
+          "en": "N"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಡ್ಡಸಾಲಿನಲ್ಲಿ ಮೊದಲ ಅಕ್ಷರದ ಸ್ಥಾನ = ಮಧ್ಯದ ಸಂಖ್ಯೆ, ಮತ್ತು ಮೊದಲ ಹಾಗೂ ಮೂರನೆಯ ಅಕ್ಷರಗಳ ಸ್ಥಾನಗಳ ಮೊತ್ತ 27. ಮೂರನೆಯ ಅಡ್ಡಸಾಲು: M(13) ⇒ ಮಧ್ಯದ ಸಂಖ್ಯೆ 13; 27 − 13 = 14 = N. ಸರಿಯಾದ ಉತ್ತರ D: N.",
+        "en": "Each row: letter position of first letter equals middle number, and first + third letter positions = 27. Row 3: M(13) = middle 13; 27 − 13 = 14 = N. Answer D: N."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0443",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nR  18  I\nV  22  E\nY  25  ?",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nR  18  I\nV  22  E\nY  25  ?"
+      },
+      "options": [
+        {
+          "kn": "A",
+          "en": "A"
+        },
+        {
+          "kn": "B",
+          "en": "B"
+        },
+        {
+          "kn": "W",
+          "en": "W"
+        },
+        {
+          "kn": "X",
+          "en": "X"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಡ್ಡಸಾಲಿನಲ್ಲಿ ಮಧ್ಯದ ಸಂಖ್ಯೆ = 27 − ಮೂರನೆಯ ಅಕ್ಷರದ ಸ್ಥಾನ. ಮೊದಲ ಸಾಲು: 27−9(I)=18. ಎರಡನೆಯ ಸಾಲು: 27−5(E)=22. ಮೂರನೆಯ ಸಾಲು: 27−25=2=B. ಸರಿಯಾದ ಉತ್ತರ B: B.",
+        "en": "Each row: middle number = 27 − position of third letter. Row 1: 27−9(I)=18. Row 2: 27−5(E)=22. Row 3: 27−25=2 = B. Answer B: B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0444",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nF  2  I\nC  4  H\nM  ?  V",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nF  2  I\nC  4  H\nM  ?  V"
+      },
+      "options": [
+        {
+          "kn": "8",
+          "en": "8"
+        },
+        {
+          "kn": "6",
+          "en": "6"
+        },
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "2",
+          "en": "2"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಮಧ್ಯದ ಸಂಖ್ಯೆ = ಮೊದಲ ಮತ್ತು ಮೂರನೆಯ ಅಕ್ಷರಗಳ ನಡುವೆ ಇರುವ ಅಕ್ಷರಗಳ ಸಂಖ್ಯೆ. F–I: G, H = 2. C–H: D, E, F, G = 4. M–V: N ರಿಂದ U = 8. ಸರಿಯಾದ ಉತ್ತರ A: 8.",
+        "en": "Middle number = count of letters strictly between first and third letters. F–I: G,H = 2. C–H: D,E,F,G = 4. M–V: N through U = 8. Answer A: 8. (Printed key text reads 12; see QC report.)"
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0445",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nM  13  O\nQ  9  S\nC  ?  E",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nM  13  O\nQ  9  S\nC  ?  E"
+      },
+      "options": [
+        {
+          "kn": "23",
+          "en": "23"
+        },
+        {
+          "kn": "21",
+          "en": "21"
+        },
+        {
+          "kn": "5",
+          "en": "5"
+        },
+        {
+          "kn": "6",
+          "en": "6"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಮಧ್ಯದ ಸಂಖ್ಯೆ = 26 − ಮೊದಲ ಅಕ್ಷರದ ಸ್ಥಾನ. ಮೊದಲ ಸಾಲು: 26−13=13. ಎರಡನೆಯ ಸಾಲು: 26−17=9. ಮೂರನೆಯ ಸಾಲು: 26−3=23. ಸರಿಯಾದ ಉತ್ತರ A: 23.",
+        "en": "Middle number = 26 − position of first letter. Row 1: 26−13=13. Row 2: 26−17=9. Row 3: 26−3=23. Answer A: 23."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0446",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nP  10  R\nK  15  M\nU  ?  W",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nP  10  R\nK  15  M\nU  ?  W"
+      },
+      "options": [
+        {
+          "kn": "4",
+          "en": "4"
+        },
+        {
+          "kn": "5",
+          "en": "5"
+        },
+        {
+          "kn": "25",
+          "en": "25"
+        },
+        {
+          "kn": "24",
+          "en": "24"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮಧ್ಯದ ಸಂಖ್ಯೆ = 26 − ಮೊದಲ ಅಕ್ಷರದ ಸ್ಥಾನ. ಮೊದಲ ಸಾಲು: 26−16=10. ಎರಡನೆಯ ಸಾಲು: 26−11=15. ಮೂರನೆಯ ಸಾಲು: 26−21=5. ಸರಿಯಾದ ಉತ್ತರ B: 5.",
+        "en": "Middle number = 26 − position of first letter. Row 1: 26−16=10. Row 2: 26−11=15. Row 3: 26−21=5. Answer B: 5."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0447",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nN  G  2\nX  H  3\nP  ?  4",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nN  G  2\nX  H  3\nP  ?  4"
+      },
+      "options": [
+        {
+          "kn": "C",
+          "en": "C"
+        },
+        {
+          "kn": "D",
+          "en": "D"
+        },
+        {
+          "kn": "E",
+          "en": "E"
+        },
+        {
+          "kn": "F",
+          "en": "F"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಡ್ಡಸಾಲಿನಲ್ಲಿ ಮೂರನೆಯ ಸಂಖ್ಯೆ × ಮಧ್ಯದ ಅಕ್ಷರದ ಸ್ಥಾನ = ಮೊದಲ ಅಕ್ಷರದ ಸ್ಥಾನ. ಮೊದಲ ಸಾಲು: 2×7=14=N. ಎರಡನೆಯ ಸಾಲು: 3×8=24=X. ಮೂರನೆಯ ಸಾಲು: 4×4=16=P, ಆದ್ದರಿಂದ ಮಧ್ಯದ ಅಕ್ಷರ D (4). ಸರಿಯಾದ ಉತ್ತರ B: D.",
+        "en": "Each row: third number × middle letter position = first letter position. Row 1: 2×7=14=N. Row 2: 3×8=24=X. Row 3: 4×4=16=P, so middle letter = D (4). Answer B: D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0448",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nR  B  9\nU  C  7\nH  ?  8",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nR  B  9\nU  C  7\nH  ?  8"
+      },
+      "options": [
+        {
+          "kn": "B",
+          "en": "B"
+        },
+        {
+          "kn": "A",
+          "en": "A"
+        },
+        {
+          "kn": "D",
+          "en": "D"
+        },
+        {
+          "kn": "C",
+          "en": "C"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಅಡ್ಡಸಾಲಿನಲ್ಲಿ ಮೂರನೆಯ ಸಂಖ್ಯೆ × ಮಧ್ಯದ ಅಕ್ಷರದ ಸ್ಥಾನ = ಮೊದಲ ಅಕ್ಷರದ ಸ್ಥಾನ. ಮೊದಲ ಸಾಲು: 9×2=18=R. ಎರಡನೆಯ ಸಾಲು: 7×3=21=U. ಮೂರನೆಯ ಸಾಲು: 8×1=8=H, ಆದ್ದರಿಂದ ಮಧ್ಯದ ಅಕ್ಷರ A (1). ಸರಿಯಾದ ಉತ್ತರ B: A.",
+        "en": "Each row: third number × middle letter position = first letter position. Row 1: 9×2=18=R. Row 2: 7×3=21=U. Row 3: 8×1=8=H, so middle letter = A (1). Answer B: A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0449",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nE  J  M\nY  D  G\nL  ?  T",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nE  J  M\nY  D  G\nL  ?  T"
+      },
+      "options": [
+        {
+          "kn": "Q",
+          "en": "Q"
+        },
+        {
+          "kn": "F",
+          "en": "F"
+        },
+        {
+          "kn": "S",
+          "en": "S"
+        },
+        {
+          "kn": "Z",
+          "en": "Z"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಮೊದಲ ಅಕ್ಷರದ ನಂತರ 4 ಅಕ್ಷರಗಳನ್ನು ಬಿಟ್ಟು ಬರುವ ಅಕ್ಷರ ಮಧ್ಯದ ಅಕ್ಷರ (E→J, Y→D, L→Q). ಮಧ್ಯದ ಅಕ್ಷರದ ನಂತರ 2 ಅಕ್ಷರಗಳನ್ನು ಬಿಟ್ಟು ಬರುವ ಅಕ್ಷರ ಮೂರನೆಯ ಅಕ್ಷರ (J→M, D→G, Q→T). ಸರಿಯಾದ ಉತ್ತರ A: Q.",
+        "en": "Skip 4 letters after the first letter gives the middle letter (E→J, Y→D, L→Q). Skip 2 letters after the middle letter gives the third letter (J→M, D→G, Q→T). Answer A: Q."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0450",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nC  F  D\nO  R  ?\nE  C  F",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nC  F  D\nO  R  ?\nE  C  F"
+      },
+      "options": [
+        {
+          "kn": "Q",
+          "en": "Q"
+        },
+        {
+          "kn": "X",
+          "en": "X"
+        },
+        {
+          "kn": "S",
+          "en": "S"
+        },
+        {
+          "kn": "Z",
+          "en": "Z"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಕಂಬಸಾಲಿನಲ್ಲಿ ಮೇಲಿನ ಅಕ್ಷರದ ಸ್ಥಾನ × ಕೆಳಗಿನ ಅಕ್ಷರದ ಸ್ಥಾನ = ಮಧ್ಯದ ಅಕ್ಷರದ ಸ್ಥಾನ. ಮೊದಲ ಕಂಬಸಾಲು: 3×5=15=O. ಎರಡನೆಯ ಕಂಬಸಾಲು: 6×3=18=R. ಮೂರನೆಯ ಕಂಬಸಾಲು: 4×6=24=X. ಸರಿಯಾದ ಉತ್ತರ B: X.",
+        "en": "Each column: top letter position × bottom letter position = middle letter position. Column 1: 3×5=15=O. Column 2: 6×3=18=R. Column 3: 4×6=24=X. Answer B: X."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-LM-0451",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು : ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯಲ್ಲಿನ ಅಕ್ಷರಗಳು ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳಲ್ಲಿ ಒಂದು ನಿರ್ದಿಷ್ಟ ಸಂಬಂಧವನ್ನು ಹೊಂದಿವೆ. ಆ ಸಂಬಂಧವನ್ನು ಗುರುತಿಸಿ ಕೊಟ್ಟಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.\n\nH  F  C\nP  ?  R\nB  D  F",
+        "en": "Directions :- The letters in the matrix have a specific relation in rows and column. Find the relation and answer the questions.\n\nH  F  C\nP  ?  R\nB  D  F"
+      },
+      "options": [
+        {
+          "kn": "X",
+          "en": "X"
+        },
+        {
+          "kn": "A",
+          "en": "A"
+        },
+        {
+          "kn": "Z",
+          "en": "Z"
+        },
+        {
+          "kn": "E",
+          "en": "E"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಕಂಬಸಾಲಿನಲ್ಲಿ ಮೇಲಿನ ಅಕ್ಷರದ ಸ್ಥಾನ × ಕೆಳಗಿನ ಅಕ್ಷರದ ಸ್ಥಾನ = ಮಧ್ಯದ ಅಕ್ಷರದ ಸ್ಥಾನ. ಮೊದಲ ಕಂಬಸಾಲು: 8×2=16=P. ಎರಡನೆಯ ಕಂಬಸಾಲು: 6×4=24=X. ಮೂರನೆಯ ಕಂಬಸಾಲು: 3×6=18=R. ಸರಿಯಾದ ಉತ್ತರ A: X.",
+        "en": "Each column: top × bottom = middle (positions). Column 1: 8×2=16=P. Column 2: 6×4=24=X. Column 3: 3×6=18=R. Answer A: X."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0452",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು ನೀಡಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳ ಸಂಖ್ಯೆಯ ಭಾಗಲಬ್ಧವಾಗಿರುತ್ತದೆ.\nಉದಾ: S = 16/2 = 8\n\n    2   4   8\n16  S   E   N\n24  P   M   I\n32  G   R   L\n\nಕೊಟ್ಟಿರುವ ಪದಗಳ ಗುಂಪಿನಲ್ಲಿ ಅತಿ ಗರಿಷ್ಠ ಮೊತ್ತದ ಅಕ್ಷರಗಳ ಗುಂಪು",
+        "en": "Directions:\nThe following questions are based on the matrix. The value of each letter is the quotient of its row by its column numbers.\nEx: S = 16/2 = 8\n\n    2   4   8\n16  S   E   N\n24  P   M   I\n32  G   R   L\n\nThe group of Letters with Highest total is"
+      },
+      "options": [
+        {
+          "kn": "MEIL",
+          "en": "MEIL"
+        },
+        {
+          "kn": "ERSP",
+          "en": "ERSP"
+        },
+        {
+          "kn": "GENL",
+          "en": "GENL"
+        },
+        {
+          "kn": "RESN",
+          "en": "RESN"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಅಕ್ಷರದ ಬೆಲೆ = ಅಡ್ಡಸಾಲು ÷ ಕಂಬಸಾಲು. S=8, E=4, N=2, P=12, M=6, I=3, G=16, R=8, L=4. ಮೊತ್ತ: MEIL=17, ERSP=32, GENL=26, RESN=22. ಅತಿ ಹೆಚ್ಚು ಮೊತ್ತ ERSP. ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Letter value = row ÷ column. S=8, E=4, N=2, P=12, M=6, I=3, G=16, R=8, L=4. Totals: MEIL=17, ERSP=32, GENL=26, RESN=22. Highest: ERSP. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0453",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು ನೀಡಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳ ಸಂಖ್ಯೆಯ ಭಾಗಲಬ್ಧವಾಗಿರುತ್ತದೆ.\nಉದಾ: S = 16/2 = 8\n\n    2   4   8\n16  S   E   N\n24  P   M   I\n32  G   R   L\n\n“GIRL” ಪದದ ಸಂಕೇತ ಸಂಖ್ಯೆ",
+        "en": "Directions:\nThe following questions are based on the matrix. The value of each letter is the quotient of its row by its column numbers.\nEx: S = 16/2 = 8\n\n    2   4   8\n16  S   E   N\n24  P   M   I\n32  G   R   L\n\nThe code for the word “GIRL” is"
+      },
+      "options": [
+        {
+          "kn": "16 3 6 3",
+          "en": "16 3 6 3"
+        },
+        {
+          "kn": "16 3 8 4",
+          "en": "16 3 8 4"
+        },
+        {
+          "kn": "16 3 3 6",
+          "en": "16 3 3 6"
+        },
+        {
+          "kn": "16 4 3 3",
+          "en": "16 4 3 3"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಬೆಲೆಗಳು: G=32/2=16, I=24/8=3, R=32/4=8, L=32/8=4. ಸಂಕೇತ 16 3 8 4. ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Quotient values: G=32/2=16, I=24/8=3, R=32/4=8, L=32/8=4. Code = 16 3 8 4. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0454",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು ನೀಡಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳ ಗುಣಲಬ್ಧವಾಗಿದೆ.\nಉದಾ: E = 2 × 3 = 6\n\n    1   2   3\n1   G   U   B\n2   H   L   E\n3   O   R   P\n\n“BLUE” ಈ ಪದದ ಅಕ್ಷರಗಳ ಮೊತ್ತ",
+        "en": "Directions:\nThe following questions are based on the matrix. The value of each letter is the product of its row and column.\nEx: E = 2 × 3 = 6\n\n    1   2   3\n1   G   U   B\n2   H   L   E\n3   O   R   P\n\nThe sum of the Letters in the word “BLUE”."
+      },
+      "options": [
+        {
+          "kn": "16",
+          "en": "16"
+        },
+        {
+          "kn": "15",
+          "en": "15"
+        },
+        {
+          "kn": "14",
+          "en": "14"
+        },
+        {
+          "kn": "13",
+          "en": "13"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಗುಣಲಬ್ಧ ಬೆಲೆಗಳು: B=3, L=4, U=2, E=6. ಮೊತ್ತ = 3+4+2+6 = 15. ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Product values: B=1×3=3, L=2×2=4, U=1×2=2, E=2×3=6. Sum = 3+4+2+6 = 15. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0455",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು ನೀಡಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳ ಗುಣಲಬ್ಧವಾಗಿದೆ.\nಉದಾ: E = 2 × 3 = 6\n\n    1   2   3\n1   G   U   B\n2   H   L   E\n3   O   R   P\n\nಹೆಚ್ಚಿನ ಮೊತ್ತ ಹೊಂದಿರುವ ಅಕ್ಷರಗಳ ಗುಂಪು",
+        "en": "Directions:\nThe following questions are based on the matrix. The value of each letter is the product of its row and column.\nEx: E = 2 × 3 = 6\n\n    1   2   3\n1   G   U   B\n2   H   L   E\n3   O   R   P\n\nThe group of letters with highest total is"
+      },
+      "options": [
+        {
+          "kn": "HUPE",
+          "en": "HUPE"
+        },
+        {
+          "kn": "HELB",
+          "en": "HELB"
+        },
+        {
+          "kn": "RUBP",
+          "en": "RUBP"
+        },
+        {
+          "kn": "LBUH",
+          "en": "LBUH"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಬೆಲೆಗಳ ಮೊತ್ತ: HUPE=19, HELB=15, RUBP=20, LBUH=11. ಅತಿ ಹೆಚ್ಚು ಮೊತ್ತ RUBP. ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Product values: HUPE=2+2+9+6=19; HELB=2+6+4+3=15; RUBP=6+2+3+9=20; LBUH=4+3+2+2=11. Highest: RUBP. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0456",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು ನೀಡಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳ ಗುಣಲಬ್ಧವಾಗಿದೆ.\nಉದಾ: E = 2 × 3 = 6\n\n    1   2   3\n1   G   U   B\n2   H   L   E\n3   O   R   P\n\nಗುಣಲಬ್ಧ 72 ಆಗುವ ಅಕ್ಷರಗಳ ಗುಂಪು",
+        "en": "Directions:\nThe following questions are based on the matrix. The value of each letter is the product of its row and column.\nEx: E = 2 × 3 = 6\n\n    1   2   3\n1   G   U   B\n2   H   L   E\n3   O   R   P\n\nThe group of letters having the product 72 is"
+      },
+      "options": [
+        {
+          "kn": "PGU",
+          "en": "PGU"
+        },
+        {
+          "kn": "URL",
+          "en": "URL"
+        },
+        {
+          "kn": "LEB",
+          "en": "LEB"
+        },
+        {
+          "kn": "GRU",
+          "en": "GRU"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಗುಣಲಬ್ಧ: PGU=18, URL=48, LEB=72, GRU=12. ಸರಿಯಾದ ಉತ್ತರ C: LEB.",
+        "en": "Product values: PGU=9×1×2=18; URL=2×6×4=48; LEB=4×6×3=72; GRU=6×1×2=12. Answer C: LEB."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0457",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು, ನೀಡಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳ ಸಂಖ್ಯೆಗಳ ಮೊತ್ತವಾಗಿರುತ್ತದೆ.\nಉದಾ: A = 4 + 6 = 10\n\n    4   6   8\n4   H   A   Y\n6   O   S   P\n8   K   L   T\n\n“HOST” ಪದದ ಸಂಕೇತ ಸಂಖ್ಯೆ ಇದಾಗಿದೆ.",
+        "en": "Directions:\nThe following questions are based on the given matrix. The value of each letter is the sum of row and column numbers.\nEx: A = 4 + 6 = 10\n\n    4   6   8\n4   H   A   Y\n6   O   S   P\n8   K   L   T\n\nThe code for the word “HOST” is"
+      },
+      "options": [
+        {
+          "kn": "8 10 12 14",
+          "en": "8 10 12 14"
+        },
+        {
+          "kn": "8 10 14 12",
+          "en": "8 10 14 12"
+        },
+        {
+          "kn": "8 10 12 16",
+          "en": "8 10 12 16"
+        },
+        {
+          "kn": "8 10 16 12",
+          "en": "8 10 16 12"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೊತ್ತದ ಬೆಲೆಗಳು: H=8, O=10, S=12, T=16. ಸಂಕೇತ 8 10 12 16. ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Sum values: H=8, O=10, S=12, T=16. Code = 8 10 12 16. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0458",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು, ನೀಡಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲುಗಳ ಸಂಖ್ಯೆಗಳ ಮೊತ್ತವಾಗಿರುತ್ತದೆ.\nಉದಾ: A = 4 + 6 = 10\n\n    4   6   8\n4   H   A   Y\n6   O   S   P\n8   K   L   T\n\n‘TOP’ ಪದದ ಎಲ್ಲಾ ಅಕ್ಷರಗಳ ಬೆಲೆಗಳ ಗುಣಲಬ್ಧ",
+        "en": "Directions:\nThe following questions are based on the given matrix. The value of each letter is the sum of row and column numbers.\nEx: A = 4 + 6 = 10\n\n    4   6   8\n4   H   A   Y\n6   O   S   P\n8   K   L   T\n\nThe product of the value of the letters of the word ‘‘TOP’’ is"
+      },
+      "options": [
+        {
+          "kn": "2240",
+          "en": "2240"
+        },
+        {
+          "kn": "2242",
+          "en": "2242"
+        },
+        {
+          "kn": "2246",
+          "en": "2246"
+        },
+        {
+          "kn": "2248",
+          "en": "2248"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಬೆಲೆಗಳು: T=16, O=10, P=14. ಗುಣಲಬ್ಧ 16×10×14 = 2240. ಸರಿಯಾದ ಉತ್ತರ A.",
+        "en": "Sum values: T=16, O=10, P=14. Product = 16×10×14 = 2240. Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0459",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲಿನ ಸಂಖ್ಯೆಗಳ ವ್ಯತ್ಯಾಸವಾಗಿದೆ.\nಉದಾ: N = 8 – 6 = 2\n\n    2   4   6   8\n2   A   C   E   G\n4   I   K   M   O\n6   Q   S   U   R\n8   Y   Z   N   P\n\nಮೊತ್ತ ‘ಸೊನ್ನೆ’ ಆಗಿರುವ ಅಕ್ಷರಗಳ ಗುಂಪು.",
+        "en": "Directions:\nThe following questions are based on the given matrix. The value of each letter is the difference of row and column numbers.\nEx: N = 8 – 6 = 2\n\n    2   4   6   8\n2   A   C   E   G\n4   I   K   M   O\n6   Q   S   U   R\n8   Y   Z   N   P\n\nThe group of letters having total “zero” is:"
+      },
+      "options": [
+        {
+          "kn": "AKUP",
+          "en": "AKUP"
+        },
+        {
+          "kn": "YSUG",
+          "en": "YSUG"
+        },
+        {
+          "kn": "CSKZ",
+          "en": "CSKZ"
+        },
+        {
+          "kn": "AIGY",
+          "en": "AIGY"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ವ್ಯತ್ಯಾಸ ಬೆಲೆಗಳು: AKUP=0; YSUG=2; CSKZ=4; AIGY=2. ಸರಿಯಾದ ಉತ್ತರ A: AKUP.",
+        "en": "Difference values: AKUP = 0+0+0+0 = 0. YSUG = 6+2+0−6 = 2; CSKZ = −2+2+0+4 = 4; AIGY = 0+2−6+6 = 2. Answer A: AKUP."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0460",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲಿನ ಸಂಖ್ಯೆಗಳ ವ್ಯತ್ಯಾಸವಾಗಿದೆ.\nಉದಾ: N = 8 – 6 = 2\n\n    2   4   6   8\n2   A   C   E   G\n4   I   K   M   O\n6   Q   S   U   R\n8   Y   Z   N   P\n\n‘6202’ನ್ನು ಸಂಕೇತವಾಗಿ ಹೊಂದಿರುವ ಅಕ್ಷರಗಳ ಗುಂಪು.",
+        "en": "Directions:\nThe following questions are based on the given matrix. The value of each letter is the difference of row and column numbers.\nEx: N = 8 – 6 = 2\n\n    2   4   6   8\n2   A   C   E   G\n4   I   K   M   O\n6   Q   S   U   R\n8   Y   Z   N   P\n\nThe group of letters having code ‘6202’ is."
+      },
+      "options": [
+        {
+          "kn": "YNPZ",
+          "en": "YNPZ"
+        },
+        {
+          "kn": "YNPI",
+          "en": "YNPI"
+        },
+        {
+          "kn": "YNSI",
+          "en": "YNSI"
+        },
+        {
+          "kn": "YAIP",
+          "en": "YAIP"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ವ್ಯತ್ಯಾಸ ಬೆಲೆಗಳು: Y=6, N=2, P=0, I=2 → ಸಂಕೇತ 6202. ಸರಿಯಾದ ಉತ್ತರ B: YNPI.",
+        "en": "Difference values: Y=6, N=2, P=0, I=2 → code 6202. Answer B: YNPI."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0461",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲಿನ ಸಂಖ್ಯೆಗಳ ವ್ಯತ್ಯಾಸವಾಗಿದೆ.\nಉದಾ: N = 8 – 6 = 2\n\n    2   4   6   8\n2   A   C   E   G\n4   I   K   M   O\n6   Q   S   U   R\n8   Y   Z   N   P\n\nಗುಣಲಬ್ಧ ‘96’ ಆಗಿರುವ ಅಕ್ಷರಗಳ ಗುಂಪು",
+        "en": "Directions:\nThe following questions are based on the given matrix. The value of each letter is the difference of row and column numbers.\nEx: N = 8 – 6 = 2\n\n    2   4   6   8\n2   A   C   E   G\n4   I   K   M   O\n6   Q   S   U   R\n8   Y   Z   N   P\n\nThe group of letters having product ‘96’ is."
+      },
+      "options": [
+        {
+          "kn": "IZAS",
+          "en": "IZAS"
+        },
+        {
+          "kn": "EZYP",
+          "en": "EZYP"
+        },
+        {
+          "kn": "IZYS",
+          "en": "IZYS"
+        },
+        {
+          "kn": "IGSI",
+          "en": "IGSI"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ವ್ಯತ್ಯಾಸ ಬೆಲೆಗಳು: I=2, Z=4, Y=6, S=2. ಗುಣಲಬ್ಧ 2×4×6×2 = 96. ಸರಿಯಾದ ಉತ್ತರ C: IZYS.",
+        "en": "Difference values: I=2, Z=4, Y=6, S=2. Product = 2×4×6×2 = 96. Answer C: IZYS."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0462",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲಿನ ಸಂಖ್ಯೆಗಳ ಮೊತ್ತವಾಗಿದೆ.\nಉದಾ: H = 2 + 1 = 3\n\n    1   2   3\n1   U   R   I\n2   H   O   L\n3   F   S   G\n\nಗರಿಷ್ಠ ಮೊತ್ತದ ಅಕ್ಷರಗಳ ಗುಂಪು ಇದಾಗಿದೆ.",
+        "en": "Directions:\nThe following questions are based on given matrix. The value of each letter is the sum of it’s of row and column numbers.\nEx: H = 2 + 1 = 3\n\n    1   2   3\n1   U   R   I\n2   H   O   L\n3   F   S   G\n\nThe group of letters with maximum total is"
+      },
+      "options": [
+        {
+          "kn": "FISH",
+          "en": "FISH"
+        },
+        {
+          "kn": "FOUL",
+          "en": "FOUL"
+        },
+        {
+          "kn": "ROSG",
+          "en": "ROSG"
+        },
+        {
+          "kn": "URFI",
+          "en": "URFI"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮೊತ್ತ: FISH=16, FOUL=15, ROSG=18, URFI=13. ಗರಿಷ್ಠ ಮೊತ್ತ ROSG (18). ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Sum values: FISH=4+4+5+3=16; FOUL=4+4+2+5=15; ROSG=3+4+5+6=18; URFI=2+3+4+4=13. Maximum: ROSG (18). Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0463",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲಿನ ಸಂಖ್ಯೆಗಳ ಮೊತ್ತವಾಗಿದೆ.\nಉದಾ: H = 2 + 1 = 3\n\n    1   2   3\n1   U   R   I\n2   H   O   L\n3   F   S   G\n\nಕಡಿಮೆ ಗುಣಲಬ್ಧದ ಅಕ್ಷರಗಳ ಗುಂಪು",
+        "en": "Directions:\nThe following questions are based on given matrix. The value of each letter is the sum of it’s of row and column numbers.\nEx: H = 2 + 1 = 3\n\n    1   2   3\n1   U   R   I\n2   H   O   L\n3   F   S   G\n\nThe group of letters with lesser Product is."
+      },
+      "options": [
+        {
+          "kn": "SORH",
+          "en": "SORH"
+        },
+        {
+          "kn": "GORL",
+          "en": "GORL"
+        },
+        {
+          "kn": "SLIF",
+          "en": "SLIF"
+        },
+        {
+          "kn": "UROS",
+          "en": "UROS"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಗುಣಲಬ್ಧ: SORH=180, GORL=360, SLIF=400, UROS=120. ಕಡಿಮೆ ಗುಣಲಬ್ಧ UROS. ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Sum values: SORH=5×4×3×3=180; GORL=6×4×3×5=360; SLIF=5×5×4×4=400; UROS=2×3×4×5=120. Least: UROS. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0464",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಈ ಕೆಳಗಿನ ಪ್ರಶ್ನೆಗಳು ಕೊಟ್ಟಿರುವ ಮಾತೃಕೆಯನ್ನು ಆಧರಿಸಿವೆ. ಪ್ರತಿ ಅಕ್ಷರದ ಬೆಲೆಯು ಅದರ ಅಡ್ಡಸಾಲು ಮತ್ತು ಕಂಬಸಾಲಿನ ಸಂಖ್ಯೆಗಳ ಮೊತ್ತವಾಗಿದೆ.\nಉದಾ: H = 2 + 1 = 3\n\n    1   2   3\n1   U   R   I\n2   H   O   L\n3   F   S   G\n\n‘URL’ ಈ ಅಕ್ಷರ ಗುಂಪಿನ ಅಕ್ಷರಗಳ ಮೊತ್ತದ ವರ್ಗವು.",
+        "en": "Directions:\nThe following questions are based on given matrix. The value of each letter is the sum of it’s of row and column numbers.\nEx: H = 2 + 1 = 3\n\n    1   2   3\n1   U   R   I\n2   H   O   L\n3   F   S   G\n\nThe square of the sum of the group of letters ‘URL’ is."
+      },
+      "options": [
+        {
+          "kn": "132",
+          "en": "132"
+        },
+        {
+          "kn": "134",
+          "en": "134"
+        },
+        {
+          "kn": "136",
+          "en": "136"
+        },
+        {
+          "kn": "100",
+          "en": "100"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಮೊತ್ತ: U=2, R=3, L=5 → 10. ವರ್ಗ 100. ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Sum values: U=2, R=3, L=5. Sum = 10. Square = 100. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0465",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು:\nಈ ಕೆಳಗೆ ನೀಡಿದ ಮಾತೃಕೆಗಳ ಅಕ್ಷರಗಳು ಮೊದಲು ಅಡ್ಡಸಾಲು ನಂತರ ಕಂಬಸಾಲು ರೀತಿಯಲ್ಲಿ ಪ್ರತಿನಿಧಿಸಲ್ಪಡುತ್ತವೆ.\nಉದಾ:\n1ನೇ ಮಾತೃಕೆಯಲ್ಲಿ A = 00, 12, 24, 31, 43\n2ನೇ ಮಾತೃಕೆಯಲ್ಲಿ R:= 57, 69, 76, 88, 95\nಈ ಮೇಲ್ಕಂಡ ರೀತಿಯಲ್ಲಿ ಪ್ರತಿನಿಧಿಸಿದ ಮಾತೃಕೆಯ ಅಕ್ಷರಗಳ ಸರಿಯಾದ ಒಂದು ಗುಂಪನ್ನು ಆರಿಸಿ ಬರೆಯಿರಿ.\n\nMatrix-1\n    0  1  2  3  4\n0   A  E  S  T  H\n1   T  H  A  E  S\n2   E  S  T  H  A\n3   H  A  E  S  T\n4   S  T  H  A  E\n\nMatrix-2\n    5  6  7  8  9\n5   P  O  R  K  L\n6   K  L  P  O  R\n7   O  R  K  L  P\n8   L  P  O  R  K\n9   R  K  L  P  O\n\nSETO",
+        "en": "Directions:\nIn the given matrices a letter can be represented first by its row number and followed by its column number.\nFor example\nin matrix-1\nA=00, 12, 24, 31, 43\nin matrix-2\nR = 57, 69, 76, 88, 95\nIn each of the following questions, identify one set of number pairs which represent the given word.\n\nMatrix-1\n    0  1  2  3  4\n0   A  E  S  T  H\n1   T  H  A  E  S\n2   E  S  T  H  A\n3   H  A  E  S  T\n4   S  T  H  A  E\n\nMatrix-2\n    5  6  7  8  9\n5   P  O  R  K  L\n6   K  L  P  O  R\n7   O  R  K  L  P\n8   L  P  O  R  K\n9   R  K  L  P  O\n\nSETO"
+      },
+      "options": [
+        {
+          "kn": "33,20,11,79",
+          "en": "33,20,11,79"
+        },
+        {
+          "kn": "21,00,03,88",
+          "en": "21,00,03,88"
+        },
+        {
+          "kn": "40,44,22,89",
+          "en": "40,44,22,89"
+        },
+        {
+          "kn": "02,13,34,56",
+          "en": "02,13,34,56"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ಜೋಡಿಯನ್ನು ಅಡ್ಡಸಾಲು ಅಂಕೆ, ಕಂಬಸಾಲು ಅಂಕೆಯಾಗಿ ಓದಿ: 02=S, 13=E, 34=T, 56=O → SETO. ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Decode each pair as row digit then column digit: 02=S, 13=E, 34=T, 56=O → SETO. Other options fail: 33=S, 20=E, 11=H, 79=P (no O); 21=S, 00=A, 03=T, 88=R; 40=S, 44=E, 22=T, 89=K."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-RN-0466",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸೂಚನೆಗಳು:\nಈ ಕೆಳಗೆ ನೀಡಿದ ಮಾತೃಕೆಗಳ ಅಕ್ಷರಗಳು ಮೊದಲು ಅಡ್ಡಸಾಲು ನಂತರ ಕಂಬಸಾಲು ರೀತಿಯಲ್ಲಿ ಪ್ರತಿನಿಧಿಸಲ್ಪಡುತ್ತವೆ.\nಉದಾ:\n1ನೇ ಮಾತೃಕೆಯಲ್ಲಿ A = 00, 12, 24, 31, 43\n2ನೇ ಮಾತೃಕೆಯಲ್ಲಿ R:= 57, 69, 76, 88, 95\nಈ ಮೇಲ್ಕಂಡ ರೀತಿಯಲ್ಲಿ ಪ್ರತಿನಿಧಿಸಿದ ಮಾತೃಕೆಯ ಅಕ್ಷರಗಳ ಸರಿಯಾದ ಒಂದು ಗುಂಪನ್ನು ಆರಿಸಿ ಬರೆಯಿರಿ.\n\nMatrix-1\n    0  1  2  3  4\n0   A  E  S  T  H\n1   T  H  A  E  S\n2   E  S  T  H  A\n3   H  A  E  S  T\n4   S  T  H  A  E\n\nMatrix-2\n    5  6  7  8  9\n5   P  O  R  K  L\n6   K  L  P  O  R\n7   O  R  K  L  P\n8   L  P  O  R  K\n9   R  K  L  P  O\n\nHEPR",
+        "en": "Directions:\nIn the given matrices a letter can be represented first by its row number and followed by its column number.\nFor example\nin matrix-1\nA=00, 12, 24, 31, 43\nin matrix-2\nR = 57, 69, 76, 88, 95\nIn each of the following questions, identify one set of number pairs which represent the given word.\n\nMatrix-1\n    0  1  2  3  4\n0   A  E  S  T  H\n1   T  H  A  E  S\n2   E  S  T  H  A\n3   H  A  E  S  T\n4   S  T  H  A  E\n\nMatrix-2\n    5  6  7  8  9\n5   P  O  R  K  L\n6   K  L  P  O  R\n7   O  R  K  L  P\n8   L  P  O  R  K\n9   R  K  L  P  O\n\nHEPR"
+      },
+      "options": [
+        {
+          "kn": "04,20,55,78",
+          "en": "04,20,55,78"
+        },
+        {
+          "kn": "23,32,98,99",
+          "en": "23,32,98,99"
+        },
+        {
+          "kn": "11,13,67,69",
+          "en": "11,13,67,69"
+        },
+        {
+          "kn": "42,32,79,58",
+          "en": "42,32,79,58"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "11=H, 13=E, 67=P, 69=R → HEPR. ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "11=H, 13=E, 67=P, 69=R → HEPR. Other options fail: 78=L (not R); 23=T; 58=K (not R)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-DR-0467",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಆಗ್ನೇಯವು ಉತ್ತರವಾದರೆ, ಈಶಾನ್ಯವು ಪಶ್ಚಿಮವಾಗುತ್ತದೆ ಮತ್ತು ಹೀಗೆಯೇ ಪಶ್ಚಿಮ ಏನಾಗುತ್ತದೆ?",
+        "en": "If South-East becomes North, North-East becomes West and so on. What will West become?"
+      },
+      "options": [
+        {
+          "kn": "ಈಶಾನ್ಯ",
+          "en": "North-East"
+        },
+        {
+          "kn": "ವಾಯುವ್ಯ",
+          "en": "North-West"
+        },
+        {
+          "kn": "ಆಗ್ನೇಯ",
+          "en": "South-East"
+        },
+        {
+          "kn": "ನೈಋತ್ಯ",
+          "en": "South-West"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರತಿ ದಿಕ್ಕು 135° ಅಪ್ರದಕ್ಷಿಣವಾಗಿ ತಿರುಗುತ್ತದೆ (ಆಗ್ನೇಯ → ಉತ್ತರ). ಪಶ್ಚಿಮ (270°) − 135° = 135° = ಆಗ್ನೇಯ. ಸರಿಯಾದ ಉತ್ತರ C: ಆಗ್ನೇಯ.",
+        "en": "Each direction turns 135° anticlockwise (South-East → North). West (270°) − 135° = 135° = South-East. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-DR-0468",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸಂಜೆ 6 ಗಂಟೆಗೆ ರಾಹುಲ್ ತನ್ನ ಟೈಮ್‌ಪೀಸ್ ಅನ್ನು ಟೇಬಲ್ ಮೇಲೆ ಇಟ್ಟನು. ಗಂಟೆಯ ಮುಳ್ಳು ಉತ್ತರಕ್ಕೆ ಸೂಚಿಸುತ್ತದೆ. 9.15 P.M ಕ್ಕೆ ನಿಮಿಷದ ಮುಳ್ಳು ಯಾವ ದಿಕ್ಕಿನಲ್ಲಿ ಇರುತ್ತದೆ?",
+        "en": "Rahul put his timepiece on the table in such a way that at 6P.M hour hand points to North. In which direction the minute hand will point at 9.15 P.M?"
+      },
+      "options": [
+        {
+          "kn": "ಆಗ್ನೇಯ",
+          "en": "South East"
+        },
+        {
+          "kn": "ದಕ್ಷಿಣ",
+          "en": "South"
+        },
+        {
+          "kn": "ಉತ್ತರ",
+          "en": "North"
+        },
+        {
+          "kn": "ಪಶ್ಚಿಮ",
+          "en": "West"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "6 ಗಂಟೆ ಉತ್ತರದಲ್ಲಿರುವುದರಿಂದ 12 ದಕ್ಷಿಣದಲ್ಲಿದೆ. 15 ನಿಮಿಷಕ್ಕೆ ನಿಮಿಷದ ಮುಳ್ಳು 3 ರ ಕಡೆ ತೋರಿಸುತ್ತದೆ, ಇದು 12 (ದಕ್ಷಿಣ) ರಿಂದ ಗಡಿಯಾರದ ದಿಕ್ಕಿನಲ್ಲಿ 90° ದೂರ, ಅಂದರೆ ಪಶ್ಚಿಮ. ಸರಿಯಾದ ಉತ್ತರ D: ಪಶ್ಚಿಮ.",
+        "en": "At 6 o'clock the hour hand points North, so 12 is South. The minute hand at 15 minutes points to the 3, which is 90° clockwise from 12 (South), i.e. West. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-DR-0469",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಲೋಕೇಶ್ ತನ್ನ ಮನೆಯಿಂದ ಉತ್ತರಕ್ಕೆ 15km ನಡೆದು ನಂತರ ಪಶ್ಚಿಮಕ್ಕೆ ತಿರುಗಿ 10km ನಡೆದು ನಂತರ ದಕ್ಷಿಣಕ್ಕೆ ತಿರುಗಿ 5km ನಡೆಯುತ್ತಾನೆ. ಕೊನೆಗೆ ಪೂರ್ವಕ್ಕೆ ತಿರುಗಿ 10km ಚಲಿಸಿದ ಅವನು ಈಗ ತನ್ನ ಮನೆಯಿಂದ ಯಾವ ದಿಕ್ಕಿನಲ್ಲಿದ್ದಾನೆ?",
+        "en": "Form his house, Lokesh went 15km to the North. Then he turned west and covered 10km. Then he turned south and covered 5km. Finally turning to the east, he covered 10km. In which direction is he from his house?"
+      },
+      "options": [
+        {
+          "kn": "ಪೂರ್ವ",
+          "en": "East"
+        },
+        {
+          "kn": "ಪಶ್ಚಿಮ",
+          "en": "West"
+        },
+        {
+          "kn": "ಉತ್ತರ",
+          "en": "North"
+        },
+        {
+          "kn": "ದಕ್ಷಿಣ",
+          "en": "South"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಮನೆ (0,0): ಉತ್ತರ 15 → (0,15); ಪಶ್ಚಿಮ 10 → (−10,15); ದಕ್ಷಿಣ 5 → (−10,10); ಪೂರ್ವ 10 → (0,10). ಮನೆಯಿಂದ 10 km ಉತ್ತರ. ಸರಿಯಾದ ಉತ್ತರ C: ಉತ್ತರ.",
+        "en": "Coordinates from the house (0,0): N15 → (0,15); W10 → (−10,15); S5 → (−10,10); E10 → (0,10). He is 10 km North of the house. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-DR-0471",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಪಾಯಿಂಟ್ x ನಿಂದ ಪ್ರಾರಂಭಿಸಿ, ಜಯಂತ್ ಪಶ್ಚಿಮಕ್ಕೆ 15m ನಡೆದರು. ಎಡಕ್ಕೆ ತಿರುಗಿ 20m ನಡೆದರು. ನಂತರ ಎಡಕ್ಕೆ ತಿರುಗಿ 15m ನಡೆದು ಇದಾದ ನಂತರ ತನ್ನ ಬಲಕ್ಕೆ ತಿರುಗಿ 12m ನಡೆದು x ನಿಂದ ಜಯಂತ್ ಈಗ ಎಷ್ಟು ದೂರ ಮತ್ತು ಯಾವ ದಿಕ್ಕಿನಲ್ಲಿದ್ದಾರೆ?",
+        "en": "Starting from the point x, Jayant walked 15m towards west. He turned left and walked 20m. He then turned left and walked 15m. After this he turned to his right and walked 12m. How far and in which directions is now Jayant from x?"
+      },
+      "options": [
+        {
+          "kn": "32m, ದಕ್ಷಿಣ",
+          "en": "32 m South"
+        },
+        {
+          "kn": "47m, ಪೂರ್ವ",
+          "en": "47 m East"
+        },
+        {
+          "kn": "42m, ಉತ್ತರ",
+          "en": "42 m, North"
+        },
+        {
+          "kn": "27m, ದಕ್ಷಿಣ",
+          "en": "27 m, South"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "x (0,0): ಪಶ್ಚಿಮ 15 → (−15,0); ಎಡ (ದಕ್ಷಿಣ) 20 → (−15,−20); ಎಡ (ಪೂರ್ವ) 15 → (0,−20); ಬಲ (ದಕ್ಷಿಣ) 12 → (0,−32). x ನಿಂದ 32 m ದಕ್ಷಿಣ. ಸರಿಯಾದ ಉತ್ತರ A: 32 m ದಕ್ಷಿಣ.",
+        "en": "From x (0,0): W15 → (−15,0); left turn (facing W) = S20 → (−15,−20); left turn (facing S) = E15 → (0,−20); right turn (facing E) = S12 → (0,−32). Jayant is 32 m South of x. Answer A (32 m South). The printed English key reads '47m, South' and is incorrect (see QC report)."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-DR-0472",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಬ್ಬ ಹುಡುಗ ತನ್ನ ಬೈಸಿಕಲ್ ಅನ್ನು ಉತ್ತರಕ್ಕೆ ಓಡಿಸಿದನು, ನಂತರ ಎಡಕ್ಕೆ ತಿರುಗಿ 1km ಸವಾರಿ ಮಾಡಿ ಮತ್ತು ಎಡಕ್ಕೆ ತಿರುಗಿ 2km ಸವಾರಿ ಮಾಡಿದನು. ಅವನು ತನ್ನ ಪ್ರಾರಂಭದ ಸ್ಥಳದಿಂದ ಪಶ್ಚಿಮಕ್ಕೆ 1km ದೂರದಲ್ಲಿದ್ದಾನೆ. ಆರಂಭದಲ್ಲಿ ಅವನು ಉತ್ತರಕ್ಕೆ ಎಷ್ಟು ದೂರ ಸವಾರಿ ಮಾಡಿದನು?",
+        "en": "A boy rode his bicycle Northward, then turned left and rode 1 km and again turned left and rode 2 km. He found himself 1km west of his starting point. How far did he ride northward initially?"
+      },
+      "options": [
+        {
+          "kn": "1km",
+          "en": "1km"
+        },
+        {
+          "kn": "2km",
+          "en": "2km"
+        },
+        {
+          "kn": "3km",
+          "en": "3km"
+        },
+        {
+          "kn": "5km",
+          "en": "5km"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಉತ್ತರಕ್ಕೆ ಚಲಿಸಿದ ದೂರ y ಎಂದಿಟ್ಟುಕೊಳ್ಳಿ. ಉತ್ತರ y → (0,y); ಎಡ (ಪಶ್ಚಿಮ) 1 → (−1,y); ಎಡ (ದಕ್ಷಿಣ) 2 → (−1,y−2). ಪ್ರಾರಂಭದಿಂದ 1 km ಪಶ್ಚಿಮದಲ್ಲಿರುವುದರಿಂದ y−2 = 0, ಆದ್ದರಿಂದ y = 2 km. ಸರಿಯಾದ ಉತ್ತರ B: 2 km.",
+        "en": "Let the northward leg be y. N y → (0,y); left (W) 1 → (−1,y); left (S) 2 → (−1,y−2). He ends 1 km west of the start, so y−2 = 0 and y = 2 km. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-DR-0473",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಲವು ಹುಡುಗರು ಮೂರು ಸಾಲುಗಳಲ್ಲಿ ಉತ್ತರಕ್ಕೆ ಎದುರಾಗಿ ಕುಳಿತಿದ್ದಾರೆ, ಅಂದರೆ A ಮಧ್ಯದ ಸಾಲಿನಲ್ಲಿದ್ದಾನೆ. P ಎಂಬುವವನು A ಯ ಬಲಭಾಗದಲ್ಲಿದ್ದಾನೆ, ಆದರೆ ಅದೇ ಸಾಲಿನಲ್ಲಿದ್ದಾನೆ. Q ಯು P ಯ ಸ್ವಲ್ಪ ಹಿಂದೆ ಇದ್ದರೆ R ನು A ಯ ಉತ್ತರದಲ್ಲಿದ್ದಾನೆ. R ನ ಯಾವ ದಿಕ್ಕಿನಲ್ಲಿ Q ಇರುತ್ತಾನೆ?",
+        "en": "Some boys are sitting in three rows all facing North such that A is in the middle row. P is just to the right of A but in the same row. Q is just behind of P while R is in the North of A. In which direction of R is Q."
+      },
+      "options": [
+        {
+          "kn": "ವಾಯುವ್ಯ",
+          "en": "North west"
+        },
+        {
+          "kn": "ನೈಋತ್ಯ",
+          "en": "South west"
+        },
+        {
+          "kn": "ಈಶಾನ್ಯ",
+          "en": "North east"
+        },
+        {
+          "kn": "ಆಗ್ನೇಯ",
+          "en": "South east"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಎಲ್ಲರೂ ಉತ್ತರಕ್ಕೆ ಮುಖ ಮಾಡಿದ್ದಾರೆ. A (0,0); P ಬಲ (ಪೂರ್ವ) (1,0); Q P ಹಿಂದೆ (ದಕ್ಷಿಣ) (1,−1); R A ಮುಂದೆ (ಉತ್ತರ) (0,1). R ಗೆ ಸಂಬಂಧಿಸಿ Q ನ ಸ್ಥಾನ (+1, −2) ⇒ ಆಗ್ನೇಯ. ಸರಿಯಾದ ಉತ್ತರ D: ಆಗ್ನೇಯ.",
+        "en": "Facing North: A (0,0); P just right (East) of A (1,0); Q just behind P (South) (1,−1); R in front of A (0,1). Q relative to R: (+1, −2), i.e. South-East. Answer D."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-DR-0474",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಹೇಮಂತ್ ವಿಶ್ವವಿದ್ಯಾನಿಲಯಕ್ಕೆ ಹೋಗುವ ಸಲುವಾಗಿ ಪೂರ್ವದಲ್ಲಿದ್ದ ತನ್ನ ಮನೆಯಿಂದ ಪ್ರಾರಂಭಿಸಿ ಒಂದು ಕ್ರಾಸಿಂಗ್‌ನಲ್ಲಿ ಬಂದನು. ಎಡಭಾಗದ ರಸ್ತೆಯು ರಂಗಮಂದಿರದಲ್ಲಿ ಕೊನೆಗೊಳ್ಳುತ್ತದೆ, ನೇರವಾಗಿ ಅಸ್ತ್ರೆ ಇದೆ. ಹಾಗಾದರೆ ವಿಶ್ವವಿದ್ಯಾಲಯವು ಈಗ ಅವನ ಯಾವ ದಿಕ್ಕಿನಲ್ಲಿದೆ?",
+        "en": "Hemant in order to go to university started from his house in the east and came to a crossing. The road to the left ends in a theatre, straight ahead is the hospital. In which direction is the university?"
+      },
+      "options": [
+        {
+          "kn": "ಉತ್ತರ",
+          "en": "North"
+        },
+        {
+          "kn": "ದಕ್ಷಿಣ",
+          "en": "South"
+        },
+        {
+          "kn": "ಪೂರ್ವ",
+          "en": "East"
+        },
+        {
+          "kn": "ಪಶ್ಚಿಮ",
+          "en": "West"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಹೇಮಂತ್ ಪೂರ್ವದಿಂದ ಬರುವುದರಿಂದ ಕ್ರಾಸಿಂಗ್‌ನಲ್ಲಿ ಅವನು ಪಶ್ಚಿಮಕ್ಕೆ ಚಲಿಸುತ್ತಿದ್ದಾನೆ. ಎಡ (ದಕ್ಷಿಣ) ರಂಗಮಂದಿರ; ನೇರ (ಪಶ್ಚಿಮ) ಆಸ್ಪತ್ರೆ; ಬಲ (ಉತ್ತರ) ವಿಶ್ವವಿದ್ಯಾಲಯ. ಸರಿಯಾದ ಉತ್ತರ A: ಉತ್ತರ.",
+        "en": "Hemant comes from the east, so he is travelling West at the crossing. Left of West is South (theatre); straight ahead is West (hospital); right is North (university). Answer A."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-DR-0475",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ರವಿ ತನ್ನ ಮನೆಯಿಂದ ಹೊರಟು ದಕ್ಷಿಣದ ಕಡೆಗೆ 10km ಸೈಕಲ್ ತುಳಿದು, ಬಲಕ್ಕೆ ತಿರುಗಿ 5km ಸೈಕಲ್ ತುಳಿದು ಮತ್ತೆ ಬಲಕ್ಕೆ ತಿರುಗಿ 10km ಸೈಕಲ್ ತುಳಿದ. ಇದಾದ ಬಳಿಕ ಎಡಕ್ಕೆ ತಿರುಗಿ ಸೈಕಲ್ ತುಳಿದು 10km ಚಲಿಸಿದ. ಈಗ ಅವನು ನೇರವಾಗಿ ತನ್ನ ಮನೆಗೆ ತಲುಪಲು ಎಷ್ಟು ಕಿಲೋಮೀಟರ್ ಸೈಕಲ್ ಪೆಡಲ್ ಮಾಡಬೇಕು?",
+        "en": "Ravi left home and cycled 10km towards South, then turned right and cycled 5km and then again turned right and cycled 10km. After this he turned left and cycled 10 km. How many kilometers will he have to cycle to reach his home straight?"
+      },
+      "options": [
+        {
+          "kn": "10 km",
+          "en": "10 km"
+        },
+        {
+          "kn": "15 km",
+          "en": "15 km"
+        },
+        {
+          "kn": "20 km",
+          "en": "20 km"
+        },
+        {
+          "kn": "25 km",
+          "en": "25 km"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮನೆ (0,0): ದಕ್ಷಿಣ 10 → (0,−10); ಬಲ (ಪಶ್ಚಿಮ) 5 → (−5,−10); ಬಲ (ಉತ್ತರ) 10 → (−5,0); ಎಡ (ಪಶ್ಚಿಮ) 10 → (−15,0). ಮನೆಗೆ ನೇರ ದೂರ 15 km. ಸರಿಯಾದ ಉತ್ತರ B: 15 km.",
+        "en": "Home (0,0): S10 → (0,−10); right (W) 5 → (−5,−10); right (N) 10 → (−5,0); left (W) 10 → (−15,0). Straight distance back home = 15 km. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-DR-0476",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದು ಮಗು ತನ್ನ ತಂದೆಯನ್ನು ಹುಡುಕಲು ಪೂರ್ವ ದಿಕ್ಕಿನಲ್ಲಿ 90m ಹೋದನು, ನಂತರ ಅವನು ಬಲಕ್ಕೆ ತಿರುಗಿ 20m ಹೋದನು. ಇದಾದ ನಂತರ ಬಲಕ್ಕೆ ತಿರುಗಿ 30m ಹೋದ ನಂತರ ಅವನು ತನ್ನ ಚಿಕ್ಕಪ್ಪನ ಮನೆಗೆ ತಲುಪಿದನು. ಅವನ ತಂದೆ ಇರಲಿಲ್ಲ. ಅಲ್ಲಿಂದ 100m ಉತ್ತರಕ್ಕೆ ಹೋಗಿ ತಂದೆಯನ್ನು ಭೇಟಿಯಾದನು. ಪ್ರಾರಂಭದ ಹಂತದಿಂದ ಅವನು ತನ್ನ ತಂದೆಯನ್ನು ಎಷ್ಟು ದೂರದಲ್ಲಿ ಭೇಟಿಯಾದನು?",
+        "en": "A child went 90m East to look for his father, then he turned right and went 20m. After this he turned right and after going 30m he reached to his uncle’s house. His father was not there. From there he went 100m to his north and met his father. How far did he travel to meet his father from the starting point?"
+      },
+      "options": [
+        {
+          "kn": "80m",
+          "en": "80m"
+        },
+        {
+          "kn": "100m",
+          "en": "100m"
+        },
+        {
+          "kn": "120m",
+          "en": "120m"
+        },
+        {
+          "kn": "150m",
+          "en": "150m"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರಾರಂಭ (0,0): ಪೂರ್ವ 90 → (90,0); ಬಲ (ದಕ್ಷಿಣ) 20 → (90,−20); ಬಲ (ಪಶ್ಚಿಮ) 30 → (60,−20) (ಚಿಕ್ಕಪ್ಪನ ಮನೆ); ಉತ್ತರ 100 → (60,80) (ತಂದೆ). ಪ್ರಾರಂಭದಿಂದ ನೇರ ದೂರ √(60²+80²) = 100 m. ಸರಿಯಾದ ಉತ್ತರ B: 100 m.",
+        "en": "Start (0,0): E90 → (90,0); right (S) 20 → (90,−20); right (W) 30 → (60,−20) (uncle's house); N100 → (60,80) (father). Straight-line distance from start = √(60²+80²) = 100 m. Answer B. (Interpretation: distance from the starting point, not total path length 240 m.)"
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-DR-0477",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ಉಮೇಶ್ ನೇರವಾಗಿ P ನಿಂದ 9 ಅಡಿ ದೂರದಲ್ಲಿರುವ Q ಗೆ ಹೋದರು. ನಂತರ ಬಲಕ್ಕೆ ತಿರುಗಿ 4 ಅಡಿ ನಡೆದನು. ಇದಾದ ನಂತರ ಬಲಕ್ಕೆ ತಿರುಗಿ P ಯಿಂದ Q ಗೆ ಸಮನಾಗಿರುವ ಅಂತರವನ್ನು ನಡೆದು ಕೊನೆಗೆ ಬಲಕ್ಕೆ ತಿರುಗಿ 3 ಅಡಿ ನಡೆದನು. ಉಮೇಶನು P ಯಿಂದ ಈಗ ಎಷ್ಟು ದೂರದಲ್ಲಿದ್ದಾನೆ?",
+        "en": "Umesh directly went from, P, to Q which is 9 feet distant. Then he turns to the right and walked 4 feet. After this he turned to the right and walked a distance which is equal from P to Q. Finally he turned to the right and walked 3 feet. How far is he now from P?"
+      },
+      "options": [
+        {
+          "kn": "6 ಅಡಿಗಳು",
+          "en": "6 feet"
+        },
+        {
+          "kn": "5 ಅಡಿಗಳು",
+          "en": "5 feet"
+        },
+        {
+          "kn": "1 ಅಡಿ",
+          "en": "1 foot"
+        },
+        {
+          "kn": "0 ಅಡಿ",
+          "en": "0 foot"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "P (0,0) → Q (9,0) ಪೂರ್ವ; ಬಲ (ದಕ್ಷಿಣ) 4 → (9,−4); ಬಲ (ಪಶ್ಚಿಮ) 9 → (0,−4); ಬಲ (ಉತ್ತರ) 3 → (0,−1). P ನಿಂದ ದೂರ 1 ಅಡಿ. ಸರಿಯಾದ ಉತ್ತರ C: 1 ಅಡಿ.",
+        "en": "P (0,0) → Q (9,0) east; right (S) 4 → (9,−4); right (W) 9 → (0,−4); right (N) 3 → (0,−1). Distance from P = 1 foot. Answer C."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-DR-0478",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮಧು ಉತ್ತರಕ್ಕೆ 15m ನಡೆಯುತ್ತಾಳೆ, ನಂತರ ಅವಳು 90°ನಲ್ಲಿ ಎಡಕ್ಕೆ ತಿರುಗಿ 30m ನಡೆಯುತ್ತಾಳೆ, ನಂತರ 90°ನಲ್ಲಿ ಬಲಕ್ಕೆ ತಿರುಗಿ 25m ನಡೆಯುತ್ತಾಳೆ. ಅವಳು ಪ್ರಾರಂಭದ ಹಂತದಿಂದ ಎಷ್ಟು ದೂರದಲ್ಲಿದ್ದಾಳೆ ಮತ್ತು ಯಾವ ದಿಕ್ಕಿನಲ್ಲಿದ್ದಾಳೆ?",
+        "en": "Madhu 15m towards north, then she turns left at 90° and walks 30m then turns right and walks 25m how far she is from the starting point and in which direction?"
+      },
+      "options": [
+        {
+          "kn": "55m, ಈಶಾನ್ಯ",
+          "en": "55m, north east"
+        },
+        {
+          "kn": "50m, ವಾಯುವ್ಯ",
+          "en": "50m, north west"
+        },
+        {
+          "kn": "60 m, ಉತ್ತರ",
+          "en": "60 m, north"
+        },
+        {
+          "kn": "50m, ಪಶ್ಚಿಮ",
+          "en": "50m, west"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪ್ರಾರಂಭ (0,0): ಉತ್ತರ 15 → (0,15); ಎಡ (ಪಶ್ಚಿಮ) 30 → (−30,15); ಬಲ (ಉತ್ತರ) 25 → (−30,40). ದೂರ √(30²+40²) = 50 m; ದಿಕ್ಕು ವಾಯುವ್ಯ. ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Start (0,0): N15 → (0,15); left (W) 30 → (−30,15); right (N) 25 → (−30,40). Distance = √(30²+40²) = 50 m; direction North-West. Answer B."
+      },
+      "image": null
+    },
+    {
+      "id": "GMAT-DR-0479",
+      "difficulty": "hard",
+      "question": {
+        "kn": "ನಾಲ್ಕು ಪಟ್ಟಣಗಳು P,Q,R ಮತ್ತು T.Q ಯ P ನೈಋತ್ಯಕ್ಕೆ, R ಯು Q ಯ ಪೂರ್ವಕ್ಕೆ ಮತ್ತು P ಯ ಆಗ್ನೇಯಕ್ಕೆ, ಮತ್ತು T ಯು QP ಗೆ ನೇರದಲ್ಲಿ R ಗೆ ಉತ್ತರದಲ್ಲಿದೆ. P ಯ ಯಾವ ದಿಕ್ಕಿನಲ್ಲಿ T ಇದೆ?",
+        "en": "There are four towns P,Q,R and T.Q is to the South west of P, R is to the east of Q and South east of P, and T is to the north of R in line with QP. In which direction of P is T located?"
+      },
+      "options": [
+        {
+          "kn": "ಆಗ್ನೇಯ",
+          "en": "South east"
+        },
+        {
+          "kn": "ಈಶಾನ್ಯ",
+          "en": "north east"
+        },
+        {
+          "kn": "ಉತ್ತರ",
+          "en": "north"
+        },
+        {
+          "kn": "ಪೂರ್ವ",
+          "en": "east"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "P (0,0); Q ನೈಋತ್ಯ: (−a,−a); R Q ನ ಪೂರ್ವ ಮತ್ತು P ನ ಆಗ್ನೇಯ: (a,−a); T QP ರೇಖೆಯ ಮೇಲೆ R ನ ಉತ್ತರ: (a,a). T, P ನ ಈಶಾನ್ಯದಲ್ಲಿದೆ. ಸರಿಯಾದ ಉತ್ತರ B: ಈಶಾನ್ಯ.",
+        "en": "P (0,0); Q south-west of P: (−a,−a); R east of Q and south-east of P: (a,−a); T north of R on line QP (y = x): (a,a). T is north-east of P. Answer B."
       },
       "image": null
     }
