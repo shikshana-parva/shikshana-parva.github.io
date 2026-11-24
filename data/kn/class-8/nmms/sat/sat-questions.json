@@ -8,88 +8,1319 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 2,
-    "version": "1.0.0",
-    "testData": true,
-    "note": "Temporary sample questions for JSON loading and UI testing; replace with verified source questions before production."
-  },
-  "questionSchema": {
-    "id": "Unique question ID, string",
-    "difficulty": "easy, medium, or hard",
-    "question": {
-      "kn": "Kannada question text",
-      "en": "English question text"
-    },
-    "options": "Array of exactly 4 bilingual objects in A, B, C, D order",
-    "correctIndex": "Integer 0-3",
-    "explanation": {
-      "kn": "Kannada explanation",
-      "en": "English explanation"
-    },
-    "image": "Optional relative path to an image or null"
+    "totalQuestions": 41,
+    "version": "1.0.0"
   },
   "questions": [
     {
-      "id": "SAT-TEST-0001",
-      "difficulty": "easy",
+      "id": "SAT-PHY-0001",
+      "difficulty": "medium",
       "question": {
-        "kn": "ಸಸ್ಯಗಳು ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯ ಸಮಯದಲ್ಲಿ ವಾತಾವರಣದಿಂದ ಯಾವ ಅನಿಲವನ್ನು ಹೀರಿಕೊಳ್ಳುತ್ತವೆ?",
-        "en": "Which gas do plants absorb from the atmosphere during photosynthesis?"
+        "kn": "ಇವುಗಳಲ್ಲಿ ಕನಿಷ್ಠ ಕೆಲಸ ನಡೆದಿರುವುದನ್ನು ಸೂಚಿಸುವ ಚಿತ್ರ",
+        "en": "The figure that shows minimum work done is"
       },
       "options": [
         {
-          "kn": "ಆಮ್ಲಜನಕ",
-          "en": "Oxygen"
+          "kn": "ಚಿತ್ರ A",
+          "en": "Figure A"
         },
         {
-          "kn": "ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್",
-          "en": "Carbon dioxide"
+          "kn": "ಚಿತ್ರ B",
+          "en": "Figure B"
         },
         {
-          "kn": "ನೈಟ್ರೋಜನ್",
-          "en": "Nitrogen"
+          "kn": "ಚಿತ್ರ C",
+          "en": "Figure C"
         },
         {
-          "kn": "ಹೈಡ್ರೋಜನ್",
-          "en": "Hydrogen"
+          "kn": "ಚಿತ್ರ D",
+          "en": "Figure D"
         }
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": {
-        "kn": "ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯ ವೇಳೆ ಸಸ್ಯಗಳು ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್ ಮತ್ತು ನೀರನ್ನು ಬಳಸಿ ಆಹಾರ ತಯಾರಿಸುತ್ತವೆ.",
-        "en": "During photosynthesis, plants use carbon dioxide and water to make food."
+        "kn": "ಕೆಲಸ W = F × s × cos θ, ಇಲ್ಲಿ θ ಎಂದರೆ ಬಲ F ಮತ್ತು ಸ್ಥಾನಾಂತರ s ನಡುವಿನ ಕೋನ. θ = 180° ಆದಾಗ cos 180° = −1 ಆಗುವುದರಿಂದ W = −F × s ಆಗಿ ಕೆಲಸ ಕನಿಷ್ಠವಾಗುತ್ತದೆ. ಚಿತ್ರ A ಯಲ್ಲಿ ಬಲ ಮತ್ತು ಸ್ಥಾನಾಂತರ ವಿರುದ್ಧ ದಿಕ್ಕುಗಳಲ್ಲಿವೆ (180°). B ಯಲ್ಲಿ ಕೋನ 0°, C ಯಲ್ಲಿ 90° (ಕೆಲಸ ಶೂನ್ಯ), D ಯಲ್ಲಿ 60° ಆಗಿದೆ. ಆದ್ದರಿಂದ ಉತ್ತರ A.",
+        "en": "Work done W = F × s × cos θ, where θ is the angle between force F and displacement s. Work is minimum when θ = 180° because cos 180° = −1, so W = −F × s. Figure A shows F and S in opposite directions (180°). In B the angle is 0°, in C it is 90° (no work), and in D it is 60°. Therefore, Figure A represents the minimum work done. Answer: A."
+      },
+      "image": "data/kn/class-8/nmms/sat/images/SAT-PHY-0001.webp"
+    },
+    {
+      "id": "SAT-PHY-0002",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಹೇಳಿಕೆ (A): ಮಿಕ್ಸರನ್ನು ಕೆಲ ನಿಮಿಷ ಬಳಸಿದಾಗ ಉತ್ಪತ್ತಿಯಾಗುವ ಉಷ್ಣದಿಂದ ಬಟ್ಟಲು ಬಿಸಿಯಾಗುತ್ತದೆ. ಕಾರಣ (R): ಘರ್ಷಣೆಯಿಂದ ಉಷ್ಣ ಉತ್ಪತ್ತಿಯಾಗಿ ಮಿಕ್ಸರ್ ಬಟ್ಟಲು ಬಿಸಿಯಾಗಿದೆ.",
+        "en": "Statement (A): A Bowl gets heated by the heat generated when the mixer is used for few minutes. Reason (R): The mixer bowl is heated by heat generated due to friction."
+      },
+      "options": [
+        {
+          "kn": "A ಹೇಳಿಕೆಗೆ R ಸರಿಯಾದ ಕಾರಣವಾಗಿದೆ",
+          "en": "R is the right reason for statement A"
+        },
+        {
+          "kn": "A ಹೇಳಿಕೆಗೆ R ಸರಿಯಾದ ಕಾರಣವಲ್ಲ",
+          "en": "R is not the right reason for the statement A"
+        },
+        {
+          "kn": "A ಹೇಳಿಕೆಯು R ಕಾರಣಕ್ಕೆ ಯಾವ ಸಂಬಂಧವೂ ಇಲ್ಲ",
+          "en": "Statement A is not at all related to reason R"
+        },
+        {
+          "kn": "A ಹೇಳಿಕೆ ತಪ್ಪು R ಕಾರಣ ಸರಿ",
+          "en": "Statement A is wrong Reason R is right"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಮಿಕ್ಸರ್‌ನ ಚಲಿಸುವ ಭಾಗಗಳ ನಡುವಿನ ಘರ್ಷಣೆಯಿಂದ ಉಷ್ಣ ಉತ್ಪತ್ತಿಯಾಗಿ ಬಟ್ಟಲು ಬಿಸಿಯಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ R ಹೇಳಿಕೆ A ಗೆ ಸರಿಯಾದ ಕಾರಣವಾಗಿದೆ. ಉತ್ತರ A.",
+        "en": "Friction between the moving parts of the mixer produces heat, which warms the bowl. So R correctly explains A. Answer: A."
       },
       "image": null
     },
     {
-      "id": "SAT-TEST-0002",
-      "difficulty": "easy",
+      "id": "SAT-PHY-0003",
+      "difficulty": "medium",
       "question": {
-        "kn": "ಒಂದು ಆಯತದ ಉದ್ದ 8 ಸೆಂ.ಮೀ ಮತ್ತು ಅಗಲ 3 ಸೆಂ.ಮೀ ಇದ್ದರೆ, ಅದರ ವಿಸ್ತೀರ್ಣ ಎಷ್ಟು?",
-        "en": "A rectangle is 8 cm long and 3 cm wide. What is its area?"
+        "kn": "ಒಬ್ಬನು 14 kg ತೂಕವಿರುವ ಎಲ್.ಪಿ.ಜಿ. ಸಿಲಿಂಡರನ್ನು ಮೆಟ್ಟಿಲುಗಳ ಮೂಲಕ 12 m ಎತ್ತರದ ಮೊದಲ ಅಂತಸ್ತಿಗೆ ಒಯ್ಯುತ್ತಾನೆ. ಹಾಗಾದರೆ ನಡೆದ ಕೆಲಸ (g = 10 m/s²)",
+        "en": "A person carries 14 kg LPG cylinder through steps up to 12m to the first floor. The work done is (g = 10 m/s²)"
       },
       "options": [
         {
-          "kn": "11 ಚ.ಸೆಂ.ಮೀ",
-          "en": "11 cm²"
+          "kn": "16.8 J",
+          "en": "16.8 J"
         },
         {
-          "kn": "16 ಚ.ಸೆಂ.ಮೀ",
-          "en": "16 cm²"
+          "kn": "168 J",
+          "en": "168 J"
         },
         {
-          "kn": "24 ಚ.ಸೆಂ.ಮೀ",
-          "en": "24 cm²"
+          "kn": "1680 J",
+          "en": "1680 J"
         },
         {
-          "kn": "32 ಚ.ಸೆಂ.ಮೀ",
-          "en": "32 cm²"
+          "kn": "1167 J",
+          "en": "1167 J"
         }
       ],
       "correctIndex": 2,
       "explanation": {
-        "kn": "ಆಯತದ ವಿಸ್ತೀರ್ಣ = ಉದ್ದ × ಅಗಲ = 8 × 3 = 24 ಚ.ಸೆಂ.ಮೀ.",
-        "en": "Area of a rectangle = length × width = 8 × 3 = 24 cm²."
+        "kn": "ಗುರುತ್ವದ ವಿರುದ್ಧ ಮಾಡಿದ ಕೆಲಸ W = m × g × h. ಇಲ್ಲಿ m = 14 kg, g = 10 m/s², h = 12 m. ಬೆಲೆ ಇಡಲಾಗಿದೆ: W = 14 × 10 × 12 = 1680 J. ಆದ್ದರಿಂದ ನಡೆದ ಕೆಲಸ 1680 J (ಆಯ್ಕೆ C).",
+        "en": "Work done against gravity is W = m × g × h. Substituting m = 14 kg, g = 10 m/s² and h = 12 m gives W = 14 × 10 × 12 = 1680 J. The unit is joule (J). Answer: C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0004",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸಾಗರ ಉಷ್ಣ ಶಕ್ತಿಯಿಂದ ವಿದ್ಯುತ್ ತಯಾರಿಸಲು ಸಂಶೋಧನಾ ಸಂಸ್ಥೆಯೊಂದು P, Q, R, S ಗಳೆಂಬ ನಾಲ್ಕು ದ್ರವಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿಕೊಂಡಿದೆ. ಇವುಗಳ ಕುದಿಬಿಂದುಗಳು ಕ್ರಮವಾಗಿ 200K, 150K, 210K, 145K ಗಳಾಗಿವೆ. ಟರ್ಬೈನ್ ತಿರುಗಿಸಲು ಬಳಸಬಹುದಾದ ಅತಿ ಸೂಕ್ತ ದ್ರವ",
+        "en": "One research institute selected 4 liquids P, Q, R and S for generating electricity by using ocean heat energy. The boiling points of liquids are 200K, 150K, 210K, 145K respectively. The liquid suitable for rotating the turbine is"
+      },
+      "options": [
+        {
+          "kn": "P",
+          "en": "P"
+        },
+        {
+          "kn": "Q",
+          "en": "Q"
+        },
+        {
+          "kn": "R",
+          "en": "R"
+        },
+        {
+          "kn": "S",
+          "en": "S"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಸಾಗರದ ಉಷ್ಣದಿಂದ ಕುದಿಯಬಲ್ಲ ದ್ರವವು ಕಡಿಮೆ ಕುದಿಬಿಂದು ಹೊಂದಿರಬೇಕು. ನೀಡಿರುವ ದ್ರವಗಳಲ್ಲಿ S ನ ಕುದಿಬಿಂದು ಅತಿ ಕಡಿಮೆ (145 K). ಆದ್ದರಿಂದ ಅದು ಸುಲಭವಾಗಿ ಆವಿಯಾಗಿ ಟರ್ಬೈನ್ ತಿರುಗಿಸುತ್ತದೆ. ಉತ್ತರ D (S).",
+        "en": "Ocean heat can boil only a liquid with a low boiling point. Among the given liquids S has the lowest boiling point (145 K), so it vaporises most easily and its vapour rotates the turbine. Answer: D (S)."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0005",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ಮಗು ಉಯ್ಯಾಲೆಯಲ್ಲಿ ಆಡುತ್ತಿದೆ. ಇಲ್ಲಿ ಪ್ರಚ್ಛನ್ನ ಶಕ್ತಿ ಗರಿಷ್ಠವಾಗಿರುವುದು",
+        "en": "A child is playing in a swing. The potential energy is maximum"
+      },
+      "options": [
+        {
+          "kn": "ಉಯ್ಯಾಲೆಯು ಮಧ್ಯಭಾಗದಲ್ಲಿದ್ದಾಗ",
+          "en": "when swing is at the middle point"
+        },
+        {
+          "kn": "ಉಯ್ಯಾಲೆಯು ಹಿಂಭಾಗದಿಂದ ಕೆಳಕ್ಕೆ ಚಲಿಸುವಾಗ",
+          "en": "when swing is moving from backward to the middle point"
+        },
+        {
+          "kn": "ಉಯ್ಯಾಲೆಯು ಮುಂಭಾಗದಲ್ಲಿ ಅಥವಾ ಹಿಂಭಾಗದಲ್ಲಿ ಗರಿಷ್ಠ ಎತ್ತರಕ್ಕೆ ಚಲಿಸಿದಾಗ",
+          "en": "when swing is at the maximum height either in front or back"
+        },
+        {
+          "kn": "ಉಯ್ಯಾಲೆಯು ನಿಶ್ಚಲವಾಗಿದ್ದಾಗ",
+          "en": "when swing is at rest"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಪ್ರಚ್ಛನ್ನ ಶಕ್ತಿ ಎತ್ತರಕ್ಕೆ ಅನುಗುಣವಾಗಿರುತ್ತದೆ (PE = m × g × h). ಉಯ್ಯಾಲೆ ಮುಂಭಾಗ ಅಥವಾ ಹಿಂಭಾಗದಲ್ಲಿ ಗರಿಷ್ಠ ಎತ್ತರಕ್ಕೆ ಬಂದಾಗ ಅದರ ಎತ್ತರ ಹೆಚ್ಚಾಗಿರುತ್ತದೆ, ಆದ್ದರಿಂದ ಪ್ರಚ್ಛನ್ನ ಶಕ್ತಿ ಗರಿಷ್ಠ. ಮಧ್ಯಭಾಗದಲ್ಲಿ ಎತ್ತರ ಕನಿಷ್ಠ. ಉತ್ತರ C.",
+        "en": "Potential energy depends on height (PE = m × g × h). At the maximum height on either side the swing is highest, so PE is maximum. At the middle point the height is least, so PE is minimum. Answer: C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0006",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೆಲಸ ನಡೆದಿರುವುದನ್ನು ಸೂಚಿಸುವ ಒಂದು ಸಂದರ್ಭ",
+        "en": "The situation that represents the work done is"
+      },
+      "options": [
+        {
+          "kn": "ಕೈಯನ್ನು ವೃತ್ತಾಕಾರದಲ್ಲಿ ತಿರುಗಿಸಿದಾಗ",
+          "en": "a hand is rotated circularly"
+        },
+        {
+          "kn": "ಪುಸ್ತಕವನ್ನು ತಳ್ಳಿದಾಗ",
+          "en": "a book is pushed"
+        },
+        {
+          "kn": "ವೃತ್ತ ಪತ್ರಿಕೆ ಓದುವಾಗ",
+          "en": "reading a news paper"
+        },
+        {
+          "kn": "ಗಿಡಗಳಿಗೆ ನೀರುಣಿಸಿದಾಗ",
+          "en": "pouring water to plants"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕೆಲಸ ನಡೆಯಲು ಬಲ ಪ್ರಯೋಗಿಸಬೇಕು ಮತ್ತು ವಸ್ತು ಆ ಬಲದ ದಿಕ್ಕಿನಲ್ಲಿ ಸ್ಥಾನಾಂತರಗೊಳ್ಳಬೇಕು. ಪುಸ್ತಕವನ್ನು ತಳ್ಳಿದಾಗ ಬಲ ಮತ್ತು ಸ್ಥಾನಾಂತರ ಒಂದೇ ದಿಕ್ಕಿನಲ್ಲಿರುತ್ತವೆ. ಉಳಿದ ಸಂದರ್ಭಗಳಲ್ಲಿ ಈ ಸ್ಪಷ್ಟ ಸಂಬಂಧ ಇಲ್ಲ. ಉತ್ತರ B.",
+        "en": "Work is done when a force moves an object in the direction of the force. When a book is pushed, the force and the displacement are in the same direction, so work is done. The other situations do not show this clear force-and-displacement relation. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0007",
+      "difficulty": "medium",
+      "question": {
+        "kn": "15 kg ಭಾರದ ತಳ್ಳುವ ಗಾಡಿಯನ್ನು 2 ms⁻² ವೇಗೋತ್ಕರ್ಷದಿಂದ ತಳ್ಳಿದಾಗ 50 m ದೂರ ಚಲಿಸಿದರೆ, ನಡೆದ ಕೆಲಸ",
+        "en": "When a carriage of 15 kg is pushed with an acceleration of 2 ms-2, it moves a distance of 50 m. The work done is"
+      },
+      "options": [
+        {
+          "kn": "1.5 KJ",
+          "en": "1.5 KJ"
+        },
+        {
+          "kn": "150 KJ",
+          "en": "150 KJ"
+        },
+        {
+          "kn": "1500 KJ",
+          "en": "1500 KJ"
+        },
+        {
+          "kn": "15000 KJ",
+          "en": "15000 KJ"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಬಲ F = m × a = 15 kg × 2 m/s² = 30 N. ಕೆಲಸ W = F × s = 30 N × 50 m = 1500 J = 1.5 kJ. ಆದ್ದರಿಂದ ಉತ್ತರ A (1.5 KJ).",
+        "en": "Force F = m × a = 15 kg × 2 m/s² = 30 N. Work done W = F × s = 30 N × 50 m = 1500 J = 1.5 kJ. Answer: A (1.5 KJ)."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0008",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಇಲ್ಲಿ A, B, C ಗುಂಡುಗಳು ಕ್ರಮವಾಗಿ 5 m, 4 m, 6 m ಎತ್ತರದಲ್ಲಿವೆ. ಇವುಗಳ ಪ್ರಚ್ಛನ್ನ ಶಕ್ತಿಯ ಏರಿಕೆ ಕ್ರಮದ ಜೋಡಣೆ (g = 10 m/s²)",
+        "en": "Here A, B, C spheres are at the height of 5m, 4m, 6m respectively. The potential energy of the spheres in ascending order is (g = 10m/s²)"
+      },
+      "options": [
+        {
+          "kn": "A, B, C",
+          "en": "A, B, C"
+        },
+        {
+          "kn": "C, B, A",
+          "en": "C, B, A"
+        },
+        {
+          "kn": "B, C, A",
+          "en": "B, C, A"
+        },
+        {
+          "kn": "A, C, B",
+          "en": "A, C, B"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರಚ್ಛನ್ನ ಶಕ್ತಿ PE = m × g × h. A: 1 × 10 × 5 = 50 J. B: 5 × 10 × 4 = 200 J. C: 3 × 10 × 6 = 180 J. ಏರಿಕೆ ಕ್ರಮ: A (50 J), C (180 J), B (200 J). ಆದ್ದರಿಂದ ಉತ್ತರ D (A, C, B).",
+        "en": "Potential energy PE = m × g × h. A: 1 × 10 × 5 = 50 J. B: 5 × 10 × 4 = 200 J. C: 3 × 10 × 6 = 180 J. In ascending order: A (50 J), C (180 J), B (200 J). Answer: D (A, C, B)."
+      },
+      "image": "data/kn/class-8/nmms/sat/images/SAT-PHY-0008.webp"
+    },
+    {
+      "id": "SAT-PHY-0009",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮೈದಾನದಲ್ಲಿ ಆಟ ಆಡುತ್ತಿರುವ ಒಬ್ಬ ವಿದ್ಯಾರ್ಥಿ ಆಗಸದಲ್ಲಿ ಹಾರುತ್ತಿರುವ ವಿಮಾನದ ಸದ್ದು ಕೇಳಿ ಆ ವಿಮಾನವನ್ನು ನೋಡುತ್ತಾನೆ. ಆಗ ಅವನ ಕಣ್ಣಿನಲ್ಲಿರುವ ಮಸೂರವು",
+        "en": "A student playing in the field hears the sound of a plane flying in the sky and looks at the plane. The lens in his eye"
+      },
+      "options": [
+        {
+          "kn": "ತನ್ನ ವಕ್ರತೆಯನ್ನು ಹೆಚ್ಚಿಸಿಕೊಳ್ಳುತ್ತದೆ",
+          "en": "increases its curvature"
+        },
+        {
+          "kn": "ತನ್ನ ವಕ್ರತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಿಕೊಳ್ಳುತ್ತದೆ",
+          "en": "decreases its curvature"
+        },
+        {
+          "kn": "ವಕ್ರತೆಯಲ್ಲಿ ಬದಲಾವಣೆ ಮಾಡಿಕೊಳ್ಳುವುದಿಲ್ಲ",
+          "en": "does not make change in its curvature"
+        },
+        {
+          "kn": "ವಸ್ತುವಿನ ದೂರ ಮಸೂರದ ವಕ್ರತೆಯ ಮೇಲೆ ಯಾವುದೇ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ",
+          "en": "The distance of the object has no influence on the curvature of the lens"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ದೂರದ ವಸ್ತುವನ್ನು ನೋಡುವಾಗ ಕಣ್ಣಿನ ಮಸೂರ ತೆಳ್ಳಗಾಗಿ ಕಡಿಮೆ ವಕ್ರವಾಗುತ್ತದೆ. ಹತ್ತಿರದ ವಸ್ತುವಿಗೆ ಅದು ಹೆಚ್ಚು ವಕ್ರವಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ ದೂರದ ವಿಮಾನವನ್ನು ನೋಡುವಾಗ ಮಸೂರ ತನ್ನ ವಕ್ರತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಿಕೊಳ್ಳುತ್ತದೆ. ಉತ್ತರ B.",
+        "en": "To focus a distant object, the eye lens becomes thinner and less curved. For a nearby object the lens becomes more curved. So when looking at a distant plane, the lens decreases its curvature. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0010",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಚಿತ್ರದಲ್ಲಿ ತೋರಿಸಿದಂತೆ ಎರಡು ಸಮತಲ ದರ್ಪಣಗಳನ್ನು ಜೋಡಿಸಲಾಗಿದೆ. ಅವುಗಳ ನಡುವೆ ಒಂದು ವಸ್ತುವನ್ನು ಇಟ್ಟಾಗ ಉಂಟಾಗುವ ಪ್ರತಿಬಿಂಬಗಳ ಸಂಖ್ಯೆ",
+        "en": "Two plane mirrors are arranged as shown in the figure. An object is placed between them. The number of images of the object are formed are"
+      },
+      "options": [
+        {
+          "kn": "1",
+          "en": "1"
+        },
+        {
+          "kn": "2",
+          "en": "2"
+        },
+        {
+          "kn": "3",
+          "en": "3"
+        },
+        {
+          "kn": "4",
+          "en": "4"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಎರಡು ದರ್ಪಣಗಳು 90° ಕೋನದಲ್ಲಿದ್ದಾಗ ಪ್ರತಿಬಿಂಬಗಳ ಸಂಖ್ಯೆ n = (360° ÷ θ) − 1. ಇಲ್ಲಿ θ = 90°, ಆದ್ದರಿಂದ n = 360 ÷ 90 − 1 = 4 − 1 = 3. ಉತ್ತರ C.",
+        "en": "For two plane mirrors inclined at angle θ, the number of images is n = (360° ÷ θ) − 1. Here θ = 90°, so n = 360 ÷ 90 − 1 = 4 − 1 = 3. Answer: C."
+      },
+      "image": "data/kn/class-8/nmms/sat/images/SAT-PHY-0010.webp"
+    },
+    {
+      "id": "SAT-PHY-0011",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ಸಮತಲ ದರ್ಪಣದ ಮುಂದೆ ನಿಂತ ಒಬ್ಬ ವಿದ್ಯಾರ್ಥಿ ಮತ್ತು ಅವನ ಬಿಂಬದ ನಡುವಿನ ದೂರ 50 cm ಇದೆ. ಆ ವಿದ್ಯಾರ್ಥಿ ದರ್ಪಣದಿಂದ ಎಷ್ಟು ದೂರದಲ್ಲಿ ನಿಂತಿದ್ದಾನೆ?",
+        "en": "The distance between a student standing infront of a plane mirror and his image is 50 cm. Then how far is the student standing from the mirror?"
+      },
+      "options": [
+        {
+          "kn": "50 cm",
+          "en": "50 cm"
+        },
+        {
+          "kn": "25 cm",
+          "en": "25 cm"
+        },
+        {
+          "kn": "100 cm",
+          "en": "100 cm"
+        },
+        {
+          "kn": "0 cm",
+          "en": "0 cm"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸಮತಲ ದರ್ಪಣದಲ್ಲಿ ಬಿಂಬವು ದರ್ಪಣದ ಹಿಂದೆ ವಸ್ತುವಿನಷ್ಟೇ ದೂರದಲ್ಲಿರುತ್ತದೆ. ವಿದ್ಯಾರ್ಥಿಯ ದೂರ d ಆದರೆ, ವಿದ್ಯಾರ್ಥಿ ಮತ್ತು ಬಿಂಬದ ನಡುವಿನ ದೂರ 2d = 50 cm. ಆದ್ದರಿಂದ d = 25 cm. ಉತ್ತರ B.",
+        "en": "In a plane mirror the image is as far behind the mirror as the object is in front. If the student is d from the mirror, the student-image distance is 2d = 50 cm, so d = 25 cm. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0012",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಮುಂದೆ ನೀಡಿರುವ ಇಂಗ್ಲೀಷ್ ವರ್ಣಮಾಲೆಯ ಯಾವ ಅಕ್ಷರದ ಪ್ರತಿಬಿಂಬವು ನಿಖರವಾಗಿ ಅದು ಇರುವ ಹಾಗೆಯೇ ಕಾಣುತ್ತದೆ?",
+        "en": "Among the images of the following letters of English alphabet, which image looks exactly as it is?"
+      },
+      "options": [
+        {
+          "kn": "Q",
+          "en": "Q"
+        },
+        {
+          "kn": "M",
+          "en": "M"
+        },
+        {
+          "kn": "C",
+          "en": "C"
+        },
+        {
+          "kn": "D",
+          "en": "D"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸಮತಲ ದರ್ಪಣದಲ್ಲಿ ಅಕ್ಷರ ಯಥಾವತ್ತಾಗಿ ಕಾಣಲು ಅದು ಲಂಬ ರೇಖೆಯ ಬಗ್ಗೆ ಸಮಮಿತೀಯವಾಗಿರಬೇಕು. M ಈ ರೀತಿ ಸಮಮಿತೀಯವಾಗಿರುವುದರಿಂದ ಅದರ ಬಿಂಬ ಅದೇ ರೀತಿ ಕಾಣುತ್ತದೆ. ಉತ್ತರ B.",
+        "en": "A letter looks exactly the same in a plane mirror only if it is symmetrical about a vertical line. M is symmetrical in this way, so its image looks the same. Q, C and D are not, so their images appear reversed. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0013",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ಗಾಜಿನ ಪಟ್ಟಕದ ಮೂಲಕ ಬಿಳಿ ಬೆಳಕು ಹಾದು ಹೋದಾಗ ವರ್ಣವಿಭಜನೆ ಆಗುತ್ತದೆ. ಇದರಲ್ಲಿ ಅತೀ ಹೆಚ್ಚು ಮತ್ತು ಕಡಿಮೆ ಬಾಗುವ ಬಣ್ಣಗಳು ಕ್ರಮವಾಗಿ",
+        "en": "White light gets dispersed when it is passed through a prism. The colours that bend most and least are respectively"
+      },
+      "options": [
+        {
+          "kn": "ನೇರಳೆ ಮತ್ತು ಕೆಂಪು",
+          "en": "Violet and Red"
+        },
+        {
+          "kn": "ಕೆಂಪು ಮತ್ತು ನೇರಳೆ",
+          "en": "Red and Violet"
+        },
+        {
+          "kn": "ಹಳದಿ ಮತ್ತು ಹಸಿರು",
+          "en": "Yellow and green"
+        },
+        {
+          "kn": "ಹಸಿರು ಮತ್ತು ಹಳದಿ",
+          "en": "Green and Yellow"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಪ್ರಿಸ್ಮ್‌ನಲ್ಲಿ ನೇರಳೆ ಬಣ್ಣ ಅತಿ ಹೆಚ್ಚು ವಕ್ರೀಭವನಗೊಂಡು ಹೆಚ್ಚು ಬಾಗುತ್ತದೆ, ಕೆಂಪು ಕಡಿಮೆ ಬಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಉತ್ತರ A (ನೇರಳೆ ಮತ್ತು ಕೆಂಪು).",
+        "en": "In a prism, violet light bends the most and red light bends the least. Answer: A (Violet and Red)."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0014",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಡೆದು ಹೋದ ಸಮತಲ ದರ್ಪಣದ ಚೂರುಗಳನ್ನು ಬಳಸಿಕೊಂಡು ತಯಾರಿಸಬಹುದಾದ ಒಂದು ಸಾಧನ",
+        "en": "The instrument that can be made using the broken pieces of a plane mirror is"
+      },
+      "options": [
+        {
+          "kn": "ಸೂಕ್ಷ್ಮದರ್ಶಕ",
+          "en": "Microscope"
+        },
+        {
+          "kn": "ದೂರದರ್ಶಕ",
+          "en": "Telescope"
+        },
+        {
+          "kn": "ಚಿತ್ರದರ್ಶಕ",
+          "en": "Keleidoscope"
+        },
+        {
+          "kn": "ದ್ವಿನೇತ್ರಿ",
+          "en": "Binocular"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಹಲವು ಸಮತಲ ದರ್ಪಣದ ಚೂರುಗಳನ್ನು ಕೋನದಲ್ಲಿ ಜೋಡಿಸಿದಾಗ ವಸ್ತುವಿನ ಹಲವು ಬಿಂಬಗಳು ಉಂಟಾಗಿ ಸುಂದರ ಸಮಮಿತೀಯ ಮಾದರಿಗಳು ಕಾಣುತ್ತವೆ. ಇದು ಕೈಲಿಡೋಸ್ಕೋಪ್ (ಚಿತ್ರದರ್ಶಕ). ಉತ್ತರ C.",
+        "en": "When pieces of a plane mirror are placed at an angle to each other, they form many images of an object and create symmetrical patterns. Such a device is a kaleidoscope. Answer: C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0015",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕಾಮನಬಿಲ್ಲಿನಲ್ಲಿ ಕಾಣದಿರುವ ಒಂದು ಬಣ್ಣ",
+        "en": "The color that Doesn’t appear in the rainbow is"
+      },
+      "options": [
+        {
+          "kn": "ಕೆಂಪು",
+          "en": "Red"
+        },
+        {
+          "kn": "ಗುಲಾಬಿ",
+          "en": "Pink"
+        },
+        {
+          "kn": "ಊದ",
+          "en": "Indigo"
+        },
+        {
+          "kn": "ನೀಲಿ",
+          "en": "Blue"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕಾಮನಬಿಲ್ಲಿನ ಏಳು ಬಣ್ಣಗಳು: ನೇರಳೆ, ಊದ (ಇಂಡಿಗೊ), ನೀಲಿ, ಹಸಿರು, ಹಳದಿ, ಕಿತ್ತಳೆ ಮತ್ತು ಕೆಂಪು. ಕೆಂಪು, ಊದ ಮತ್ತು ನೀಲಿ ಇವೆಲ್ಲವೂ ಕಾಮನಬಿಲ್ಲಿನಲ್ಲಿವೆ. ಗುಲಾಬಿ ಕಾಮನಬಿಲ್ಲಿನ ಬಣ್ಣವಲ್ಲ. ಉತ್ತರ B.",
+        "en": "The rainbow has seven colours: violet, indigo, blue, green, yellow, orange and red. Red, indigo and blue are all present. Pink is not a rainbow colour. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0016",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಮುಂದೆ ನೀಡಿರುವ ಯಾವ ಚಿತ್ರವು ಬೆಳಕಿನ ಪ್ರತಿಫಲನದ ಮೊದಲನೇ ನಿಯಮವನ್ನು ಸೂಚಿಸುತ್ತದೆ?",
+        "en": "Which of the following figures illustrates the first law of reflection of light?"
+      },
+      "options": [
+        {
+          "kn": "ಚಿತ್ರ A",
+          "en": "Figure A"
+        },
+        {
+          "kn": "ಚಿತ್ರ B",
+          "en": "Figure B"
+        },
+        {
+          "kn": "ಚಿತ್ರ C",
+          "en": "Figure C"
+        },
+        {
+          "kn": "ಚಿತ್ರ D",
+          "en": "Figure D"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪ್ರತಿಫಲನದ ಮೊದಲನೇ ನಿಯಮದ ಪ್ರಕಾರ ಪತನ ಕೋನವು ಪ್ರತಿಫಲನ ಕೋನಕ್ಕೆ ಸಮ. ಚಿತ್ರ D ಯಲ್ಲಿ ಎರಡೂ ಕೋನಗಳು ಪ್ರತಿಫಲಕ ಮೇಲ್ಮೈಗೆ ಸಂಬಂಧಿಸಿದಂತೆ 35° ಆಗಿದ್ದು ಸಮವಾಗಿವೆ. A ಮತ್ತು B ಯಲ್ಲಿ ಕೋನಗಳು 55° ಮತ್ತು 35° ಆಗಿ ಭಿನ್ನವಾಗಿವೆ. C ಯಲ್ಲಿ ಕೋನಗಳು ಲಂಬದಿಂದ ಅಳೆದಾಗ ಸಮವಿಲ್ಲ. ಉತ್ತರ D.",
+        "en": "The first law of reflection states that the angle of incidence equals the angle of reflection. In Figure D both angles are 35° measured from the same surface, so they are equal. In A and B the angles are 55° and 35°, and in C they are not equal when measured from the normal. Answer: D."
+      },
+      "image": "data/kn/class-8/nmms/sat/images/SAT-PHY-0016.webp"
+    },
+    {
+      "id": "SAT-PHY-0017",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಬ್ಬ ಹುಡುಗ ರಸ್ತೆಯಲ್ಲಿ ಸೈಕಲ್‌ನಲ್ಲಿ ಚಲಿಸುತ್ತಿದ್ದಾನೆ. ಸೈಕಲ್‌ನ ಚಕ್ರವು ರಸ್ತೆಯೊಡನೆ ಉಂಟುಮಾಡುವ ಘರ್ಷಣಾ ಬಲದ ದಿಕ್ಕು",
+        "en": "A boy is riding a bicycle on road. The direction of frictional force exerted by the wheel with the road will"
+      },
+      "options": [
+        {
+          "kn": "ಮುಮ್ಮುಖವಾಗಿರುತ್ತದೆ",
+          "en": "be in forward direction"
+        },
+        {
+          "kn": "ಹಿಮ್ಮುಖವಾಗಿರುತ್ತದೆ",
+          "en": "be in backward direction"
+        },
+        {
+          "kn": "ಯಾವುದೇ ದಿಕ್ಕಿನಲ್ಲಾದರೂ ಇರಬಹುದು",
+          "en": "be in any direction"
+        },
+        {
+          "kn": "ಘರ್ಷಣೆ ಬಲವೇ ಉಂಟಾಗುವುದಿಲ್ಲ",
+          "en": "not come into existence"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಚಕ್ರ ರಸ್ತೆಯ ಮೇಲೆ ಹಿಂದಕ್ಕೆ ಬಲ ಪ್ರಯೋಗಿಸುತ್ತದೆ. ನ್ಯೂಟನ್‌ನ ಮೂರನೇ ನಿಯಮದ ಪ್ರಕಾರ ರಸ್ತೆ ಚಕ್ರದ ಮೇಲೆ ಮುಂದಕ್ಕೆ ಬಲ ಪ್ರಯೋಗಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಚಕ್ರ ರಸ್ತೆಗೆ ಉಂಟುಮಾಡುವ ಘರ್ಷಣಾ ಬಲ ಹಿಮ್ಮುಖ. ಉತ್ತರ B.",
+        "en": "At the contact point the wheel pushes the road backward. By Newton's third law the road pushes the wheel forward. So the frictional force exerted by the wheel on the road acts backward. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0018",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ವಿಮಾನದ ಮುಂಭಾಗವು ಸರಿಸುಮಾರು ಮೊನಚಾಗಿರುತ್ತದೆ. ಇದರಿಂದ",
+        "en": "The front portion of an aeroplane is sharp. Due to this"
+      },
+      "options": [
+        {
+          "kn": "ವಿಮಾನದ ತೂಕವನ್ನು ಕಡಿಮೆಗೊಳಿಸಬಹುದು",
+          "en": "we can reduce the weight of aeroplane"
+        },
+        {
+          "kn": "ಗಾಳಿಯಿಂದಾಗುವ ಘರ್ಷಣೆಯನ್ನು ತಗ್ಗಿಸಬಹುದು",
+          "en": "reduce the friction due to air"
+        },
+        {
+          "kn": "ವಿಮಾನ ನೋಡಲು ವಿಶಿಷ್ಟವಾಗಿರುತ್ತದೆ",
+          "en": "aeroplane looks different"
+        },
+        {
+          "kn": "ಘರ್ಷಣೆಯನ್ನು ಹೆಚ್ಚಿಸಬಹುದು",
+          "en": "we can increase friction"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೊನಚಾದ ಮುಂಭಾಗ ಗಾಳಿಯನ್ನು ಸುಲಭವಾಗಿ ಸೀಳಿ ಹೋಗಲು ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತದೆ. ಇದರಿಂದ ಗಾಳಿಯ ಘರ್ಷಣೆ ಕಡಿಮೆಯಾಗುತ್ತದೆ. ಉತ್ತರ B.",
+        "en": "A sharp front splits the air smoothly, so the air resistance (friction) on the aeroplane is reduced. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0019",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಮಂಜುಗಡ್ಡೆಯ ಮೇಲೆ ಬರಿಗಾಲಲ್ಲಿ ನಡೆಯುವಾಗ ಹೆಚ್ಚು ಜಾರುತ್ತದೆ. ಏಕೆಂದರೆ",
+        "en": "While walking bare footed on ice, it slips. This is because"
+      },
+      "options": [
+        {
+          "kn": "ಮಂಜಿನ ಮೇಲ್ಮೈ ಹೆಚ್ಚಿನ ಘರ್ಷಣೆಯನ್ನುಂಟು ಮಾಡುತ್ತದೆ",
+          "en": "surface of ice provides more friction"
+        },
+        {
+          "kn": "ಮಂಜಿನ ಮೇಲ್ಮೈ ಕಡಿಮೆ ಘರ್ಷಣೆಯನ್ನುಂಟು ಮಾಡುತ್ತದೆ",
+          "en": "surface of ice provides less friction"
+        },
+        {
+          "kn": "ಬರಿಗಾಲು ನುಣುಪಾಗಿದ್ದು ಜಾರುತ್ತದೆ",
+          "en": "bare foot is nice and it slips"
+        },
+        {
+          "kn": "ಮಂಜಿನ ಮೇಲೆ ನಡೆಯುವ ಅಭ್ಯಾಸವಿರುವುದಿಲ್ಲ",
+          "en": "we have no practice to walk on ice"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮಂಜುಗಡ್ಡೆಯ ಮೇಲ್ಮೈ ತುಂಬಾ ನುಣುಪಾಗಿರುವುದರಿಂದ ಅದು ಕಡಿಮೆ ಘರ್ಷಣೆ ನೀಡುತ್ತದೆ. ಆದ್ದರಿಂದ ಪಾದ ಜಾರುತ್ತದೆ. ಉತ್ತರ B.",
+        "en": "Ice has a very smooth surface, which offers less friction, so the foot slips. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0020",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸ್ಮಿತಾ ಆಟಿಕೆಯ ಕಾರನ್ನು ಒಣಗಿರುವ ಮಾರ್ಬಲ್, ತೇವವಾಗಿರುವ ಮಾರ್ಬಲ್, ದಿನಪತ್ರಿಕೆ ಮತ್ತು ಹರಡಿರುವ ಟವಲ್ ಮೇಲೆ ಓಡಿಸುತ್ತಾಳೆ. ಕಾರಿನ ಮೇಲೆ ಉಂಟಾಗುವ ಘರ್ಷಣಾ ಬಲದ ಏರಿಕೆ ಕ್ರಮ",
+        "en": "Smitha rolls a toy car on dry marble, wet marble, news paper and towel spread on the floor. The frictional force acting on the car in increasing order will be"
+      },
+      "options": [
+        {
+          "kn": "ತೇವವಾಗಿರುವ ಮಾರ್ಬಲ್, ಒಣಗಿರುವ ಮಾರ್ಬಲ್, ದಿನಪತ್ರಿಕೆ, ಹರಡಿರುವ ಟವಲ್",
+          "en": "wet marble floor, dry marble floor, newspaper, towel."
+        },
+        {
+          "kn": "ದಿನಪತ್ರಿಕೆ, ಹರಡಿರುವ ಟವಲ್, ಒಣಗಿರುವ ಮಾರ್ಬಲ್, ತೇವವಾಗಿರುವ ಮಾರ್ಬಲ್",
+          "en": "newspaper, towel, dry marble floor, wet marble floor"
+        },
+        {
+          "kn": "ಹರಡಿರುವ ಟವಲ್, ದಿನಪತ್ರಿಕೆ, ಒಣಗಿರುವ ಮಾರ್ಬಲ್, ತೇವವಾಗಿರುವ ಮಾರ್ಬಲ್",
+          "en": "towel, newspaper, dry marble floor, wet marble floor"
+        },
+        {
+          "kn": "ತೇವವಾಗಿರುವ ಮಾರ್ಬಲ್, ಒಣಗಿರುವ ಮಾರ್ಬಲ್, ಹರಡಿರುವ ಟವಲ್, ದಿನಪತ್ರಿಕೆ",
+          "en": "wet marble floor, dry marble floor, towel, newspaper"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಘರ್ಷಣೆ ನುಣುಪು ಮೇಲ್ಮೈಯಲ್ಲಿ ಕಡಿಮೆ, ಒರಟು ಮೇಲ್ಮೈಯಲ್ಲಿ ಹೆಚ್ಚು. ತೇವ ಮಾರ್ಬಲ್ ಅತಿ ನುಣುಪು, ನಂತರ ಒಣ ಮಾರ್ಬಲ್, ನಂತರ ದಿನಪತ್ರಿಕೆ, ಕೊನೆಗೆ ಟವಲ್ ಅತಿ ಒರಟು. ಆದ್ದರಿಂದ ಏರಿಕೆ ಕ್ರಮ: ತೇವ ಮಾರ್ಬಲ್, ಒಣ ಮಾರ್ಬಲ್, ದಿನಪತ್ರಿಕೆ, ಟವಲ್. ಉತ್ತರ A.",
+        "en": "Friction is less on smooth surfaces and more on rough surfaces. Wet marble is the smoothest, then dry marble, then newspaper, and the towel is the roughest. So the increasing order is wet marble, dry marble, newspaper, towel. Answer: A."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0021",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ತರಲದ ಘರ್ಷಣೆಯು ಅವಲಂಬಿತವಾಗಿರುವ ಒಂದು ಅಂಶ",
+        "en": "The friction produced by fluids depends on"
+      },
+      "options": [
+        {
+          "kn": "ತರಲದ ವೇಗ",
+          "en": "speed of the fluid"
+        },
+        {
+          "kn": "ವಸ್ತುವಿನ ಆಕಾರ",
+          "en": "shape of the object"
+        },
+        {
+          "kn": "ತರಲದ ಸ್ವಭಾವ",
+          "en": "nature of the fluid"
+        },
+        {
+          "kn": "ಮೇಲಿನ ಎಲ್ಲಾ",
+          "en": "all these"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ತರಲ ಮತ್ತು ಚಲಿಸುವ ವಸ್ತುವಿನ ನಡುವಿನ ಸಾಪೇಕ್ಷ ವೇಗ, ವಸ್ತುವಿನ ಆಕಾರ ಮತ್ತು ತರಲದ ಸ್ವಭಾವ ಈ ಮೂರರ ಮೇಲೂ ತರಲ ಘರ್ಷಣೆ ಅವಲಂಬಿಸಿರುತ್ತದೆ. ಆದ್ದರಿಂದ ಈ ಎಲ್ಲಾ ಅಂಶಗಳೂ ಪರಿಣಾಮ ಬೀರುತ್ತವೆ. ಉತ್ತರ D (ಮೇಲಿನ ಎಲ್ಲಾ).",
+        "en": "Fluid friction depends on the relative speed between the fluid and the moving object, the shape of the object, and the nature of the fluid. Therefore, all these factors affect fluid friction. Answer: D (all these)."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0022",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಗಾಡಿಯೊಂದನ್ನು ಎಳೆಯುವಾಗ ಕುದುರೆಯು ಆರಂಭದಲ್ಲಿ ಹೆಚ್ಚು ಬಲವನ್ನು ಪ್ರಯೋಗಿಸಬೇಕು. ಇದಕ್ಕೆ ಕಾರಣ",
+        "en": "To pull a cart initially, a horse has to apply more force. The reason is"
+      },
+      "options": [
+        {
+          "kn": "ಸ್ಥಿರ ಘರ್ಷಣೆಯು ಕ್ರಿಯಾತ್ಮಕ ಘರ್ಷಣೆಗಿಂತ ಹೆಚ್ಚಾಗಿರುವುದು",
+          "en": "limiting friction will be greater than dynamic friction"
+        },
+        {
+          "kn": "ಜಾರು ಘರ್ಷಣೆಯು ಉರುಳು ಘರ್ಷಣೆಗಿಂತ ಹೆಚ್ಚಾಗಿರುವುದು",
+          "en": "sliding friction will be more than rolling friction"
+        },
+        {
+          "kn": "ಗಾಡಿಯು ನಿಶ್ಚಲವಾದಾಗ ಘರ್ಷಣ ಬಲಗಳು ಇಲ್ಲದಿರುವುದು",
+          "en": "there will be no force when the cart is still"
+        },
+        {
+          "kn": "ಗಾಲಿಯ ಘರ್ಷಣೆಯು ಆರಂಭಿಕವಾಗಿ ಹೆಚ್ಚಾಗಿರುವುದು",
+          "en": "friction of air is more initially while pulling"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಗಾಡಿ ಚಲಿಸುವ ಮೊದಲು ಇರುವ ಸ್ಥಿರ ಘರ್ಷಣೆ (ಲಿಮಿಟಿಂಗ್ ಘರ್ಷಣೆ) ಚಲಿಸುತ್ತಿರುವಾಗಿನ ಕ್ರಿಯಾತ್ಮಕ ಘರ್ಷಣೆಗಿಂತ ಹೆಚ್ಚು. ಆದ್ದರಿಂದ ಆರಂಭದಲ್ಲಿ ಹೆಚ್ಚು ಬಲ ಬೇಕು. ಉತ್ತರ A.",
+        "en": "The limiting (static) friction that must be overcome before the cart starts moving is greater than the dynamic friction while it moves. So a larger force is needed at the start. Answer: A."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0023",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದು ಮೂಲದಿಂದ ಉತ್ಪತ್ತಿಯಾದ ಶಬ್ದದ ವೈಶಾಲ್ಯ ಹೆಚ್ಚಾಗಿದ್ದು ಘೋಷವೂ ಹೆಚ್ಚಾಗುತ್ತದೆ. ಇದರಿಂದಾಗಿ ಶಬ್ದವು",
+        "en": "The sound produced from a source has more amplitude and also more loudness. Due to this"
+      },
+      "options": [
+        {
+          "kn": "ಕೇಳಿಸುವುದೇ ಇಲ್ಲ",
+          "en": "the sound cannot be heard"
+        },
+        {
+          "kn": "ಕ್ಷೀಣವಾಗುತ್ತದೆ",
+          "en": "the sound becomes feeble"
+        },
+        {
+          "kn": "ದೂರ ಹೆಚ್ಚಾದಂತೆ ಶಬ್ದ ಕಡಿಮೆಯಾಗುತ್ತದೆ",
+          "en": "as distance increases, sound decreases"
+        },
+        {
+          "kn": "ಹೆಚ್ಚು ದೂರದವರೆಗೆ ಕೇಳಿಸುತ್ತದೆ",
+          "en": "the sound becomes audible for a longer distance"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ವೈಶಾಲ್ಯ ಹೆಚ್ಚಿದ್ದರೆ ಶಬ್ದದ ಶಕ್ತಿ ಹೆಚ್ಚಾಗಿ ಅದು ಹೆಚ್ಚು ದೂರದವರೆಗೆ ತಲುಪುತ್ತದೆ. ಆದ್ದರಿಂದ ಶಬ್ದವು ಹೆಚ್ಚು ದೂರದಿಂದಲೂ ಕೇಳಿಸುತ್ತದೆ. ಉತ್ತರ D.",
+        "en": "Greater amplitude means the sound carries more energy and stays audible over a longer distance. Therefore the sound becomes audible for a longer distance. Answer: D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0024",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸೊಳ್ಳೆಗಳು ಹಾರಾಡುವಾಗ ರೆಕ್ಕೆಗಳ ಕಂಪನದಿಂದ ಶಬ್ದ ಕೇಳಿಸುತ್ತದೆ. ಆದರೆ ರೆಕ್ಕೆಗಳ ಕಂಪನಗಳು ಕಣ್ಣಿಗೆ ಕಾಣುವುದಿಲ್ಲ. ಇದಕ್ಕೆ ಕಾರಣ",
+        "en": "When mosquitoes fly we listen to the sound due to vibration of wings, but the vibrations are not visible to eyes. This is due to"
+      },
+      "options": [
+        {
+          "kn": "ತರಂಗದ ಉದ್ದ ಹೆಚ್ಚಾಗಿರುತ್ತದೆ",
+          "en": "high wavelength of wings"
+        },
+        {
+          "kn": "ಕಂಪನಾಂಕ ಹೆಚ್ಚಾಗಿರುತ್ತದೆ",
+          "en": "high frequency of wings"
+        },
+        {
+          "kn": "ಕಂಪನದ ಅವಧಿ ಹೆಚ್ಚಾಗಿರುತ್ತದೆ",
+          "en": "increased time period of wings"
+        },
+        {
+          "kn": "ತರಂಗದ ಪಾರ ಹೆಚ್ಚಾಗಿರುತ್ತದೆ",
+          "en": "increased amplitude of wings"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕಂಪನಾಂಕ (ಆವೃತ್ತಿ) ಹೆಚ್ಚಾದಾಗ ರೆಕ್ಕೆಗಳು ಸೆಕೆಂಡಿಗೆ ಹಲವು ಬಾರಿ ಕಂಪಿಸುತ್ತವೆ. ಆಗ ಧ್ವನಿ ಕೇಳಿಸುತ್ತದೆ, ಆದರೆ ಕಂಪನ ಕಣ್ಣಿಗೆ ಕಾಣುವುದಿಲ್ಲ. ಉತ್ತರ B.",
+        "en": "A high frequency means the wings vibrate many times per second. This produces an audible sound, while the individual vibrations are too fast to be seen. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0025",
+      "difficulty": "easy",
+      "question": {
+        "kn": "20 ಸೆಂ.ಮೀ ತರಂಗದೂರವಿರುವ ಒಂದು ತರಂಗವು 10 ಸಂಪೀಡನೆಗಳನ್ನು ಮತ್ತು 11 ವಿರಳನಗಳನ್ನು ಉಂಟುಮಾಡಿದಾಗ, ಅದು ಚಲಿಸುವ ದೂರ",
+        "en": "The distance traversed by a wave of wavelength 20 cm that produces 10 compressions and 11 rarefactions is"
+      },
+      "options": [
+        {
+          "kn": "220 cm",
+          "en": "220 cm"
+        },
+        {
+          "kn": "200 cm",
+          "en": "200 cm"
+        },
+        {
+          "kn": "41 cm",
+          "en": "41 cm"
+        },
+        {
+          "kn": "31 cm",
+          "en": "31 cm"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "11 ವಿರಳನಗಳು ಮತ್ತು 10 ಸಂಪೀಡನೆಗಳು ಒಟ್ಟು 10 ಪೂರ್ಣ ತರಂಗಗಳನ್ನು ಸೂಚಿಸುತ್ತವೆ. ದೂರ = 10 × 20 ಸೆಂ.ಮೀ = 200 ಸೆಂ.ಮೀ. ಉತ್ತರ B.",
+        "en": "Ten compressions and eleven rarefactions span ten complete wavelengths. Distance = 10 × 20 cm = 200 cm. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0026",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದು ಶಾಲೆಯ ಗಂಟೆ 4 KHz ಆವೃತ್ತಿ ಮತ್ತು 10 ಸೆಂಟಿಮೀಟರ್ ತರಂಗದೂರದ ಶಬ್ದವನ್ನುಂಟುಮಾಡುತ್ತದೆ. ಶಾಲೆಯಿಂದ 1 ಕಿಲೋಮೀಟರ್ ದೂರದಲ್ಲಿರುವ ವಿದ್ಯಾರ್ಥಿಗೆ ಈ ಶಬ್ದವು ಕೇಳಲು ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯ",
+        "en": "The bell of a school produces a sound of frequency 4 KHz and has wavelength 10 cm. The time it takes for a student to hear this sound who is 1 km away from the school is"
+      },
+      "options": [
+        {
+          "kn": "40 ಸೆಕೆಂಡ್",
+          "en": "40 Second"
+        },
+        {
+          "kn": "4 ಸೆಕೆಂಡ್",
+          "en": "4 Second"
+        },
+        {
+          "kn": "5 ಸೆಕೆಂಡ್",
+          "en": "5 Second"
+        },
+        {
+          "kn": "2.5 ಸೆಕೆಂಡ್",
+          "en": "2.5 Second"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ವೇಗ v = fλ = 4000 × 0.10 = 400 ಮೀ/ಸೆ. ಸಮಯ t = ದೂರ / ವೇಗ = 1000 / 400 = 2.5 ಸೆಕೆಂಡ್. ಉತ್ತರ D.",
+        "en": "Speed v = fλ = 4000 × 0.10 = 400 m/s. Time t = distance / speed = 1000 / 400 = 2.5 s. Answer: D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0027",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ವಾಹನಗಳಲ್ಲಿ ಸೈಲೆನ್ಸರ್‌ಗಳನ್ನು ಬಳಸಲು ಮುಖ್ಯವಾದ ಒಂದು ಕಾರಣ",
+        "en": "One of the main reasons for using silencers in vehicles is"
+      },
+      "options": [
+        {
+          "kn": "ಹೊಗೆ ಬಿಡುವುದನ್ನು ತಡೆಗಟ್ಟಲು",
+          "en": "to prevent the release of smoke"
+        },
+        {
+          "kn": "ಶಬ್ದವು ಇಂಪಾಗಿ ಕೇಳುವಂತೆ ಮಾಡಲು",
+          "en": "to make the sound pleasant"
+        },
+        {
+          "kn": "ಶಬ್ದದ ಪಾರವನ್ನು ಕಡಿಮೆ ಮಾಡಲು",
+          "en": "to decrease the amplitude of sound"
+        },
+        {
+          "kn": "ಶಬ್ದದ ಗುಣಮಟ್ಟವನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳಲು",
+          "en": "to maintain the quality of sound"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಸೈಲೆನ್ಸರ್ ಶಬ್ದದ ವೈಶಾಲ್ಯ (ಪಾರ) ಕಡಿಮೆ ಮಾಡಿ ಶಬ್ದದ ತೀವ್ರತೆಯನ್ನು ಇಳಿಸುತ್ತದೆ. ಉತ್ತರ C.",
+        "en": "A silencer reduces the amplitude of the exhaust sound, lowering its loudness. Answer: C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0028",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಬ್ಬ ಸಂಗೀತಗಾರನು ಹಾಡುತ್ತಿದ್ದಾನೆ. ಈ ಸಂದರ್ಭದಲ್ಲಿ ಬದಲಾಗದ ಆತನ ಶಬ್ದದ ಒಂದು ಅಂಶ",
+        "en": "A musician is singing a song. The aspect of his sound that does not change is"
+      },
+      "options": [
+        {
+          "kn": "ಘೋಷ",
+          "en": "loudness"
+        },
+        {
+          "kn": "ತೀವ್ರತೆ",
+          "en": "Intensity"
+        },
+        {
+          "kn": "ಸ್ಥಾಯಿ",
+          "en": "Pitch"
+        },
+        {
+          "kn": "ಗುಣಮಟ್ಟ",
+          "en": "quality"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಹಾಡುವಾಗ ಘೋಷ, ತೀವ್ರತೆ ಮತ್ತು ಸ್ಥಾಯಿ ಬದಲಾಗುತ್ತವೆ. ಗುಣಮಟ್ಟ (ಧ್ವನಿಯ ವಿಶಿಷ್ಟತೆ) ಆ ವ್ಯಕ್ತಿಯ ಧ್ವನಿಯ ಸ್ವಭಾವದಿಂದ ನಿರ್ಧಾರವಾಗುವುದರಿಂದ ಬದಲಾಗುವುದಿಲ್ಲ. ಉತ್ತರ D.",
+        "en": "While singing, loudness, intensity and pitch change. Quality (timbre), which depends on the singer's voice, stays the same. Answer: D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0029",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ಅಹಿತಕರ ಧ್ವನಿಯು ನಿರ್ದಿಷ್ಟ ಸಮಯದಲ್ಲಿ ಪುನರಾವರ್ತನೆಯಾಗುತ್ತದೆ. ಇದರಿಂದಾಗಿ",
+        "en": "An unpleasant sound is repeated at regular intervals. Then the sound becomes"
+      },
+      "options": [
+        {
+          "kn": "ಶಬ್ದದ ಧ್ವನಿ ಹೆಚ್ಚಾಗುತ್ತದೆ",
+          "en": "louder"
+        },
+        {
+          "kn": "ಶಬ್ದವು ಗದ್ದಲವಾಗುತ್ತದೆ",
+          "en": "noise"
+        },
+        {
+          "kn": "ಶಬ್ದವು ಸಂಗೀತವಾಗುತ್ತದೆ",
+          "en": "music"
+        },
+        {
+          "kn": "ಶಬ್ದ ಹೆಚ್ಚಿನ ಸ್ಥಾಯಿಯನ್ನು ಪಡೆಯುತ್ತದೆ",
+          "en": "high pitch"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ನಿಯಮಿತ ಅಂತರದಲ್ಲಿ ಪುನರಾವರ್ತಿಸುವ ಧ್ವನಿಗಳು ಇಂಪಾದ ಸಂಗೀತವಾಗುತ್ತವೆ. ಉತ್ತರ C.",
+        "en": "Sounds repeated at regular intervals with a pleasant pattern become music. Answer: C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0030",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಬ್ಬ ಸಂಗೀತಗಾರ ಉನ್ನತ ಸ್ಥಾಯಿಯಲ್ಲಿ ಹಾಡುತ್ತಿದ್ದಾನೆ. ಇದರಿಂದಾಗಿ ಆತನ ಶಬ್ದ",
+        "en": "A musician is singing with a high pitch. Due to this his sound"
+      },
+      "options": [
+        {
+          "kn": "ಇಂಪಾಗಿ ಕೇಳುತ್ತದೆ",
+          "en": "becomes pleasant"
+        },
+        {
+          "kn": "ಕೀರಲಾಗುತ್ತದೆ",
+          "en": "becomes shrill"
+        },
+        {
+          "kn": "ಬದಲಾವಣೆ ಆಗುವುದಿಲ್ಲ",
+          "en": "does not change"
+        },
+        {
+          "kn": "ವೈವಿಧ್ಯಮಯವಾಗಿ ಕೇಳುತ್ತದೆ",
+          "en": "can be listened in a variety"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಉನ್ನತ ಸ್ಥಾಯಿಯ ಶಬ್ದವು ತೀಕ್ಷ್ಣ ಮತ್ತು ಕೀರಲು ಧ್ವನಿಯಾಗಿ ಕೇಳಿಸುತ್ತದೆ. ಉತ್ತರ B.",
+        "en": "A high-pitched sound is perceived as sharp and shrill. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0031",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎರಡು ಕಾರುಗಳ ಸ್ಥಾನಪಲ್ಲಟಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ಸರಿಯಾದ ಹೇಳಿಕೆ. ಕಾರು X ಎಂದು A ನಿಂದ ಚಲಿಸಿ B ನಲ್ಲಿ ನಿಂತು ನಂತರ C ಯನ್ನು ದಾಟಿತು. ಕಾರು Y ಎಂದು A ನಿಂದ ಚಲಿಸಿ B ನಲ್ಲಿ ನಿಂತಿತು.",
+        "en": "A car X moves from A and stops at B and then crosses C. Another car Y moves from A and stops at B. The statement true regarding"
+      },
+      "options": [
+        {
+          "kn": "X ನ ಸ್ಥಾನಪಲ್ಲಟ Y ಗಿಂತ ಹೆಚ್ಚು",
+          "en": "Displacement of X is more than Y"
+        },
+        {
+          "kn": "ಎರಡು ಕಾರುಗಳ ಸ್ಥಾನಪಲ್ಲಟ ಒಂದೇ ಸಮ ಇರುತ್ತದೆ",
+          "en": "Displacement of two cars is same"
+        },
+        {
+          "kn": "Y ನ ಸ್ಥಾನಪಲ್ಲಟ X ನ ಸ್ಥಾನಪಲ್ಲಟದ ಅರ್ಧದಷ್ಟಿರುತ್ತದೆ",
+          "en": "The displacement of Y is half of the displacement of X"
+        },
+        {
+          "kn": "X ನ ಸ್ಥಾನಪಲ್ಲಟ Y ನ ಸ್ಥಾನಪಲ್ಲಟದ ಒಂದು ಅರ್ಧದಷ್ಟಿರುತ್ತದೆ",
+          "en": "Displacement of X is half of displacement of Y"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಸ್ಥಾನಪಲ್ಲಟ = ಆರಂಭ ಬಿಂದುವಿನಿಂದ ಅಂತ್ಯ ಬಿಂದುವಿಗಿರುವ ನೇರ ದೂರ. X ನ ಸ್ಥಾನಪಲ್ಲಟ AC, Y ನ ಸ್ಥಾನಪಲ್ಲಟ AB ಆಗಿದ್ದು AC > AB. ಆದ್ದರಿಂದ ಉತ್ತರ A. (ಮುದ್ರಿತ ಉತ್ತರ ಕೀ B ತಪ್ಪು.)",
+        "en": "Displacement is the straight-line distance from the start point to the end point. X ends at C, so its displacement is AC; Y ends at B, so its displacement is AB; AC is greater than AB. Answer: A. (The printed key B is incorrect.)"
+      },
+      "image": "data/kn/class-8/nmms/sat/images/SAT-PHY-0031.webp"
+    },
+    {
+      "id": "SAT-PHY-0032",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎರಡು ಕಾರುಗಳ ಸ್ಥಾನಪಲ್ಲಟವು ಚಿತ್ರದ ಆಧಾರದಲ್ಲಿ ಸಂಬಂಧಿಸಿದಂತೆ ಚಲನೆಯ ಕುರಿತು ಸರಿಯಾದ ಹೇಳಿಕೆ",
+        "en": "Correct statement related with the motion of bodies A and B with reference to the figure is"
+      },
+      "options": [
+        {
+          "kn": "A ನ ವೇಗ ಹೆಚ್ಚಾಗುತ್ತಿದೆ",
+          "en": "Speed of A is increasing"
+        },
+        {
+          "kn": "B ನ ವೇಗ ಕಡಿಮೆಯಾಗುತ್ತಿದೆ",
+          "en": "Speed of B is decreasing"
+        },
+        {
+          "kn": "A ಏಕರೂಪವಲ್ಲದ ವೇಗ, B ಏಕರೂಪದ ವೇಗ",
+          "en": "A is non-uniform speed and B is uniform speed"
+        },
+        {
+          "kn": "ಮೇಲಿನ ಎಲ್ಲವೂ",
+          "en": "All of the above"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಗ್ರಾಫ್‌ನಲ್ಲಿ A ರೇಖೆ ಬಾಗಿರುವುದರಿಂದ ಅದರ ವೇಗ ಏಕರೂಪವಲ್ಲ (ಹೆಚ್ಚುತ್ತಿದೆ). B ರೇಖೆ ನೇರವಾಗಿರುವುದರಿಂದ ಅದರ ವೇಗ ಏಕರೂಪ ಮತ್ತು ಕಡಿಮೆಯಾಗುತ್ತಿಲ್ಲ. ಆದ್ದರಿಂದ ಉತ್ತರ C. (ಮುದ್ರಿತ ಉತ್ತರ ಕೀ D ತಪ್ಪು.)",
+        "en": "On the distance-time graph, A is a curve, so its speed is non-uniform (it increases). B is a straight line, so its speed is uniform and not decreasing. Therefore the correct answer is C. (The printed key D is incorrect because statement B is false.)"
+      },
+      "image": "data/kn/class-8/nmms/sat/images/SAT-PHY-0032.webp"
+    },
+    {
+      "id": "SAT-PHY-0033",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಚಂದ್ರ ಭೂಮಿಯ ಸುತ್ತ ಒಂದು ಸುತ್ತು ಸುತ್ತಲು 29.53 ದಿನಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತಾನೆ. ಆದರೆ ಹುಣ್ಣಿಮೆಯಿಂದ ಹುಣ್ಣಿಮೆಗೆ ಅಥವಾ ಅಮಾವಾಸ್ಯೆಯಿಂದ ಅಮಾವಾಸ್ಯೆಗೆ 30 ದಿನಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತಾನೆ. ಈ ವ್ಯತ್ಯಾಸಕ್ಕೆ ಕಾರಣ",
+        "en": "Moon takes 29.53 days to complete one revolution around the Earth. The same moon takes 30 days to move from full moon to full moon or from new moon to new moon. The cause for this difference is"
+      },
+      "options": [
+        {
+          "kn": "ಚಂದ್ರನ ಕಕ್ಷೆಯ ಬದಲಾವಣೆ",
+          "en": "changes in orbital motion of moon"
+        },
+        {
+          "kn": "ಭೂಮಿಯು ತನ್ನ ಕಕ್ಷೆಯಲ್ಲಿ ಚಲಿಸುವುದು",
+          "en": "the motion of earth in its orbit"
+        },
+        {
+          "kn": "ಚಂದ್ರನು ಭೂಮಿಯ ಗುರುತ್ವಾಕರ್ಷಣೆಯನ್ನು ಅನುಭವಿಸುವುದು",
+          "en": "moon feeling the gravity of Earth"
+        },
+        {
+          "kn": "ಯಾವುದೇ ಕಾರಣವಿಲ್ಲ",
+          "en": "No reason can be given"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಹುಣ್ಣಿಮೆಯಿಂದ ಹುಣ್ಣಿಮೆಗೆ ಅಥವಾ ಅಮಾವಾಸ್ಯೆಯಿಂದ ಅಮಾವಾಸ್ಯೆಗೆ ಇರುವ ಅವಧಿ ಸೂರ್ಯನಿಗೆ ಸಾಪೇಕ್ಷವಾಗಿ ಅಳೆಯಲ್ಪಡುತ್ತದೆ. ಆ ಅವಧಿಯಲ್ಲಿ ಭೂಮಿಯೂ ತನ್ನ ಕಕ್ಷೆಯಲ್ಲಿ ಚಲಿಸುವುದರಿಂದ ಚಂದ್ರನು ಹೆಚ್ಚುವರಿ ದೂರ ಕ್ರಮಿಸಬೇಕಾಗುತ್ತದೆ. ಉತ್ತರ B.",
+        "en": "The full-moon-to-full-moon cycle is measured relative to the Sun. During that time Earth also moves along its orbit around the Sun, so the Moon must travel a little extra to return to the same alignment. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0034",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಭೂಮಿಯ ಚಲನೆಯಿಂದಾಗಿ ಖಗೋಳ ವಸ್ತುಗಳು ಆಕಾಶದಲ್ಲಿ ಪೂರ್ವದಿಂದ ಪಶ್ಚಿಮಕ್ಕೆ ಚಲಿಸಿದಂತೆ ಕಾಣಲು ಕಾರಣ",
+        "en": "The reason why celestial bodies appear to move from east to west in the sky is"
+      },
+      "options": [
+        {
+          "kn": "ಪೂರ್ವದಿಂದ ಪಶ್ಚಿಮಕ್ಕೆ ಚಲಿಸುತ್ತಿವೆ ಆಕಾಶಕಾಯಗಳು ಚಲನೆ",
+          "en": "Motion of celestial bodies from east to west"
+        },
+        {
+          "kn": "ಭೂಮಿಯ ಭ್ರಮಣೆ ಪಶ್ಚಿಮದಿಂದ ಪೂರ್ವಕ್ಕೆ ಇರುವುದು",
+          "en": "The rotation of the earth is from west to east"
+        },
+        {
+          "kn": "ಭೂಮಿಯ ಚಲನೆ ಪೂರ್ವದಿಂದ ಪಶ್ಚಿಮಕ್ಕೆ ಇರುವುದು",
+          "en": "Earth's movement is from east to west"
+        },
+        {
+          "kn": "ಭೂಮಿಯ ಭ್ರಮಣೆ ಮತ್ತು ಪರಿಭ್ರಮಣೆಯಿಂದಾಗಿ",
+          "en": "Due to Earth's rotation and revolution"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಭೂಮಿಯು ಪಶ್ಚಿಮದಿಂದ ಪೂರ್ವಕ್ಕೆ ತಿರುಗುವುದರಿಂದ ಆಕಾಶಕಾಯಗಳು ಪೂರ್ವದಿಂದ ಪಶ್ಚಿಮಕ್ಕೆ ಚಲಿಸಿದಂತೆ ಕಾಣುತ್ತವೆ. ಉತ್ತರ B.",
+        "en": "Earth rotates from west to east, so celestial bodies appear to drift from east to west. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0035",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸರಿಯಾದ ಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸಲಾಗಿರುವ ಗ್ರಹಗಳ ಗುಂಪು, ಗಾತ್ರದ ಆಧಾರದ ಮೇಲೆ ಅವರೋಹಣ ಕ್ರಮದಲ್ಲಿ",
+        "en": "The group of planets correctly arranged in descending order based on their size is"
+      },
+      "options": [
+        {
+          "kn": "ಶನಿ, ಭೂಮಿ, ಶುಕ್ರ, ಮಂಗಳ",
+          "en": "Saturn, Earth, Venus, Mars"
+        },
+        {
+          "kn": "ಶನಿ, ಭೂಮಿ, ಮಂಗಳ, ಶುಕ್ರ",
+          "en": "Saturn, Earth, Mars, Venus"
+        },
+        {
+          "kn": "ಶನಿ, ಮಂಗಳ, ಶುಕ್ರ, ಭೂಮಿ",
+          "en": "Saturn, Mars, Venus, Earth"
+        },
+        {
+          "kn": "ಶನಿ, ಮಂಗಳ, ಭೂಮಿ, ಶುಕ್ರ",
+          "en": "Saturn, Mars, Earth, Venus"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಗಾತ್ರದ ಅವರೋಹಣ ಕ್ರಮ: ಶನಿ (ಅತಿ ದೊಡ್ಡದು) > ಭೂಮಿ > ಶುಕ್ರ > ಮಂಗಳ. ಉತ್ತರ A. (ಮುದ್ರಿತ ಉತ್ತರ ಕೀ B ತಪ್ಪು.)",
+        "en": "Descending order of size: Saturn (largest) > Earth > Venus > Mars. Answer: A. (The printed key B is incorrect.)"
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0036",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ವಿದ್ಯಾರ್ಥಿಯೊಬ್ಬ ವಿಶಾಲ ಪ್ರದೇಶದಲ್ಲಿ ಪ್ರತಿಬಿಂಬವನ್ನು ಪಡೆಯಲು ಬಳಸಿಕೊಳ್ಳಬಹುದಾದ ದರ್ಪಣ",
+        "en": "The mirror that a student can use to obtain reflection in a wide area is"
+      },
+      "options": [
+        {
+          "kn": "ಸಮತಲ ದರ್ಪಣ ಮಾತ್ರ",
+          "en": "Plane Mirror only"
+        },
+        {
+          "kn": "ಉಬ್ಬಿದ ದರ್ಪಣ ಮಾತ್ರ",
+          "en": "Convex Mirror only"
+        },
+        {
+          "kn": "ನಿಮ್ನ ದರ್ಪಣ ಮಾತ್ರ",
+          "en": "Concave Mirror only"
+        },
+        {
+          "kn": "ಮೇಲಿನ ಯಾವುದಾದರೂ ಒಂದು",
+          "en": "Any one of the above"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಉಬ್ಬಿದ (ಕಾನ್ವೆಕ್ಸ್) ದರ್ಪಣವು ವಿಶಾಲ ಪ್ರದೇಶದ ಪ್ರತಿಬಿಂಬವನ್ನು ತೋರಿಸುತ್ತದೆ. ಉತ್ತರ B.",
+        "en": "A convex mirror gives a wide field of view, so it reflects a large area. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0037",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ನೀರಿನಲ್ಲಿ ಬೇಯುತ್ತಿರುವ ಬೇಳೆಕಾಳುಗಳು ಮೇಲೆ ಕೆಳಗೆ ಚಲಿಸುತ್ತವೆ. ಇದಕ್ಕೆ ಕಾರಣ",
+        "en": "The grains in boiling water move up and down. The reason for this is due to"
+      },
+      "options": [
+        {
+          "kn": "ಬೇಳೆಕಾಳುಗಳ ಸಾಂದ್ರತೆ ನೀರಿನ ಸಾಂದ್ರತೆಗಿಂತ ಕಡಿಮೆ",
+          "en": "Density of pulses is less than density of water"
+        },
+        {
+          "kn": "ಸಂವಹನ ವಿಧಾನದಲ್ಲಿ ಶಾಖ ಪ್ರಸರಣ",
+          "en": "transfer of heat in convection mode"
+        },
+        {
+          "kn": "ವಹನ ವಿಧಾನದಲ್ಲಿ ಶಾಖ ಪ್ರಸರಣ",
+          "en": "transfer of heat in conduction mode"
+        },
+        {
+          "kn": "ವಿಕಿರಣ ವಿಧಾನದಲ್ಲಿ ಪ್ರಸರಣ",
+          "en": "diffusion of heat in radiation mode"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ನೀರು ಕೆಳಗಿನಿಂದ ಬಿಸಿಯಾದಾಗ ಸಾಂದ್ರತೆ ಕಡಿಮೆಯಾಗಿ ಮೇಲೇರುತ್ತದೆ ಮತ್ತು ತಣ್ಣೀರು ಕೆಳಗೆ ಬರುತ್ತದೆ. ಇದು ಸಂವಹನ (ಕನ್ವೆಕ್ಷನ್) ಪ್ರವಾಹ. ಉತ್ತರ B.",
+        "en": "Heated water becomes less dense and rises while cooler water sinks. This is a convection current. Answer: B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0038",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಸಡಿಲವಾದ ಮರಳಿನ ಮೇಲೆ 'A' ಎಂಬ ವ್ಯಕ್ತಿಯು ನಿಂತಿದ್ದಾನೆ. ಅಷ್ಟೇ ರಾಶಿ ಉಳ್ಳ 'B' ಎಂಬ ವ್ಯಕ್ತಿಯು ಮರಳಿನ ಮೇಲೆ ಮಲಗಿದ್ದಾನೆ. ಆಗ",
+        "en": "Person A is standing on loose sand. Another Person B of same mass is lying on same sand. In this case"
+      },
+      "options": [
+        {
+          "kn": "'A' ಮತ್ತು 'B' ಇಬ್ಬರೂ ಮರಳಿನ ಮೇಲೆ ಬೇರೆ ಬೇರೆ ಬಲ ಉಪಯೋಗಿಸುತ್ತಾರೆ",
+          "en": "Both A and B apply different forces on sand"
+        },
+        {
+          "kn": "'A' ಮರಳಿನ ಮೇಲೆ ಹೆಚ್ಚು ಒತ್ತಡ ಉಂಟುಮಾಡುತ್ತಾನೆ",
+          "en": "'A' exerts more pressure on sand"
+        },
+        {
+          "kn": "'B' ಮರಳಿನ ಮೇಲೆ ಹೆಚ್ಚು ಒತ್ತಡ ಉಂಟುಮಾಡುತ್ತಾನೆ",
+          "en": "'B' exerts more pressure on sand"
+        },
+        {
+          "kn": "'A' ಮತ್ತು 'B' ಇಬ್ಬರೂ ಮರಳಿನ ಮೇಲೆ ಒಂದೇ ಪ್ರಮಾಣದ ಒತ್ತಡ ಉಂಟು ಮಾಡುತ್ತಾರೆ",
+          "en": "Both A and B exerts same pressure on sand"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಒತ್ತಡ = ಬಲ / ವಿಸ್ತೀರ್ಣ. ಇಬ್ಬರ ದ್ರವ್ಯರಾಶಿ ಸಮ, ಆದ್ದರಿಂದ ಬಲ (ತೂಕ) ಸಮ. ನಿಂತಿರುವ 'A' ಗೆ ಸಂಪರ್ಕ ವಿಸ್ತೀರ್ಣ ಚಿಕ್ಕದು, ಆದ್ದರಿಂದ ಅವನು ಹೆಚ್ಚು ಒತ್ತಡ ಉಂಟುಮಾಡುತ್ತಾನೆ. ಉತ್ತರ B. (ಮುದ್ರಿತ ಉತ್ತರ ಕೀ A ತಪ್ಪು.)",
+        "en": "Pressure = force / area. Both persons have the same mass, so the force (weight) is the same. Standing A has a smaller contact area than lying B, so A exerts more pressure. Answer: B. (The printed key A is incorrect because the forces are equal.)"
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0039",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ರೈಲು ವೇಗವಾಗಿ ಚಲಿಸುತ್ತಿರುವಾಗ ರೈಲಿನ ಸಮೀಪ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಮೇಲೆ ನಿಲ್ಲುವುದು ಅಪಾಯಕಾರಿ. ಕಾರಣ",
+        "en": "It is dangerous to stand on a platform when a train is moving at a higher speed. This is because"
+      },
+      "options": [
+        {
+          "kn": "ವೇಗ ಹೆಚ್ಚಾಗಿದ್ದು ಒತ್ತಡ ಕಡಿಮೆಯಾಗಿ ವ್ಯಕ್ತಿಯು ರೈಲಿನೆಡೆಗೆ ಸೆಳೆಯಲ್ಪಡುತ್ತಾನೆ",
+          "en": "high speed creates low pressure and the person gets attracts towards train"
+        },
+        {
+          "kn": "ವೇಗ ಹೆಚ್ಚಾಗಿದ್ದು ಒತ್ತಡ ಹೆಚ್ಚಾಗಿ ವ್ಯಕ್ತಿಯು ಹೊರ ನೂಕಲ್ಪಡುತ್ತಾನೆ",
+          "en": "High speed creates high pressure & pushes out the person"
+        },
+        {
+          "kn": "ಗಾಳಿಯ ವೇಗದಿಂದ ವ್ಯಕ್ತಿ ಟ್ರ್ಯಾಕ್ ಮೇಲೆ ಬೀಳಬಹುದು",
+          "en": "Person may slip on the track"
+        },
+        {
+          "kn": "ವೇಗ ಹೆಚ್ಚಾಗಿದ್ದು ಒತ್ತಡ ಹೆಚ್ಚಾಗಿ ವ್ಯಕ್ತಿಯನ್ನು ಸೆಳೆಯುತ್ತದೆ",
+          "en": "High speed create high air pressure and gets attracts the person"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ರೈಲಿನ ವೇಗದಿಂದ ರೈಲಿನ ಹತ್ತಿರ ಗಾಳಿಯ ಒತ್ತಡ ಕಡಿಮೆಯಾಗುತ್ತದೆ. ಹೊರಗಿನ ಗಾಳಿಯ ಒತ್ತಡ ವ್ಯಕ್ತಿಯನ್ನು ರೈಲಿನ ಕಡೆಗೆ ತಳ್ಳುತ್ತದೆ. ಉತ್ತರ A.",
+        "en": "Fast-moving air near the train has lower pressure, so the higher pressure outside pushes the person toward the train. Answer: A."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0040",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೆಲಸ ನಡೆದಿರುವ ಒಂದು ಸಂದರ್ಭವನ್ನು ಗುರುತಿಸಿ",
+        "en": "Identify the situation where work is said to be done"
+      },
+      "options": [
+        {
+          "kn": "ಗೋಡೆಯನ್ನು ತಳ್ಳುವುದು",
+          "en": "Pushing the wall"
+        },
+        {
+          "kn": "ಕೈಗಳನ್ನು ಅಲುಗಾಡಿಸುವುದು",
+          "en": "Shaking hands"
+        },
+        {
+          "kn": "ತಲೆಯ ಮೇಲೆ ಭಾರ ಹೊತ್ತಿರುವುದು",
+          "en": "A person standing with luggage on his head"
+        },
+        {
+          "kn": "ಆಟಿಕೆ ಕಾರನ್ನು ಕೈಯಿಂದ ಮುಂದಕ್ಕೆ ತಳ್ಳುವುದು",
+          "en": "pushing a toy car by hand"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಕೆಲಸ = ಬಲ × ಸ್ಥಾನಪಲ್ಲಟ. ಆಟಿಕೆ ಕಾರನ್ನು ಬಲದಿಂದ ತಳ್ಳಿ ಸ್ಥಾನಪಲ್ಲಟ ಮಾಡಿದಾಗ ಕೆಲಸ ನಡೆಯುತ್ತದೆ. ಉಳಿದವುಗಳಲ್ಲಿ ಸ್ಥಾನಪಲ್ಲಟ ಇಲ್ಲ. ಉತ್ತರ D.",
+        "en": "Work = force × displacement. Pushing a toy car moves it, so work is done. The others have no displacement. Answer: D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0041",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದು ತಗಡಿನ ಖಾಲಿ ಡಬ್ಬಿಯಲ್ಲಿ ಸುಮಾರು ಅರ್ಧದಷ್ಟು ನೀರು ತುಂಬಿ. 10 ನಿಮಿಷ ಕುದಿಸಿದ ನಂತರ ಬಿಗಿಯಾಗಿ ಮುಚ್ಚಳವನ್ನು ಹಾಕಿ ತಕ್ಷಣ ಡಬ್ಬಿಯ ಮೇಲೆ ನೀರು ಸುರಿದರೆ ಡಬ್ಬಿಯು ಒಮ್ಮೆಲೇ ಸಂಕುಚಿತಗೊಳ್ಳುತ್ತದೆ. ಕಾರಣ",
+        "en": "Take an empty oil tin and fill half of it with water. Boil the water for 10 minutes and close the tin using lid. Pour cold water on it and the tin suddenly gets compressed because"
+      },
+      "options": [
+        {
+          "kn": "ಒಳಗಡೆ ನಿರ್ವಾತ ಉಂಟಾಗಿ ಹೊರಗಿನ ಗಾಳಿಯ ಒತ್ತಡದಿಂದ ಸಂಕುಚಿತಗೊಳ್ಳುತ್ತದೆ",
+          "en": "Vacuum gets created inside the tin due to air pressure"
+        },
+        {
+          "kn": "ಆವಿಯ ಒತ್ತಡದಿಂದ",
+          "en": "Pressure of the water vapour"
+        },
+        {
+          "kn": "ಡಬ್ಬಿ ಕಾದು ತೆಳುವಾಗುವುದರಿಂದ",
+          "en": "On heating tin becomes thin"
+        },
+        {
+          "kn": "ನೀರಿನ ಒತ್ತಡದಿಂದ",
+          "en": "Of water pressure"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಬಿಸಿ ನೀರಿನ ಆವಿ ಡಬ್ಬಿ ತುಂಬುತ್ತದೆ. ತಣ್ಣೀರು ಸುರಿದಾಗ ಆವಿ ಘನೀಭವಿಸಿ ಒಳಗೆ ನಿರ್ವಾತ ಉಂಟಾಗುತ್ತದೆ; ಹೊರಗಿನ ವಾಯುಮಂಡಲದ ಒತ್ತಡ ಡಬ್ಬಿಯನ್ನು ಸಂಕುಚಿತಗೊಳಿಸುತ್ತದೆ. ಉತ್ತರ A. (ಮುದ್ರಿತ ಉತ್ತರ ಕೀ C ತಪ್ಪು.)",
+        "en": "Steam fills the tin. Cold water condenses the steam, creating a partial vacuum inside. The higher atmospheric pressure outside crushes the tin. Answer: A. (The printed key C is incorrect.)"
       },
       "image": null
     }
