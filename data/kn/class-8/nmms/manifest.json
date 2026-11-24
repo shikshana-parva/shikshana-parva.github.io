@@ -14,8 +14,7 @@
     "sat": {
       "title": "Scholastic Aptitude Test",
       "path": "sat/sat-questions.json",
-      "available": true,
-      "totalQuestions": 0
+      "available": true
     }
   }
 }
