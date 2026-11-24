@@ -2358,12 +2358,15 @@ async function nmLoadDs(k,man,mUrl,arr){
   const d=await nmFetch(url);
   const qs=Array.isArray(d)?d:(d&&Array.isArray(d.questions)?d.questions:null);
   if(!qs)throw new Error(url+' — questions array not found');
-  const declared=cfg.totalQuestions,validDecl=Number.isInteger(declared)&&declared>=0;
-  if(!validDecl)console.warn('NMMS '+k+': manifest totalQuestions is missing or invalid ('+JSON.stringify(declared)+'); actual questions.length='+qs.length);
-  else if(declared!==qs.length)console.warn('NMMS '+k+': totalQuestions mismatch — manifest totalQuestions='+declared+', actual questions.length='+qs.length);
-  if(validDecl&&declared===0){NM.ds[k]={status:'ready',err:'',total:0};return}
+  const actualTotal=qs.length;
+  if(k!=='sat'){
+   const declared=cfg.totalQuestions,validDecl=Number.isInteger(declared)&&declared>=0;
+   if(!validDecl)console.warn('NMMS '+k+': manifest totalQuestions is missing or invalid ('+JSON.stringify(declared)+'); actual questions.length='+qs.length);
+   else if(declared!==qs.length)console.warn('NMMS '+k+': totalQuestions mismatch — manifest totalQuestions='+declared+', actual questions.length='+qs.length);
+   if(validDecl&&declared===0){NM.ds[k]={status:'ready',err:'',total:0};return}
+  }
   arr.push(...qs);
-  NM.ds[k]={status:'ready',err:'',total:qs.length};
+  NM.ds[k]={status:'ready',err:'',total:actualTotal};
  }catch(e){NM.ds[k]={status:'error',err:String(e&&e.message||e),total:0}}
 }
 function nmResetOnMedium(){
