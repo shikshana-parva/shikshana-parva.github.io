@@ -8,7 +8,7 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 41,
+    "totalQuestions": 71,
     "version": "1.0.0"
   },
   "questions": [
@@ -1321,6 +1321,966 @@
       "explanation": {
         "kn": "ಬಿಸಿ ನೀರಿನ ಆವಿ ಡಬ್ಬಿ ತುಂಬುತ್ತದೆ. ತಣ್ಣೀರು ಸುರಿದಾಗ ಆವಿ ಘನೀಭವಿಸಿ ಒಳಗೆ ನಿರ್ವಾತ ಉಂಟಾಗುತ್ತದೆ; ಹೊರಗಿನ ವಾಯುಮಂಡಲದ ಒತ್ತಡ ಡಬ್ಬಿಯನ್ನು ಸಂಕುಚಿತಗೊಳಿಸುತ್ತದೆ. ಉತ್ತರ A. (ಮುದ್ರಿತ ಉತ್ತರ ಕೀ C ತಪ್ಪು.)",
         "en": "Steam fills the tin. Cold water condenses the steam, creating a partial vacuum inside. The higher atmospheric pressure outside crushes the tin. Answer: A. (The printed key C is incorrect.)"
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0042",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಇದ್ದಲಿನ ಕೆಂಡವನ್ನು ಬೀಸಣಿಗೆಯಿಂದ ಬೀಸಿದಾಗ ಹೊತ್ತಿಕೊಳ್ಳಲು ಕಾರಣ",
+        "en": "Red hot wood charcoal on blowing air catches fire. This is because"
+      },
+      "options": [
+        {
+          "kn": "ಕೆಂಡದೆಡೆಗೆ ಗಾಳಿಯು ಸೆಳೆಯಲ್ಪಡುವುದು",
+          "en": "Pull of the air towards charcoal"
+        },
+        {
+          "kn": "ಕೆಂಡ ಅಲುಗಾಡುವುದು",
+          "en": "Shaking of red hot wood charcoal"
+        },
+        {
+          "kn": "ಕೆಂಡದ ಸುತ್ತ ಗಾಳಿಯ ಒತ್ತಡ ಕಡಿಮೆಯಾಗಿ ಸುತ್ತಲಿನ ಗಾಳಿ ಒಂದೇ ಬಾರಿಗೆ ಬೀಸುವುದು",
+          "en": "Pressure surrounding the charcoal decreases as air flows from all sides"
+        },
+        {
+          "kn": "ಗಾಳಿಯ ಘರ್ಷಣೆ",
+          "en": "Friction of air"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಬೀಸಣಿಗೆಯಿಂದ ಗಾಳಿ ಬೀಸಿದಾಗ ಕೆಂಡಕ್ಕೆ ತಾಜಾ ಗಾಳಿ ನಿರಂತರವಾಗಿ ಸಿಗುತ್ತದೆ. ಕೆಂಡದ ಸುತ್ತಲಿನ ಗಾಳಿಯ ಒತ್ತಡ ಕಡಿಮೆಯಾಗುತ್ತದೆ ಮತ್ತು ಕೆಂಡ ಹೆಚ್ಚು ಉರಿದು ಬಿಸಿಯಾಗಿ ಹೊತ್ತಿಕೊಳ್ಳುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "When air is blown on the red hot charcoal, fresh air keeps reaching it, so it burns more strongly, becomes hotter and catches fire. The pressure around the charcoal falls as air flows from all sides, so the correct answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0043",
+      "difficulty": "medium",
+      "question": {
+        "kn": "'A' ಎಂಬ ಕೂಲಿಯವನು 20 cm ಮೀಟರ್ ವ್ಯಾಸವಿರುವ ಬಟ್ಟೆಯನ್ನು ತಲೆಯ ಮೇಲೆ ಇಟ್ಟುಕೊಳ್ಳುತ್ತಾನೆ. 'B' ಎಂಬ ಇನ್ನೊಬ್ಬ ಕೂಲಿಯವನು 10 cm ವ್ಯಾಸವಿರುವ ಬಟ್ಟೆಯ ಪಟ್ಟಿಯನ್ನು ತಲೆಯ ಮೇಲೆ ಇಟ್ಟುಕೊಳ್ಳುತ್ತಾನೆ. ಇಬ್ಬರೂ ಒಂದೇ ತೂಕದ ವಸ್ತುವನ್ನು ತಲೆಯ ಮೇಲೆ ಹೊತ್ತರೆ",
+        "en": "Porter 'A' places a strip of cloth of 20 cm diameter on his head. Another porter 'B' places a strip of cloth 10 cm on his head. If both of them carry an object of same mass on their heads, then"
+      },
+      "options": [
+        {
+          "kn": "'B' ಮೇಲೆ ಹೆಚ್ಚು ಒತ್ತಡ ಉಂಟಾಗುತ್ತದೆ",
+          "en": "Pressure exerted on 'B' is more"
+        },
+        {
+          "kn": "'B' ಮೇಲೆ ಹೆಚ್ಚು ಬಲಪ್ರಯೋಗವಾಗುತ್ತದೆ",
+          "en": "Force exerted on 'B' is more"
+        },
+        {
+          "kn": "ಇಬ್ಬರ ತಲೆಯ ಮೇಲೆ ಒಂದೇ ರೀತಿಯ ಒತ್ತಡ ಉಂಟಾಗುತ್ತದೆ",
+          "en": "Equal pressure is exerted on both"
+        },
+        {
+          "kn": "'A' ಮೇಲೆ ಹೆಚ್ಚು ಬಲಪ್ರಯೋಗವಾಗುತ್ತದೆ",
+          "en": "Pressure exerted on 'A' is more"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಒತ್ತಡ = ಬಲ ÷ ವಿಸ್ತೀರ್ಣ. ಇಬ್ಬರ ತಲೆಯ ಮೇಲಿನ ವಸ್ತುವಿನ ತೂಕ (ಬಲ) ಒಂದೇ. 'B' ಬಟ್ಟೆಯ ಸಂಪರ್ಕ ವಿಸ್ತೀರ್ಣ ಚಿಕ್ಕದಾಗಿರುವುದರಿಂದ 'B' ಮೇಲೆ ಒತ್ತಡ ಹೆಚ್ಚು. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ A.",
+        "en": "Pressure = force ÷ area. The weight of the object (the force) is the same for both porters. Porter 'B's cloth has a smaller contact area, so the pressure on 'B' is more. The correct answer is A."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-PHY-0044",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಂದು ಬಂದೂಕಿನಿಂದ ಗುಂಡು ಹಾರಿದಾಗ",
+        "en": "When a bullet is fired from a gun"
+      },
+      "options": [
+        {
+          "kn": "ಗುಂಡಿಗೆ ಸಮಾನಾದ ವೇಗೋತ್ಕರ್ಷವನ್ನು ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ಬಂದೂಕು ಪಡೆದುಕೊಳ್ಳುತ್ತದೆ",
+          "en": "Gun acquires acceleration equal to bullet in opposite direction"
+        },
+        {
+          "kn": "ಗುಂಡಿಗೆ ಸಮಾನದ ವೇಗೋತ್ಕರ್ಷವನ್ನು ಅದೇ ದಿಕ್ಕಿನಲ್ಲಿ ಬಂದೂಕು ಪಡೆದುಕೊಳ್ಳುತ್ತದೆ",
+          "en": "Gun acquires equal acceleration as that of bullet in same direction"
+        },
+        {
+          "kn": "ಗುಂಡಿಗೆ ಸಮಾನಾದ ಸಂವೇಗವನ್ನು ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ಬಂದೂಕು ಪಡೆದುಕೊಳ್ಳುತ್ತದೆ",
+          "en": "Gun acquires equal and opposite momentum as that of bullet"
+        },
+        {
+          "kn": "ಗುಂಡಿಗೆ ಸಮಾನ ಸಂವೇಗವನ್ನು ಅದೇ ದಿಕ್ಕಿನಲ್ಲಿ ಬಂದೂಕು ಪಡೆದುಕೊಳ್ಳುತ್ತದೆ",
+          "en": "Gun acquires equal momentum in same direction"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಆರಂಭದಲ್ಲಿ ಗುಂಡು ಮತ್ತು ಬಂದೂಕು ಎರಡರ ಒಟ್ಟು ಸಂವೇಗ ಶೂನ್ಯ. ಗುಂಡು ಮುಂದಕ್ಕೆ ಹಾರಿದಾಗ ಬಂದೂಕು ವಿರುದ್ಧ ದಿಕ್ಕಿನಲ್ಲಿ ಸಮಾನ ಸಂವೇಗವನ್ನು ಪಡೆಯುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "At the start, the total momentum of the bullet and the gun is zero. When the bullet moves forward, the gun gets an equal momentum in the opposite direction. The correct answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0001",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಅಸಿಟಿಕ್ ಆಮ್ಲ ಮತ್ತು ಪೊಟಾಶಿಯಂ ಹೈಡ್ರಾಕ್ಸೈಡ್ ಹೊಂದಿರುವ ಎರಡು ಪ್ರತ್ಯೇಕ ಪ್ರನಾಳಗಳಿಗೆ ಸಚಿನ್ ಫಿನಾಫ್ತಲೀನ್ ಸೂಚಕವನ್ನು ಸೇರಿಸಿದ್ದಾನೆ. ಪ್ರನಾಳಗಳಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದಾದ ಬಣ್ಣಗಳು;",
+        "en": "Sachin added acetic acid and potassium hydroxide to two separate test tubes which have phenolphthalein indicator. Colours that can appear in test tubes are;"
+      },
+      "options": [
+        {
+          "kn": "ನೀಲಿ ಮತ್ತು ಕೆಂಪು",
+          "en": "Blue and red"
+        },
+        {
+          "kn": "ಹಳದಿ ಮತ್ತು ಗುಲಾಬಿ",
+          "en": "Yellow and pink"
+        },
+        {
+          "kn": "ಗುಲಾಬಿ ಮತ್ತು ಬಣ್ಣರಹಿತ",
+          "en": "Pink and colourless"
+        },
+        {
+          "kn": "ಬಣ್ಣರಹಿತ ಮತ್ತು ಗುಲಾಬಿ",
+          "en": "Colourless and pink"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಅಸಿಟಿಕ್ ಆಮ್ಲಕ್ಕೆ ಫಿನಾಫ್ತಲೀನ್ ಸೇರಿಸಿದಾಗ ದ್ರಾವಣ ಬಣ್ಣರಹಿತವಾಗಿರುತ್ತದೆ. ಪೊಟಾಶಿಯಂ ಹೈಡ್ರಾಕ್ಸೈಡ್ (ಕ್ಷಾರ) ಸೇರಿಸಿದಾಗ ಗುಲಾಬಿ ಬಣ್ಣ ಕಾಣಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Phenolphthalein stays colourless in acetic acid and turns pink in potassium hydroxide, which is a base. So the answer is D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0002",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ರಸಾಯನಶಾಸ್ತ್ರದ ಪ್ರಯೋಗಶಾಲೆಯಲ್ಲಿ ವಿದ್ಯಾರ್ಥಿಯು ದ್ರಾವಣವೊಂದನ್ನು ಮುಟ್ಟಿದಾಗ ಸಾಬೂನಿನಂತೆ ಭಾಸವಾಗಿದೆ. ಆ ದ್ರಾವಣವು,",
+        "en": "Student felt soapy when touch a solution in chemistry lab. The solution is,"
+      },
+      "options": [
+        {
+          "kn": "ಆಮ್ಲೀಯ",
+          "en": "Acidic"
+        },
+        {
+          "kn": "ಲವಣ",
+          "en": "Salt"
+        },
+        {
+          "kn": "ಪ್ರತ್ಯಾಮ್ಲೀಯ",
+          "en": "Alkaline."
+        },
+        {
+          "kn": "ತಟಸ್ಥ",
+          "en": "Neutral."
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಸಾಬೂನಿನಂತೆ ಜಾರುವ ಭಾವನೆ ನೀಡುವ ದ್ರಾವಣ ಕ್ಷಾರೀಯ (ಪ್ರತ್ಯಾಮ್ಲೀಯ). ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "A solution that feels soapy is alkaline. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0003",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕೇಕ್ ತಯಾರಿಸುವ ಹಿಟ್ಟಿಗೆ ವಿಭಾ ಅರಿಶಿನ ಪುಡಿ ಮತ್ತು ಆಡುಗೆ ಸೋಡಾ ಬೆರೆಸುತ್ತಾಳೆ. ಉಂಟಾಗುವ ಕೆಂಪು ಬಣ್ಣವು ಇದರ ಇರುವಿಕೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ.",
+        "en": "Vibha added turmeric powder and baking soda to the batter of cake. Formation of red colour shows the presence of"
+      },
+      "options": [
+        {
+          "kn": "ಆಮ್ಲ",
+          "en": "Acid"
+        },
+        {
+          "kn": "ಪ್ರತ್ಯಾಮ್ಲ",
+          "en": "Base"
+        },
+        {
+          "kn": "ತಟಸ್ಥ ದ್ರಾವಣ",
+          "en": "Neutral solution"
+        },
+        {
+          "kn": "ಲೋಹಾಭ",
+          "en": "Metalloid."
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಅರಿಶಿನವು ಕ್ಷಾರೀಯ (ಪ್ರತ್ಯಾಮ್ಲ) ದ್ರಾವಣದಲ್ಲಿ ಕೆಂಪು ಬಣ್ಣಕ್ಕೆ ತಿರುಗುತ್ತದೆ. ಆಡುಗೆ ಸೋಡಾ ಒಂದು ಕ್ಷಾರ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Turmeric turns red in a base. Baking soda is a base, so the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0004",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಪ್ರತ್ಯಾಮ್ಲೀಯ ಮಣ್ಣಿನಲ್ಲಿ ಸಸ್ಯ ಉತ್ತಮ ಇಳುವರಿ ನೀಡಲು ಇದನ್ನು ಸೇರಿಸಲು ಸೂಚಿಸುತ್ತಾರೆ.",
+        "en": "This is to be added to alkaline soil to get a good yeild."
+      },
+      "options": [
+        {
+          "kn": "ಕಾಂಪೋಸ್ಟ್",
+          "en": "Compost"
+        },
+        {
+          "kn": "ಸುಟ್ಟಸುಣ್ಣ",
+          "en": "Quicklime"
+        },
+        {
+          "kn": "ಅರಳಿದಸುಣ್ಣ",
+          "en": "Slaked lime"
+        },
+        {
+          "kn": "ಕ್ಯಾಲಮೈನ್",
+          "en": "Calamine"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಕ್ಷಾರೀಯ ಮಣ್ಣಿನ ಮೇಲೆ ಕಾಂಪೋಸ್ಟ್ (ಸಾವಯವ ಗೊಬ್ಬರ) ಸೇರಿಸಲಾಗುತ್ತದೆ. ಸುಟ್ಟಸುಣ್ಣ ಮತ್ತು ಅರಳಿದಸುಣ್ಣ ಮಣ್ಣಿನ ಕ್ಷಾರೀಯತೆಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ A.",
+        "en": "Compost, an organic manure, is added to alkaline soil. Quicklime and slaked lime make soil more alkaline. So the answer is A."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0005",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸುಣ್ಣದ ನೀರಿಗೆ ಅರಶಿನಪುಡಿ ಸೇರಿಸಿದಾಗ ಕೆಂಪುಬಣ್ಣ ಉಂಟಾಗಲು ಕಾರಣ,",
+        "en": "The reason for red colour when turmeric powder is added to lime water is,"
+      },
+      "options": [
+        {
+          "kn": "ಸುಣ್ಣದನೀರು ಆಮ್ಲ",
+          "en": "Lime water is acid"
+        },
+        {
+          "kn": "ಸುಣ್ಣದನೀರು ಪ್ರತ್ಯಾಮ್ಲ",
+          "en": "Lime water is basic"
+        },
+        {
+          "kn": "ಅರಶಿನ ಒಂದು ಆಮ್ಲ",
+          "en": "Turmeric powder is an acid"
+        },
+        {
+          "kn": "ಅರಶಿನ ಒಂದು ಪ್ರತ್ಯಾಮ್ಲ",
+          "en": "Turmeric powder is base."
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸುಣ್ಣದ ನೀರು ಕ್ಷಾರೀಯ (ಪ್ರತ್ಯಾಮ್ಲ) ಆಗಿರುವುದರಿಂದ ಅರಿಶಿನ ಕೆಂಪು ಬಣ್ಣಕ್ಕೆ ತಿರುಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Lime water is basic, and turmeric turns red in a base. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0006",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯ ಉತ್ಪನ್ನಗಳಾಗಿ ಲವಣ ಮತ್ತು ನೀರನ್ನು ಉಂಟುಮಾಡುವ ಜೋಡಿ.",
+        "en": "A pair that produce salt and water as a product of a chemical reaction."
+      },
+      "options": [
+        {
+          "kn": "ಸಕ್ಕರೆ ಮತ್ತು ಸೋಡಿಯಂ ಕ್ಲೋರೈಡ್",
+          "en": "Sugar and sodium chloride"
+        },
+        {
+          "kn": "ಲಿಂಬೆರಸ ಮತ್ತು ವಿನೆಗರ್",
+          "en": "Lemon juice and vinegar"
+        },
+        {
+          "kn": "ಲಿಂಬೆರಸ ಮತ್ತು ಸೋಡಿಯಂ ಹೈಡ್ರಾಕ್ಸೈಡ್",
+          "en": "Lemon juice and sodium hydroxide"
+        },
+        {
+          "kn": "ಸುಣ್ಣದ ತಿಳಿನೀರು ಮತ್ತು ಮೆಗ್ನೀಷಿಯಾ ಹಾಲು",
+          "en": "Lime water and milk of magnesia"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಆಮ್ಲ ಮತ್ತು ಕ್ಷಾರ ಕ್ರಿಯೆಯಿಂದ ಲವಣ ಮತ್ತು ನೀರು ಉಂಟಾಗುತ್ತವೆ. ನಿಂಬೆರಸ (ಆಮ್ಲ) ಮತ್ತು ಸೋಡಿಯಂ ಹೈಡ್ರಾಕ್ಸೈಡ್ (ಕ್ಷಾರ) ಇದಕ್ಕೆ ಸರಿಯಾದ ಜೋಡಿ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "An acid and a base react to form salt and water. Lemon juice (an acid) and sodium hydroxide (a base) form the correct pair. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0007",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಅತಿಯಾದ ಅಜೀರ್ಣತೆಯಿಂದ ಬಳಲುತ್ತಿರುವ ವ್ಯಕ್ತಿಗೆ ವೈದ್ಯರು ಮೆಗ್ನೀಷಿಯಂ ಹೈಡ್ರಾಕ್ಸೈಡ್ ಹೊಂದಿರುವ ಔಷಧವನ್ನು ಸೂಚಿಸುತ್ತಾರೆ. ಏಕೆಂದರೆ,",
+        "en": "Doctors prescribe medicine containing magnesium hydroxide to a person suffering from excessive indigestion. Because,"
+      },
+      "options": [
+        {
+          "kn": "ಅದು ಜಠರದಲ್ಲಿರುವ ಆಲ್ಕೋಹಾಲನ್ನು ತಟಸ್ಥೀಕರಿಸುತ್ತದೆ",
+          "en": "It neutralizes the alcohol in the stomach"
+        },
+        {
+          "kn": "ಅದು ಜಠರದಲ್ಲಿರುವ ಹೈಡ್ರೋಕ್ಲೋರಿಕ್ ಆಮ್ಲವನ್ನು ತಟಸ್ಥೀಕರಿಸುತ್ತದೆ",
+          "en": "It neutralizes the hydrochloric acid in the stomach"
+        },
+        {
+          "kn": "ಅದು ಜಠರದಲ್ಲಿರುವ ಕಿಣ್ವಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ",
+          "en": "It inactivates the enzymes in the stomach"
+        },
+        {
+          "kn": "ಅದು ಕರುಳಿನಲ್ಲಿರುವ ಗ್ಲುಕೋಸನ್ನು ಉತ್ಕರ್ಷಿಸುತ್ತದೆ",
+          "en": "It oxidises glucose in the intestine"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೆಗ್ನೀಷಿಯಂ ಹೈಡ್ರಾಕ್ಸೈಡ್ ಒಂದು ದುರ್ಬಲ ಕ್ಷಾರ. ಅದು ಜಠರದಲ್ಲಿರುವ ಹೆಚ್ಚುವರಿ ಹೈಡ್ರೋಕ್ಲೋರಿಕ್ ಆಮ್ಲವನ್ನು ತಟಸ್ಥಗೊಳಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Magnesium hydroxide is a mild base. It neutralizes the extra hydrochloric acid in the stomach. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0008",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ನಿಂಬೆರಸ, ಅಸವಿತ ನೀರು ಮತ್ತು ಸುಣ್ಣದ ತಿಳಿನೀರಿಗೆ ಕೆಂಪುಲಿಟ್ಮಸ್ ಕಾಗದ ಮುಳುಗಿಸಿದಾಗ, ಕಾಗದದಲ್ಲಿ ಕಾಣಿಸುವ ಬಣ್ಣಗಳು ಕ್ರಮವಾಗಿ;",
+        "en": "The colours appeared on the paper when red litmus paper is dipped into lemon juice, distilled water and lime water respectively are;"
+      },
+      "options": [
+        {
+          "kn": "ನೀಲಿ, ನೀಲಿ ಮತ್ತು ಕೆಂಪು",
+          "en": "Blue, Blue and Red"
+        },
+        {
+          "kn": "ಕೆಂಪು, ಕೆಂಪು ಮತ್ತು ನೀಲಿ",
+          "en": "Red, Red and Blue"
+        },
+        {
+          "kn": "ನೀಲಿ, ಕೆಂಪು ಮತ್ತು ನೀಲಿ",
+          "en": "Blue, Red and Blue"
+        },
+        {
+          "kn": "ನೀಲಿ, ಕೆಂಪು ಮತ್ತು ಕೆಂಪು",
+          "en": "Blue, Red and Red"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ನಿಂಬೆರಸ (ಆಮ್ಲ) ಮತ್ತು ಅಸವಿತ ನೀರು (ತಟಸ್ಥ) ಕೆಂಪು ಲಿಟ್ಮಸ್ ಅನ್ನು ಕೆಂಪಾಗಿಯೇ ಉಳಿಸುತ್ತವೆ. ಸುಣ್ಣದ ತಿಳಿನೀರು (ಕ್ಷಾರ) ಕೆಂಪು ಲಿಟ್ಮಸ್ ಅನ್ನು ನೀಲಿ ಮಾಡುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Lemon juice (an acid) and distilled water (neutral) keep red litmus red. Lime water (a base) turns red litmus blue. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0009",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಒಬ್ಬ ವಿದ್ಯಾರ್ಥಿಯು \"ಮೊಸರಿಗೆ ಆಮ್ಲದ ಗುಣ ಇದೆ\" ಎಂದು ತೀರ್ಮಾನಿಸುತ್ತಾನೆ. ಏಕೆಂದರೆ,",
+        "en": "A student concludes that \"curd has acidic Property.\" Because,"
+      },
+      "options": [
+        {
+          "kn": "ಫಿನಾಫ್ತಲೀನ್ ಹಾಕಿದಾಗ ಗುಲಾಬಿ ಬಣ್ಣಕ್ಕೆ ತಿರುಗುತ್ತದೆ",
+          "en": "It turns pink when phenolphthalein is added"
+        },
+        {
+          "kn": "ಕೆಂಪುಲಿಟ್ಮಸ್ ಬಣ್ಣವನ್ನು ನೀಲಿ ಮಾಡಿತು",
+          "en": "Red litmus turns blue"
+        },
+        {
+          "kn": "ಅರಿಶಿನ ಪುಡಿ ಹಾಕಿದಾಗ ಅದರ ಬಣ್ಣ ಕೆಂಪಾಯಿತು",
+          "en": "Its color become red when turmeric powder is added"
+        },
+        {
+          "kn": "ಮಿಥೈಲ್ ಆರೆಂಜ್ ಸೇರಿಸಿದಾಗ ಕೆಂಪು ಬಣ್ಣ ಕಾಣಿಸಿತು",
+          "en": "Red color appeared when methyl orange is added"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಮಿಥೈಲ್ ಆರೆಂಜ್ ಆಮ್ಲದಲ್ಲಿ ಕೆಂಪು ಬಣ್ಣಕ್ಕೆ ತಿರುಗುತ್ತದೆ. ಮೊಸರಿಗೆ ಮಿಥೈಲ್ ಆರೆಂಜ್ ಸೇರಿಸಿದಾಗ ಕೆಂಪು ಬಣ್ಣ ಕಾಣಿಸಿದ್ದು ಅದರ ಆಮ್ಲದ ಗುಣವನ್ನು ತೋರಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Methyl orange turns red in acid. Red colour with methyl orange shows that curd is acidic. So the answer is D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0010",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೆಂಪು ದಾಸವಾಳಹೂವಿನ ದಳವನ್ನು ನೀರಿಗೆ ಹಾಕಿ ಪಡೆದ ಸೂಚಕಕ್ಕೆ ಆಮ್ಲ ಮತ್ತು ಪ್ರತ್ಯಾಮ್ಲಗಳನ್ನು ಸೇರಿಸಿದಾಗ ಉಂಟಾಗುವ ಬಣ್ಣಗಳು ಕ್ರಮವಾಗಿ;",
+        "en": "Colour formed respectively when acid and bases are added to the indicator obtained from the petals of red hibiscus flower in water are;"
+      },
+      "options": [
+        {
+          "kn": "ಕಡುಗುಲಾಬಿ ಮತ್ತು ಹಸಿರು",
+          "en": "Dark pink and green"
+        },
+        {
+          "kn": "ಹಸಿರು ಮತ್ತು ಕಡುಗುಲಾಬಿ",
+          "en": "Green and dark pink"
+        },
+        {
+          "kn": "ಕೆಂಪು ಮತ್ತು ನೀಲಿ",
+          "en": "Red and blue"
+        },
+        {
+          "kn": "ಗುಲಾಬಿ ಮತ್ತು ನೇರಳೆ",
+          "en": "Pink and purple"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ದಾಸವಾಳ ಸೂಚಕ ಆಮ್ಲದಲ್ಲಿ ಕಡುಗುಲಾಬಿ ಮತ್ತು ಪ್ರತ್ಯಾಮ್ಲದಲ್ಲಿ ಹಸಿರು ಬಣ್ಣ ನೀಡುತ್ತದೆ. ಆಮ್ಲ ಮೊದಲು ಬರುವುದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ A.",
+        "en": "Hibiscus indicator gives dark pink with an acid and green with a base. The acid comes first, so the answer is A."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0011",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಚಿತ್ರದಲ್ಲಿ ಒಂದು ವಿದ್ಯುನ್ಮಂಡಲವನ್ನು ತೋರಿಸಿದೆ. ಮಂಡಲದಲ್ಲಿನ ದೀಪ ಬೆಳಗಬೇಕಾದರೆ ಪಾತ್ರೆ 'A' ನಲ್ಲಿ ಬಳಸಬಾರದಾದ ಒಂದು ವಸ್ತು",
+        "en": "An electrical circuit is shown in the figure. The one that should not be used in vessel 'A' for the bulb to glow is"
+      },
+      "options": [
+        {
+          "kn": "ನಿಂಬೆಹಣ್ಣಿನ ರಸ",
+          "en": "Lemon juice"
+        },
+        {
+          "kn": "ಅಸವಿತ ನೀರು",
+          "en": "Distilled water"
+        },
+        {
+          "kn": "ಹಾಲು",
+          "en": "Milk"
+        },
+        {
+          "kn": "ವಿನೆಗರ್",
+          "en": "Vinegar"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಬಟ್ಟಿ ಇಳಿಸಿದ ನೀರು ವಿದ್ಯುತ್ ಅನ್ನು ಸಾಗಿಸುವುದಿಲ್ಲ. ಆದ್ದರಿಂದ ಅದರಲ್ಲಿ ಬಲ್ಬ್ ಬೆಳಗುವುದಿಲ್ಲ. ನಿಂಬೆರಸ, ಹಾಲು ಮತ್ತು ವಿನೆಗರ್ ಅಯಾನುಗಳನ್ನು ಹೊಂದಿದ್ದು ವಿದ್ಯುತ್ ಅನ್ನು ಸಾಗಿಸುತ್ತವೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Distilled water does not conduct electricity, so the bulb will not glow in it. Lemon juice, milk and vinegar contain ions and conduct electricity. So the answer is B."
+      },
+      "image": "data/kn/class-8/nmms/sat/images/SAT-CHEM-0011.webp"
+    },
+    {
+      "id": "SAT-CHEM-0012",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕಬ್ಬಿಣದ ಮೇಲೆ ತವರದ ಲೇಪನ ಮಾಡುವ ಮುಖ್ಯ ಉದ್ದೇಶ ವೆಂದರೆ,",
+        "en": "The main purpose of tin plating on iron is"
+      },
+      "options": [
+        {
+          "kn": "ಕಬ್ಬಿಣ ಬೇಗನೆ ತವರದೊಂದಿಗೆ ವರ್ತಿಸಿ ತುಕ್ಕು ಹಿಡಿಯುತ್ತದೆ.",
+          "en": "Iron reacts quickly with tin and rusts."
+        },
+        {
+          "kn": "ತವರ ವಾತಾವರಣದ ತೇವಾಂಶಕ್ಕೆ ಬೇಗನೇ ಹಾಳಾಗುತ್ತದೆ.",
+          "en": "Tin gets rust when it comes in contact with moisture"
+        },
+        {
+          "kn": "ತವರದ ಲೇಪನವು ಒಳಗಿರುವ ಕಬ್ಬಿಣವು ಗಾಳಿಯ ತೇವಾಂಶದ ಸಂಪರ್ಕಕ್ಕೆ ಬರದಂತೆ ತಡೆಯುತ್ತದೆ.",
+          "en": "The outer tin coating prevents the iron from contact with moisture of air"
+        },
+        {
+          "kn": "ತವರ ಕಬ್ಬಿಣಕ್ಕಿಂತ ಹೆಚ್ಚು ಕ್ರಿಯಾಶೀಲ ಲೋಹ",
+          "en": "Tin is a more reactive metal than iron"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ತವರದ ಹೊರ ಪದರ ಕಬ್ಬಿಣವನ್ನು ಗಾಳಿಯ ತೇವಾಂಶದಿಂದ ದೂರವಿಡುತ್ತದೆ. ಆದ್ದರಿಂದ ಕಬ್ಬಿಣಕ್ಕೆ ತುಕ್ಕು ಹಿಡಿಯುವುದಿಲ್ಲ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "The outer tin layer keeps iron away from moisture in the air, so iron does not rust. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0013",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ತಾಮ್ರದ ವಿದ್ಯುದ್ವಿಭಜನೆ ಕ್ರಿಯೆಗೆ ಸಂಬಂಧಿಸಿ ಸರಿಯಾದ ಹೇಳಿಕೆ,",
+        "en": "The correct statement related to electroplating of copper is,"
+      },
+      "options": [
+        {
+          "kn": "ಶುದ್ಧ ತಾಮ್ರದ ಫಲಕ ಕ್ಯಾಥೋಡ್ ಮತ್ತು ಅಶುದ್ಧ ಫಲಕ ಆನೋಡ್, ತಾಮ್ರದ ಸಲ್ಫೇಟ್ ದ್ರಾವಣ ವಿದ್ಯುದ್ವಿಭಜನೀಯ.",
+          "en": "Pure copper plate is cathode, and impure plate as anode, copper sulphate is electrolyte."
+        },
+        {
+          "kn": "ಶುದ್ಧ ತಾಮ್ರದ ಫಲಕ ಆನೋಡ್, ಅಶುದ್ಧ ತಾಮ್ರದ ಫಲಕ ಕ್ಯಾಥೋಡ್, ತಾಮ್ರದ ಕಾರ್ಬೋನೇಟ್ ವಿದ್ಯುದ್ವಿಭಜನೀಯ.",
+          "en": "Pure copper plate is anode, and impure plate as cathode, copper carbonate is electrolyte."
+        },
+        {
+          "kn": "ಶುದ್ಧ ತಾಮ್ರದ ಫಲಕ ಕ್ಯಾಥೋಡ್, ಅಶುದ್ಧ ತಾಮ್ರದ ಫಲಕ ಆನೋಡ್, ತಾಮ್ರದ ನೈಟ್ರೇಟ್ ವಿದ್ಯುದ್ವಿಭಜನೀಯ.",
+          "en": "Pure copper plate is cathode, and impure copper plate as anode, copper nitrate is electrolyte."
+        },
+        {
+          "kn": "ಶುದ್ಧ ತಾಮ್ರದ ಫಲಕ ಆನೋಡ್, ಅಶುದ್ಧ ತುಮ್ರದ ಫಲಕ ಕ್ಯಾಥೋಡ್, ತಾಮ್ರದ ಕ್ಲೋರೈಡ್ ದ್ರಾವಣ ವಿದ್ಯುದ್ವಿಭಜನೀಯ.",
+          "en": "Pure copper plate is anode, and impure plate as cathode, cuprous chloride is electrolyte."
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ತಾಮ್ರದ ವಿದ್ಯುದ್ವಿಭಜನ ಶುದ್ಧೀಕರಣದಲ್ಲಿ ಶುದ್ಧ ತಾಮ್ರದ ಫಲಕ ಕ್ಯಾಥೋಡ್, ಅಶುದ್ಧ ತಾಮ್ರದ ಫಲಕ ಆನೋಡ್ ಆಗಿರುತ್ತದೆ. ವಿದ್ಯುದ್ವಿಚ್ಛೇದ್ಯ ತಾಮ್ರದ ಸಲ್ಫೇಟ್ ದ್ರಾವಣ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ A.",
+        "en": "In copper refining by electrolysis, the pure copper plate is the cathode, the impure copper plate is the anode, and the electrolyte is copper sulphate solution. So the answer is A."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0014",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ರೋಗಾಣು ರಹಿತ ಕುಡಿಯುವ ನೀರನ್ನು ಜನ ವಸತಿ ಪ್ರದೇಶಗಳಿಗೆ ಪೂರೈಸಬೇಕಾದರೆ ಆ ನೀರಿಗೆ ಸೇರಿಸಬೇಕಾದ ರಾಸಾಯನಿಕ ವಸ್ತು.",
+        "en": "The chemical substance to be added to the water if germ-free drinking water is to be supplied to the residential areas at a low cost is"
+      },
+      "options": [
+        {
+          "kn": "ಕ್ಯಾಲ್ಸಿಯಂ ಕಾರ್ಬೋನೇಟ್",
+          "en": "Calcium carbonate"
+        },
+        {
+          "kn": "ಕ್ಯಾಲ್ಸಿಯಂ ಆಕ್ಸಿ ಕ್ಲೋರೈಡ್",
+          "en": "Calcium Oxychloride"
+        },
+        {
+          "kn": "ಕ್ಯಾಲ್ಸಿಯಂ ಬೈ ಕಾರ್ಬೋನೇಟ್",
+          "en": "Calcium bicarbonate"
+        },
+        {
+          "kn": "ಕ್ಯಾಲ್ಸಿಯಂ ಸಲ್ಫೇಟ್",
+          "en": "Calcium Sulphate"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಬ್ಲೀಚಿಂಗ್ ಪೌಡರ್ ಎಂದು ಕರೆಯಲ್ಪಡುವ ಕ್ಯಾಲ್ಸಿಯಂ ಆಕ್ಸಿ ಕ್ಲೋರೈಡ್ ನೀರನ್ನು ಕ್ರಿಮಿರಹಿತಗೊಳಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Calcium oxychloride, known as bleaching powder, is used to make water germ-free. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0015",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ನದಿಯ ನೀರಿನಲ್ಲಿ ಇ.ಕೋಲೈ (Escherichia coli) ಬ್ಯಾಕ್ಟೀರಿಯಾಗಳ ಪ್ರಮಾಣ ಅತಿ ಹೆಚ್ಚಾಗಿ ಕಂಡುಬಂದರೆ.",
+        "en": "If the number of E. coli (Escherichia coli) Bacteria is found to be too high in a river water,"
+      },
+      "options": [
+        {
+          "kn": "ನೀರಿನಲ್ಲಿ ಹೆಚ್ಚಿನ ಪೋಷಕಾಂಶಗಳು ಇವೆ",
+          "en": "River contains more nutrients"
+        },
+        {
+          "kn": "ನೀರಿನಲ್ಲಿ ಫ್ಲೋರೈಡ್‌ನ ಅಂಶ ಹೆಚ್ಚಾಗಿದೆ",
+          "en": "The fluoride content in the water is more"
+        },
+        {
+          "kn": "ನೀರು ಸ್ತನಿಗಳ ಮಲದಿಂದ ಕಲುಷಿತವಾಗಿದೆ",
+          "en": "River is contaminated with mammalian faeces"
+        },
+        {
+          "kn": "ನೀರು ಕೃಷಿಗೆ ಯೋಗ್ಯವಲ್ಲ",
+          "en": "Not suitable for agriculture purpose"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಇ.ಕೋಲೈ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಹೆಚ್ಚಾಗಿರುವುದು ಸ್ತನಿಗಳ ಮಲದಿಂದ ನೀರು ಕಲುಷಿತವಾಗಿರುವುದನ್ನು ಸೂಚಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "A high count of E. coli shows that the water is contaminated with faeces of mammals. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0016",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಓಜೋನ್ ಪದರಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ಸರಿಯಾದ ಹೇಳಿಕೆ",
+        "en": "The correct statement related to the Ozone layer"
+      },
+      "options": [
+        {
+          "kn": "ಓಜೋನ್ ಮೂರು ಆಕ್ಸಿಜನ್ ಪರಮಾಣುಗಳಿಂದಾಗಿದ್ದು, ಮೀಸೋಸ್ಪಿಯರ್‌ನಲ್ಲಿದೆ",
+          "en": "Ozone is made up of three oxygen atoms and is located in the mesosphere"
+        },
+        {
+          "kn": "ಇದು ಸೂರ್ಯನಿಂದ ಬರುವ ಬೆಳಕನ್ನು ವಕ್ರೀಭವನಗೊಳಿಸಿ ಭೂಮಿಗೆ ನೀಲಿ ಬಣ್ಣವನ್ನು ನೀಡುತ್ತದೆ.",
+          "en": "It gives blue colour to the earth by refracting the light from the sun"
+        },
+        {
+          "kn": "ಡಿ.ಡಿ.ಟಿ ಯ ಹೆಚ್ಚು ಬಳಕೆಯಿಂದಾಗಿ ಓಜೋನ್ ಪದರವನ್ನು ಸಮೃದ್ಧಗೊಳಿಸಬಹುದು",
+          "en": "The Ozone layer can be enriched by the increased use of DDT"
+        },
+        {
+          "kn": "ಕ್ಲೋರೋ ಫ್ಲೋರೋ ಕಾರ್ಬನ್ ಬಳಕೆಯಿಂದಾಗಿ ಓಜೋನ್ ಪದರದ ನಾಶವಾಗುತ್ತಿದೆ",
+          "en": "Depletion of the Ozone layer is seen due to the use of chlorofluorocarbons"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಕ್ಲೋರೋ ಫ್ಲೋರೋ ಕಾರ್ಬನ್ (CFC) ಬಳಕೆಯಿಂದ ಓಜೋನ್ ಪದರ ನಾಶವಾಗುತ್ತಿದೆ. ಓಜೋನ್ ಸ್ಟ್ರಾಟೋಸ್ಫಿಯರ್‌ನಲ್ಲಿರುತ್ತದೆ, ಮೀಸೋಸ್ಫಿಯರ್‌ನಲ್ಲಿ ಅಲ್ಲ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "The ozone layer is being depleted by the use of chlorofluorocarbons (CFCs). Ozone is found in the stratosphere, not the mesosphere. So the answer is D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0017",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಅಡುಗೆ ಮಾಡುವಾಗ ಮುನ್ನೆಚ್ಚರಿಕೆಯಾಗಿ ತೊಡಬೇಕಾದ ಬಟ್ಟೆ.",
+        "en": "The clothes to be weared as a precautionary while cooking is."
+      },
+      "options": [
+        {
+          "kn": "ನೈಲಾನ್",
+          "en": "Nylon"
+        },
+        {
+          "kn": "ಪಾಲಿಯೆಸ್ಟರ್",
+          "en": "Polyester"
+        },
+        {
+          "kn": "ರೇಯಾನ್",
+          "en": "Rayon"
+        },
+        {
+          "kn": "ಹತ್ತಿ",
+          "en": "Cotton"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ನೈಲಾನ್ ಮತ್ತು ಪಾಲಿಯೆಸ್ಟರ್ ಬೆಂಕಿಗೆ ಬೇಗ ಕರಗುತ್ತವೆ ಮತ್ತು ಚರ್ಮಕ್ಕೆ ಅಂಟಿಕೊಳ್ಳಬಹುದು. ಹತ್ತಿ ಬಟ್ಟೆ ಸುರಕ್ಷಿತ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Nylon and polyester melt quickly in fire and can stick to the skin. Cotton is safer while cooking. So the answer is D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0018",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೇಂದ್ರ ಸರ್ಕಾರವು ಸಾರ್ವಜನಿಕರಿಗೆ ಇ–ವಾಹನವನ್ನು ಖರೀದಿಸಲು ಶಿಫಾರಸು ಮಾಡುತ್ತಿದೆ. ಏಕೆಂದರೆ,",
+        "en": "The central government is recommending the public to purchase e- vehicles because."
+      },
+      "options": [
+        {
+          "kn": "ಇ–ವಾಹನಗಳಿಗೆ ಇಂಧನದ ಅಗತ್ಯತೆಯಿಲ್ಲ",
+          "en": "E- vehicles do not require fuel"
+        },
+        {
+          "kn": "ಪಳೆಯುಳಿಕ ಇಂಧನಗಳನ್ನು ಇ–ವಾಹನದಲ್ಲಿ ಬಳಸಬಹುದು",
+          "en": "Fossil fuels can be used in e vehicle"
+        },
+        {
+          "kn": "ವಿದ್ಯುತ್ ಉತ್ಪಾದನೆ ಮತ್ತು ಸಂಗ್ರಹಣೆ ಸುಲಭ",
+          "en": "Electricity generation and storage in easy"
+        },
+        {
+          "kn": "ಫಾಸಿಲ್ ಇಂಧನಗಳು ಬರಿದಾಗುತ್ತಿವೆ",
+          "en": "Fossil fuels are exhausting"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಪಳೆಯುಳಿಕೆ ಇಂಧನಗಳು ಸೀಮಿತವಾಗಿದ್ದು ಬರಿದಾಗುತ್ತಿವೆ. ಆದ್ದರಿಂದ ಇ-ವಾಹನಗಳನ್ನು ಬಳಸಲು ಪ್ರೋತ್ಸಾಹಿಸಲಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Fossil fuels are limited and are being used up, so e-vehicles are encouraged. So the answer is D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0019",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಪೆಟ್ರೋಲಿಯಂ ಅನ್ನು ಕಪ್ಪು ಚಿನ್ನ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ. ಏಕೆಂದರೆ,",
+        "en": "Petroleum is called black gold because,"
+      },
+      "options": [
+        {
+          "kn": "ಪೆಟ್ರೋಲಿಯಂ ಉತ್ಪನ್ನಗಳು ಉರಿದು ಕಪ್ಪು ಹೊಗೆ ಉತ್ಪತ್ತಿ ಮಾಡುತ್ತವೆ",
+          "en": "Petroleum products burn to produce black smoke"
+        },
+        {
+          "kn": "ಪೆಟ್ರೋಲಿಯಂನಿಂದ ವಾಣಿಜ್ಯ ಪೆಟ್ರೋ ರಾಸಾಯನಿಕಗಳನ್ನು ಪಡೆಯುತ್ತಾರೆ",
+          "en": "Commercial petro- chemicals are obtained from petroleum"
+        },
+        {
+          "kn": "ಪೆಟ್ರೋಲಿಯಂ ಉತ್ಪನ್ನಗಳು ಉರಿದು ಪರಿಸರ ಮಾಲಿನ್ಯವನ್ನು ಉಂಟುಮಾಡುತ್ತವೆ",
+          "en": "petroleum products burn to cause environmental pollution"
+        },
+        {
+          "kn": "ಪೆಟ್ರೋಲಿಯಂ ಕಪ್ಪು ಮತ್ತು ದುಬಾರಿಯಾಗಿದೆ",
+          "en": "petroleum is black and expensive"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಪೆಟ್ರೋಲಿಯಂನಿಂದ ಅನೇಕ ಬೆಲೆಬಾಳುವ ವಾಣಿಜ್ಯ ರಾಸಾಯನಿಕಗಳು ದೊರೆಯುವುದರಿಂದ ಅದನ್ನು ಕಪ್ಪು ಚಿನ್ನ ಎನ್ನುತ್ತಾರೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Petroleum gives many valuable commercial petrochemicals, which is why it is called black gold. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0020",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಕಲ್ಲಿದ್ದಲು ಉತ್ಪನ್ನಗಳನ್ನು ಹೊಂದಿರುವ ಗುಂಪು.",
+        "en": "A Group that has coal products."
+      },
+      "options": [
+        {
+          "kn": "ಪೆಟ್ರೋಲ್, ಡೀಸೆಲ್, ಗ್ರೀಸ್",
+          "en": "Petrol, Diesel, Grease"
+        },
+        {
+          "kn": "ಎಲ್‌ಪಿಜಿ, ಕೆರೋಸಿನ್, ಪ್ಯಾರಾಫಿನ್",
+          "en": "LPG, Kerosene, Paraffin"
+        },
+        {
+          "kn": "ಹೈಡ್ರೋಜನ್, ಯುರೇನಿಯಂ, ಥೋರಿಯಮ್",
+          "en": "Hydrogen, Uranium, Thorium"
+        },
+        {
+          "kn": "ಕೋಕ್, ಕಲ್ಲಿದ್ದಲು ಅನಿಲ, ಟಾರ್",
+          "en": "Coke. Coal Gas, Tar"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಕೋಕ್, ಕಲ್ಲಿದ್ದಲು ಅನಿಲ ಮತ್ತು ಟಾರ್ ಕಲ್ಲಿದ್ದಲಿನಿಂದ ಪಡೆಯುವ ಉತ್ಪನ್ನಗಳು. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Coke, coal gas and tar are products obtained from coal. So the answer is D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0021",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಆಂಶಿಕ ಆಸವನದ ಮೂಲತತ್ವವೆಂದರೆ ಪ್ರತಿ ಘಟಕಗಳ ವಿಭಿನ್ನ,",
+        "en": "The basic principle of fractional distillation is, components have different,"
+      },
+      "options": [
+        {
+          "kn": "ಸಾಂದ್ರತೆಗಳು",
+          "en": "Densities"
+        },
+        {
+          "kn": "ಅಣು ತೂಕಗಳು",
+          "en": "Molecular weights"
+        },
+        {
+          "kn": "ಕುದಿಯುವ ಬಿಂದುಗಳು",
+          "en": "Boiling points"
+        },
+        {
+          "kn": "ಕರಗುವ ಬಿಂದುಗಳು",
+          "en": "Melting points"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಭಿನ್ನರಾಶಿ ಬಟ್ಟಿ ಇಳಿಸುವಿಕೆಯು ಘಟಕಗಳ ಕುದಿಯುವ ಬಿಂದುಗಳ ವ್ಯತ್ಯಾಸವನ್ನು ಆಧರಿಸಿದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Fractional distillation works because the components have different boiling points. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0022",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಣ್ಣೆ ದೀಪಗಳಿಗೆ ಪೆಟ್ರೋಲ್‌ಗಿಂತ ಸೀಮೆ ಎಣ್ಣೆ ಹೆಚ್ಚು ಸೂಕ್ತ ಏಕೆಂದರೆ ಇದು,",
+        "en": "Kerosene is more suitable than petrol for oil lamps. Because it is,"
+      },
+      "options": [
+        {
+          "kn": "ಹೆಚ್ಚು ತೆಳು",
+          "en": "more thin"
+        },
+        {
+          "kn": "ಕಡಿಮೆ ದುಬಾರಿ",
+          "en": "less expensive"
+        },
+        {
+          "kn": "ಕಡಿಮೆ ಬಾಷ್ಪಶೀಲ",
+          "en": "less volatile"
+        },
+        {
+          "kn": "ಹೆಚ್ಚು ಬಾಷ್ಪಶೀಲ",
+          "en": "more volatile"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಸೀಮೆಎಣ್ಣೆ ಕಡಿಮೆ ಬಾಷ್ಪಶೀಲವಾಗಿರುವುದರಿಂದ ದೀಪದಲ್ಲಿ ನಿಧಾನವಾಗಿ ಉರಿಯುತ್ತದೆ ಮತ್ತು ಸುಲಭವಾಗಿ ಆವಿಯಾಗಿ ಹಾರಿಹೋಗುವುದಿಲ್ಲ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Kerosene is less volatile, so it burns steadily in a lamp and does not evaporate quickly. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0023",
+      "difficulty": "medium",
+      "question": {
+        "kn": "LPG ಸಿಲಿಂಡರ್‌ನಲ್ಲಿರುವ ಅನಿಲವನ್ನು ಹೀಗೆ ದ್ರವೀಕರಿಸಲಾಗುತ್ತದೆ.",
+        "en": "The gas in LPG cylinder is liquified by."
+      },
+      "options": [
+        {
+          "kn": "ಗಾತ್ರ ಹೆಚ್ಚಿಸುವುದು",
+          "en": "Increasing volume"
+        },
+        {
+          "kn": "ಒತ್ತಡವನ್ನು ಬದಲಿಸುವುದು",
+          "en": "Changing pressure"
+        },
+        {
+          "kn": "ತೂಕವನ್ನು ಹಾಕುವುದು",
+          "en": "Applying weight"
+        },
+        {
+          "kn": "ಉಷ್ಣತೆ ಹೆಚ್ಚಿಸುವುದು",
+          "en": "Increasing temperature"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಒತ್ತಡವನ್ನು ಬದಲಿಸಿ ಹೆಚ್ಚಿಸಿದಾಗ ಅನಿಲವನ್ನು ದ್ರವೀಕರಿಸಬಹುದು. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Changing (increasing) the pressure liquefies the gas. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0024",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಬಂಡೆಗಳ ಮೂಲಕ ತೈಲ ಬಾವಿಯನ್ನು ಕೊರೆದಾಗ ಮೊದಲು ಹೊರಬರುವ ವಸ್ತು.",
+        "en": "The substance which come out first when an oil well is drilled through rocks,"
+      },
+      "options": [
+        {
+          "kn": "ಕಲ್ಲಿದ್ದಲು ಅನಿಲ",
+          "en": "Coal gas"
+        },
+        {
+          "kn": "ಮಾರ್ಷ್ ಅನಿಲ",
+          "en": "Marsh gas"
+        },
+        {
+          "kn": "ನೈಸರ್ಗಿಕ ಅನಿಲ",
+          "en": "Natural gas"
+        },
+        {
+          "kn": "ಜೈವಿಕ ಅನಿಲ",
+          "en": "Bio gas"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ತೈಲ ಬಾವಿ ಕೊರೆಯುವಾಗ ಮೊದಲು ನೈಸರ್ಗಿಕ ಅನಿಲ ಹೊರಬರುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "When an oil well is drilled, natural gas comes out first. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0025",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸಿನಿಮಾ ಹಾಲಿನಲ್ಲಿ ಪರದೆಯ ಮೇಲೆ ಬೀಳುವ ಬೆಳಕಿನ ಕಿರಣಗಳು ಚದುರಲು ಕಾರಣ",
+        "en": "The reason for scattering of light falling on the screen in a cinema hall,"
+      },
+      "options": [
+        {
+          "kn": "ರಾಮನ್ ಪರಿಣಾಮ",
+          "en": "Raman effect"
+        },
+        {
+          "kn": "ಟೆಂಡಲ್ ಪರಿಣಾಮ",
+          "en": "Tyndal effect"
+        },
+        {
+          "kn": "ವಕ್ರೀಭವನದ ಪರಿಣಾಮ",
+          "en": "Refraction effect"
+        },
+        {
+          "kn": "ಪ್ರತಿಫಲನದ ಪರಿಣಾಮ",
+          "en": "Reflection effect"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಧೂಳಿನ ಕಣಗಳಂತಹ ಸೂಕ್ಷ್ಮ ಕಣಗಳ ಮೇಲೆ ಬೆಳಕು ಬಿದ್ದು ಚದುರುವ ಪರಿಣಾಮವನ್ನು ಟಿಂಡಲ್ ಪರಿಣಾಮ ಎನ್ನುತ್ತಾರೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Scattering of light by tiny particles such as dust in the air is called the Tyndall effect. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0026",
+      "difficulty": "medium",
+      "question": {
+        "kn": "Ca²⁺ ಎಲೆಕ್ಟ್ರಾನಿಕ್ ವಿನ್ಯಾಸವನ್ನು ತೋರಿಸುವ ಧಾತು",
+        "en": "The element which shows the electronic configuration of Ca²⁺"
+      },
+      "options": [
+        {
+          "kn": "He",
+          "en": "He"
+        },
+        {
+          "kn": "Ne",
+          "en": "Ne"
+        },
+        {
+          "kn": "Ar",
+          "en": "Ar"
+        },
+        {
+          "kn": "F",
+          "en": "F"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "Ca²⁺ ಅಯಾನಿನಲ್ಲಿ 18 ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳಿವೆ. ಆರ್ಗಾನ್ (Ar) ಪರಮಾಣುವಿನಲ್ಲಿಯೂ 18 ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳಿವೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Ca²⁺ has 18 electrons, and argon (Ar) also has 18 electrons. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0027",
+      "difficulty": "medium",
+      "question": {
+        "kn": "Na⁺ ಅಯಾನ್ ಇದರೊಂದಿಗೆ ಐಸೋಎಲೆಕ್ಟ್ರಾನಿಕ್ ಆಗಿದೆ",
+        "en": "Na⁺ ion is isoelectronic with"
+      },
+      "options": [
+        {
+          "kn": "Li⁺",
+          "en": "Li⁺"
+        },
+        {
+          "kn": "Mg²⁺",
+          "en": "Mg²⁺"
+        },
+        {
+          "kn": "Ca²⁺",
+          "en": "Ca²⁺"
+        },
+        {
+          "kn": "Ba²⁺",
+          "en": "Ba²⁺"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "Na⁺ ಅಯಾನಿನಲ್ಲಿ 10 ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳಿವೆ. Mg²⁺ ಅಯಾನಿನಲ್ಲಿಯೂ 10 ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳಿವೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Na⁺ has 10 electrons, and Mg²⁺ also has 10 electrons. So the answer is B."
       },
       "image": null
     }
