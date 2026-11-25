@@ -8,7 +8,7 @@
       "kn",
       "en"
     ],
-    "totalQuestions": 71,
+    "totalQuestions": 101,
     "version": "1.0.0"
   },
   "questions": [
@@ -2281,6 +2281,966 @@
       "explanation": {
         "kn": "Na⁺ ಅಯಾನಿನಲ್ಲಿ 10 ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳಿವೆ. Mg²⁺ ಅಯಾನಿನಲ್ಲಿಯೂ 10 ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳಿವೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
         "en": "Na⁺ has 10 electrons, and Mg²⁺ also has 10 electrons. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0028",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಅಲೋಹವೊಂದು ಆಕ್ಸಿಜನ್ ಜೊತೆ ವರ್ತಿಸಿ ಬಿಡುಗಡೆಯಾದ ಅನಿಲವನ್ನು ನೀರಿನಲ್ಲಿ ಕರಗಿಸಿ ಉಂಟಾದ ದ್ರಾವಣವು ನೀಲಿ ಲಿಟ್ಮಸ್ ಅನ್ನು ಕೆಂಪಾಗಿಸುತ್ತದೆ. ಹಾಗಾದರೆ ಆ ಅಲೋಹವು,",
+        "en": "A solution formed by dissolving a gas in water which is liberated when a non metal reacts with oxygen turns blue litmus red. The non metal is,"
+      },
+      "options": [
+        {
+          "kn": "ಗ್ಯಾಲಿಯಂ",
+          "en": "gallium"
+        },
+        {
+          "kn": "ಜರ್ಮೇನಿಯಂ",
+          "en": "germanium"
+        },
+        {
+          "kn": "ಸಿಲಿಕಾನ್",
+          "en": "silicon"
+        },
+        {
+          "kn": "ಸಲ್ಫರ್",
+          "en": "sulphur"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಸಲ್ಫರ್ ಆಕ್ಸಿಜನ್‌ನೊಂದಿಗೆ ವರ್ತಿಸಿ ಸಲ್ಫರ್ ಡೈಆಕ್ಸೈಡ್ (SO₂) ಅನಿಲ ಉಂಟುಮಾಡುತ್ತದೆ. ಇದು ನೀರಿನಲ್ಲಿ ಕರಗಿ ಆಮ್ಲ ಉಂಟುಮಾಡುತ್ತದೆ, ಅದು ನೀಲಿ ಲಿಟ್ಮಸ್ ಅನ್ನು ಕೆಂಪಾಗಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Sulphur reacts with oxygen to form sulphur dioxide (SO₂) gas. It dissolves in water to form an acid, which turns blue litmus red. So the answer is D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0029",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಗೃಹ ಬಳಕೆ ಕನ್ನಡಿಗಳ ಹಿಂಭಾಗದಲ್ಲಿ ಬೆಳ್ಳಿ ಅಥವಾ ಅಲ್ಯೂಮಿನಿಯಂನಿಂದ ಲೇಪಿಸಲಾಗುತ್ತದೆ. ಇದು ಕನ್ನಡಿಗೆ ಈ ಗುಣಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+        "en": "Household mirrors are coated with silver or aluminium on the back. It provides the following qualities to the mirror,"
+      },
+      "options": [
+        {
+          "kn": "ಶಾಬ್ದನ ಮತ್ತು ಪ್ರತಿಫಲಿಸುವ ಮೇಲ್ಮೈ",
+          "en": "Sonority & reflecting surface"
+        },
+        {
+          "kn": "ತನ್ಯತೆ ಮತ್ತು ಪ್ರತಿಫಲಿಸುವ ಮೇಲ್ಮೈ",
+          "en": "Ductility & reflecting surface"
+        },
+        {
+          "kn": "ಹೊಳೆಯುವ ಮತ್ತು ಪ್ರತಿಫಲಿಸುವ ಮೇಲ್ಮೈ",
+          "en": "Lustrous & reflecting surface"
+        },
+        {
+          "kn": "ಕುಟ್ಯತೆ ಮತ್ತು ಪ್ರತಿಫಲಿಸುವ ಮೇಲ್ಮೈ",
+          "en": "Malleability & reflecting surface"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಬೆಳ್ಳಿ ಮತ್ತು ಅಲ್ಯೂಮಿನಿಯಂ ಹೊಳೆಯುವ ಲೋಹಗಳು. ಕನ್ನಡಿಯ ಹಿಂಭಾಗದ ಈ ಲೇಪನ ಬೆಳಕನ್ನು ಪ್ರತಿಫಲಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Silver and aluminium are lustrous metals, and the coating reflects light. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0030",
+      "difficulty": "medium",
+      "question": {
+        "kn": "'X' ಎನ್ನುವ ಲೋಹ ದುರ್ಬಲ H₂SO₄ ನೊಂದಿಗೆ ವರ್ತಿಸಿ ಬಿಡುಗಡೆಯಾಗುವ ಅನಿಲ 'Y' ಅನಿಲ 'ಪಾಪ್' ಶಬ್ದ ದೊಂದಿಗೆ ಉರಿಯುತ್ತದೆ. X ಮತ್ತು Y ಗಳು,",
+        "en": "A metal 'X' reacts with dilute H₂SO₄ to release a gas 'Y' burns with a 'pop' sound. X and Y are."
+      },
+      "options": [
+        {
+          "kn": "Cu ಮತ್ತು O₂",
+          "en": "Cu and O₂"
+        },
+        {
+          "kn": "Zn ಮತ್ತು H₂",
+          "en": "Zn and H₂"
+        },
+        {
+          "kn": "Fe ಮತ್ತು Cl₂",
+          "en": "Fe and Cl₂"
+        },
+        {
+          "kn": "Mg ಮತ್ತು N₂",
+          "en": "Mg and N₂"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ದುರ್ಬಲ ಸಲ್ಫ್ಯೂರಿಕ್ ಆಮ್ಲದೊಂದಿಗೆ ಸತು (Zn) ವರ್ತಿಸಿ ಹೈಡ್ರೋಜನ್ (H₂) ಅನಿಲ ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ. ಹೈಡ್ರೋಜನ್ 'ಪಾಪ್' ಶಬ್ದದೊಂದಿಗೆ ಉರಿಯುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Zinc reacts with dilute sulphuric acid and releases hydrogen (H₂) gas, which burns with a 'pop' sound. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0031",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ವಸತಿ ಪ್ರದೇಶದ ಸಮೀಪವಿರುವ ಕುಡಿಯುವ ನೀರಿನ ಮೂಲವು ರೋಗಕಾರಕಗಳನ್ನು ಹೊಂದಿರುವುದು ಕಂಡುಬಂದಿದೆ. ಅದನ್ನು ಕುಡಿಯುವ ನೀರಾಗಿ ಮಾಡಲು ಬಳಸುವ ಧಾತು,",
+        "en": "A drinking water source near a residential area is found to have pathogens. The element used to make it potable,"
+      },
+      "options": [
+        {
+          "kn": "ಐಯೋಡಿನ್",
+          "en": "Iodine"
+        },
+        {
+          "kn": "ಬ್ರೋಮಿನ್",
+          "en": "Bromine"
+        },
+        {
+          "kn": "ಕ್ಲೋರಿನ್",
+          "en": "Chlorine"
+        },
+        {
+          "kn": "ಆಮ್ಲಜನಕ",
+          "en": "Oxygen"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಕ್ಲೋರಿನ್ ನೀರಿನಲ್ಲಿರುವ ರೋಗಾಣುಗಳನ್ನು ನಾಶಪಡಿಸಿ ನೀರನ್ನು ಕುಡಿಯಲು ಯೋಗ್ಯವಾಗಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Chlorine kills pathogens in water and makes it safe to drink. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0032",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕೊಟ್ಟಿರುವ ಜೋಡಿ ಲೋಹಗಳಲ್ಲಿ ಕಡಿಮೆ ಕರಗುವ ಬಿಂದು ಹೊಂದಿರುವ ಜೋಡಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "en": "Among the given pair of metals, select the pair with the lowest melting point"
+      },
+      "options": [
+        {
+          "kn": "ಸೀಸಿಯಂ ಮತ್ತು ಪೊಟ್ಯಾಷಿಯಂ",
+          "en": "Caesium & Potassium"
+        },
+        {
+          "kn": "ಗ್ಯಾಲಿಯಂ ಮತ್ತು ಸೀಸಿಯಂ",
+          "en": "Gallium & Caesium"
+        },
+        {
+          "kn": "ಸೋಡಿಯಂ ಮತ್ತು ಗ್ಯಾಲಿಯಂ",
+          "en": "Sodium & Gallium"
+        },
+        {
+          "kn": "ಸೀಸಿಯಂ ಮತ್ತು ಲಿಥಿಯಂ",
+          "en": "Caesium & Lithium"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಸೀಸಿಯಂ (ಸುಮಾರು 28.5 °C) ಮತ್ತು ಗ್ಯಾಲಿಯಂ (ಸುಮಾರು 29.8 °C) ಈ ಲೋಹಗಳಲ್ಲಿ ಅತಿ ಕಡಿಮೆ ಕರಗುವ ಬಿಂದುಗಳನ್ನು ಹೊಂದಿವೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Caesium (about 28.5 °C) and gallium (about 29.8 °C) have the lowest melting points among these metals. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0033",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಎಣ್ಣೆಯಲ್ಲಿ ಕರಿದ ಆಹಾರ ಪದಾರ್ಥಗಳನ್ನು ದೀರ್ಘಕಾಲ ಸಂರಕ್ಷಿಸಲು ಬಳಸಬಹುದಾದ ಅನಿಲ",
+        "en": "A gas that can be used for long-term preservation of food items fried in oil"
+      },
+      "options": [
+        {
+          "kn": "ಕಾರ್ಬನ್",
+          "en": "Carbon"
+        },
+        {
+          "kn": "ಫಾಸ್ಫರಸ್",
+          "en": "Phosphorous"
+        },
+        {
+          "kn": "ಆಕ್ಸಿಜನ್",
+          "en": "Oxygen"
+        },
+        {
+          "kn": "ನೈಟ್ರೋಜನ್",
+          "en": "Nitrogen"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ನೈಟ್ರೋಜನ್ ಅನಿಲ ಆಕ್ಸಿಜನ್ ಅನ್ನು ಸ್ಥಳಾಂತರಿಸುತ್ತದೆ. ಇದರಿಂದ ಎಣ್ಣೆಯಲ್ಲಿ ಕರಿದ ಆಹಾರ ಸುಲಭವಾಗಿ ಆಕ್ಸಿಡೀಕರಣಗೊಂಡು ಹಾಳಾಗುವುದಿಲ್ಲ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Nitrogen gas displaces oxygen, so fried food does not oxidise and spoil quickly. So the answer is D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0034",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಆಹಾರ ಸಂಗ್ರಹಿಸುವ ಡಬ್ಬಿಗಳನ್ನು ತವರದಿಂದ ಲೇಪಿಸಲಾಗುತ್ತದೆ ಆದರೆ ಸತುವಿನಿಂದ ಅಲ್ಲ. ಏಕೆಂದರೆ ಸತುವು ತವರಕ್ಕಿಂತ,",
+        "en": "Food storage cans are coated with tin but not zinc. Because Zinc is,"
+      },
+      "options": [
+        {
+          "kn": "ಕಡಿಮೆ ಪ್ರತಿಕ್ರಿಯಾತ್ಮಕವಾಗಿದೆ",
+          "en": "less reactive than tin."
+        },
+        {
+          "kn": "ಹೆಚ್ಚಿನ ಕರಗುವ ಬಿಂದುವನ್ನು ಹೊಂದಿದೆ",
+          "en": "high in melting point than tin."
+        },
+        {
+          "kn": "ಹೆಚ್ಚು ಪ್ರತಿಕ್ರಿಯಾತ್ಮಕವಾಗಿದೆ",
+          "en": "more reactive than tin."
+        },
+        {
+          "kn": "ಹೆಚ್ಚು ದುಬಾರಿಯಾಗಿದೆ",
+          "en": "more expensive than tin."
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಸತು ತವರಕ್ಕಿಂತ ಹೆಚ್ಚು ಪ್ರತಿಕ್ರಿಯಾತ್ಮಕ. ಆಹಾರದಲ್ಲಿರುವ ಆಮ್ಲಗಳೊಂದಿಗೆ ವರ್ತಿಸಿ ಆಹಾರ ಕಲುಷಿತವಾಗಬಹುದು. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Zinc is more reactive than tin, so it can react with food acids and contaminate the food. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0035",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಶುದ್ಧ ಚಿನ್ನವನ್ನು ಆಭರಣಗಳ ತಯಾರಿಕೆಯಲ್ಲಿ ಬಳಸುವುದಿಲ್ಲ. ಏಕೆಂದರೆ ಶುದ್ಧ ಚಿನ್ನವು,",
+        "en": "Pure gold is not used in making jewellery. Because it is,"
+      },
+      "options": [
+        {
+          "kn": "ಅತ್ಯಂತ ಮೆದು",
+          "en": "extremely soft"
+        },
+        {
+          "kn": "ಉಷ್ಣದ ವಾಹಕ",
+          "en": "conductor of heat"
+        },
+        {
+          "kn": "ಹೊಳೆಯುವುದಿಲ್ಲ",
+          "en": "non lustrons"
+        },
+        {
+          "kn": "ವಿದ್ಯುತ್ತಿನ ವಾಹಕ",
+          "en": "electric conductor"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಶುದ್ಧ ಚಿನ್ನ ಅತ್ಯಂತ ಮೆದುವಾಗಿರುವುದರಿಂದ ಸುಲಭವಾಗಿ ಸವೆಯುತ್ತದೆ ಮತ್ತು ವಿರೂಪಗೊಳ್ಳುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ A.",
+        "en": "Pure gold is extremely soft, so it wears and deforms easily. So the answer is A."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0036",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಬೆಳ್ಳಿಯು ಉತ್ತಮ ವಿದ್ಯುತ್ ವಾಹಕ. ಆದರೆ ಇದನ್ನು ಗೃಹಬಳಕೆಯ ತಂತಿಯನ್ನಾಗಿ ಬಳಸುವುದಿಲ್ಲ. ಏಕೆಂದರೆ ಅದು,",
+        "en": "Silver is good conductor of electricity. But it is not used as domestic wire. Because it is,"
+      },
+      "options": [
+        {
+          "kn": "ತುಂಬಾ ಕುಟ್ಯ ಮತ್ತು ತನ್ಯ",
+          "en": "very malleable and ductile"
+        },
+        {
+          "kn": "ಹೆಚ್ಚು ಹೊಳಪು ಹೊಂದಿದೆ",
+          "en": "more lustrous"
+        },
+        {
+          "kn": "ತುಂಬಾ ದುಬಾರಿಯಾಗಿದೆ",
+          "en": "very expensive"
+        },
+        {
+          "kn": "ಸುಲಭವಾಗಿ ಮಸುಕಾಗುತ್ತದೆ",
+          "en": "tarnishes easily"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಬೆಳ್ಳಿ ತುಂಬಾ ದುಬಾರಿಯಾದ್ದರಿಂದ ಗೃಹಬಳಕೆಯ ತಂತಿಗೆ ಬಳಸುವುದಿಲ್ಲ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Silver is very expensive, so it is not used for household wires. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0037",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ರಸಗೊಬ್ಬರಗಳ ತಯಾರಿಯಲ್ಲಿ ವ್ಯಾಪಕವಾಗಿ ಬಳಸುವ ಅಲೋಹಗಳ ಜೋಡಿ",
+        "en": "Pair of non metals used widely in preparation of fertilizers,"
+      },
+      "options": [
+        {
+          "kn": "ಕಾರ್ಬನ್ ಮತ್ತು ನೈಟ್ರೋಜನ್",
+          "en": "carbon & nitrogen"
+        },
+        {
+          "kn": "ಸಲ್ಫರ್ ಮತ್ತು ಫಾಸ್ಫರಸ್",
+          "en": "sulphur & phosphorous"
+        },
+        {
+          "kn": "ನೈಟ್ರೋಜನ್ ಮತ್ತು ಸಲ್ಫರ್",
+          "en": "nitrogen & sulphur"
+        },
+        {
+          "kn": "ನೈಟ್ರೋಜನ್ ಮತ್ತು ಫಾಸ್ಫರಸ್",
+          "en": "nitrogen & phosphorous"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ನೈಟ್ರೋಜನ್ ಮತ್ತು ಫಾಸ್ಫರಸ್ ಸಸ್ಯಗಳ ಪ್ರಮುಖ ಪೋಷಕಾಂಶಗಳು. ಇವುಗಳನ್ನು ರಸಗೊಬ್ಬರಗಳ ತಯಾರಿಯಲ್ಲಿ ವ್ಯಾಪಕವಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Nitrogen and phosphorus are key plant nutrients and are widely used to make fertilizers. So the answer is D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0038",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನಂಜುನಿವಾರಕವಾಗಿ ಗಾಯಗಳ ಮೇಲೆ ಲೇಪಿಸುವ ನೇರಳೆ ಬಣ್ಣದ ದ್ರಾವಣದಲ್ಲಿ ಬಳಸುವ ಅಲೋಹ",
+        "en": "A non-metal used in the purple solution applied on wounds as an antiseptic"
+      },
+      "options": [
+        {
+          "kn": "ಅಯೋಡಿನ್",
+          "en": "Iodine"
+        },
+        {
+          "kn": "ಸಲ್ಫರ್",
+          "en": "Sulphur"
+        },
+        {
+          "kn": "ನೈಟ್ರೋಜನ್",
+          "en": "Nitrogen"
+        },
+        {
+          "kn": "ಕ್ಲೋರಿನ್",
+          "en": "Chlorine"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಅಯೋಡಿನ್ ಒಂದು ಅಲೋಹ, ಮತ್ತು ಇದರ ದ್ರಾವಣವನ್ನು ಗಾಯಗಳಿಗೆ ನಂಜುನಿರೋಧಕವಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ A.",
+        "en": "Iodine is a non-metal, and its solution is used as an antiseptic on wounds. So the answer is A."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0039",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಮೆಗ್ನೀಷಿಯಂ ತಂತಿಯನ್ನು ಉರಿಸಿದಾಗ, ಅದು ಪ್ರಕಾಶಮಾನವಾಗಿ ಉರಿದು ಬಿಳಿ ಪುಡಿ ಬೂದಿ ಉಂಟುಮಾಡುತ್ತದೆ. ಈ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಯನ್ನು ಸಮೀಕರಣರೂಪದಲ್ಲಿ ಬರೆದಾಗ",
+        "en": "When the Magnesium ribbon burnt, it burns brilliantly and forms a powdery ash. The chemical equation for this reaction can be written as"
+      },
+      "options": [
+        {
+          "kn": "Mg + O₂ ------> MgO₂",
+          "en": "Mg + O₂ ------> MgO₂"
+        },
+        {
+          "kn": "2Mg + O₂ ------> 2MgO",
+          "en": "2Mg + O₂ ------> 2MgO"
+        },
+        {
+          "kn": "MgO + H₂O ------> MgOH",
+          "en": "MgO + H₂O ------> MgOH"
+        },
+        {
+          "kn": "MgO + H₂O ------> Mg(OH)₂",
+          "en": "MgO + H₂O ------> Mg(OH)₂"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಮೆಗ್ನೀಷಿಯಂ ಆಕ್ಸಿಜನ್‌ನೊಂದಿಗೆ ವರ್ತಿಸಿ ಮೆಗ್ನೀಷಿಯಂ ಆಕ್ಸೈಡ್ ಉಂಟುಮಾಡುತ್ತದೆ. ಸಮೀಕರಣ 2Mg + O₂ → 2MgO ಸಮತೋಲಿತವಾಗಿದೆ (ಎರಡೂ ಬದಿಗಳಲ್ಲಿ 2 Mg ಮತ್ತು 2 O). ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Magnesium reacts with oxygen to form magnesium oxide. The equation 2Mg + O₂ → 2MgO is balanced (2 Mg and 2 O atoms on each side). So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0040",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ತಾಮ್ರದ ಸಲ್ಫೇಟ್ ದ್ರಾವಣ ಇರುವ ಬೀಕರಿನಲ್ಲಿ ಒಂದು ಬ್ಲೇಡನ್ನು ಒಂದು ಗಂಟೆಯ ಕಾಲ ಇಡಲಾಗಿದೆ. ಬ್ಲೇಡಿನ ಮೇಲೆ ಕಂದು ಬಣ್ಣದ ಪದರ ಉಂಟಾಗಿದೆ. ಪದರವನ್ನು ಉಂಟುಮಾಡಿರುವ ವಸ್ತು,",
+        "en": "A blade is kept for an hour inside the beaker containing copper sulphate solution. A brownish layer is formed on the surface of the blade. The substance that from the layer"
+      },
+      "options": [
+        {
+          "kn": "ಕಬ್ಬಿಣ",
+          "en": "Iron"
+        },
+        {
+          "kn": "ತಾಮ್ರ",
+          "en": "Copper"
+        },
+        {
+          "kn": "ಗಂಧಕ",
+          "en": "Sulphur"
+        },
+        {
+          "kn": "ಸತು",
+          "en": "Zinc"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕಬ್ಬಿಣವು ತಾಮ್ರದ ಸಲ್ಫೇಟ್ ದ್ರಾವಣದಿಂದ ತಾಮ್ರವನ್ನು ಸ್ಥಳಾಂತರಿಸುತ್ತದೆ. ಬ್ಲೇಡಿನ ಮೇಲೆ ಕಂದು ಬಣ್ಣದ ತಾಮ್ರದ ಪದರ ಉಂಟಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Iron displaces copper from copper sulphate solution, so a brown layer of copper forms on the blade. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0041",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಅಡುಗೆಸೋಡಾವನ್ನು ವಿನೇಗರ್ ಇರುವ ಪ್ರನಾಳಕ್ಕೆ ಸೇರಿಸಲಾಗಿದೆ. ಈ ಸಂದರ್ಭದಲ್ಲಿ ಬಿಡುಗಡೆಯಾಗುವ ಅನಿಲ",
+        "en": "Baking soda is added to a test tube containing vinegar. The gas liberated in this reaction is"
+      },
+      "options": [
+        {
+          "kn": "ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್",
+          "en": "Carbon dioxide"
+        },
+        {
+          "kn": "ಹೈಡ್ರೋಜನ್",
+          "en": "Hydrogen"
+        },
+        {
+          "kn": "ಕ್ಲೋರಿನ್",
+          "en": "Chlorine"
+        },
+        {
+          "kn": "ಆಕ್ಸಿಜನ್",
+          "en": "Oxygen"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಅಡುಗೆಸೋಡಾ (ಸೋಡಿಯಂ ಬೈಕಾರ್ಬೊನೇಟ್) ಮತ್ತು ವಿನೇಗರ್ (ಆಮ್ಲ) ವರ್ತಿಸಿ ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್ ಅನಿಲ ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ, ಇದರಿಂದ ಗುಳ್ಳೆಗಳು ಏಳುತ್ತವೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ A.",
+        "en": "Baking soda (sodium bicarbonate) reacts with vinegar (acetic acid) to release carbon dioxide gas, which forms bubbles. So the answer is A."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0042",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಸುರೇಶನು ಸುಣ್ಣದ ತಿಳಿಯನ್ನು ಹಾಲಿನಂತೆ ಬೆಳ್ಳಗಾಗಿಸಲು ಬಯಸುತ್ತಾನೆ. ಈ ಸಂದರ್ಭದಲ್ಲಿ ನೀವು ಸೂಚಿಸುವ ಅನಿಲ",
+        "en": "Suresh wants to turn Lime water milky. The gas suggested by you in this situation is"
+      },
+      "options": [
+        {
+          "kn": "ಆಕ್ಸಿಜನ್",
+          "en": "Oxygen"
+        },
+        {
+          "kn": "ಹೈಡ್ರೋಜನ್",
+          "en": "Hydrogen"
+        },
+        {
+          "kn": "ಕ್ಲೋರಿನ್",
+          "en": "Chlorine"
+        },
+        {
+          "kn": "ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್",
+          "en": "Carbon dioxide"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್ ಸುಣ್ಣದ ತಿಳಿಯಲ್ಲಿ ಕರಗದ ಕ್ಯಾಲ್ಸಿಯಂ ಕಾರ್ಬೋನೇಟ್ ಉಂಟುಮಾಡಿ ಅದನ್ನು ಹಾಲಿನಂತೆ ಬಿಳಿಯಾಗಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Carbon dioxide forms insoluble calcium carbonate in lime water, which turns it milky. So the answer is D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0043",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಓಝೋನ್ ಭೂಮಿಗೆ ನೈಸರ್ಗಿಕ ಸುರಕ್ಷಾ ಕವಚವಾಗಿ ವರ್ತಿಸುತ್ತದೆ ಏಕೆಂದರೆ ಇದು ವಾತಾವರಣದಿಂದ ಹೀರಿಕೊಳ್ಳುವುದು,",
+        "en": "Ozone acts as a natural shield for earth because from the atmosphere it absorbs,"
+      },
+      "options": [
+        {
+          "kn": "ಮೈಕ್ರೋವೇವ್ ವಿಕಿರಣಗಳನ್ನು",
+          "en": "Microwave radiaton"
+        },
+        {
+          "kn": "ಗೋಚರ ಬೆಳಕಿನ ವಿಕಿರಣಗಳನ್ನು",
+          "en": "Visible light radiation"
+        },
+        {
+          "kn": "ನೇರಳಾತೀತ ವಿಕಿರಣಗಳನ್ನು",
+          "en": "Ultra violet radiations"
+        },
+        {
+          "kn": "ಅತಿಗೆಂಪು ವಿಕಿರಣಗಳನ್ನು",
+          "en": "infrared radiations"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಓಝೋನ್ ಪದರ ಸೂರ್ಯನ ಹಾನಿಕಾರಕ ನೇರಳಾತೀತ (UV) ವಿಕಿರಣಗಳನ್ನು ಹೀರಿಕೊಳ್ಳುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "The ozone layer absorbs harmful ultraviolet (UV) radiation from the Sun. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0044",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಗ್ಯಾಲ್ವನೀಕರಣ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿ ಸತುವಿನ ತೆಳುವಾದ ಪದರವನ್ನು ಇದರ ಮೇಲೆ ಲೇಪಿಸಲಾಗುತ್ತದೆ",
+        "en": "In Galvanisation process a thin layer of Zinc is coated on"
+      },
+      "options": [
+        {
+          "kn": "ಕಬ್ಬಿಣ",
+          "en": "Iron"
+        },
+        {
+          "kn": "ಚಿನ್ನ",
+          "en": "Gold"
+        },
+        {
+          "kn": "ಬೆಳ್ಳಿ",
+          "en": "Silver"
+        },
+        {
+          "kn": "ಪ್ಲಾಟಿನಂ",
+          "en": "Platinum"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಗ್ಯಾಲ್ವನೀಕರಣದಲ್ಲಿ ಕಬ್ಬಿಣದ ಮೇಲೆ ಸತುವಿನ ಪದರ ಲೇಪಿಸಿ ತುಕ್ಕು ಹಿಡಿಯುವುದನ್ನು ತಡೆಯಲಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ A.",
+        "en": "In galvanisation, a zinc layer is coated on iron to prevent rusting. So the answer is A."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0045",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ತುಕ್ಕು ಹಿಡಿಯಲು ಅವಶ್ಯಕ ಪರಿಸ್ಥಿತಿಗಳೆಂದರೆ",
+        "en": "Conditions necessary for rusting are"
+      },
+      "options": [
+        {
+          "kn": "ಆಮ್ಲಜನಕ ಮತ್ತು ನೈಟ್ರೋಜನ್",
+          "en": "Oxygen and Nitrogen"
+        },
+        {
+          "kn": "ನೀರು ಮತ್ತು ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್",
+          "en": "Water and Carbon dioxide"
+        },
+        {
+          "kn": "ಆಮ್ಲಜನಕ ಮತ್ತು ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್",
+          "en": "Oxygen and carbon dioxide"
+        },
+        {
+          "kn": "ಆಮ್ಲಜನಕ ಮತ್ತು ತೇವಾಂಶ",
+          "en": "Oxygen and Moisture"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ತುಕ್ಕು ಹಿಡಿಯಲು ಗಾಳಿಯ ಆಮ್ಲಜನಕ ಮತ್ತು ತೇವಾಂಶ ಎರಡೂ ಬೇಕು. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Rusting needs both oxygen and moisture. So the answer is D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0046",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಬಣ್ಣ ಲೇಪಿಸಿದ್ದರೂ ಕೂಡ ತುಕ್ಕು ಹಿಡಿಯುವಿಕೆಯಿಂದ ಹಡಗುಗಳು ಅತಿ ಹೆಚ್ಚು ಹಾನಿಗೊಳಗಾಗುತ್ತವೆ ಏಕೆಂದರೆ",
+        "en": "Ships suffer a lot of damage from rusting in spite of being painted because"
+      },
+      "options": [
+        {
+          "kn": "ಜಲಚರ ಪ್ರಾಣಿಗಳು ತಮ್ಮ ದೇಹವನ್ನು ಹಡಗಿಗೆ ಉಜ್ಜುತ್ತವೆ",
+          "en": "Aquatic animals rub their body on the surface of ship"
+        },
+        {
+          "kn": "ಉಪ್ಪುನೀರು ತುಕ್ಕು ಹಿಡಿಯುವಿಕೆಯ ವೇಗವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ",
+          "en": "The salt water makes the process of rust formation faster"
+        },
+        {
+          "kn": "ಸಮುದ್ರದ ಮೇಲ್ಮೈನ ಗಾಳಿ ಕಡಿಮೆ ತೇವಾಂಶ ಹೊಂದಿರುತ್ತದೆ",
+          "en": "The air on the surface of sea has less water content"
+        },
+        {
+          "kn": "ಹಡಗುಗಳು ವೇಗವಾಗಿ ಹೋಗುವಾಗ ಬಣ್ಣ ಹೊರಟುಹೋಗುತ್ತದೆ",
+          "en": "Paint vanishes while the ship are moving faster"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಉಪ್ಪುನೀರು ವಿದ್ಯುತ್ ಅನ್ನು ಸಾಗಿಸುವ ಅಯಾನುಗಳನ್ನು ಹೊಂದಿದ್ದು ಕಬ್ಬಿಣದ ತುಕ್ಕು ಹಿಡಿಯುವ ವೇಗವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Salt water contains ions that conduct electricity, which speeds up the rusting of iron. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0047",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ನಾವು ಸಮುದ್ರದ ನೀರಿನ ಆವಿಕರಣದ ಮೂಲಕ ಉಪ್ಪನ್ನು ಪಡೆಯಬಹುದಾದರೂ, ಸ್ಫಟಿಕೀಕರಣ ಪ್ರಕ್ರಿಯೆ ಬಳಸಲಾಗುತ್ತದೆ. ಏಕೆಂದರೆ,",
+        "en": "Even we can get salt from sea water through evaporation, Crystallisation process is used because,"
+      },
+      "options": [
+        {
+          "kn": "ಆವೀಕರಣ ಪ್ರಕ್ರಿಯೆಯಿಂದ ಪಡೆದ ಉಪ್ಪು ಶುದ್ಧವಾಗಿರುವುದಿಲ್ಲ",
+          "en": "Salt which get through evaporation is not pure"
+        },
+        {
+          "kn": "ಆವೀಕರಣ ಪ್ರಕ್ರಿಯೆಯಿಂದ ಪಡೆದ ಉಪ್ಪಿನರಾಶಿ ಕಡಿಮೆ ಇರುತ್ತದೆ",
+          "en": "the mass of the salt which we get through evaporation is less"
+        },
+        {
+          "kn": "ಸ್ಫಟಿಕೀಕರಣ ಒಂದು ಸಾಮಾನ್ಯ ಪ್ರಕ್ರಿಯೆಯಾಗಿದೆ",
+          "en": "Crystallisation is a common process"
+        },
+        {
+          "kn": "ಆವೀಕರಣದಿಂದ ಹರಳುಗಳ ಆಕಾರವನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ನೋಡಲು ಸಾಧ್ಯವಿಲ್ಲ",
+          "en": "shape of the crystals cannot be seen properly by evaporation"
+        }
+      ],
+      "correctIndex": 0,
+      "explanation": {
+        "kn": "ಸಮುದ್ರದ ನೀರನ್ನು ಆವೀಕರಿಸಿದಾಗ ಸಿಗುವ ಉಪ್ಪಿನಲ್ಲಿ ಕಲ್ಮಶಗಳಿರುತ್ತವೆ. ಸ್ಫಟಿಕೀಕರಣದ ಮೂಲಕ ಉಪ್ಪನ್ನು ಶುದ್ಧಗೊಳಿಸಲಾಗುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ A.",
+        "en": "Salt obtained by evaporating sea water contains impurities. Crystallisation purifies the salt. So the answer is A."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0048",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಬ್ಬ ವ್ಯಕ್ತಿಯು ಟ್ರೆಕಿಂಗ್ ಹೊರಡಲು ಯೋಜಿಸುತ್ತಿದ್ದಾನೆ, ಅವನು ಬಳಸುವ ಹಗ್ಗವು.",
+        "en": "A person is planning to go for a trekking, The rope he prefers"
+      },
+      "options": [
+        {
+          "kn": "ರೇಯಾನ್",
+          "en": "Rayon"
+        },
+        {
+          "kn": "ನೈಲಾನ್",
+          "en": "Nylon"
+        },
+        {
+          "kn": "ಟೆಫ್ಲಾನ್",
+          "en": "Teflon"
+        },
+        {
+          "kn": "ಪಾಲಿಥೀನ್",
+          "en": "Polythene"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ನೈಲಾನ್ ಬಲವಾದ ಮತ್ತು ಹೊಂದಿಕೊಳ್ಳುವ ಸಂಶ್ಲೇಷಿತ ನಾರು, ಆದ್ದರಿಂದ ಹಗ್ಗಗಳಿಗೆ ಸೂಕ್ತ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Nylon is a strong and flexible synthetic fibre, so it is suitable for ropes. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0049",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಹೇಳಿಕೆ (S) : ಅಕ್ರಿಲಿಕ್ ಬಟ್ಟೆಗಳಿಗೆ ಕಡಿಮೆ ಬೆಲೆ ಮತ್ತು ಹೆಚ್ಚು ಬಾಳಿಕೆ ಬರುತ್ತವೆ. ಎಚ್ಚರಿಕೆ (C) : ಅವುಗಳನ್ನು ಪ್ರಯೋಗಾಲಯದಲ್ಲಿ ಕೆಲಸ ನಿರ್ವಹಿಸುವ ಸಮಯದಲ್ಲಿ ಬಳಸಲಾಗುವುದಿಲ್ಲ.",
+        "en": "Statement (S) : Acrylic clothes are cheap and durable. Caution (C) : They are not preferred while working in laboratory."
+      },
+      "options": [
+        {
+          "kn": "ಹೇಳಿಕೆ (S) ಮತ್ತು ಎಚ್ಚರಿಕೆ (C) ಎರಡೂ ತಪ್ಪು",
+          "en": "Both Assertion S and Caution C are wrong"
+        },
+        {
+          "kn": "ಹೇಳಿಕೆ (S) ಸರಿಯಾಗಿದೆ ಆದರೆ ಎಚ್ಚರಿಕೆ (C) ತಪ್ಪು",
+          "en": "Assertion S is true, but Caution C is wrong"
+        },
+        {
+          "kn": "ಹೇಳಿಕೆ (S) ಮತ್ತು ಎಚ್ಚರಿಕೆ (C) ಎರಡೂ ಸರಿ",
+          "en": "Both Assertion S and Caution C are true."
+        },
+        {
+          "kn": "ಹೇಳಿಕೆ (S) ತಪ್ಪು ಆದರೆ ಎಚ್ಚರಿಕೆ (C) ಸರಿಯಾಗಿದೆ",
+          "en": "Assertion S is wrong but Caution C is true."
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಅಕ್ರಿಲಿಕ್ ಬಟ್ಟೆಗಳು ಅಗ್ಗ ಮತ್ತು ಬಾಳಿಕೆ ಬರುವವು (S ಸರಿ). ಅವು ಸುಲಭವಾಗಿ ಉರಿಯುತ್ತವೆ ಮತ್ತು ಕರಗುತ್ತವೆ, ಆದ್ದರಿಂದ ಪ್ರಯೋಗಾಲಯದಲ್ಲಿ ಇವುಗಳನ್ನು ಬಳಸುವುದಿಲ್ಲ (C ಸರಿ). ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Acrylic clothes are cheap and durable (S is true). They burn and melt easily, so they are not preferred in a laboratory (C is true). So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0050",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಮುನ್ನೆಚ್ಚರಿಕೆಯ ಕ್ರಮಕ್ಕಾಗಿ ಬೆಂಕಿ ಆರಿಸುವವರ ಸಮವಸ್ತ್ರಗಳ ಮೇಲೆ ಲೇಪಿಸುವುದು.",
+        "en": "As a precautionary measure, Uniforms of Firemen is coated with"
+      },
+      "options": [
+        {
+          "kn": "ಬೇಕ್ ಲೈಟ್",
+          "en": "Bakelite"
+        },
+        {
+          "kn": "ಮೆಲಮೈನ್",
+          "en": "Melamine"
+        },
+        {
+          "kn": "ಪಾಲಿಸ್ಟರ್",
+          "en": "Polyester"
+        },
+        {
+          "kn": "ಅಕ್ರಿಲಿಕ್",
+          "en": "Acrylic"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಬೆಂಕಿ ಆರಿಸುವವರ ಸಮವಸ್ತ್ರ ಬೆಂಕಿ ನಿರೋಧಕವಾಗಿರಬೇಕು. ಮೆಲಮೈನ್ ಬೆಂಕಿಗೆ ನಿರೋಧಕವಾದ ಬಹುಲಕವಾಗಿದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Firemen's uniforms must resist fire. Melamine is a fire-resistant polymer. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0051",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಕಾರಿನ ಸೀಟ್ ಬೆಲ್ಟ್‌ಗಳ ತಯಾರಿಕೆಯಲ್ಲಿ ಬಳಸುವ ಕಚ್ಚಾ ವಸ್ತುಗಳು",
+        "en": "The raw materials used to manufacture the car seat belts"
+      },
+      "options": [
+        {
+          "kn": "ಕಲ್ಲಿದ್ದಲು, ಗಾಳಿ, ಬೆಂಜೀನ್",
+          "en": "Coal, air, benzene"
+        },
+        {
+          "kn": "ಗಾಳಿ, ನೀರು, ಪ್ಲಾಸ್ಟಿಕ್",
+          "en": "Air, water, plastic."
+        },
+        {
+          "kn": "ಕಲ್ಲಿದ್ದಲು, ಗಾಳಿ, ನೀರು",
+          "en": "Coal, air, water."
+        },
+        {
+          "kn": "ಕಲ್ಲಿದ್ದಲು, ನೀರು, ಕ್ಲೋರಿನ್",
+          "en": "Coal, water, Chlorine"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಸೀಟ್ ಬೆಲ್ಟ್‌ಗಳ ನಾರು ತಯಾರಿಸಲು ಕಲ್ಲಿದ್ದಲು, ಗಾಳಿ ಮತ್ತು ನೀರು ಮೂಲ ಕಚ್ಚಾ ವಸ್ತುಗಳಾಗಿವೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Coal, air and water are the basic raw materials from which seat-belt fibres (nylon) are made. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0052",
+      "difficulty": "easy",
+      "question": {
+        "kn": "PET ಗಳ ತಯಾರಿಕೆಯಲ್ಲಿ ಉಪಯೋಗಿಸುವ ಮತ್ತು ಹಣ್ಣುಗಳಿಗೆ ಪರಿಮಳ ನೀಡುವ ರಾಸಾಯನಿಕ ಘಟಕಗಳು.",
+        "en": "Chemical units which give smell to fruits and used in the manufacture of PET"
+      },
+      "options": [
+        {
+          "kn": "ಅಕ್ರಿಲಿಕ್",
+          "en": "Acrylic"
+        },
+        {
+          "kn": "ಈಥೈಲಿನ್",
+          "en": "Ethylene"
+        },
+        {
+          "kn": "ಮ್ಯಾಲಮೈನ್",
+          "en": "Malamine"
+        },
+        {
+          "kn": "ಈಸ್ಟರ್",
+          "en": "Esters"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ಎಸ್ಟರ್‌ಗಳು ಹಣ್ಣುಗಳಿಗೆ ಪರಿಮಳ ನೀಡುತ್ತವೆ. PET ಒಂದು ಪಾಲಿಎಸ್ಟರ್ ಆಗಿದ್ದು ಎಸ್ಟರ್ ಘಟಕಗಳಿಂದ ಆಗಿದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Esters give fruits their smell. PET is a polyester, built from ester units. So the answer is D."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0053",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ಆವೃತವಾದ ಗ್ಯಾರೇಜಿನ ಒಳಗೆ ಇಂಜಿನ್ ಚಾಲೂ ಸ್ಥಿತಿಯಲ್ಲಿರುವ ಕಾರಿನೊಳಗೆ ಕುಳಿತುಕೊಳ್ಳುವುದು ಅಪಾಯಕಾರಿ. ಏಕೆಂದರೆ ಅಲ್ಲಿ ಬಿಡುಗಡೆಯಾಗುವುದು,",
+        "en": "Sitting inside an fully enclosed Garage with a car engine in starting condition is dangerous. Because it releases,"
+      },
+      "options": [
+        {
+          "kn": "ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್",
+          "en": "Carbon di oxide"
+        },
+        {
+          "kn": "ಕಾರ್ಬನ್ ಮೊನಾಕ್ಸೈಡ್",
+          "en": "Carbon monoxide"
+        },
+        {
+          "kn": "ಸಲ್ಫರ್ ಡೈಆಕ್ಸೈಡ್",
+          "en": "Sulphur di oxide"
+        },
+        {
+          "kn": "ನೈಟ್ರೋಜನ್ ಡೈಆಕ್ಸೈಡ್",
+          "en": "Nitrogen di oxide"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ಕಾರಿನ ಇಂಜಿನ್ ಚಾಲೂ ಇರುವಾಗ ವಿಷಕಾರಿ ಕಾರ್ಬನ್ ಮೊನಾಕ್ಸೈಡ್ ಅನಿಲ ಬಿಡುಗಡೆಯಾಗುತ್ತದೆ. ಮುಚ್ಚಿದ ಗ್ಯಾರೇಜಿನಲ್ಲಿ ಇದು ಉಸಿರುಗಟ್ಟಿಸಬಹುದು. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "A running car engine releases poisonous carbon monoxide gas. In a closed garage it can cause suffocation. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0054",
+      "difficulty": "medium",
+      "question": {
+        "kn": "ಹೇಳಿಕೆ (S) : sulphur burns in air. ಕಾರಣ (R) : It is spontaneous combustion",
+        "en": "Statement (S) : sulphur burns in air. Reason (R) : It is spontaneous combustion"
+      },
+      "options": [
+        {
+          "kn": "S ಮತ್ತು R ಎರಡೂ ಸರಿ.",
+          "en": "Both S and R are true."
+        },
+        {
+          "kn": "S ಮತ್ತು R ಎರಡೂ ಸರಿ. ಆದರೆ R ಎನ್ನುವುದು S ಗೆ ಸರಿಯಾದ ಕಾರಣವಲ್ಲ",
+          "en": "Both S and R are true but R is not the reason for A."
+        },
+        {
+          "kn": "S ಸರಿ. ಆದರೆ R ತಪ್ಪು",
+          "en": "S is true but R is false."
+        },
+        {
+          "kn": "S ಮತ್ತು R ಎರಡೂ ತಪ್ಪು",
+          "en": "Both S and R are false"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಗಂಧಕ ಗಾಳಿಯಲ್ಲಿ ಉರಿಯುತ್ತದೆ (S ಸರಿ). ಆದರೆ ಅದು ಸ್ವಯಂಪ್ರೇರಿತ ದಹನವಲ್ಲ; ಉರಿಯಲು ಬೆಂಕಿಯ ಮೂಲ ಬೇಕು (R ತಪ್ಪು). ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Sulphur burns in air (S is true). But it is not spontaneous combustion; it needs an external flame to ignite (R is false). So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0055",
+      "difficulty": "easy",
+      "question": {
+        "kn": "7 ಕಿ.ಗ್ರಾಂ ಇಂಧನದ ಸಂಪೂರ್ಣ ದಹನದಿಂದ ಬಿಡುಗಡೆಯಾಗುವ ಉಷ್ಣ ಶಕ್ತಿ 280000 kJ. ಇಂಧನದ ಕ್ಯಾಲೋರಿ ಮೌಲ್ಯವು.",
+        "en": "The heat produced by complete combustion of 7 kg of a fuel is 280000 kJ. The calorific value of fuel is,"
+      },
+      "options": [
+        {
+          "kn": "25×10³ kJ/kg",
+          "en": "25×10³ kJ/kg"
+        },
+        {
+          "kn": "4×10³ kJ/kg",
+          "en": "4×10³ kJ/kg"
+        },
+        {
+          "kn": "4×10⁴ kJ/kg",
+          "en": "4×10⁴ kJ/kg"
+        },
+        {
+          "kn": "25×10⁴ kJ/kg",
+          "en": "25×10⁴ kJ/kg"
+        }
+      ],
+      "correctIndex": 2,
+      "explanation": {
+        "kn": "ಕ್ಯಾಲೋರಿ ಮೌಲ್ಯ = ಉಷ್ಣ ÷ ದ್ರವ್ಯರಾಶಿ = 280000 kJ ÷ 7 kg = 40000 kJ/kg = 4 × 10⁴ kJ/kg. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ C.",
+        "en": "Calorific value = heat ÷ mass = 280000 kJ ÷ 7 kg = 40000 kJ/kg = 4 × 10⁴ kJ/kg. So the answer is C."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0056",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಒಂದು ತಾಮ್ರದ ಸ್ಮಾರಕದ ಮೇಲೆ ಕ್ರಮೇಣವಾಗಿ ಉಂಟಾದ ಹಸಿರು ಬಣ್ಣದ ಪದರವು",
+        "en": "A green coloured layer gradually formed on a copper monument is,"
+      },
+      "options": [
+        {
+          "kn": "ತಾಮ್ರದ ಸಲ್ಫೇಟ್",
+          "en": "Copper Sulphate."
+        },
+        {
+          "kn": "ತಾಮ್ರದ ಕಾರ್ಬೋನೇಟ್",
+          "en": "Copper Carbonate"
+        },
+        {
+          "kn": "ತಾಮ್ರದ ಆಕ್ಸೈಡ್",
+          "en": "Copper Oxide"
+        },
+        {
+          "kn": "ತಾಮ್ರದ ನೈಟ್ರೇಟ್",
+          "en": "Copper Nitrate"
+        }
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "kn": "ತಾಮ್ರವು ಗಾಳಿ ಮತ್ತು ತೇವಾಂಶದಿಂದ ಕ್ರಮೇಣ ಹಸಿರು ಬಣ್ಣದ ತಾಮ್ರದ ಕಾರ್ಬೋನೇಟ್ ಪದರವನ್ನು ಉಂಟುಮಾಡುತ್ತದೆ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ B.",
+        "en": "Copper slowly forms a green layer of copper carbonate on its surface in moist air. So the answer is B."
+      },
+      "image": null
+    },
+    {
+      "id": "SAT-CHEM-0057",
+      "difficulty": "easy",
+      "question": {
+        "kn": "ಮದುವೆಯ ಸಭಾಂಗಣವೊಂದರಲ್ಲಿ ವಿದ್ಯುತ್ ಶಾರ್ಟ್ ಸರ್ಕ್ಯೂಟ್‌ನಿಂದಾಗಿ ಬೆಂಕಿ ಅವಘಡ ಸಂಭವಿಸಿದೆ. ಅಗ್ನಿಶಾಮಕವು ಅಗಾಧ ಪ್ರಮಾಣದಲ್ಲಿ ಬಿಡುಗಡೆ ಮಾಡುವ ಅನಿಲ",
+        "en": "A fire accident took place in a marriage hall due to electrical short circuit. The gas released by the extinguisher in enormous amount is."
+      },
+      "options": [
+        {
+          "kn": "ಸಾರಜನಕದ ಡೈ ಆಕ್ಸೈಡ್",
+          "en": "Nitrogen di oxide"
+        },
+        {
+          "kn": "ಗಂಧಕದ ಡೈ ಆಕ್ಸೈಡ್",
+          "en": "Sulphur di oxide"
+        },
+        {
+          "kn": "ಇಂಗಾಲದ ಮೊನಾಕ್ಸೈಡ್",
+          "en": "Carbon Monoxide"
+        },
+        {
+          "kn": "ಇಂಗಾಲದ ಡೈ ಆಕ್ಸೈಡ್",
+          "en": "Carbon di oxide"
+        }
+      ],
+      "correctIndex": 3,
+      "explanation": {
+        "kn": "ವಿದ್ಯುತ್ ಬೆಂಕಿಗೆ ಕಾರ್ಬನ್ ಡೈಆಕ್ಸೈಡ್ ಅಗ್ನಿಶಾಮಕ ಬಳಸಲಾಗುತ್ತದೆ. ಇದು ಆಮ್ಲಜನಕವನ್ನು ಸ್ಥಳಾಂತರಿಸಿ ಬೆಂಕಿಯನ್ನು ನಂದಿಸುತ್ತದೆ ಮತ್ತು ವಿದ್ಯುತ್ ಅನ್ನು ವಾಹಕವಲ್ಲ. ಆದ್ದರಿಂದ ಸರಿಯಾದ ಉತ್ತರ D.",
+        "en": "Carbon dioxide extinguishers are used for electrical fires. It smothers the fire by displacing oxygen and does not conduct electricity. So the answer is D."
       },
       "image": null
     }
