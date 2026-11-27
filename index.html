@@ -1325,6 +1325,11 @@ const DATA={};
 const AVAIL={'s1-5-kn':1,'s1-5-en':1,'5-en':1,'s1-4-kn':1,'s1-4-evs':1,'s1-4-en':1,'s1-4-ma':1,'4-kn':1,'10-kn':1,'s1-10-kn':1,'s1-10-en':1,'s1-10-hi':1,'s1-10-ma':1,'s1-10-ss':1,'s1-10-sc':1,'4-en':1,'4-ma':1,'4-evs':1,'10-en':1,'10-hi':1,'10-ss':1,'10-ma':1,'10-sc':1,'s1-5-ma':1,'s1-5-evs':1,'5-kn':1,'5-ma':1,'5-evs':1,'s1-6-kn':1,'s1-6-en':1,'s1-6-hi':1,'s1-6-ma':1,'s1-6-evs':1,'s1-6-ss':1,'s1-6-sc':1,'6-kn':1,'6-en':1,'6-hi':1,'6-ma':1,'6-evs':1,'6-ss':1,'6-sc':1,'s1-7-kn':1,'s1-7-en':1,'s1-7-hi':1,'s1-7-ma':1,'s1-7-evs':1,'s1-7-sc':1,'s1-7-ss':1,'7-kn':1,'7-en':1,'7-hi':1,'7-ma':1,'7-evs':1,'7-ss':1,'7-sc':1,'s1-8-kn':1,'s1-8-en':1,'s1-8-hi':1,'s1-8-ma':1,'s1-8-evs':1,'s1-8-sc':1,'s1-8-ss':1,'8-kn':1,'8-en':1,'8-hi':1,'8-ma':1,'8-evs':1,'8-sc':1,'8-ss':1,'s1-9-kn':1,'s1-9-en':1,'s1-9-hi':1,'s1-9-ma':1,'s1-9-evs':1,'s1-9-ss':1,'9-kn':1,'9-en':1,'9-hi':1,'9-ma':1,'9-evs':1,'9-ss':1,'9-sc':1,'s1-9-sc':1};
 const SK=(c,id)=>(ST.sem===1?'s1-':'')+c+'-'+id;
 const SP=()=>(ST.sem===1?'s1-':'');
+/* ಸೆಮಿಸ್ಟರ್ 1: ರೂಪನಾತ್ಮಕ-3/4 ಮತ್ತು ಸಂಕಲನಾತ್ಮಕ-2 ಬದಲಿಗೆ FA1 / FA2 / SA1 ಎಂದು ತೋರಿಸುವುದು (ಸೆಮಿಸ್ಟರ್ 2 ಬದಲಾಗುವುದಿಲ್ಲ) */
+const S1_SUFFIX={fa3:'1',fa4:'2',sa2:'1'};
+const S1_TAB={fa3:'FA 1',fa4:'FA 2',sa2:'SA 1'};
+function examName(p){const o=T('exam')[p];if(ST.sem!==1||!S1_SUFFIX[p])return o;return String(o).replace(/-\d$/,'-'+S1_SUFFIX[p])}
+function examTabName(p){const o=T('examTab')[p];if(ST.sem!==1||!S1_TAB[p])return o;return S1_TAB[p]}
 const FILE={kn:['kannada'],en:['english'],ma:['maths','math','mathematics','ganita'],evs:['evs','environment','environmental-studies','parisara'],hi:['hindi'],ss:['social'],sc:['science']};
 const TITLE={kn:['ಕನ್ನಡ','ಭಾಗ–2 · 2026–27'],en:['English','Part–2 · 2026–27'],ma:['ಗಣಿತ','ಭಾಗ–2 · 2026–27'],evs:['ಪರಿಸರ ಅಧ್ಯಯನ','ಭಾಗ–2 · 2026–27'],sc:['ವಿಜ್ಞಾನ','ಭಾಗ–2 · 2026–27'],hi:['ಹಿಂದಿ','ಭಾಗ–2 · 2026–27'],ss:['ಸಮಾಜ','ಭಾಗ–2 · 2026–27']};
 async function loadSub(sem,cls,id){const sn=sem===1?1:2;const key=(sn===1?'s1-':'')+cls+'-'+id;if(DATA[key])return true;if(!AVAIL[key]||!FILE[id])return false;
@@ -1666,7 +1671,7 @@ function buildPaperSupp(){
 }
 function tabsHtml(){const ks=['unit','fa3','fa4','sa2'];const sup=!!SUPP_BP[ST.sub]&&Number(ST.cls)===10;if(sup)ks.push('supp');
  return '<div class="tabs nopr tp" style="--tn:'+ks.length+'">'+ks.map(k=>{const P=ST.ptype;if(k==='supp')return '<button class="tb sm '+(P===k?'on':'')+'" data-p="supp" onclick="ST.ptype=\'supp\';render();ensureSupp()">ಪೂರ್ವ ಸಿದ್ಧತಾ ಪರೀಕ್ಷೆ ('+SB().max+')</button>';
-  return '<button class="tb sm '+(P===k?'on':'')+'" data-p="'+k+'" onclick="ST.ptype=\''+k+'\';render()">'+T('examTab')[k]+' ('+PT[k].max+')</button>'}).join('')+'</div>'}
+  return '<button class="tb sm '+(P===k?'on':'')+'" data-p="'+k+'" onclick="ST.ptype=\''+k+'\';render()">'+examTabName(k)+' ('+PT[k].max+')</button>'}).join('')+'</div>'}
 async function ensureSupp(){ST.suppReady=ST.suppReady||{};const sub=ST.sub;if(ST.suppReady[sub])return;const a=await loadSub(1,10,sub),b=await loadSub(2,10,sub);ST.suppReady[sub]=!!(a&&b);ST.suppErr=!ST.suppReady[sub];render()}
 function vSupp(){const tabs=tabsHtml();
  if(!(ST.suppReady&&ST.suppReady[ST.sub]))return tabs+'<div class="card glass neu">'+(ST.suppErr?'ದತ್ತಾಂಶ ಲೋಡ್ ಆಗಲಿಲ್ಲ.':'ಪೂರ್ವ ಸಿದ್ಧತಾ ಪರೀಕ್ಷೆ ದತ್ತಾಂಶ ಲೋಡ್ ಆಗುತ್ತಿದೆ…')+'</div>';
@@ -1727,11 +1732,11 @@ function buildPaper(){const P=ST.ptype,EN=ST.sub==='en',max=PT[P].max,quota=(EN?
    if(ST.showAns)body+=`<div class="ans"><b>${T('ans')}</b> ${q.t==='mcq'?'('+T('optL')[q.a]+') '+esc(q.o[q.a]):esc(q.a)}</div>`;body+='</div>'});body+='</div>'});
  const tm=all.reduce((s,q)=>s+q.mk,0);
  ST.lastPicked=all;ST.lastLs=ls;
- return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)} ${EN?'':'………………………………………………'}</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${EN?ENG[ST.cls-1]:ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tm)}</div></div>`}
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)} ${EN?'':'………………………………………………'}</div><b style="font-size:1.25em">${examName(P)}</b><br>${T('cls')}: ${EN?ENG[ST.cls-1]:ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tm)}</div></div>`}
 
 
 /* ===== ಹಿಂದಿ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ: ಪ್ರಶ್ನೆ ವಿಧಗಳು ಮತ್ತು ಸೂಚನೆಗಳು ಹಿಂದಿಯಲ್ಲಿ ===== */
-const HI_KINDS=['mcq','ana','one','two','three','four','essay'];
+const HI_KINDS=['mcq','ana','one','two','three','four','essay','match'];
 /* [ವಿಧ, ಸಂಖ್ಯೆ, ಪ್ರತಿ ಪ್ರಶ್ನೆಗೆ ಅಂಕ] – ಒಟ್ಟು = ಪರೀಕ್ಷೆಯ ಗರಿಷ್ಠ ಅಂಕ */
 const HI_TPL={
  unit:[['mcq',5,1],['ana',3,1],['one',5,1],['two',2,2],['three',1,3]],
@@ -1745,9 +1750,16 @@ const HI_INS={
  two:'दो-तीन वाक्यों में उत्तर लिखिए:',
  three:'निम्नलिखित प्रश्नों के उत्तर लिखिए (3 अंक):',
  four:'निम्नलिखित प्रश्नों के उत्तर लिखिए (4 अंक):',
- essay:'निबंध / विस्तृत उत्तर लिखिए (5 अंक):'};
+ essay:'निबंध / विस्तृत उत्तर लिखिए (5 अंक):',match:'सही जोड़े मिलाकर लिखिए:'};
+/* 6ನೇ ತರಗತಿ: ಪ್ರಶ್ನೆ ಬ್ಯಾಂಕ್‌ನ ವಾಸ್ತವ ವಿಧಗಳಿಗೆ ಹೊಂದುವ ಟೆಂಪ್ಲೇಟ್ (ಎಲ್ಲವೂ ಸರಿಯಾಗಿ 20/15/15/40) */
+const HI_TPL6={
+ unit:[['mcq',5,1],['one',11,1],['match',2,2]],
+ fa3:[['mcq',3,1],['one',10,1],['match',1,2]],
+ fa4:[['mcq',3,1],['one',10,1],['match',1,2]],
+ sa2:[['mcq',8,1],['one',24,1],['match',4,2]]};
 const HI_ROMAN=['I','II','III','IV','V','VI','VII','VIII','IX','X'];
 function hiKind(q){
+ if(q.t!=='mcq'&&/मिलाइए|जोड़|मिलान/.test(q.q)&&q.mk>=2)return 'match';
  if(q.t==='mcq')return 'mcq';
  if(q.t==='one'&&/^अनुरूप शब्द/.test(q.q))return 'ana';
  if(q.t==='one')return 'one';
@@ -1757,7 +1769,7 @@ function hiKind(q){
  return 'essay';}
 function hiStrip(q){return String(q).replace(/^(अनुरूप शब्द लिखिए|एक वाक्य में उत्तर लिखिए|दो-तीन वाक्यों में उत्तर लिखिए|पाँच-छः वाक्यों में उत्तर लिखिए|चार-पाँच वाक्यों में उत्तर लिखिए|निबंध लिखिए|भावार्थ लिखिए):\s*/,'')}
 function buildPaperHI(){
- const P=ST.ptype,max=PT[P].max,tpl=HI_TPL[P],ls=parseSel(ST.sel[P]);
+ const P=ST.ptype,max=PT[P].max,tpl=(Number(ST.cls)===6?HI_TPL6:HI_TPL)[P],ls=parseSel(ST.sel[P]);
  const r=rng(ST.seed[P]*7919+ls.length*31+P.length+(ls[0]||0));
  const by={};HI_KINDS.forEach(k=>by[k]=[]);
  allQ().filter(q=>ls.includes(q.ch)).forEach(q=>by[hiKind(q)].push(q));
@@ -1765,9 +1777,8 @@ function buildPaperHI(){
  const pick={},used=new Set();HI_KINDS.forEach(k=>pick[k]=[]);
  tpl.forEach(([k,n])=>{for(const q of by[k]){if(pick[k].length>=n)break;if(used.has(q.id))continue;pick[k].push(q);used.add(q.id)}});
  /* ಕೊರತೆ ತುಂಬಲು: ಅದೇ ಅಂಕದ ಬೇರೆ ವಿಧದಿಂದ ಬಳಕೆಯಾಗದ ಪ್ರಶ್ನೆ */
- tpl.forEach(([k,n,m])=>{while(pick[k].length<n){let alt=null;for(const [k2,,m2] of tpl){if(m2!==m||k2===k)continue;alt=by[k2].find(q=>!used.has(q.id)&&!pick[k2].includes(q));if(alt){pick[k2].length;break}}
-   if(!alt){const same=by[k].find(q=>!pick[k].includes(q));if(!same)break;pick[k].push(same);continue}
-   pick[k].push(alt);used.add(alt.id)}});
+ /* ಕೊರತೆ: ಒಂದು-ವಾಕ್ಯ ವಿಭಾಗಕ್ಕೆ (1 ಅಂಕ) ಬಳಕೆಯಾಗದ ಪ್ರಶ್ನೆಗಳಿಂದ ಒಟ್ಟು ಅಂಕ ನಿಖರವಾಗಿ ತುಂಬುವುದು */
+ {let tm0=0;tpl.forEach(([k,,m])=>{tm0+=pick[k].length*m});let g=0;while(tm0<max-1e-9&&g++<500){const f=by.one.find(q=>!used.has(q.id));if(!f)break;pick.one.push(f);used.add(f.id);tm0+=1}}
  const secs=tpl.filter(([k])=>pick[k].length);
  const all=[];let n=1,body='';
  secs.forEach(([k,,m],si)=>{const qs=pick[k];all.push(...qs);
@@ -1780,7 +1791,7 @@ function buildPaperHI(){
  const tm=all.reduce((s,q)=>s+q.mk,0);
  ST.lastPicked=all;ST.lastLs=ls;
  const warn=tm!==max?`<div class="chn nopr">ಎಚ್ಚರಿಕೆ: ಈ ಪಾಠ ಆಯ್ಕೆಗೆ ಸಾಕಷ್ಟು ಪ್ರಶ್ನೆಗಳಿಲ್ಲ (${fmt(tm)} / ${fmt(max)})</div>`:'';
- return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)} ………………………………………………</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ST.cls}वीं | ${T('subj')}: हिंदी भाग–2 · 2026–27<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${warn}${body}<div class="ftot">${T('totalM')}: ${fmt(tm)}</div></div>`;
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)} ………………………………………………</div><b style="font-size:1.25em">${examName(P)}</b><br>${T('cls')}: ${ST.cls}वीं | ${T('subj')}: हिंदी भाग–2 · 2026–27<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${warn}${body}<div class="ftot">${T('totalM')}: ${fmt(tm)}</div></div>`;
 }
 /* ===== ಕನ್ನಡ ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ: ನೀಡಿದ ಮಾದರಿ ಪತ್ರಿಕೆಗಳ ರೂಪದಲ್ಲಿ (LBA ಪ್ರಶ್ನೆಗಳಿಂದ) ===== */
 const ROMAN=['I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII'];
@@ -1867,7 +1878,7 @@ function buildPaperKN(){
   body+='</div>'});
  ST.lastPicked=bp;ST.lastLs=ls;
  const EN=false;
- return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">${examName(P)}</b><br>${T('cls')}: ${ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
 
 /* ===== English ಪ್ರಶ್ನೆ ಪತ್ರಿಕೆ: ನೀಡಿದ SA-2 / FA-3 English ಮಾದರಿ ಪತ್ರಿಕೆಗಳ ರೂಪದಲ್ಲಿ (LBA ಪ್ರಶ್ನೆಗಳಿಂದ) ===== */
 /* [kind, count, marks, group(1 = "Do as directed" ನ ಉಪಭಾಗ)] – ಒಟ್ಟು = ಪರೀಕ್ಷೆಯ ಗರಿಷ್ಠ ಅಂಕ */
@@ -1969,7 +1980,7 @@ function buildPaperEN(){
  /* ಕನ್ನಡ ಪತ್ರಿಕೆಯಂತೆ: ಪ್ರತಿ ವಿಭಾಗಕ್ಕೂ ರೋಮನ್ ಸಂಖ್ಯೆ + ಶೀರ್ಷಿಕೆ + ಅಂಕ (n×m=total), ಪ್ರಶ್ನೆ ಸಂಖ್ಯೆ ನಿರಂತರ */
  sec.forEach(s=>{body+=`<div class="sec"><div class="sh"><span>${ROMAN[ri++]}. ${esc(EN_INS[s.k])}</span><span>${s.items.length}×${fmt(s.m)}=${fmt(s.items.length*s.m)}</span></div>${secBody(s)}</div>`});
  ST.lastPicked=bp;ST.lastLs=ls;
- return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ Taluk</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ENG[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ Taluk</div><b style="font-size:1.25em">${examName(P)}</b><br>${T('cls')}: ${ENG[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${paperWarn(tot,max)}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
 
 /* v25: print helpers — no persistent selected state; everything resets after the print dialog closes */
 const PRN={on:false,t:0,blur:false,timer:0};
@@ -2128,7 +2139,7 @@ function buildPaperEVS(){
   body+='</div>'});
  ST.lastPicked=bp;ST.lastLs=ls;
  const warn=tot!==max?`<div class="chn nopr">ಎಚ್ಚರಿಕೆ: ಈ ಪಾಠ ಆಯ್ಕೆಗೆ ಸಾಕಷ್ಟು ಪ್ರಶ್ನೆಗಳಿಲ್ಲ – ${fmt(tot)} / ${max} ಅಂಕ ಮಾತ್ರ ತುಂಬಿದೆ.</div>`:'';
- return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${warn}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">${examName(P)}</b><br>${T('cls')}: ${ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${warn}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
 /* ===== ಗಣಿತ ಪ್ರಶ್ನೆಪತ್ರಿಕೆ (ಮಾಸ್ಟರ್ ಪ್ರಾಂಪ್ಟ್ v2 §12) – ಚಿತ್ರ ಕ್ಯಾಪ್ ಮತ್ತು ವಿಭಾಗಗಳು ಸ್ಥಿರ ===== */
 const MA_OBJ=['ಜ್ಞಾನ','ಗ್ರಹಿಕೆ','ಅನ್ವಯ','ಕೌಶಲ'];
 const MA_TPL={
@@ -2183,7 +2194,7 @@ function buildPaperMA(){
   body+='</div>'});
  ST.lastPicked=bp;ST.lastLs=ls;
  const warn=tot!==max?`<div class="chn nopr">ಎಚ್ಚರಿಕೆ: ಈ ಪಾಠ ಆಯ್ಕೆಗೆ ಸಾಕಷ್ಟು ಪ್ರಶ್ನೆಗಳಿಲ್ಲ – ${fmt(tot)} / ${max} ಅಂಕ ಮಾತ್ರ ತುಂಬಿದೆ.</div>`:'';
- return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">${T('exam')[P]}</b><br>${T('cls')}: ${ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${warn}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
+ return `<div class="paper fade" id="pp"><div class="ph"><div class="sch">${T('school')(ST.cls)}, ____________ ____________ ತಾಲ್ಲೂಕು</div><b style="font-size:1.25em">${examName(P)}</b><br>${T('cls')}: ${ORD[ST.cls-1]} | ${T('subj')}: ${cur().title} ${cur().part}<br>${T('time')}: ${T('times')[P]} | ${T('maxm')}: ${max}${Number(ST.cls)===10?'</div>':'<br>'+T('stu')+': ______________________ '+T('roll')+': ____</div>'}${body}${warn}<div class="ph" style="border:0;border-top:2px solid #232a45;padding-top:.6rem">${T('totalM')}: ${fmt(tot)}</div></div>`}
 
 function vPaper(){if(ST.ptype==='supp'&&SUPP_BP[ST.sub])return vSupp();if(!allQ().length)return `<div class="card glass neu">${T('noPaper')}</div>`;
  const P=ST.ptype;ensureSel(P);const o=selOpts(P),v=ST.sel[P];
