@@ -1686,7 +1686,11 @@ function lessonNums(){return lessons().filter(l=>l.qb&&l.qb.length).map(l=>l.n)}
 function halves(){const nums=lessonNums(),h=Math.ceil(nums.length/2);return {all:nums,f:nums.slice(0,h),s:nums.slice(h)}}
 const rr=x=>x.length?`${x[0]}-${x[x.length-1]}`:'';
 function selOpts(p){const H=halves(),L=lessons().filter(l=>H.all.includes(l.n));
- if(p==='unit')return {g:[],s:L.map(l=>[String(l.n),lessonLabel(l)])};
+ if(p==='unit'){const out=[],seen=new Set(),mkOf=l=>l.qb.reduce((a,q)=>a+(q.mk!==undefined?q.mk:MK[q.t]),0);
+ L.forEach(l=>{out.push([String(l.n),lessonLabel(l)]);seen.add(String(l.n))});
+ /* ಒಂದೇ ಪಾಠದಲ್ಲಿ ಒಟ್ಟು ಅಂಕ ಸಾಕಾಗದಿದ್ದರೆ ಪಕ್ಕದ ಪಾಠದೊಂದಿಗೆ ಸೇರಿಸುವ ಆಯ್ಕೆ */
+ L.forEach((l,i)=>{if(mkOf(l)>=PT.unit.max)return;const nx=L[i+1];if(!nx)return;const k=l.n+'-'+nx.n;if(seen.has(k))return;seen.add(k);out.push([k,T('lessons')(l.n,nx.n)])});
+ return {g:[],s:out}}
  const lb=x=>T('lessons')(x[0],x[x.length-1]);
  if(p==='fa3')return {g:[[rr(H.f),lb(H.f)]],s:[]};
  if(p==='fa4')return {g:[[rr(H.s),lb(H.s)]],s:[]};
