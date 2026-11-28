@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="kn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#102331">
+<title>Shikshana Parva – Offline Brotli Test</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,"Noto Sans Kannada","Noto Sans Devanagari",sans-serif}
+*{box-sizing:border-box}body{margin:0;background:#0d1720;color:#edf4f7;line-height:1.55}
+header{padding:22px 18px;background:linear-gradient(135deg,#12394a,#102331);border-bottom:1px solid #294653}
+main{max-width:850px;margin:auto;padding:18px}h1{font-size:1.3rem;margin:0 0 5px}.sub,.note{color:#b9cbd3}
+.panel{background:#172733;border:1px solid #304653;border-radius:15px;padding:15px;margin:14px 0}
+.status{font-weight:700;margin-bottom:10px}.good{color:#58e0a6}.warn{color:#ffd166}.bad{color:#ff8989}
+.metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.metric{background:#10202b;border-radius:10px;padding:10px}.metric span{display:block;color:#aebfc8;font-size:.8rem}.metric strong{display:block;overflow-wrap:anywhere}
+.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:12px}
+button{border:0;border-radius:10px;padding:11px 14px;font-size:.92rem;font-weight:700;background:#00cbb8;color:#062c2a}
+button.secondary{background:#2b414e;color:#eaf4f6;border:1px solid #48616d}
+.lesson{background:#172733;border:1px solid #304653;border-radius:13px;margin:10px 0;overflow:hidden}
+.lesson summary{cursor:pointer;padding:13px 14px;font-weight:700}.lesson summary small{display:block;color:#aebfc8;font-weight:400}
+.lesson-body{padding:0 14px 14px;color:#dce7eb}.lesson-body p{white-space:pre-wrap}.exercise{padding:9px 10px;background:#10202b;border-radius:9px;margin:8px 0}
+footer{text-align:center;color:#8fa3ad;font-size:.8rem;padding:18px}
+</style>
+</head>
+<body>
+<header><h1>ಶಿಕ್ಷಣ ಪರ್ವ | Shikshana Parva</h1>
+<p class="sub">Offline Brotli test · Class 6 · Hindi · Second Semester</p></header>
+<main>
+<section class="panel">
+ <div id="status" class="status warn">Offline ವ್ಯವಸ್ಥೆ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ…</div>
+ <div class="metrics">
+  <div class="metric"><span>Data source</span><strong id="source">—</strong></div>
+  <div class="metric"><span>Network</span><strong id="network">—</strong></div>
+  <div class="metric"><span>Lessons saved</span><strong id="count">—</strong></div>
+  <div class="metric"><span>Offline page cache</span><strong id="sw">—</strong></div>
+ </div>
+ <div class="actions">
+  <button id="download">Online ಇದ್ದಾಗ ಡೇಟಾ ಉಳಿಸಿ</button>
+  <button class="secondary" id="refresh">ಉಳಿಸಿದ ಡೇಟಾ ತೆರೆಯಿರಿ</button>
+ </div>
+ <p class="note">ಮೊದಲ ಬಾರಿ Internet ಸಂಪರ್ಕದೊಂದಿಗೆ ಈ ಪುಟ ತೆರೆಯಿರಿ. ಡೇಟಾ IndexedDBಯಲ್ಲಿ ಉಳಿದ ನಂತರ, ಪುಟ ಮತ್ತು service worker cache ಸಿದ್ಧವಾಗಿದ್ದರೆ offlineನಲ್ಲಿ ಪರೀಕ್ಷಿಸಬಹುದು.</p>
+</section>
+<h2 style="font-size:1.1rem">ಪಾಠಗಳ ಪಟ್ಟಿ</h2>
+<div id="lessons"><div class="panel note">ಡೇಟಾ ಲೋಡ್ ಆಗುತ್ತಿದೆ…</div></div>
+<section class="panel note">
+<strong>ಪರೀಕ್ಷೆಯ ಸೂಚನೆ</strong>
+<p>ಈ ಪರೀಕ್ಷೆ ಈ browser/deviceನ IndexedDB ಮತ್ತು Service Worker ಸಂಗ್ರಹಣೆಯನ್ನು ಬಳಸುತ್ತದೆ. ಇದು Android appನ SQLite/offline bundleಗೆ ಸಮಾನವಲ್ಲ; browser offline ಸಾಮರ್ಥ್ಯವನ್ನು ಮಾತ್ರ ಪರಿಶೀಲಿಸುತ್ತದೆ.</p>
+</section>
+</main><footer>Separate read-only prototype · Original JSON preserved</footer>
+<script type="module">
+const $=id=>document.getElementById(id);
+const DB_NAME='shikshana-parva-offline-test', STORE='datasets', KEY='kn-class-6-sem-2-hindi';
+const BR_URL='./hindi.json.br', JSON_URL='./hindi.json';
+
+function status(msg,kind='warn'){$('status').textContent=msg;$('status').className='status '+kind}
+function metric(source,count){$('source').textContent=source;$('count').textContent=count}
+function openDB(){return new Promise((resolve,reject)=>{
+ const req=indexedDB.open(DB_NAME,1);
+ req.onupgradeneeded=()=>{if(!req.result.objectStoreNames.contains(STORE))req.result.createObjectStore(STORE)};
+ req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);
+})}
+async function saveData(data,source){
+ const db=await openDB();
+ await new Promise((resolve,reject)=>{
+  const tx=db.transaction(STORE,'readwrite');tx.objectStore(STORE).put({data,source,savedAt:Date.now()},KEY);
+  tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error);
+ });db.close();
+}
+async function readData(){
+ const db=await openDB();
+ const value=await new Promise((resolve,reject)=>{
+  const tx=db.transaction(STORE,'readonly'),req=tx.objectStore(STORE).get(KEY);
+  req.onsuccess=()=>resolve(req.result||null);req.onerror=()=>reject(req.error);
+ });db.close();return value;
+}
+function add(parent,tag,text,cls){const e=document.createElement(tag);if(cls)e.className=cls;e.textContent=text??'';parent.appendChild(e);return e}
+function render(data){
+ if(!data||!Array.isArray(data.lessons))throw Error('Expected lessons[] was not found in JSON');
+ const root=$('lessons');root.replaceChildren();
+ data.lessons.forEach((lesson,i)=>{
+  const d=document.createElement('details');d.className='lesson';
+  const s=add(d,'summary',(lesson.n??i+1)+'. '+(lesson.t||'Untitled lesson'));
+  add(s,'small','ಕನ್ನಡ ಶೀರ್ಷಿಕೆ: '+(lesson.au||'—')+' · ಪುಟ: '+(lesson.pg??'—'));
+  const body=document.createElement('div');body.className='lesson-body';
+  if(lesson.notes)add(body,'p','ಅಧ್ಯಾಪನ ಸೂಚನೆ: '+lesson.notes);
+  if(lesson.words)add(body,'p','ಪದಗಳು: '+lesson.words);
+  (Array.isArray(lesson.ab)?lesson.ab:[]).forEach(group=>{
+   if(!Array.isArray(group))return;add(body,'h3',group[0]||'ಅಭ್ಯಾಸ');
+   (Array.isArray(group[1])?group[1]:[]).forEach(row=>{
+    if(!Array.isArray(row))return;const box=document.createElement('div');box.className='exercise';
+    add(box,'p',row[0]||'');if(row[1])add(box,'p','ಉತ್ತರ: '+row[1]);body.appendChild(box);
+   });
+  });
+  d.appendChild(body);root.appendChild(d);
+ });
+}
+async function registerSW(){
+ if(!('serviceWorker' in navigator)){ $('sw').textContent='Not supported';return false; }
+ try{
+  const reg=await navigator.serviceWorker.register('./offline-sw.js');
+  await navigator.serviceWorker.ready;$('sw').textContent='Registered';
+  return true;
+ }catch(e){$('sw').textContent='Registration failed';console.warn(e);return false}
+}
+async function decodeBrotli(){
+ const r=await fetch(BR_URL+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('Brotli HTTP '+r.status);
+ const bytes=new Uint8Array(await r.arrayBuffer());
+ const mod=await import('https://unpkg.com/brotli-wasm@3.0.1/index.web.js?module');
+ const api=await mod.default;const decoded=api.decompress(bytes);
+ return JSON.parse(new TextDecoder('utf-8',{fatal:true}).decode(decoded));
+}
+async function downloadAndSave(){
+ if(!navigator.onLine)throw Error('Internet connection is offline');
+ status('Brotli ಡೇಟಾ ಡೌನ್‌ಲೋಡ್ ಮತ್ತು decode ಆಗುತ್ತಿದೆ…');
+ let data,source='hindi.json.br';
+ try{data=await decodeBrotli();}
+ catch(brError){
+  status('Brotli ವಿಫಲ; ಮೂಲ JSON fallback ಪ್ರಯತ್ನಿಸಲಾಗುತ್ತಿದೆ…');
+  const r=await fetch(JSON_URL+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('Brotli: '+brError.message+'; JSON HTTP '+r.status);
+  data=await r.json();source='hindi.json fallback';
+ }
+ if(!Array.isArray(data.lessons))throw Error('JSON schema mismatch');
+ await saveData(data,source);render(data);metric(source,data.lessons.length);
+ status('ಡೇಟಾ ಈ ಸಾಧನದ browserನಲ್ಲಿ offline ಬಳಕೆಗೆ ಉಳಿಸಲಾಗಿದೆ.','good');
+}
+async function showSaved(){
+ const saved=await readData();
+ if(!saved){status('ಈ ಸಾಧನದಲ್ಲಿ ಇನ್ನೂ offline ಡೇಟಾ ಉಳಿಸಿಲ್ಲ. ಮೊದಲು Internet ಮೂಲಕ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.','warn');return}
+ render(saved.data);metric(saved.source+' · saved copy',saved.data.lessons.length);
+ status('ಉಳಿಸಿದ ಡೇಟಾ ತೆರೆಯಲಾಗಿದೆ. Saved at: '+new Date(saved.savedAt).toLocaleString(),'good');
+}
+$('network').textContent=navigator.onLine?'Online':'Offline';
+addEventListener('online',()=>{$('network').textContent='Online'});
+addEventListener('offline',()=>{$('network').textContent='Offline'});
+$('download').addEventListener('click',async()=>{try{await downloadAndSave()}catch(e){status('ಲೋಡ್ ವಿಫಲ: '+e.message,'bad')}});
+$('refresh').addEventListener('click',async()=>{try{await showSaved()}catch(e){status('Saved data ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: '+e.message,'bad')}});
+await registerSW();
+try{await showSaved();if(!$('count').textContent||$('count').textContent==='—')if(navigator.onLine)await downloadAndSave();}
+catch(e){if(navigator.onLine){try{await downloadAndSave()}catch(err){status(err.message,'bad')}}else status('Offline ಡೇಟಾ ಇನ್ನೂ ಉಳಿಸಿಲ್ಲ. Internet ಸಂಪರ್ಕಿಸಿ ಮೊದಲ ಬಾರಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.','warn')}
+</script>
+</body></html>
